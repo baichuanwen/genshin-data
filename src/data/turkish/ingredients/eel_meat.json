@@ -1,0 +1,19 @@
+{
+  "_id": 100095,
+  "id": "eel_meat",
+  "name": "Yılan Balığı Eti",
+  "description": "Müren/Yılan Balığının taze eti. Taze ve güzel yemekler yapmak için kullanılabilir.",
+  "recipes": [
+    {
+      "_id": 2205,
+      "id": "grilled_unagi_fillet",
+      "name": "Izgara Müren Balığı"
+    },
+    {
+      "_id": 3216,
+      "id": "unagi_chazuke",
+      "name": "Müren Balıklı Pilav"
+    }
+  ],
+  "source": ["Doğada bulunur.", "Öneri: Watatsumi Adası'nda bulunur."]
+}

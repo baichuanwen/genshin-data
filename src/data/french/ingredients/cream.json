@@ -1,9 +1,11 @@
 {
+  "_id": 110002,
   "id": "cream",
   "name": "Crème",
   "description": "Produit laitier essentiel pour la pâtisserie.",
   "processing": [
     {
+      "_id": 100078,
       "id": "milk",
       "name": "Lait",
       "amount": 1
@@ -11,16 +13,35 @@
   ],
   "recipes": [
     {
+      "_id": 2004,
       "id": "cream_stew",
       "name": "Ragoût à la crème"
     },
     {
+      "_id": 2010,
       "id": "fragrant_mashed_potatoes",
       "name": "Purée de pommes de terre"
     },
     {
+      "_id": 2401,
+      "id": "cream_of_mushroom_soup",
+      "name": "Velouté de champignons"
+    },
+    {
+      "_id": 2406,
+      "id": "fontaine_aspic",
+      "name": "Aspic du pêcheur"
+    },
+    {
+      "_id": 3005,
       "id": "crab_ham_veggie_bake",
       "name": "Gratin de crabe, jambon et légumes"
+    },
+    {
+      "_id": 3306,
+      "id": "milky_mushroom_crisp_tower",
+      "name": "Tour de champignons au lait"
     }
-  ]
+  ],
+  "source": ["Cuisine (préparation)"]
 }

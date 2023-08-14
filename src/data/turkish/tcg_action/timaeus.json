@@ -1,0 +1,29 @@
+{
+  "_id": 322003,
+  "id": "timaeus",
+  "name": "Timaeus",
+  "title": "Timaeus, Simya Alimi",
+  "desc": "\"Merhaba... Ah, Simya Tezgahını mı kullanmak istiyorsun? Tabii, buyur.\"",
+  "in_play_description": "<span style=\"color:#FFFFFFFF\">Son Aşama:</span> 1 Dönüşüm Malzemesi kazandırır.<br/><span style=\"color:#FFFFFFFF\">Bir Yadigar Kartı oynandığında</span> mümkünse Yadigarın toplam maliyeti kadar Dönüşüm Malzemesi harcayarak bu Yadigarı bedava kuşanabilirsin. (Her Turda bir defa)",
+  "attributes": {
+    "cost": 2,
+    "cost_type": "Aynı Element",
+    "card_type": "Destek Kartı",
+    "energy": [
+      {
+        "_id": 1108,
+        "id": "matching_element",
+        "type": "Aynı Element",
+        "count": 2
+      }
+    ],
+    "source": "Açık dünyada Timaeus'un Macera Mücadelesini kabul etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
+    "tags": ["Ortak"]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Oynandığında 2 Dönüşüm Malzemesi kazandırır.<br/><span style=\"color:#FFFFFFFF\">Son Aşama:</span>1 Dönüşüm Malzemesi kazandırır.<br/><span style=\"color:#FFFFFFFF\">Bir Yadigar Kartı oynandığında</span> mümkünse Yadigarın toplam maliyeti kadar Dönüşüm Malzemesi harcayarak bu Yadigarı bedava kuşanabilirsin. (Her Turda bir defa)"
+    }
+  ]
+}

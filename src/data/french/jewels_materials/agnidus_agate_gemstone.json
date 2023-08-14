@@ -1,10 +1,12 @@
 {
+  "_id": 104114,
   "id": "agnidus_agate_gemstone",
   "name": "Pierre d'agate agnidus",
   "description": "« Aller en pèlerinage pour le désir, et se battre pour la réputation... »<br/>« Si son vrai cœur originel peut être laissé dans les cendres, il a réussi à atteindre la vérité de ██. »",
   "source": [
     "Butin d'Arbre enflammé (Niv.75+)",
     "Butin d'Hypostase Pyro (Niv.75+)",
+    "Butin d'Empereur du feu ferreux (Niv.75+)",
     "Synthèse"
   ],
   "rarity": 5,
@@ -12,6 +14,7 @@
     "cost": 2700,
     "items": [
       {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Morceau d'agate agnidus",
         "amount": 3
@@ -21,11 +24,13 @@
   "convert": [
     [
       {
+        "_id": 104124,
         "id": "varunada_lazurite_gemstone",
         "name": "Pierre de lazurite varunada",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Poudre d'Azoth",
         "amount": 27
@@ -33,11 +38,27 @@
     ],
     [
       {
+        "_id": 104134,
+        "id": "nagadus_emerald_gemstone",
+        "name": "Pierre d'émeraude nagadus",
+        "amount": 1
+      },
+      {
+        "_id": 104201,
+        "id": "dust_of_azoth",
+        "name": "Poudre d'Azoth",
+        "amount": 27
+      }
+    ],
+    [
+      {
+        "_id": 104144,
         "id": "vajrada_amethyst_gemstone",
         "name": "Pierre d'améthyste vajrada",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Poudre d'Azoth",
         "amount": 27
@@ -45,11 +66,13 @@
     ],
     [
       {
+        "_id": 104154,
         "id": "vayuda_turquoise_gemstone",
         "name": "Pierre de turquoise vayuda",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Poudre d'Azoth",
         "amount": 27
@@ -57,11 +80,13 @@
     ],
     [
       {
+        "_id": 104164,
         "id": "shivada_jade_gemstone",
         "name": "Pierre de jade shivada",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Poudre d'Azoth",
         "amount": 27
@@ -69,11 +94,13 @@
     ],
     [
       {
+        "_id": 104174,
         "id": "prithiva_topaz_gemstone",
         "name": "Pierre de topaze prithiva",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Poudre d'Azoth",
         "amount": 27

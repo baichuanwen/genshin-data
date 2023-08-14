@@ -1,9 +1,9 @@
 {
+  "_id": 368129,
   "id": "keqing",
-  "originalId": 368129,
   "rarity": 1,
   "name": "Кэ Цин",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

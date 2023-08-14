@@ -1,4 +1,5 @@
 {
+  "_id": 10000030,
   "id": "zhongli",
   "name": "Zhongli",
   "title": "El Vagabundo del Reino Mortal",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10301,
       "id": "normal_attack_rain_of_stone",
       "name": "Ataque Normal: Lluvia pétrea",
       "description": "<span>Ataque Normal</span><br/>Realiza hasta 6 ataques rápidos con lanza.<br/><br/><span>Ataque Cargado</span><br/>Consume una cierta cantidad de Aguante para lanzarse al frente, haciendo que caigan lanzas de piedra en su camino.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
@@ -229,9 +231,10 @@
       ]
     },
     {
+      "_id": 10302,
       "id": "dominus_lapidis",
       "name": "Dominus lapidis",
-      "description": "Cada montaña, roca y centímetro de la tierra contiene poder Geo, pero solo unos pocos pueden usar libremente tal poder.<br/><br/><span>Pulsar una vez</span><br/>Ordena al poder Geo de la tierra que se solidifique en una cresta de piedra.<br/><br/><span>Mantener pulsado</span><br/>Hace que los elementos Geo cercanos exploten, provocando los siguientes efectos:<br/>·Si aún no se ha alcanzado la cantidad máxima de crestas de piedra, invocará una cresta de piedra.<br/>·Crea un escudo de jade. La cantidad de absorción de daño del escudo es proporcional a la Vida Máx. de Zhongli.<br/>·Inflige <span>Daño Geo en el AdE</span>.<br/>·Si hay enemigos cercanos afectados por el <span>elemento Geo</span>, absorberá una gran cantidad de dicho elemento de un máximo de dos objetivos afectados por él. Este efecto no causa daño.<br/><br/><span>Cresta de piedra</span><br/>Al ser creada, inflige <span>Daño Geo en el AdE</span>.<br/>La cresta de piedra resonará con las <span>creaciones Geo</span> cercanas, infligiendo <span>Daño Geo</span> a los enemigos cercanos.<br/>La cresta de piedra es considerada una <span>creación Geo</span>, y puede escalarse y usarse para bloquear ataques. Solo puede existir una al mismo tiempo.<br/><br/><span>Escudo de jade</span><br/>Tiene un 150% de eficiencia de absorción contra todo el Daño Elemental y el Daño Físico.<br/>Cuando un personaje se encuentra protegido por este escudo, todas las RES Elementales y la RES Física de los enemigos cercanos a él en una pequeña AdE se reducen en un 20%. Este efecto no puede acumularse.",
+      "description": "Cada montaña, roca y centímetro de la tierra contiene poder Geo, pero solo unos pocos pueden usar libremente tal poder.<br/><br/><span>Pulsar una vez</span><br/>Ordena al poder Geo de la tierra que se solidifique en una cresta de piedra.<br/><br/><span>Mantener pulsado</span><br/>Hace que los elementos Geo cercanos exploten, provocando los siguientes efectos:<br/>·Si aún no se ha alcanzado la cantidad máxima de crestas de piedra, invocará una cresta de piedra.<br/>·Crea un escudo de jade. La cantidad de absorción de daño del escudo es proporcional a la Vida Máx. de Zhongli.<br/>·Inflige <span>Daño Geo en el AdE</span>.<br/>·Si hay objetivos cercanos que contengan el <span>elemento Geo</span>, desgastará una gran cantidad de dicho elemento de un máximo de dos objetivos. Este efecto no causa daño.<br/><br/><span>Cresta de piedra</span><br/>Al ser creada, inflige <span>Daño Geo en el AdE</span>.<br/>La cresta de piedra resonará con las <span>creaciones Geo</span> cercanas, infligiendo <span>Daño Geo</span> a los enemigos cercanos.<br/>La cresta de piedra es considerada una <span>creación Geo</span>, y puede escalarse y usarse para bloquear ataques. Solo puede existir una al mismo tiempo.<br/><br/><span>Escudo de jade</span><br/>Tiene un 150% de eficiencia de absorción contra todo el Daño Elemental y el Daño Físico.<br/>Cuando un personaje se encuentra protegido por este escudo, todas las RES Elementales y la RES Física de los enemigos cercanos a él en una pequeña AdE se reducen en un 20%. Este efecto no puede acumularse.",
       "info": "Un verdadero maestro de la piedra puede tallar jade y dar forma al oro.",
       "attributes": [
         {
@@ -377,6 +380,7 @@
       ]
     },
     {
+      "_id": 10303,
       "id": "planet_befall",
       "name": "Lluvia estelar",
       "description": "Atrae un meteorito a la tierra, causando <span>Daño Geo</span> masivo a los enemigos dentro de su AdE y aplicando el efecto de <span>Petrificación</span>.<br/><br/><span>Petrificación</span><br/>Los enemigos bajo el efecto de <span>Petrificación</span> no pueden moverse.",
@@ -487,36 +491,42 @@
   ],
   "constellations": [
     {
+      "_id": 301,
       "id": "rock_the_backbone_of_earth",
-      "name": "Roca, el núcleo de la Tierra",
+      "name": "Roca, el núcleo de la tierra",
       "description": "<span>Dominus lapidis</span> puede crear un máximo de 2 crestas de piedra al mismo tiempo.",
       "level": 1
     },
     {
+      "_id": 302,
       "id": "stone_the_cradle_of_jade",
       "name": "Piedra, el origen del jade",
       "description": "Al caer <span>Lluvia estelar</span>, otorga un escudo de jade a los personajes en uso cercanos.",
       "level": 2
     },
     {
+      "_id": 303,
       "id": "jade_shimmering_through_darkness",
       "name": "Jade, el brillo del crepúsculo",
       "description": "Aumenta el nivel de habilidad de <span>Dominus lapidis</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "_id": 304,
       "id": "topaz_unbreakable_and_fearless",
       "name": "Topacio, indestructible e intrépido",
       "description": "Aumenta el AdE de <span>Lluvia estelar</span> en un 20%.<br/>Además, aumenta en 2 s la duración de Petrificación de Lluvia estelar.",
       "level": 4
     },
     {
+      "_id": 305,
       "id": "lazuli_herald_of_the_order",
       "name": "Lapislázuli, el heraldo del orden",
       "description": "Aumenta el nivel de habilidad de <span>Lluvia estelar</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "_id": 306,
       "id": "chrysos_bounty_of_dominator",
       "name": "Chrysos, la generosidad del dominador",
       "description": "Cuando el escudo de jade recibe daño, el 40% del daño recibido se convierte en Vida para el personaje en uso.<br/>No se puede recuperar más del 8% de la Vida Máx. del personaje cada vez que se activa el efecto.",
@@ -525,22 +535,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [0, 1]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["-", "1144"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["-", "20"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["-", "57"]
+        },
+        {
+          "label": "Bono de Daño Geo",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [1, 2]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["2967", "3948"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["51", "67"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["149", "198"]
+        },
+        {
+          "label": "Bono de Daño Geo",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104171,
         "id": "prithiva_topaz_sliver",
         "name": "Pedacito de topacio prithiva",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor lapis",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112002,
         "id": "slime_condensate",
         "name": "Condensado de Slime",
         "amount": 3,
@@ -548,28 +607,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [2, 3]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["5908", "6605"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["101", "113"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["297", "332"]
+        },
+        {
+          "label": "Bono de Daño Geo",
+          "values": ["0.0%", "7.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104172,
         "id": "prithiva_topaz_fragment",
         "name": "Fragmento de topacio prithiva",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "Pilar de basalto",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor lapis",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112002,
         "id": "slime_condensate",
         "name": "Condensado de Slime",
         "amount": 15,
@@ -577,28 +661,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [3, 4]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["7599", "8528"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["130", "146"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["382", "428 "]
+        },
+        {
+          "label": "Bono de Daño Geo",
+          "values": ["7.2%", "14.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104172,
         "id": "prithiva_topaz_fragment",
         "name": "Fragmento de topacio prithiva",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "Pilar de basalto",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor lapis",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112003,
         "id": "slime_secretions",
         "name": "Babas de Slime",
         "amount": 12,
@@ -606,28 +715,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [4, 5]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["9533", "10230 "]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["163", "175"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["479", "514"]
+        },
+        {
+          "label": "Bono de Daño Geo",
+          "values": ["14.4%", "14.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104173,
         "id": "prithiva_topaz_chunk",
         "name": "Trozo de topacio prithiva",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "Pilar de basalto",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor lapis",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112003,
         "id": "slime_secretions",
         "name": "Babas de Slime",
         "amount": 18,
@@ -635,28 +769,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [5, 6]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["11243", "11940 "]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["192", "204"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["564", "599"]
+        },
+        {
+          "label": "Bono de Daño Geo",
+          "values": ["14.4%", "21.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104173,
         "id": "prithiva_topaz_chunk",
         "name": "Trozo de topacio prithiva",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "Pilar de basalto",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor lapis",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112004,
         "id": "slime_concentrate",
         "name": "Esencia de Slime",
         "amount": 12,
@@ -664,28 +823,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [6, 7]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["12965", "13662"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["222", "233"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["651", "686"]
+        },
+        {
+          "label": "Bono de Daño Geo",
+          "values": ["21.6%", "28.8%"]
+        }
+      ],
       "mat1": {
+        "_id": 104174,
         "id": "prithiva_topaz_gemstone",
         "name": "Topacio prithiva",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "Pilar de basalto",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor lapis",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112004,
         "id": "slime_concentrate",
         "name": "Esencia de Slime",
         "amount": 24,
@@ -699,12 +883,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104316,
           "id": "teachings_of_gold",
           "name": "Enseñanzas del oro",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112002,
           "id": "slime_condensate",
           "name": "Condensado de Slime",
           "amount": 6,
@@ -717,12 +903,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guía del oro",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Babas de Slime",
           "amount": 3,
@@ -735,12 +923,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guía del oro",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Babas de Slime",
           "amount": 4,
@@ -753,12 +943,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guía del oro",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Babas de Slime",
           "amount": 6,
@@ -771,12 +963,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guía del oro",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Babas de Slime",
           "amount": 9,
@@ -789,18 +983,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Filosofía del oro",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Esencia de Slime",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Cuerno de Monoceros Caeli",
           "amount": 1,
@@ -813,18 +1010,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Filosofía del oro",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Esencia de Slime",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Cuerno de Monoceros Caeli",
           "amount": 1,
@@ -837,18 +1037,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Filosofía del oro",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Esencia de Slime",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Cuerno de Monoceros Caeli",
           "amount": 2,
@@ -861,24 +1064,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Filosofía del oro",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Esencia de Slime",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Cuerno de Monoceros Caeli",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Corona de la sabiduría",
           "amount": 1,

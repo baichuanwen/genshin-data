@@ -1,0 +1,28 @@
+{
+  "_id": 323002,
+  "id": "nre",
+  "name": "NRE",
+  "title": "Emergency Intake: Portable Dish",
+  "desc": "\"Regular nutrition helps in case of physical exertion.\"",
+  "in_play_description": "",
+  "attributes": {
+    "cost": 2,
+    "cost_type": "Unaligned Element",
+    "card_type": "Support Card",
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Unaligned Element",
+        "count": 2
+      }
+    ],
+    "tags": ["Item"]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "<span style=\"color:#FFFFFFFF\">When played:</span> Draw 1 Food Event Card from your deck.<br/><span style=\"color:#FFFFFFFF\">When you play a Food Event Card:</span> Draw 1 Food Event Card from your deck. (Once per Round)"
+    }
+  ]
+}

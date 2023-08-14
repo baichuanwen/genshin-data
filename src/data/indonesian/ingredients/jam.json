@@ -1,19 +1,23 @@
 {
+  "_id": 110008,
   "id": "jam",
   "name": "Jam",
   "description": "Bahan makanan yang lembut, terbuat dari buah dan gula. Dengan takaran yang sedikit saja sudah bisa membuat lidah bergoyang.",
   "processing": [
     {
+      "_id": 100002,
       "id": "sunsettia",
       "name": "Sunsettia",
       "amount": 3
     },
     {
+      "_id": 100051,
       "id": "berry",
       "name": "Berry",
       "amount": 2
     },
     {
+      "_id": 110006,
       "id": "sugar",
       "name": "Sugar",
       "amount": 1
@@ -21,8 +25,35 @@
   ],
   "recipes": [
     {
+      "_id": 3007,
       "id": "mondstadt_hash_brown",
       "name": "Mondstadt Hash Brown"
+    },
+    {
+      "_id": 3116,
+      "id": "fruity_duet",
+      "name": "Fruity Duet"
+    },
+    {
+      "_id": 3310,
+      "id": "charcoalbaked_ajilenakh_cake",
+      "name": "Charcoal-Baked Ajilenakh Cake"
+    },
+    {
+      "_id": 3401,
+      "id": "fontainian_foie_gras",
+      "name": "Fontainian Foie Gras"
+    },
+    {
+      "_id": 3405,
+      "id": "fruity_trio",
+      "name": "Fruity Trio"
+    },
+    {
+      "_id": 3408,
+      "id": "pate_de_fruit",
+      "name": "Pate de Fruit"
     }
-  ]
+  ],
+  "source": ["Didapatkan saat proses cooking"]
 }

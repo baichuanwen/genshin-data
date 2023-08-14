@@ -1,36 +1,41 @@
 {
-  "version": "0.20.1",
+  "version": "0.33.0",
   "license": "MIT",
-  "main": "dist/genshin-data.js",
-  "typings": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist/*",
+    "index.d.ts"
   ],
   "engines": {
     "node": ">=13"
   },
   "scripts": {
-    "build": "webpack",
+    "clean:dist": "rimraf dist/",
+    "build:types": "tsc src/index.ts --declarationDir dist/ --lib esnext --emitDeclarationOnly --declaration",
+    "build:lib": "vite build",
+    "build": "pnpm clean:dist && pnpm build:lib && pnpm build:types",
     "generate": "node ./scripts/generate.js",
-    "check-missing": "npm run generate && npm run build && node ./scripts/check-missing.js",
+    "check-missing": "pnpm generate && pnpm build && node ./scripts/check-missing.js",
     "format-data": "prettier --loglevel warn --write \"src/data/**/*.json\"",
-    "prepublishOnly": "npm run generate && npm run build"
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
+    "prepublishOnly": "pnpm generate && pnpm build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "name": "genshin-data",
   "author": "dvaJi",
   "devDependencies": {
-    "prettier": "^2.6.2",
-    "ts-node": "^10.8.0",
-    "tslib": "^2.4.0",
-    "ts-loader": "^9.2.8",
-    "typescript": "^4.7.2",
-    "webpack": "^5.72.1",
-    "webpack-cli": "^4.9.2"
+    "prettier": "^3.0.1",
+    "rimraf": "^5.0.1",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.1"
   }
 }

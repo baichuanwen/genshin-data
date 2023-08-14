@@ -1,4 +1,5 @@
 {
+  "_id": 10000035,
   "id": "qiqi",
   "name": "Qiqi",
   "title": "Icy Resurrection",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10351,
       "id": "normal_attack_ancient_sword_art",
       "name": "Normal Attack: Ancient Sword Art",
-      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 5 serangan berturut-turut.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang.<br/><br/><span>Plunging Attack</span><br/>Menerjang dari udara untuk menghantam tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan DMG area saat mendarat.",
+      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 5 serangan berturut-turut.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk melancarkan dua tebasan pedang secara cepat.<br/><br/><span>Plunging Attack</span><br/>Menerjang dari udara untuk menghantam tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan DMG Area saat mendarat.",
       "info": "",
       "attributes": [
         {
@@ -209,10 +211,11 @@
       ]
     },
     {
+      "_id": 10352,
       "id": "adeptus_art_herald_of_frost",
       "name": "Adeptus Art: Herald of Frost",
-      "description": "Qiqi memanggil Herald of Frost dengan menggunakan Icevein Talisman dan mengakibatkan <span>Cryo DMG</span> ke musuh di sekitarnya.<br/><br/><span>Herald of Frost</span><br/>·Saat Normal Attack atau Charged Attack Qiqi mengenai musuh, Qiqi akan memulihkan HP anggota party dan karakter teman lainnya. Jumlah HP yang disembuhkan ditentukan berdasarkan ATK Qiqi;<br/>·Setiap beberapa saat, Herald of Frost juga akan memulihkan HP karakter yang sedang digunakan;<br/>·Mengikuti gerakan karakter dan mengakibatkan <span>Cryo DMG</span> kepada musuh yang dilewati.",
-      "info": "Aku menggunakan ini supaya tidak busuk... Eh, aku sedang bicara soal bahan-bahan Dr. Bai.",
+      "description": "Qiqi memanggil Herald of Frost dengan menggunakan Icevein Talisman dan mengakibatkan <span>Cryo DMG</span> ke musuh di sekelilingnya.<br/><br/><span>Herald of Frost</span><br/>·Saat Normal Attack atau Charged Attack Qiqi mengenai musuh, Qiqi akan memulihkan HP anggota party sendiri dan Karakter teman lain di dekatnya. Jumlah HP yang dipulihkan ditentukan berdasarkan ATK Qiqi;<br/>·Setiap beberapa saat, Herald of Frost juga akan memulihkan HP Karakter aktif sendiri;<br/>·Mengikuti gerakan Karakter dan mengakibatkan <span>Cryo DMG</span> kepada musuh yang dilewati.",
+      "info": "Aku pakai ini supaya tidak jadi hangat dan busuk ... Eh, maksudku bahan-bahan berharganya Dokter Baizhu.",
       "attributes": [
         {
           "label": "DMG Skill",
@@ -255,7 +258,7 @@
           ]
         },
         {
-          "label": "Regenerasi HP",
+          "label": "Pemulihan HP Berkelanjutan",
           "values": [
             "69.6% ATK + 451",
             "74.82% ATK + 496",
@@ -337,10 +340,11 @@
       ]
     },
     {
+      "_id": 10353,
       "id": "adeptus_art_preserver_of_fortune",
       "name": "Adeptus Art: Preserver of Fortune",
-      "description": "Qiqi mengerahkan kekuatan Adeptus yang disegel di dalam tubuhnya dan menandai musuh di sekitar dengan jimat keberuntungan yang mengakibatkan <span>Cryo DMG</span>.<br/><br/><span>Fortune-Preserving Talisman</span><br/>Saat musuh yang telah ditandai menerima DMG, maka karakter yang mengakibatkan DMG tersebut akan menerima pemulihan HP.",
-      "info": "\"Aku adalah Penjaga Keberuntungan, sang Gadis Kebangkitan.\"<br/><i>—Qiqi tidak ingat kata-kata ini.</i>",
+      "description": "Qiqi mengerahkan kekuatan Adeptus yang disegel di dalam tubuhnya dan menandai musuh di sekitar dengan Fortune-Preserving Talisman yang mengakibatkan <span>Cryo DMG</span>.<br/><br/><span>Fortune-Preserving Talisman</span><br/>Saat musuh yang telah ditandai menerima DMG, maka Karakter yang mengakibatkan DMG tersebut akan menerima pemulihan HP.",
+      "info": "\"Aku adalah Pemelihara Keberuntungan, sang Gadis Kebangkitan.\"<br/><i>—Qiqi tidak ingat kata-kata ini.</i>",
       "attributes": [
         {
           "label": "DMG Skill",
@@ -449,7 +453,7 @@
     {
       "id": "lifeprolonging_methods",
       "name": "Life-Prolonging Methods",
-      "description": "Meningkatkan 20% Bonus Pemulihan karakter selama 8 detik saat karakter dalam efek <span>Adeptus Art: Herald of Frost</span> memicu reaksi elemental.",
+      "description": "Saat Karakter berada dalam efek <span>Adeptus Art: Herald of Frost</span> memicu Reaksi Elemental, Incoming Healing Bonus mereka meningkat sebesar 20% selama 8 detik.",
       "level": 1
     },
     {
@@ -461,42 +465,48 @@
     {
       "id": "former_life_memories",
       "name": "Former Life Memories",
-      "description": "Memperlihatkan lokasi <span>produk khas Liyue</span> di sekitar pada mini-map.",
+      "description": "Memperlihakan lokasi <span>produk khas Liyue</span> di sekitar pada peta kecil.",
       "level": 0
     }
   ],
   "constellations": [
     {
+      "_id": 351,
       "id": "ascetics_of_frost",
       "name": "Ascetics of Frost",
-      "description": "Saat Herald of Frost mengenai musuh yang ditandai oleh Fortune-Preserving Talisman, Qiqi mendapatkan 2 Energy.",
+      "description": "Saat Herald of Frost mengenai musuh yang ditandai oleh Fortune-Preserving Talisman, Qiqi memulihkan 2 Energy.",
       "level": 1
     },
     {
+      "_id": 352,
       "id": "frozen_to_the_bone",
       "name": "Frozen to the Bone",
       "description": "Meningkatkan 15% Normal dan Charged Attack Qiqi terhadap musuh yang terpengaruh <span>Cryo</span>.",
       "level": 2
     },
     {
+      "_id": 353,
       "id": "ascendant_praise",
       "name": "Ascendant Praise",
       "description": "Meningkatkan 3 level <span>Adeptus Art: Preserver of Fortune</span>.<br/>Maksimum: Lv. 15.",
       "level": 3
     },
     {
+      "_id": 354,
       "id": "divine_suppression",
       "name": "Divine Suppression",
       "description": "ATK dari musuh yang ditandai oleh Fortune-Preserving Talisman berkurang 20%.",
       "level": 4
     },
     {
+      "_id": 355,
       "id": "crimson_lotus_bloom",
       "name": "Crimson Lotus Bloom",
       "description": "Meningkatkan 3 level <span>Adeptus Art: Herald of Frost</span>.<br/>Maksimum: Lv. 15.",
       "level": 5
     },
     {
+      "_id": 356,
       "id": "rite_of_resurrection",
       "name": "Rite of Resurrection",
       "description": "Menggunakan <span>Adeptus Art: Preserver of Fortune</span> akan menghidupkan kembali Karakter yang gugur di sekitar dan memulihkan 50% HP mereka.<br/>Efek ini terpicu setiap 15 menit.",
@@ -505,22 +515,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [0, 1]
+        },
+        {
+          "label": "Base HP",
+          "values": ["-", "963"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["-", "22"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["-", "72"]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [1, 2]
+        },
+        {
+          "label": "Base HP",
+          "values": ["2498", "3323"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["58", "77"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["186", "248"]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104161,
         "id": "shivada_jade_sliver",
         "name": "Shivada Jade Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112008,
         "id": "divining_scroll",
         "name": "Divining Scroll",
         "amount": 3,
@@ -528,28 +587,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [2, 3]
+        },
+        {
+          "label": "Base HP",
+          "values": ["4973", "5559"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["115", "129"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["371", "415"]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": ["0.0%", "5.5%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hoarfrost Core",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112008,
         "id": "divining_scroll",
         "name": "Divining Scroll",
         "amount": 15,
@@ -557,28 +641,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [3, 4]
+        },
+        {
+          "label": "Base HP",
+          "values": ["6396", "7178"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["148", "167"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["477", "535"]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": ["5.5%", "11.1%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hoarfrost Core",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112009,
         "id": "sealed_scroll",
         "name": "Sealed Scroll",
         "amount": 12,
@@ -586,28 +695,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [4, 5]
+        },
+        {
+          "label": "Base HP",
+          "values": ["8023", "8610"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["186", "200 "]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["598", "642"]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": ["11.1%", "11.1%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hoarfrost Core",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112009,
         "id": "sealed_scroll",
         "name": "Sealed Scroll",
         "amount": 18,
@@ -615,28 +749,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [5, 6]
+        },
+        {
+          "label": "Base HP",
+          "values": ["9463", "10050"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["220", "233"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["706", "749"]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": ["11.1%", "16.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hoarfrost Core",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112010,
         "id": "forbidden_curse_scroll",
         "name": "Forbidden Curse Scroll",
         "amount": 12,
@@ -644,28 +803,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [6, 7]
+        },
+        {
+          "label": "Base HP",
+          "values": ["10912", "11499"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["253", "267"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["814", "857"]
+        },
+        {
+          "label": "Healing Bonus",
+          "values": ["16.6%", "22.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104164,
         "id": "shivada_jade_gemstone",
         "name": "Shivada Jade Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hoarfrost Core",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112010,
         "id": "forbidden_curse_scroll",
         "name": "Forbidden Curse Scroll",
         "amount": 24,
@@ -679,12 +863,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104310,
           "id": "teachings_of_prosperity",
           "name": "Teachings of \"Prosperity\"",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112008,
           "id": "divining_scroll",
           "name": "Divining Scroll",
           "amount": 6,
@@ -697,12 +883,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide to \"Prosperity\"",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
           "amount": 3,
@@ -715,12 +903,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide to \"Prosperity\"",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
           "amount": 4,
@@ -733,12 +923,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide to \"Prosperity\"",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
           "amount": 6,
@@ -751,12 +943,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide to \"Prosperity\"",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
           "amount": 9,
@@ -769,18 +963,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophies of \"Prosperity\"",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Tail of Boreas",
           "amount": 1,
@@ -793,18 +990,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophies of \"Prosperity\"",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Tail of Boreas",
           "amount": 1,
@@ -817,18 +1017,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophies of \"Prosperity\"",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Tail of Boreas",
           "amount": 2,
@@ -841,24 +1044,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophies of \"Prosperity\"",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Tail of Boreas",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

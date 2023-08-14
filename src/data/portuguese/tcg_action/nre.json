@@ -1,0 +1,28 @@
+{
+  "_id": 323002,
+  "id": "nre",
+  "name": "Bolsa Nutritiva",
+  "title": "Provisão de Emergência - Prato Portátil",
+  "desc": "\"Para um corpo em atividade física intensa, é importante repor os nutrientes a tempo.\"",
+  "in_play_description": "",
+  "attributes": {
+    "cost": 2,
+    "cost_type": "Elemento Indefinido",
+    "card_type": "Carta de Suporte",
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Elemento Indefinido",
+        "count": 2
+      }
+    ],
+    "tags": ["Ítem"]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "<span style=\"color:#FFFFFFFF\">Quando uma Carta de Evento Prato está em campo:</span> Pega aleatoriamente 1 Carta de Evento -  Prato de seu Deck.<br/><span style=\"color:#FFFFFFFF\">Quando você jogar uma Carta de Evento Prato:</span> Pega aleatoriamente 1 Carta de Evento -  Prato de seu Deck. (1 vez por turno)"
+    }
+  ]
+}

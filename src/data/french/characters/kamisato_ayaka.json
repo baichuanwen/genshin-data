@@ -1,4 +1,5 @@
 {
+  "_id": 10000002,
   "id": "kamisato_ayaka",
   "name": "Kamisato Ayaka",
   "title": "Héron de givre",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10024,
       "id": "normal_attack_kamisato_art_kabuki",
       "name": "Attaque normale : École Kamisato - Sveltesse",
-      "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 5 coups d'épée.<br/><br/><span>Attaque chargée</span><br/>Consomme de l'endurance pour déclencher deux lames du vent rapides.<br/><br/><span>Attaque descendante</span><br/>Plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis sur la route et des DGT de zone à l'impact.",
+      "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 5 coups d'épée.<br/><br/><span>Attaque chargée</span><br/>Consomme de l'endurance pour déclencher deux lames du vent rapides.<br/><br/><span>Attaque plongeante</span><br/>Plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis sur la route et des DGT de zone à l'impact.",
       "info": "",
       "attributes": [
         {
@@ -209,6 +211,7 @@
       ]
     },
     {
+      "_id": 10013,
       "id": "kamisato_art_senho",
       "name": "École Kamisato : Sentier de givre",
       "description": "<span>Sprint alternatif</span><br/>Ayaka consomme de l'endurance pour se déplacer rapidement au milieu d'un brouillard de glace.<br/><br/>Sous Sentier de givre, Ayaka peut se déplacer rapidement sur l'eau.<br/>À la fin de l'état, elle réapparaît ; deux choses se produisent alors simultanément :<br/>· Elle libère une énergie glacée qui applique aux ennemis proches l'élément <span>Cryo</span>.<br/>· Le froid se concentre sur son épée : les DGT qu'inflige cette dernière sont momentanément convertis en <span>DGT Cryo</span>.",
@@ -229,6 +232,7 @@
       ]
     },
     {
+      "_id": 10018,
       "id": "kamisato_art_hyouka",
       "name": "École Kamisato : Fleur de glace",
       "description": "Ayaka invoque une fleur glacée qui projette les ennemis proches, leur infligeant des <span>DGT Cryo de zone</span>.",
@@ -277,6 +281,7 @@
       ]
     },
     {
+      "_id": 10019,
       "id": "kamisato_art_soumetsu",
       "name": "École Kamisato : Givre mortel",
       "description": "Ayaka adopte une posture magnifique pour libérer un tourbillon givré qui avance sans s'arrêter.<br/><br/><span>Tourbillon givré</span><br/>· Le tourbillon givré lacère de façon continue les ennemis qui se trouvent sur sa route, infligeant des <span>DGT Cryo</span>.<br/>· Le tourbillon finit par exploser, infligeant des <span>DGT Cryo de zone</span>.",
@@ -407,36 +412,42 @@
   ],
   "constellations": [
     {
+      "_id": 21,
       "id": "snowswept_sakura",
       "name": "Cerise givrée",
       "description": "Les attaques normales et chargées d'Ayaka ont 50 % de chances de réduire le TdR d'<span>École Kamisato : Fleur de glace</span> de 0,3 s lorsqu'elles infligent des <span>DGT Cryo</span> aux ennemis. Cet effet peut être déclenché une fois toutes les 0,1 s.",
       "level": 1
     },
     {
+      "_id": 22,
       "id": "blizzard_blade_seki_no_to",
       "name": "Lame de blizzard Seki",
       "description": "Deux petits tourbillons givrés supplémentaires sont libérés à l'activation d'<span>École Kamisato : Givre mortel</span> ; chacun inflige 20 % des DGT du tourbillon d'origine.",
       "level": 2
     },
     {
+      "_id": 23,
       "id": "frostbloom_kamifubuki",
       "name": "Confettis de fleuraison givrée",
       "description": "Niveau de compétence <span>École Kamisato : Givre mortel</span> +3.<br/>Niveau max : 15",
       "level": 3
     },
     {
+      "_id": 24,
       "id": "ebb_and_flow",
       "name": "Retour prééminent",
       "description": "La DÉF des ennemis subissant les DGT infligés par le tourbillon givré d'<span>École Kamisato : Givre mortel</span> est réduite de 30 % pendant 6 s.",
       "level": 4
     },
     {
+      "_id": 25,
       "id": "blossom_cloud_irutsuki",
       "name": "Lune entre les nuages",
       "description": "Niveau de compétence <span>École Kamisato : Fleur de glace</span> +3.<br/>Niveau max : 15",
       "level": 5
     },
     {
+      "_id": 26,
       "id": "dance_of_suigetsu",
       "name": "Danse de la lune",
       "description": "Kamisato Ayaka s'illumine d'une gracieuseté gelée toutes les 10 s, augmentant les DGT infligés par son attaque chargée de 298 %. Cet effet s'annule 0,5 s après que l'attaque chargée d'Ayaka touche un ennemi, puis le chronomètre de cette capacité démarre.",
@@ -445,22 +456,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [0, 1]
+        },
+        {
+          "label": "PV de base",
+          "values": ["-", "1001"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["-", "27"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["-", "61"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [1, 2]
+        },
+        {
+          "label": "PV de base",
+          "values": ["2597", "3455"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["69", "92"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["158", "211"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104161,
         "id": "shivada_jade_sliver",
         "name": "Éclat de jade shivada",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112044,
         "id": "old_handguard",
         "name": "Garde-main ancien",
         "amount": 3,
@@ -468,28 +528,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [2, 3]
+        },
+        {
+          "label": "PV de base",
+          "values": ["5170", "5779"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["138", "154"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["315", "352"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["0.0%", "9.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Fragment de jade shivada",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113023,
         "id": "perpetual_heart",
         "name": "Cœur perpétuel",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112044,
         "id": "old_handguard",
         "name": "Garde-main ancien",
         "amount": 15,
@@ -497,28 +582,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [3, 4]
+        },
+        {
+          "label": "PV de base",
+          "values": ["6649", "7462"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["177", "198"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["405", "455"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["9.6%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Fragment de jade shivada",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113023,
         "id": "perpetual_heart",
         "name": "Cœur perpétuel",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112045,
         "id": "kageuchi_handguard",
         "name": "Garde-main kageuchi",
         "amount": 12,
@@ -526,28 +636,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [4, 5]
+        },
+        {
+          "label": "PV de base",
+          "values": ["8341", "8951"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["222", "238"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["509", "546"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["19.2%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Morceau de jade shivada",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113023,
         "id": "perpetual_heart",
         "name": "Cœur perpétuel",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112045,
         "id": "kageuchi_handguard",
         "name": "Garde-main kageuchi",
         "amount": 18,
@@ -555,28 +690,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [5, 6]
+        },
+        {
+          "label": "PV de base",
+          "values": ["9838", "10448"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["262", "278"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["600", "637"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["19.2%", "28.8%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Morceau de jade shivada",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113023,
         "id": "perpetual_heart",
         "name": "Cœur perpétuel",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112046,
         "id": "famed_handguard",
         "name": "Garde-main célèbre",
         "amount": 12,
@@ -584,28 +744,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [6, 7]
+        },
+        {
+          "label": "PV de base",
+          "values": ["11345", "11954"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["302", "318"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["692", "729"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["28.8%", "38.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104164,
         "id": "shivada_jade_gemstone",
         "name": "Pierre de jade shivada",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113023,
         "id": "perpetual_heart",
         "name": "Cœur perpétuel",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112046,
         "id": "famed_handguard",
         "name": "Garde-main célèbre",
         "amount": 24,
@@ -619,12 +804,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104323,
           "id": "teachings_of_elegance",
-          "name": "Enseignement de l'élégance",
+          "name": "Enseignement de l'Élégance",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112044,
           "id": "old_handguard",
           "name": "Garde-main ancien",
           "amount": 6,
@@ -637,12 +824,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Guide de l'Élégance",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 3,
@@ -655,12 +844,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Guide de l'Élégance",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 4,
@@ -673,12 +864,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Guide de l'Élégance",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 6,
@@ -691,12 +884,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Guide de l'Élégance",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 9,
@@ -709,18 +904,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
-          "name": "Philosophie de l'élégance",
+          "name": "Philosophie de l'Élégance",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113018,
           "id": "bloodjade_branch",
           "name": "Branche de jade cramoisi",
           "amount": 1,
@@ -733,18 +931,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
-          "name": "Philosophie de l'élégance",
+          "name": "Philosophie de l'Élégance",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113018,
           "id": "bloodjade_branch",
           "name": "Branche de jade cramoisi",
           "amount": 1,
@@ -757,18 +958,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
-          "name": "Philosophie de l'élégance",
+          "name": "Philosophie de l'Élégance",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113018,
           "id": "bloodjade_branch",
           "name": "Branche de jade cramoisi",
           "amount": 2,
@@ -781,24 +985,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
-          "name": "Philosophie de l'élégance",
+          "name": "Philosophie de l'Élégance",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113018,
           "id": "bloodjade_branch",
           "name": "Branche de jade cramoisi",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Couronne de la sagesse",
           "amount": 1,

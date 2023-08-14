@@ -1,6 +1,6 @@
 {
+  "_id": 17,
   "id": "memories_of_the_heart",
-  "originalId": 17,
   "name": "Memória do Coração",
   "order": 2,
   "achievements": [
@@ -315,6 +315,126 @@
       "reward": 5,
       "hidden": true,
       "order": 7211
+    },
+    {
+      "id": 84137,
+      "name": "Você Achou Que Era Sério, Né?",
+      "desc": "Complete \"Investigações no Olho da Tormenta\" e desbloqueie todos os finais",
+      "reward": 20,
+      "hidden": false,
+      "order": 7300
+    },
+    {
+      "id": 84138,
+      "name": "Sou Um Detetive Genial!",
+      "desc": "Analise corretamente pela primeira vez os motivos e a verdade por detrás dos crimes.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7310
+    },
+    {
+      "id": 84139,
+      "name": "Súplicas de Sangonomiya",
+      "desc": "Pergunte ao Gorou e a Kokomi se eles sabem sobre o que tem acontecido na Ilha Watatsumi.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7311
+    },
+    {
+      "id": 84140,
+      "name": "Melhor Solução",
+      "desc": "Complete Nó Quase Indesatável e desbloqueie todos os finais.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7400
+    },
+    {
+      "id": 84141,
+      "name": "Para a Você de Cem Anos Depois",
+      "desc": "Leia todas as cartas enviadas para Faruzan.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7410
+    },
+    {
+      "id": 84142,
+      "name": "Mecânicas: De iniciante a...?",
+      "desc": "Adivinhe a menor quantidade de movimentos necessários para resolver a Torre Vanarasi de sete camadas.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7411
+    },
+    {
+      "id": 84143,
+      "name": "Ela se chama Layla",
+      "desc": "Complete \"As Estrelas Silenciosas\" e desbloqueie todos os finais.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7500
+    },
+    {
+      "id": 84144,
+      "name": "Ela Já Está Muito Tensa",
+      "desc": "Você ajudou Layla a completar seu trabalho sem deixá-la ainda mais nervosa.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7510
+    },
+    {
+      "id": 84145,
+      "name": "Segredos dos Seelies e do Céu",
+      "desc": "Obtenha a resposta verdadeira da Seelie da Sabedoria.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7511
+    },
+    {
+      "id": 84146,
+      "name": "Arte e Vida",
+      "desc": "Conclua \"O Pêndulo da Felicidade e do Infortúnio\" e desbloqueie todos os finais.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7600
+    },
+    {
+      "id": 84147,
+      "name": "Dias de Estudante",
+      "desc": "Encontre os livros com anotações na Casa de Daena.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7610
+    },
+    {
+      "id": 84148,
+      "name": "Arquitetura Romântica",
+      "desc": "Converse sobre o futuro com Kaveh no deserto.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7611
+    },
+    {
+      "id": 84149,
+      "name": "Em Busca da Felicidade",
+      "desc": "Conclua \"Mentiras e Vinho Doce\" e desbloqueie todos os finais.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7700
+    },
+    {
+      "id": 84150,
+      "name": "Moeda da Sorte",
+      "desc": "Participe da aposta de Kaeya.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7710
+    },
+    {
+      "id": 84151,
+      "name": "Shh... Escute!",
+      "desc": "Escute a voz vinda da sala de confinamento.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7711
     }
   ]
 }

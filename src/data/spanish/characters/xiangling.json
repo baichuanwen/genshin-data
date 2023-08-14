@@ -1,4 +1,5 @@
 {
+  "_id": 10000023,
   "id": "xiangling",
   "name": "Xiangling",
   "title": "La Maestra Culinaria de Liyue",
@@ -21,8 +22,9 @@
   },
   "skills": [
     {
+      "_id": 10231,
       "id": "normal_attack_doughfu",
-      "name": "Ataque Normal: Kung-Fu pasta",
+      "name": "Ataque Normal: Kung-fu pasta",
       "description": "<span>Ataque Normal</span><br/>Realiza hasta 5 ataques rápidos con lanza.<br/><br/><span>Ataque Cargado</span><br/>Consume una cierta cantidad de Aguante para lanzarse al frente, infligiendo daño a los enemigos en el camino.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
       "info": "",
       "attributes": [
@@ -209,9 +211,10 @@
       ]
     },
     {
+      "_id": 10232,
       "id": "guoba_attack",
       "name": "Ataque de Guoba",
-      "description": "Invoca al panda Guoba. Guoba escupe fuego continuamente contra los enemigos, infligiendo <span>Daño Pyro en el AdE</span>.",
+      "description": "Invoca a Guoba, quien escupe fuego continuamente contra los enemigos, infligiendo <span>Daño Pyro en el AdE</span>.",
       "info": "A Guoba le encanta el picante. El problema es que su estómago no aguanta la comida tan picante.",
       "attributes": [
         {
@@ -257,6 +260,7 @@
       ]
     },
     {
+      "_id": 10235,
       "id": "pyronado",
       "name": "Pyronado",
       "description": "Haciendo muestra de su dominio del fuego y las lanzas, Xiangling provoca un tornado de llamas a su alrededor.<br/>Mientras dure la habilidad, el tornado se moverá junto a tu personaje, infligiendo <span>Daño Pyro</span> a todos los enemigos en su camino.",
@@ -415,7 +419,7 @@
     {
       "id": "beware_its_super_hot",
       "name": "¡Cuidado, que pica!",
-      "description": "Cuando termina el <span>Ataque de Guoba</span>, Guoba deja chiles en el lugar donde desaparece. Obtén los chiles para aumentar el ATQ en un 10% durante 10 s.",
+      "description": "Cuando termina el <span>Ataque de Guoba</span>, Guoba deja un chile en el lugar donde desaparece. Al recogerlo, el ATQ del personaje aumentará en un 10% durante 10 s.",
       "level": 4
     },
     {
@@ -427,36 +431,42 @@
   ],
   "constellations": [
     {
+      "_id": 231,
       "id": "crispy_outside_tender_inside",
       "name": "Crujiente por fuera, tierno por dentro",
       "description": "Reduce la <span>RES Pyro</span> de los enemigos atacados por Guoba en un 15% durante 6 s.",
       "level": 1
     },
     {
+      "_id": 232,
       "id": "oil_meets_fire",
       "name": "Aceite y fuego",
-      "description": "El último golpe del Ataque Normal aplica sobre el enemigo un estado de implosión durante 2 s. Tras ese tiempo, el enemigo explotará, infligiendo un 75% de <span>Daño Pyro en el AdE</span>.",
+      "description": "El último golpe del Ataque Normal aplica sobre el enemigo un estado de implosión durante 2 s. Tras ese tiempo, ocurrirá una explosión que inflige un 75% de <span>Daño Pyro en el AdE</span>.",
       "level": 2
     },
     {
+      "_id": 233,
       "id": "deepfry",
       "name": "Que quede bien frito",
       "description": "Aumenta el nivel de habilidad de <span>Pyronado</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "_id": 234,
       "id": "slowbake",
       "name": "A fuego lento",
       "description": "Aumenta en un 40% la duración de <span>Pyronado</span>.",
       "level": 4
     },
     {
+      "_id": 235,
       "id": "guoba_mad",
       "name": "Guoba furioso",
       "description": "Aumenta el nivel de habilidad de <span>Ataque de Guoba</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "_id": 236,
       "id": "condensed_pyronado",
       "name": "Pyronado condensado",
       "description": "Mientras <span>Pyronado</span> esté activo, todos los miembros del equipo obtienen un 15% de <span>Bono de Daño Pyro</span>.",
@@ -465,22 +475,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [0, 1]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["-", "912"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["-", "19"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["-", "56"]
+        },
+        {
+          "label": "Maestría Elemental",
+          "values": ["-", "0"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [1, 2]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["2342", "3024"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["48", "63"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["144", "186"]
+        },
+        {
+          "label": "Maestría Elemental",
+          "values": ["0", "0"]
+        }
+      ],
       "mat1": {
+        "_id": 104111,
         "id": "agnidus_agate_sliver",
         "name": "Pedacito de ágata agnidus",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Chile de Jueyun",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112002,
         "id": "slime_condensate",
         "name": "Condensado de Slime",
         "amount": 3,
@@ -488,28 +547,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [2, 3]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["4529", "5013"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["94", "104"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["279", "308"]
+        },
+        {
+          "label": "Maestría Elemental",
+          "values": ["0", "24"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Fragmento de ágata agnidus",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semilla de fuego eterno",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Chile de Jueyun",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112002,
         "id": "slime_condensate",
         "name": "Condensado de Slime",
         "amount": 15,
@@ -517,28 +601,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [3, 4]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["5766", "6411"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["119", "133"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["355", "394"]
+        },
+        {
+          "label": "Maestría Elemental",
+          "values": ["24", "48"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Fragmento de ágata agnidus",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semilla de fuego eterno",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Chile de Jueyun",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112003,
         "id": "slime_secretions",
         "name": "Babas de Slime",
         "amount": 12,
@@ -546,28 +655,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [4, 5]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["7164", "7648"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["148", "158"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["441", "470"]
+        },
+        {
+          "label": "Maestría Elemental",
+          "values": ["48", "48"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Trozo de ágata agnidus",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semilla de fuego eterno",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Chile de Jueyun",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112003,
         "id": "slime_secretions",
         "name": "Babas de Slime",
         "amount": 18,
@@ -575,28 +709,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [5, 6]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["8401", "8885"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["174", "184"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["517", "546"]
+        },
+        {
+          "label": "Maestría Elemental",
+          "values": ["48", "72"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Trozo de ágata agnidus",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semilla de fuego eterno",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Chile de Jueyun",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112004,
         "id": "slime_concentrate",
         "name": "Esencia de Slime",
         "amount": 12,
@@ -604,28 +763,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [6, 7]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["9638", "10122"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["200", "210"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["593", "623"]
+        },
+        {
+          "label": "Maestría Elemental",
+          "values": ["72", "96"]
+        }
+      ],
       "mat1": {
+        "_id": 104114,
         "id": "agnidus_agate_gemstone",
         "name": "Ágata agnidus",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semilla de fuego eterno",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Chile de Jueyun",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112004,
         "id": "slime_concentrate",
         "name": "Esencia de Slime",
         "amount": 24,
@@ -639,12 +823,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104313,
           "id": "teachings_of_diligence",
           "name": "Enseñanzas del esfuerzo",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112002,
           "id": "slime_condensate",
           "name": "Condensado de Slime",
           "amount": 6,
@@ -657,12 +843,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guía del esfuerzo",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Babas de Slime",
           "amount": 3,
@@ -675,12 +863,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guía del esfuerzo",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Babas de Slime",
           "amount": 4,
@@ -693,12 +883,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guía del esfuerzo",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Babas de Slime",
           "amount": 6,
@@ -711,12 +903,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guía del esfuerzo",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Babas de Slime",
           "amount": 9,
@@ -729,18 +923,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Filosofía del esfuerzo",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Esencia de Slime",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Garra de Stormterror",
           "amount": 1,
@@ -753,18 +950,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Filosofía del esfuerzo",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Esencia de Slime",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Garra de Stormterror",
           "amount": 1,
@@ -777,18 +977,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Filosofía del esfuerzo",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Esencia de Slime",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Garra de Stormterror",
           "amount": 2,
@@ -801,24 +1004,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Filosofía del esfuerzo",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Esencia de Slime",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Garra de Stormterror",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Corona de la sabiduría",
           "amount": 1,

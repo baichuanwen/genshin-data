@@ -1,4 +1,5 @@
 {
+  "_id": 10000044,
   "id": "xinyan",
   "name": "Xinyan",
   "title": "La Melodía Incandescente",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10441,
       "id": "normal_attack_dance_on_fire",
       "name": "Ataque Normal: Baile ardiente",
       "description": "<span>Ataque Normal</span><br/>Realiza hasta 4 tajos de espada consecutivos.<br/><br/><span>Ataque Cargado</span><br/>Consume Aguante de manera constante para realizar golpes de espada giratorios contra los enemigos cercanos.<br/>Al final del Ataque Cargado, realizará un golpe de espada más poderoso.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
@@ -229,6 +231,7 @@
       ]
     },
     {
+      "_id": 10442,
       "id": "sweeping_fervor",
       "name": "Desenfreno",
       "description": "Xinyan blande su instrumento, infligiendo <span>Daño Pyro</span> a los enemigos cercanos y formando un escudo hecho con el entusiasmo de su audiencia.<br/>La absorción de daño del escudo es proporcional a la DEF de Xinyan y al número de enemigos alcanzados.<br/>·De 0 a 1 enemigos: otorga un Escudo Niv. 1: Improvisación.<br/>·2 enemigos: otorga un Escudo Niv. 2: Entrada.<br/>·3 o más enemigos: otorga un Escudo Niv. 3: Fiesta que inflige intermitentemente <span>Daño Pyro</span> a los enemigos cercanos.<br/><br/>El escudo tiene las siguientes propiedades:<br/>·Al activarse, aplica el elemento <span>Pyro</span> sobre Xinyan.<br/>·Tiene un 250% de efectividad de absorción de <span>Daño Pyro</span>.",
@@ -377,6 +380,7 @@
       ]
     },
     {
+      "_id": 10443,
       "id": "riff_revolution",
       "name": "Melodía de la rebelión",
       "description": "Tocando su música a toda velocidad, Xinyan lanza a los enemigos cercanos por los aires y les inflige Daño Físico, dando ánimos a su público.<br/>El fervor del ambiente provocará explosiones que infligen <span>Daño Pyro</span> a los enemigos cercanos.",
@@ -507,36 +511,42 @@
   ],
   "constellations": [
     {
+      "_id": 441,
       "id": "fatal_acceleration",
       "name": "Aceleración letal",
       "description": "Tras realizar un golpe CRIT, aumenta en un 12% la Vel. de Ataque de los Ataques Normales y Cargados de Xinyan durante 5 s.<br/>Solo puede ocurrir una vez cada 5 s.",
       "level": 1
     },
     {
+      "_id": 442,
       "id": "impromptu_opening",
       "name": "Comienzo improvisado",
       "description": "La Prob. CRIT del Daño Físico de <span>Melodía de la rebelión</span> aumenta en un 100% y, al lanzar la habilidad, se creará un Escudo Niv. 3: Fiesta.",
       "level": 2
     },
     {
+      "_id": 443,
       "id": "doublestop",
       "name": "Dobles cuerdas",
       "description": "Aumenta el nivel de habilidad de <span>Desenfreno</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "_id": 444,
       "id": "wildfire_rhythm",
       "name": "Ritmo contagioso",
       "description": "El daño de <span>Desenfreno</span> reduce en un 15% la RES Física de los enemigos durante 12 s.",
       "level": 4
     },
     {
+      "_id": 445,
       "id": "screamin_for_an_encore",
       "name": "¡Otra canción!",
       "description": "Aumenta el nivel de habilidad de <span>Melodía de la rebelión</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "_id": 446,
       "id": "rockin_in_a_flaming_world",
       "name": "Rockeando en el infierno",
       "description": "El Coste de Aguante del Ataque Cargado de Xinyan se reduce en un 30%. Además, al realizar un Ataque Cargado, gana un 50% de la DEF como Bono de ATQ.",
@@ -545,22 +555,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [0, 1]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["-", "939"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["-", "21"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["-", "67"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [1, 2]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["2413", "3114"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["54", "69"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["172", "222"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104111,
         "id": "agnidus_agate_sliver",
         "name": "Pedacito de ágata agnidus",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Campanita de cristal",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112035,
         "id": "treasure_hoarder_insignia",
         "name": "Insignia de cuervo de bronce",
         "amount": 3,
@@ -568,28 +627,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [2, 3]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["4665", "5163"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["103", "115"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["333", "368"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Fragmento de ágata agnidus",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semilla de fuego eterno",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Campanita de cristal",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112035,
         "id": "treasure_hoarder_insignia",
         "name": "Insignia de cuervo de bronce",
         "amount": 15,
@@ -597,28 +681,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [3, 4]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["5939", "6604"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["132", "147"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["423", "471"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Fragmento de ágata agnidus",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semilla de fuego eterno",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Campanita de cristal",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112036,
         "id": "silver_raven_insignia",
         "name": "Insignia de cuervo plateada",
         "amount": 12,
@@ -626,28 +735,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [4, 5]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["7379", "7878"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["164", "175"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["526", "562"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Trozo de ágata agnidus",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semilla de fuego eterno",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Campanita de cristal",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112036,
         "id": "silver_raven_insignia",
         "name": "Insignia de cuervo plateada",
         "amount": 18,
@@ -655,28 +789,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [5, 6]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["8653", "9151"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["192", "203"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["617", "652"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Trozo de ágata agnidus",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semilla de fuego eterno",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Campanita de cristal",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112037,
         "id": "golden_raven_insignia",
         "name": "Insignia de cuervo dorada",
         "amount": 12,
@@ -684,28 +843,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [6, 7]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["9927", "10425"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["220", "231"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["708", "743"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104114,
         "id": "agnidus_agate_gemstone",
         "name": "Ágata agnidus",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semilla de fuego eterno",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Campanita de cristal",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112037,
         "id": "golden_raven_insignia",
         "name": "Insignia de cuervo dorada",
         "amount": 24,
@@ -719,12 +903,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104316,
           "id": "teachings_of_gold",
           "name": "Enseñanzas del oro",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112035,
           "id": "treasure_hoarder_insignia",
           "name": "Insignia de cuervo de bronce",
           "amount": 6,
@@ -737,12 +923,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guía del oro",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Insignia de cuervo plateada",
           "amount": 3,
@@ -755,12 +943,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guía del oro",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Insignia de cuervo plateada",
           "amount": 4,
@@ -773,12 +963,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guía del oro",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Insignia de cuervo plateada",
           "amount": 6,
@@ -791,12 +983,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guía del oro",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Insignia de cuervo plateada",
           "amount": 9,
@@ -809,18 +1003,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Filosofía del oro",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Insignia de cuervo dorada",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Cuerno de Monoceros Caeli",
           "amount": 1,
@@ -833,18 +1030,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Filosofía del oro",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Insignia de cuervo dorada",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Cuerno de Monoceros Caeli",
           "amount": 1,
@@ -857,18 +1057,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Filosofía del oro",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Insignia de cuervo dorada",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Cuerno de Monoceros Caeli",
           "amount": 2,
@@ -881,24 +1084,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Filosofía del oro",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Insignia de cuervo dorada",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Cuerno de Monoceros Caeli",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Corona de la sabiduría",
           "amount": 1,

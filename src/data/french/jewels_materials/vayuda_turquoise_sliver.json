@@ -1,17 +1,24 @@
 {
+  "_id": 104151,
   "id": "vayuda_turquoise_sliver",
   "name": "Éclat de turquoise vayuda",
   "description": "Matériau d'élévation de personnage.",
-  "source": ["Butin d'Hypostase Anémo", "Boutique de souvenirs"],
+  "source": [
+    "Butin d'Hypostase Anémo",
+    "Butin de Wenut de Setekh",
+    "Boutique de souvenirs"
+  ],
   "rarity": 2,
   "convert": [
     [
       {
+        "_id": 104111,
         "id": "agnidus_agate_sliver",
         "name": "Éclat d'agate agnidus",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Poudre d'Azoth",
         "amount": 1
@@ -19,11 +26,13 @@
     ],
     [
       {
+        "_id": 104121,
         "id": "varunada_lazurite_sliver",
         "name": "Éclat de lazurite varunada",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Poudre d'Azoth",
         "amount": 1
@@ -31,11 +40,27 @@
     ],
     [
       {
+        "_id": 104131,
+        "id": "nagadus_emerald_sliver",
+        "name": "Éclat d'émeraude nagadus",
+        "amount": 1
+      },
+      {
+        "_id": 104201,
+        "id": "dust_of_azoth",
+        "name": "Poudre d'Azoth",
+        "amount": 1
+      }
+    ],
+    [
+      {
+        "_id": 104141,
         "id": "vajrada_amethyst_sliver",
         "name": "Éclat d'améthyste vajrada",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Poudre d'Azoth",
         "amount": 1
@@ -43,11 +68,13 @@
     ],
     [
       {
+        "_id": 104161,
         "id": "shivada_jade_sliver",
         "name": "Éclat de jade shivada",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Poudre d'Azoth",
         "amount": 1
@@ -55,11 +82,13 @@
     ],
     [
       {
+        "_id": 104171,
         "id": "prithiva_topaz_sliver",
         "name": "Éclat de topaze prithiva",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Poudre d'Azoth",
         "amount": 1

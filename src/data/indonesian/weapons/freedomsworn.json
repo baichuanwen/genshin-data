@@ -1,4 +1,5 @@
 {
+  "_id": 11503,
   "id": "freedomsworn",
   "name": "Freedom-Sworn",
   "description": "Pedang biru langit yang mengingatkan pada lagu lama, senjata tajam seperti sumpah kebebasan di bangsa milik Dewa Angin.",
@@ -109,18 +110,21 @@
       "cost": 10000,
       "materials": [
         {
+          "_id": 114009,
           "id": "fetters_of_the_dandelion_gladiator",
           "name": "Fetters of the Dandelion Gladiator",
           "amount": 5,
           "rarity": 2
         },
         {
+          "_id": 112023,
           "id": "chaos_device",
           "name": "Chaos Device",
           "amount": 5,
           "rarity": 2
         },
         {
+          "_id": 112008,
           "id": "divining_scroll",
           "name": "Divining Scroll",
           "amount": 3,
@@ -134,18 +138,21 @@
       "cost": 20000,
       "materials": [
         {
+          "_id": 114010,
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Chains of Dandelion Gladiator",
           "amount": 5,
           "rarity": 3
         },
         {
+          "_id": 112023,
           "id": "chaos_device",
           "name": "Chaos Device",
           "amount": 18,
           "rarity": 2
         },
         {
+          "_id": 112008,
           "id": "divining_scroll",
           "name": "Divining Scroll",
           "amount": 12,
@@ -159,18 +166,21 @@
       "cost": 30000,
       "materials": [
         {
+          "_id": 114010,
           "id": "chains_of_the_dandelion_gladiator",
           "name": "Chains of Dandelion Gladiator",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112024,
           "id": "chaos_circuit",
           "name": "Chaos Circuit",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
           "amount": 9,
@@ -184,18 +194,21 @@
       "cost": 45000,
       "materials": [
         {
+          "_id": 114011,
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "Shackles of Dandelion Gladiator",
           "amount": 5,
           "rarity": 4
         },
         {
+          "_id": 112024,
           "id": "chaos_circuit",
           "name": "Chaos Circuit",
           "amount": 18,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
           "amount": 14,
@@ -209,18 +222,21 @@
       "cost": 55000,
       "materials": [
         {
+          "_id": 114011,
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "Shackles of Dandelion Gladiator",
           "amount": 9,
           "rarity": 4
         },
         {
+          "_id": 112025,
           "id": "chaos_core",
           "name": "Chaos Core",
           "amount": 14,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
           "amount": 9,
@@ -234,18 +250,21 @@
       "cost": 65000,
       "materials": [
         {
+          "_id": 114012,
           "id": "dream_of_the_dandelion_gladiator",
           "name": "Dream of the Dandelion Gladiator",
           "amount": 6,
           "rarity": 5
         },
         {
+          "_id": 112025,
           "id": "chaos_core",
           "name": "Chaos Core",
           "amount": 27,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
           "amount": 18,
@@ -254,6 +273,17 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "Revolutionary Chorale",
+    "template": "Bagian dari \"Millennial Movement\" yang mengembara di tengah angin. Meningkatkan DMG sebesar <span style=\"color:#99FFFFFF\">{0}</span>, dan saat Karakter yang menggunakan senjata ini memicu Reaksi Elemental, Karakter akan mendapatkan Sigil of Rebellion. Efek ini dapat terpicu setiap 0,5 detik dan bisa terpicu walaupun Karakter tersebut tidak berada di lapangan. Saat kamu mempunyai 2 Sigil of Rebellion, semuanya akan terkonsumsi dan semua anggota party di sekitar akan mendapatkan efek \"Millennial Movement: Song of Resistance\" selama 12 detik. \"Millennial Movement: Song of Resistance\" meningkatkan <span style=\"color:#99FFFFFF\">{1}</span> DMG Normal, Charged dan Plunging Attack, serta meningkatkan <span style=\"color:#99FFFFFF\">{2}</span> ATK. Ketika efek ini sudah terpicu, kamu tidak akan mendapatkan Sigils of Rebellion lagi selama 20 detik. Dari sekian banyak efek \"Millennial Movement\", efek dengan jenis yang sama tidak bisa ditumpuk.",
+    "params": [
+      ["10%", "16%", "20%"],
+      ["12,5%", "20%", "25%"],
+      ["15%", "24%", "30%"],
+      ["17,5%", "28%", "35%"],
+      ["20%", "32%", "40%"]
+    ]
+  },
   "refinements": [
     {
       "refinement": 1,

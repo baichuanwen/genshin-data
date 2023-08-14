@@ -5,9 +5,10 @@
     "noImplicitAny": true,
     "declaration": true,
     "module": "ESNext",
-    "lib": ["ESNext"],
-    "target": "es5",
+    "lib": ["ESNext", "ES2022"],
+    "target": "ES6",
     "allowJs": true,
+    "resolveJsonModule": true,
     "moduleResolution": "node"
   }
 }

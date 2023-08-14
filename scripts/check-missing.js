@@ -1,5 +1,4 @@
-const gdata = require('../dist/genshin-data');
-const GenshinData = gdata.default;
+import GenshinData, { languages } from '../dist/index.js';
 
 const METHODS = [
   'achievements',
@@ -16,17 +15,21 @@ const METHODS = [
   'localMaterials',
   'potions',
   'talentLvlUpMaterials',
+  'tcgActions',
+  'tcgCharacters',
+  'tcgCards',
   'weaponPrimaryMaterials',
   'weaponSecondaryMaterials',
+  'domains',
 ];
 
-const data = gdata.languages.reduce((obj, key) => {
+const data = languages.reduce((obj, key) => {
   obj[key] = new GenshinData({ language: key });
   return obj;
 }, {});
 
 async function main() {
-  const keys = Object.keys(data).filter(k => k !== 'english');
+  const keys = Object.keys(data).filter((k) => k !== 'english');
   for (const method of METHODS) {
     const dataEN = await data.english[method]();
     const comp = compareData(dataEN, method);
@@ -39,12 +42,12 @@ async function main() {
 }
 
 function compareData(original, collectionName) {
-  const originalIds = original.map(c => c.id);
+  const originalIds = original.map((c) => c.id);
   console.log(`[EN] Total ${collectionName}:`, original.length);
 
   return (loc = [], lang) => {
-    const locIds = loc.map(c => c.id);
-    const missings = originalIds.filter(c => !locIds.includes(c));
+    const locIds = loc.map((c) => c.id);
+    const missings = originalIds.filter((c) => !locIds.includes(c));
     console.log(
       `[${lang}] Missing ${collectionName}: ${missings.length}:`,
       missings

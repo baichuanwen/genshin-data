@@ -1,20 +1,24 @@
 {
+  "_id": 104151,
   "id": "vayuda_turquoise_sliver",
   "name": "Pedacito de turquesa vayuda",
-  "description": "Material de ascensión de personaje",
+  "description": "Material de ascensión de personaje.",
   "source": [
-    "Obtenido de Hipostasis Anemo",
+    "Obtenido de Hipóstasis Anemo",
+    "Obtenido de Gusano de Sutej",
     "Canjear en la tienda de recuerdos"
   ],
   "rarity": 2,
   "convert": [
     [
       {
+        "_id": 104111,
         "id": "agnidus_agate_sliver",
         "name": "Pedacito de ágata agnidus",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Polvo de azoth",
         "amount": 1
@@ -22,11 +26,13 @@
     ],
     [
       {
+        "_id": 104121,
         "id": "varunada_lazurite_sliver",
         "name": "Pedacito de lazurita varunada",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Polvo de azoth",
         "amount": 1
@@ -34,11 +40,27 @@
     ],
     [
       {
+        "_id": 104131,
+        "id": "nagadus_emerald_sliver",
+        "name": "Pedacito de esmeralda nagadus",
+        "amount": 1
+      },
+      {
+        "_id": 104201,
+        "id": "dust_of_azoth",
+        "name": "Polvo de azoth",
+        "amount": 1
+      }
+    ],
+    [
+      {
+        "_id": 104141,
         "id": "vajrada_amethyst_sliver",
         "name": "Pedacito de amatista vajrada",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Polvo de azoth",
         "amount": 1
@@ -46,11 +68,13 @@
     ],
     [
       {
+        "_id": 104161,
         "id": "shivada_jade_sliver",
         "name": "Pedacito de jade shivada",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Polvo de azoth",
         "amount": 1
@@ -58,11 +82,13 @@
     ],
     [
       {
+        "_id": 104171,
         "id": "prithiva_topaz_sliver",
         "name": "Pedacito de topacio prithiva",
         "amount": 1
       },
       {
+        "_id": 104201,
         "id": "dust_of_azoth",
         "name": "Polvo de azoth",
         "amount": 1

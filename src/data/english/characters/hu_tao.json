@@ -1,4 +1,5 @@
 {
+  "_id": 10000046,
   "id": "hu_tao",
   "name": "Hu Tao",
   "title": "Fragrance in Thaw",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10461,
       "id": "normal_attack_secret_spear_of_wangsheng",
       "name": "Normal Attack: Secret Spear of Wangsheng",
-      "description": "<span>Normal Attack</span><br/>Performs up to six consecutive spear strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "<span>Normal Attack</span><br/>Performs up to 6 consecutive spear strikes.<br/><br/><span>Charged Attack</span><br/>Consumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "info": "",
       "attributes": [
         {
@@ -229,6 +231,7 @@
       ]
     },
     {
+      "_id": 10462,
       "id": "guide_to_afterlife",
       "name": "Guide to Afterlife",
       "description": "Only an unwavering flame can cleanse the impurities of this world.<br/>Hu Tao consumes a set portion of her HP to knock the surrounding enemies back and enter the Paramita Papilio state.<br/><br/><span>Paramita Papilio</span><br/>·Increases Hu Tao's ATK based on her Max HP at the time of entering this state. ATK Bonus gained this way cannot exceed 400% of Hu Tao's Base ATK.<br/>·Converts attack DMG to <span>Pyro DMG</span>, which cannot be overridden by any other elemental infusion.<br/>·Charged Attacks apply the Blood Blossom effect to the enemies hit.<br/>·Increases Hu Tao's resistance to interruption.<br/><br/><span>Blood Blossom</span><br/>Enemies affected by Blood Blossom will take <span>Pyro DMG</span> every 4s. This DMG is considered Elemental Skill DMG.<br/>Each enemy can be affected by only one Blood Blossom effect at a time, and its duration may only be refreshed by Hu Tao herself.<br/><br/><span>Paramita Papilio</span> ends when its duration is over, or Hu Tao has left the battlefield or fallen.",
@@ -357,6 +360,7 @@
       ]
     },
     {
+      "_id": 10463,
       "id": "spirit_soother",
       "name": "Spirit Soother",
       "description": "Commands a blazing spirit to attack, dealing <span>Pyro DMG</span> in a large AoE.<br/>Upon striking the enemy, regenerates a percentage of Hu Tao's Max HP. This effect can be triggered up to 5 times, based on the number of enemies hit.<br/>If Hu Tao's HP is below or equal to 50% when the enemy is hit, both the DMG and HP Regeneration are increased.",
@@ -507,60 +511,115 @@
   ],
   "constellations": [
     {
+      "_id": 461,
       "id": "crimson_bouquet",
       "name": "Crimson Bouquet",
-      "description": "While in a <span>Paramita Papilio</span> state activated by <span>Guide to Afterlife</span>, Hu Tao's Charge Attacks do not consume Stamina.",
+      "description": "While in a <span>Paramita Papilio</span> state activated by <span>Guide to Afterlife</span>, Hu Tao's Charged Attacks do not consume Stamina.",
       "level": 1
     },
     {
+      "_id": 462,
       "id": "ominous_rainfall",
       "name": "Ominous Rainfall",
       "description": "Increases the <span>Blood Blossom</span> DMG by an amount equal to 10% of Hu Tao's Max HP at the time the effect is applied.<br/>Additionally, <span>Spirit Soother</span> will also apply the <span>Blood Blossom</span> effect.",
       "level": 2
     },
     {
+      "_id": 463,
       "id": "lingering_carmine",
       "name": "Lingering Carmine",
       "description": "Increases the Level of <span>Guide to Afterlife</span> by 3.<br/>Maximum upgrade level is 15.",
       "level": 3
     },
     {
+      "_id": 464,
       "id": "garden_of_eternal_rest",
       "name": "Garden of Eternal Rest",
       "description": "Upon defeating an enemy affected by a <span>Blood Blossom</span> that Hu Tao applied herself, all nearby allies in the party (excluding Hu Tao herself) will have their CRIT Rate increased by 12% for 15s.",
       "level": 4
     },
     {
+      "_id": 465,
       "id": "floral_incense",
       "name": "Floral Incense",
       "description": "Increases the Level of <span>Spirit Soother</span> by 3.<br/>Maximum upgrade level is 15.",
       "level": 5
     },
     {
+      "_id": 466,
       "id": "butterflys_embrace",
       "name": "Butterfly's Embrace",
-      "description": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:<br/>Hu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, all of her Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.<br/>This effect triggers automatically when Hu Tao has 1 HP left.<br/>Can only occur once every 60s.",
+      "description": "Triggers when Hu Tao's HP drops below 25%, or when she suffers a lethal strike:<br/>Hu Tao will not fall as a result of the DMG sustained. Additionally, for the next 10s, her All Elemental and Physical RES is increased by 200%, her CRIT Rate is increased by 100%, and her resistance to interruption is greatly increased.<br/>This effect triggers automatically when Hu Tao has 1 HP left.<br/>Can only occur once every 60s.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [0, 1]
+        },
+        {
+          "label": "Base HP",
+          "values": ["-", "1211"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["-", "8"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["-", "68"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [1, 2]
+        },
+        {
+          "label": "Base HP",
+          "values": ["3141", "4179"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["21", "29"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["177", "235"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104111,
         "id": "agnidus_agate_sliver",
         "name": "Agnidus Agate Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112038,
         "id": "whopperflower_nectar",
         "name": "Whopperflower Nectar",
         "amount": 3,
@@ -568,28 +627,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [2, 3]
+        },
+        {
+          "label": "Base HP",
+          "values": ["6253", "6990"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["43", "48"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["352", "394"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["0.0%", "9.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113016,
         "id": "juvenile_jade",
         "name": "Juvenile Jade",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112038,
         "id": "whopperflower_nectar",
         "name": "Whopperflower Nectar",
         "amount": 15,
@@ -597,28 +681,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [3, 4]
+        },
+        {
+          "label": "Base HP",
+          "values": ["8042", "9026"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["55", "62"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["453", "508"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["9.6%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113016,
         "id": "juvenile_jade",
         "name": "Juvenile Jade",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112039,
         "id": "shimmering_nectar",
         "name": "Shimmering Nectar",
         "amount": 12,
@@ -626,28 +735,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [4, 5]
+        },
+        {
+          "label": "Base HP",
+          "values": ["10089", "10826"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["69", "74"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["568", "610"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["19.2%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Agnidus Agate Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113016,
         "id": "juvenile_jade",
         "name": "Juvenile Jade",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112039,
         "id": "shimmering_nectar",
         "name": "Shimmering Nectar",
         "amount": 18,
@@ -655,28 +789,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [5, 6]
+        },
+        {
+          "label": "Base HP",
+          "values": ["11899", "12637"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["81", "86"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["670", "712"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["19.2%", "28.8%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Agnidus Agate Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113016,
         "id": "juvenile_jade",
         "name": "Juvenile Jade",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112040,
         "id": "energy_nectar",
         "name": "Energy Nectar",
         "amount": 12,
@@ -684,28 +843,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [6, 7]
+        },
+        {
+          "label": "Base HP",
+          "values": ["13721", "14459"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["94", "99"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["773", "815"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["28.8%", "38.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104114,
         "id": "agnidus_agate_gemstone",
         "name": "Agnidus Agate Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113016,
         "id": "juvenile_jade",
         "name": "Juvenile Jade",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112040,
         "id": "energy_nectar",
         "name": "Energy Nectar",
         "amount": 24,
@@ -719,12 +903,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104313,
           "id": "teachings_of_diligence",
           "name": "Teachings of Diligence",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112038,
           "id": "whopperflower_nectar",
           "name": "Whopperflower Nectar",
           "amount": 6,
@@ -737,12 +923,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guide to Diligence",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112039,
           "id": "shimmering_nectar",
           "name": "Shimmering Nectar",
           "amount": 3,
@@ -755,12 +943,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guide to Diligence",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112039,
           "id": "shimmering_nectar",
           "name": "Shimmering Nectar",
           "amount": 4,
@@ -773,12 +963,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guide to Diligence",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112039,
           "id": "shimmering_nectar",
           "name": "Shimmering Nectar",
           "amount": 6,
@@ -791,12 +983,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guide to Diligence",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112039,
           "id": "shimmering_nectar",
           "name": "Shimmering Nectar",
           "amount": 9,
@@ -809,18 +1003,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Philosophies of Diligence",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112040,
           "id": "energy_nectar",
           "name": "Energy Nectar",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113014,
           "id": "shard_of_a_foul_legacy",
           "name": "Shard of a Foul Legacy",
           "amount": 1,
@@ -833,18 +1030,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Philosophies of Diligence",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112040,
           "id": "energy_nectar",
           "name": "Energy Nectar",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113014,
           "id": "shard_of_a_foul_legacy",
           "name": "Shard of a Foul Legacy",
           "amount": 1,
@@ -857,18 +1057,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Philosophies of Diligence",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112040,
           "id": "energy_nectar",
           "name": "Energy Nectar",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113014,
           "id": "shard_of_a_foul_legacy",
           "name": "Shard of a Foul Legacy",
           "amount": 2,
@@ -881,24 +1084,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Philosophies of Diligence",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112040,
           "id": "energy_nectar",
           "name": "Energy Nectar",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113014,
           "id": "shard_of_a_foul_legacy",
           "name": "Shard of a Foul Legacy",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

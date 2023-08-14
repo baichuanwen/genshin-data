@@ -1,8 +1,8 @@
 {
+  "_id": 29,
   "id": "challenger_series_v",
-  "originalId": 29,
   "name": "Penantang: Seri V",
-  "order": 15,
+  "order": 18,
   "achievements": [
     {
       "id": 82115,
@@ -63,7 +63,7 @@
     {
       "id": 82128,
       "name": "Ouroboros",
-      "desc": "Hancurkan Oozing Concretion dan lumpuhkan Ruin Serpent yang sedang mengumpulkan energi.",
+      "desc": "Hancurkan \"Oozing Gulch\" dan lumpuhkan Ruin Serpent yang sedang mengumpulkan energi.",
       "reward": 5,
       "hidden": false,
       "order": 2128

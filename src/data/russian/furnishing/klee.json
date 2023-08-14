@@ -1,9 +1,9 @@
 {
+  "_id": 368117,
   "id": "klee",
-  "originalId": 368117,
   "rarity": 1,
   "name": "Кли",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

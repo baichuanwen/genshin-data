@@ -1,4 +1,5 @@
 {
+  "_id": 10000066,
   "id": "kamisato_ayato",
   "name": "Kamisato Ayato",
   "title": "Pilier de vaillance",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10661,
       "id": "normal_attack_kamisato_art_marobashi",
       "name": "Attaque normale : École Kamisato - Transition",
       "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 5 coups d'épée.<br/><br/><span>Attaque chargée</span><br/>Consomme de l'endurance pour se propulser en avant et déclencher un iai.<br/><br/><span>Attaque plongeante</span><br/>Plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
@@ -209,9 +211,10 @@
       ]
     },
     {
+      "_id": 10662,
       "id": "kamisato_art_kyouka",
       "name": "École Kamisato : Beauté réfléchie",
-      "description": "Kamisato Ayato change d'emplacement et entre dans un état de Réflexion torrentielle.<br/>Après ce déplacement, il laisse une illusion aqueuse à son emplacement d'origine, qui, une fois complètement formée, explose après un certain temps ou si des ennemis sont à proximité, infligeant des <span>DGT Hydro de zone</span>.<br/><br/><span>Réflexion torrentielle</span><br/>Dans cet état, Ayato utilise son Shunsuiken pour attaquer avec une rapidité aveuglante, convertissant les DGT infligés par ses attaques normales en <span>DGT Hydro de zone</span> ne pouvant pas être enchantés.<br/>Les propriétés suivantes sont également appliquées :<br/>· Après avoir touché un ennemi avec une attaque de Shunsuiken, Ayato obtient un effet de flash onduleux, augmentant les DGT infligés par son Shunsuiken en fonction de ses PV max actuels. Le flash onduleux peut être initialement cumulé 4 fois maximum, et 1 cumul peut être obtenu une fois toutes les 0,1 s grâce à une attaque de Shunsuiken. Cet effet prend fin quand l'état de Réflexion torrentielle se termine.<br/>· La RÉS à l'interruption d'Ayato augmente.<br/>· Il est impossible d'utiliser des attaques chargées ou plongeantes.<br/><br/>L'état de Réflexion torrentielle cesse lorsqu'Ayato quitte le champ de bataille. Utiliser à nouveau École Kamisato : Beauté réfléchie en état de Réflexion torrentielle y mettra fin.",
+      "description": "Kamisato Ayato change d'emplacement et entre dans l'état Réflexion torrentielle.<br/>Après ce déplacement, il laisse une illusion aqueuse à son emplacement d'origine, qui, une fois complètement formée, explose après un certain temps ou si des ennemis sont à proximité, infligeant des <span>DGT Hydro de zone</span>.<br/><br/><span>Réflexion torrentielle</span><br/>Dans cet état, Ayato utilise son Shunsuiken pour attaquer avec une rapidité aveuglante, convertissant les DGT infligés par ses attaques normales en <span>DGT Hydro de zone</span> ne pouvant pas être enchantés.<br/>Les propriétés suivantes sont également appliquées :<br/>· Après avoir touché un ennemi avec une attaque de Shunsuiken, Ayato obtient l'effet Flash onduleux, augmentant les DGT infligés par son Shunsuiken en fonction de ses PV max actuels. Le flash onduleux peut être initialement cumulé 4 fois maximum, et 1 cumul peut être obtenu une fois toutes les 0,1 s grâce à une attaque de Shunsuiken. Cet effet prend fin quand l'état Réflexion torrentielle se termine.<br/>· La RÉS à l'interruption d'Ayato augmente.<br/>· Il est impossible d'utiliser des attaques chargées ou plongeantes.<br/><br/>L'état Réflexion torrentielle cesse lorsqu'Ayato quitte le champ de bataille. Utiliser à nouveau École Kamisato : Beauté réfléchie dans l'état Réflexion torrentielle y mettra fin.",
       "info": "« Quand, je me demande, en êtes-vous arrivé à penser que vous aviez le dessus ? »<br/><i>Ayato est ainsi qu'il s'agisse de prouesses martiales ou d'intrigues politiques... Cependant, afin de préserver la dignité des autres Commissaires, il ne leur dit pas de telles choses en face. Ainsi, seuls Thomas, Itto et Ayaka ont déjà entendu ces mots.</i>",
       "attributes": [
         {
@@ -295,7 +298,7 @@
           ]
         },
         {
-          "label": "Bonus de DGT de flash onduleux",
+          "label": "Bonus de DGT flash onduleux",
           "values": [
             "0.56% PV max / cumul",
             "0.61% PV max / cumul",
@@ -377,6 +380,7 @@
       ]
     },
     {
+      "_id": 10665,
       "id": "kamisato_art_suiyuu",
       "name": "École Kamisato : Jardin d'eau",
       "description": "Dévoile un jardin de pureté qui étouffe toute cacophonie en son sein.<br/>Tant que cet espace existe, des lames de rosée pleuvent de façon continue pour attaquer les adversaires dans la zone, leur infligeant des <span>DGT Hydro</span> et augmentant les DGT des attaques normales des personnages à l'intérieur.",
@@ -489,7 +493,7 @@
     {
       "id": "kamisato_art_mine_wo_matoishi_kiyotaki",
       "name": "École Kamisato : Clarté de bruine",
-      "description": "<span>École Kamisato : Beauté réfléchie</span> obtient les propriétés suivantes :<br/>· 2 cumuls de flash onduleux sont accordés lors de l'utilisation.<br/>· Quand une illusion aqueuse explose, Ayato obtient un effet de flash onduleux équivalant au nombre maximum de cumuls possibles.",
+      "description": "<span>École Kamisato : Beauté réfléchie</span> obtient les propriétés suivantes :<br/>· 2 cumuls de flash onduleux sont accordés lors de l'utilisation.<br/>· Quand une illusion aqueuse explose, Ayato obtient un effet de flash onduleux équivalant au nombre maximum de cumuls possible.",
       "level": 1
     },
     {
@@ -507,60 +511,115 @@
   ],
   "constellations": [
     {
+      "_id": 661,
       "id": "kyouka_fuushi",
       "name": "Reflet gracieux",
       "description": "Les DGT infligés par une attaque de <span>Shunsuiken</span> augmentent de 40 % contre les ennemis dont les PV sont inférieurs ou égaux à 50 %.",
       "level": 1
     },
     {
+      "_id": 662,
       "id": "world_source",
       "name": "Source du monde",
       "description": "Le <span>flash onduleux</span> peut maintenant être cumulé 5 fois maximum. Lorsqu'Ayato possède au moins 3 cumuls de flash onduleux, ses PV max augmentent de 50 %.",
       "level": 2
     },
     {
+      "_id": 663,
       "id": "to_admire_the_flowers",
       "name": "Contemplation des fleurs",
       "description": "Niveau de compétence <span>École Kamisato : Beauté réfléchie</span> +3.<br/>Niveau max : 15",
       "level": 3
     },
     {
+      "_id": 664,
       "id": "endless_flow",
       "name": "Flux ininterrompu",
       "description": "Après avoir utilisé <span>École Kamisato : Jardin d'eau</span>, la VIT d'attaque des attaques normales des personnages de l'équipe à proximité augmente de 15 % pendant 15 s.",
       "level": 4
     },
     {
+      "_id": 665,
       "id": "bansui_ichiro",
       "name": "Rosée de mille gouttes",
       "description": "Niveau de compétence <span>École Kamisato : Jardin d'eau</span> +3.<br/>Niveau max : 15",
       "level": 5
     },
     {
+      "_id": 666,
       "id": "boundless_origin",
       "name": "Origine illimitée",
-      "description": "Après avoir utilisé <span>École Kamisato : Beauté réfléchie</span>, la prochaine attaque de Shunsuiken d'Ayato déclenche 2 attaques supplémentaires de Shunsuiken en touchant un ennemi, chaque attaque supplémentaire infligeant des DGT d'une valeur équivalant à 450 % de l'ATQ d'Ayato.<br/>Ces deux attaques supplémentaires ne seront pas affectées par l'effet de flash onduleux.",
+      "description": "Après avoir utilisé <span>École Kamisato : Beauté réfléchie</span>, la prochaine attaque de Shunsuiken d'Ayato déclenche 2 attaques supplémentaires de Shunsuiken en touchant un ennemi, chaque attaque supplémentaire infligeant des DGT d'une valeur équivalant à 450 % de l'ATQ d'Ayato.<br/>Ces deux attaques supplémentaires ne seront pas affectées par l'effet Flash onduleux.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [0, 1]
+        },
+        {
+          "label": "PV de base",
+          "values": ["-", "1068"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["-", "23"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["-", "60"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["-", "0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [1, 2]
+        },
+        {
+          "label": "PV de base",
+          "values": ["2770", "3685"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["60", "80"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["155", "206"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["0%", "0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104121,
         "id": "varunada_lazurite_sliver",
         "name": "Éclat de lazurite varunada",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112044,
         "id": "old_handguard",
         "name": "Garde-main ancien",
         "amount": 3,
@@ -568,28 +627,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [2, 3]
+        },
+        {
+          "label": "PV de base",
+          "values": ["5514", "6165"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["120", "134"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["309", "345"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["0%", "9.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "Fragment de lazurite varunada",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113028,
         "id": "dew_of_repudiation",
         "name": "Rosée du rejet",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112044,
         "id": "old_handguard",
         "name": "Garde-main ancien",
         "amount": 15,
@@ -597,28 +681,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [3, 4]
+        },
+        {
+          "label": "PV de base",
+          "values": ["7092", "7960"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["155", "174"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["397", "446"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["9.6%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "Fragment de lazurite varunada",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113028,
         "id": "dew_of_repudiation",
         "name": "Rosée du rejet",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112045,
         "id": "kageuchi_handguard",
         "name": "Garde-main kageuchi",
         "amount": 12,
@@ -626,28 +735,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [4, 5]
+        },
+        {
+          "label": "PV de base",
+          "values": ["8897", "9548"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["194", "208"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["499", "535"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["19.2%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "Morceau de lazurite varunada",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113028,
         "id": "dew_of_repudiation",
         "name": "Rosée du rejet",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112045,
         "id": "kageuchi_handguard",
         "name": "Garde-main kageuchi",
         "amount": 18,
@@ -655,28 +789,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [5, 6]
+        },
+        {
+          "label": "PV de base",
+          "values": ["10494", "11144"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["229", "243"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["588", "624"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["19.2%", "28.8%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "Morceau de lazurite varunada",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113028,
         "id": "dew_of_repudiation",
         "name": "Rosée du rejet",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112046,
         "id": "famed_handguard",
         "name": "Garde-main célèbre",
         "amount": 12,
@@ -684,28 +843,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [6, 7]
+        },
+        {
+          "label": "PV de base",
+          "values": ["12101", "12751"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["264", "278"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["678", "715"]
+        },
+        {
+          "label": "DGT CRIT",
+          "values": ["28.8%", "38.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104124,
         "id": "varunada_lazurite_gemstone",
         "name": "Pierre de lazurite varunada",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113028,
         "id": "dew_of_repudiation",
         "name": "Rosée du rejet",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Fleur de cerisier",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112046,
         "id": "famed_handguard",
         "name": "Garde-main célèbre",
         "amount": 24,
@@ -719,12 +903,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104323,
           "id": "teachings_of_elegance",
-          "name": "Enseignement de l'élégance",
+          "name": "Enseignement de l'Élégance",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112044,
           "id": "old_handguard",
           "name": "Garde-main ancien",
           "amount": 6,
@@ -737,12 +923,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Guide de l'Élégance",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 3,
@@ -755,12 +943,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Guide de l'Élégance",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 4,
@@ -773,12 +963,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Guide de l'Élégance",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 6,
@@ -791,12 +983,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Guide de l'Élégance",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 9,
@@ -809,18 +1003,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
-          "name": "Philosophie de l'élégance",
+          "name": "Philosophie de l'Élégance",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113032,
           "id": "mudra_of_the_malefic_general",
           "name": "Mudra du général maléfique",
           "amount": 1,
@@ -833,18 +1030,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
-          "name": "Philosophie de l'élégance",
+          "name": "Philosophie de l'Élégance",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113032,
           "id": "mudra_of_the_malefic_general",
           "name": "Mudra du général maléfique",
           "amount": 1,
@@ -857,18 +1057,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
-          "name": "Philosophie de l'élégance",
+          "name": "Philosophie de l'Élégance",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113032,
           "id": "mudra_of_the_malefic_general",
           "name": "Mudra du général maléfique",
           "amount": 2,
@@ -881,24 +1084,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
-          "name": "Philosophie de l'élégance",
+          "name": "Philosophie de l'Élégance",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113032,
           "id": "mudra_of_the_malefic_general",
           "name": "Mudra du général maléfique",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Couronne de la sagesse",
           "amount": 1,

@@ -1,4 +1,5 @@
 {
+  "_id": 0,
   "id": "wonders_of_the_world",
   "name": "Merveilles du monde",
   "order": 1,
@@ -217,7 +218,7 @@
     },
     {
       "id": 80092,
-      "name": "L'idole d'Inazuma",
+      "name": "Idole à Inazuma",
       "desc": "Atteignez un Niv. de réputation 10 à Inazuma.",
       "reward": 20,
       "hidden": true,
@@ -557,7 +558,7 @@
     },
     {
       "id": 81114,
-      "name": "Guide de pélerinage en île déserte",
+      "name": "Guide de pèlerinage en île déserte",
       "desc": "Trouvez toutes les autels de l'Île de Yashiori.",
       "reward": 5,
       "hidden": true,
@@ -630,7 +631,7 @@
     {
       "id": 81123,
       "name": "Un vrai choc - littéralement",
-      "desc": "Vous avez succombé aux dégâts de la Calamité électrique...",
+      "desc": "Vous avez succombé aux dégâts de la Calamité Électrique...",
       "reward": 5,
       "hidden": true,
       "order": 1119
@@ -1220,6 +1221,1166 @@
       "order": 1208
     },
     {
+      "id": 81223,
+      "name": "Sage à Sumeru",
+      "desc": "Atteignez un Niv. de réputation 10 à Sumeru.",
+      "reward": 20,
+      "hidden": false,
+      "order": 1209
+    },
+    {
+      "id": 81224,
+      "name": "Pour un service tip top",
+      "desc": "Offrez votre aide à de nombreux aranaras dans la forêt.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1210
+    },
+    {
+      "id": 81225,
+      "name": "La porte des merveilles",
+      "desc": "Entrez réellement dans le monde des aranaras...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1211
+    },
+    {
+      "id": 81226,
+      "name": "Entre rêve et réalité",
+      "desc": "Entrez dans la Vanarana de la réalité.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1212
+    },
+    {
+      "id": 81227,
+      "name": "Ballade en forêt",
+      "desc": "Vous semblez avoir le potentiel pour devenir cueilleur de chant...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1213
+    },
+    {
+      "id": 81228,
+      "name": "Un voyage tranquille",
+      "desc": "Il ne faut pas manquer le paysage le long du chemin.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1214
+    },
+    {
+      "id": 81229,
+      "name": "Mélodie aux mille feux",
+      "desc": "... Ils transmettront cette mélodie de génération en génération.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1215
+    },
+    {
+      "id": 81230,
+      "name": "Une forêt pleine d'histoires",
+      "desc": "Écoutez 5 contes de la forêt auprès d'Aravinay.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1216
+    },
+    {
+      "id": 81231,
+      "name": "Une pépinière autrefois émeraude",
+      "desc": "Entrez dans la Vanarana d'antan.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1217
+    },
+    {
+      "id": 81232,
+      "name": "La fin de l'annihilation",
+      "desc": "Vous avez vaincu l'avatar de la Marana, puis...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1218
+    },
+    {
+      "id": 81233,
+      "name": "Bien que je puisse retourner à la terre...",
+      "desc": "... Mes rêves et mes désirs ne s'ajourneront pas.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1219
+    },
+    {
+      "id": 81234,
+      "name": "Éternellement d'au-delà de la forêt",
+      "desc": "Ainsi, tout est réglé !",
+      "reward": 5,
+      "hidden": true,
+      "order": 1220
+    },
+    {
+      "id": 81235,
+      "name": "Bon appétit bien sûr : Vanarana",
+      "desc": "Aidez les frères d'Arapacati avec leurs suprêmes délicatesses.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1221
+    },
+    {
+      "id": 81236,
+      "name": "Sésame, ouvre-toi",
+      "desc": "Utilisez le code secret pour entrer dans le camp caché des Fatui.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1222
+    },
+    {
+      "id": 81237,
+      "name": "Entretien avec un trésorier",
+      "desc": "Trouvez le trésor des aranaras.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1223
+    },
+    {
+      "id": 81238,
+      "name": "Qui murmurait à l'oreille des vamadhas",
+      "desc": "Tournez chaque vamadha qui renferme un trésor.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1224
+    },
+    {
+      "id": 81239,
+      "name": "Au nom d'Anfortas !",
+      "desc": "Visitez l'endroit où les héros ont rencontré leur fin.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1225
+    },
+    {
+      "id": 81240,
+      "name": "L'appel de la ville sans nom",
+      "desc": "Calmez le mystérieux vélin.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1226
+    },
+    {
+      "id": 81241,
+      "name": "Avec l'eau et le vent",
+      "desc": "Terminez « Jusqu'à la guérison de la vana ».",
+      "reward": 5,
+      "hidden": true,
+      "order": 1227
+    },
+    {
+      "id": 81242,
+      "name": "Que je dérive tranquillement dans l'oubli",
+      "desc": "Terminez « Vimana Agama ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 1228
+    },
+    {
+      "id": 81243,
+      "name": "Et les rouages du temps tournent à nouveau",
+      "desc": "Terminez l'affaire inachevée d'Aradasha.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1229
+    },
+    {
+      "id": 81244,
+      "name": "Attention en jouant",
+      "desc": "Jouez avec les aranaras dans la forêt.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1230
+    },
+    {
+      "id": 81245,
+      "name": "Subsistance éternelle",
+      "desc": "Partez avec Varsha pour visiter la pépinière d'aranaras dans la vraie vie.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1231
+    },
+    {
+      "id": 81246,
+      "name": "Quand les rêves fleurissent",
+      "desc": "Faites fleurir les viparyas dans toute la pépinière d'aranaras.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1232
+    },
+    {
+      "id": 81247,
+      "name": "Un noyer au milieu des jardins",
+      "desc": "Interrogez Khayyam à propos des souvenirs perdus.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1233
+    },
+    {
+      "id": 81248,
+      "name": "Enquête monstro-écologique à Sumeru",
+      "desc": "Accomplissez votre tâche en protégeant ceux qui habitent dans les forêts.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1234
+    },
+    {
+      "id": 81249,
+      "name": "Quand le lion retrouve sa hardiesse...",
+      "desc": "Retrouvez le courage perdu d'Arashakun.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1235
+    },
+    {
+      "id": 81250,
+      "name": "Au sommet de la sagesse",
+      "desc": "Atteignez le point culminant de la Ville de Sumeru.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1236
+    },
+    {
+      "id": 81251,
+      "name": "L'explorateur",
+      "desc": "Utilisez les réactions de Catalyse pour découvrir ce qui était caché.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1237
+    },
+    {
+      "id": 81252,
+      "name": "Les jasmins murmurent, les grenades se réjouissent",
+      "desc": "Terminez « Soutra d'Agnihotra ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 1238
+    },
+    {
+      "id": 81253,
+      "name": "Mistral gagnant",
+      "desc": "Activez trois champs de vent dans la Forêt de Mawtiyima.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1239
+    },
+    {
+      "id": 81254,
+      "name": "La règle de trois",
+      "desc": "Trouvez trois partitions musicales perdues et obtenez trois fruits vasomas.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1240
+    },
+    {
+      "id": 81255,
+      "name": "L'amer fruit des rêves",
+      "desc": "Utilisez le kusava pour la première fois.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1241
+    },
+    {
+      "id": 81256,
+      "name": "Dans la terre, la pluie s'infiltre",
+      "desc": "Terminez « Varuna Gatha ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 1242
+    },
+    {
+      "id": 81257,
+      "name": "Et que ça coule !",
+      "desc": "Utilisez votre Daguerréotype pour capturer le moment où le varunastra démarre.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1243
+    },
+    {
+      "id": 81258,
+      "name": "Monsieur météo",
+      "desc": "Contrôlez l'outil varuna pour changer le temps dans les Bois d'Apam.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1244
+    },
+    {
+      "id": 81259,
+      "name": "Quelle journée, quelle journée merveilleuse !",
+      "desc": "Trouvez le trésor en suivant les indices dans les coffres.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1245
+    },
+    {
+      "id": 81260,
+      "name": "Enfant de Kara",
+      "desc": "Flottez librement dans la forêt.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1246
+    },
+    {
+      "id": 81261,
+      "name": "Une réunion qui n'en finit plus",
+      "desc": "Suivez la bête de somme sans propriétaire jusqu'à ce qu'elle termine son voyage.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1247
+    },
+    {
+      "id": 81262,
+      "name": "Eurêka !",
+      "desc": "Trouvez et résolvez une série d'énigmes dans la Ville de Sumeru.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1248
+    },
+    {
+      "id": 81263,
+      "name": "Mélodie de la nuit et de l'aube",
+      "desc": "... Nous nous reverrons certainement ailleurs...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1249
+    },
+    {
+      "id": 81264,
+      "name": "Rencontres de quel type ?",
+      "desc": "Des « amis » insolites ont rejoint l'équipe d'archéologie...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1250
+    },
+    {
+      "id": 81265,
+      "name": "L'odyssée dans le désert",
+      "desc": "L'exploration du désert vient de commencer...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1251
+    },
+    {
+      "id": 81266,
+      "name": "Comme un chercheur du Vahumana",
+      "desc": "La bouteille d'encre a un pouvoir redoutable.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1252
+    },
+    {
+      "id": 81267,
+      "name": "Fata Morgana",
+      "desc": "Le chemin vers le trône a enfin été révélé.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1253
+    },
+    {
+      "id": 81268,
+      "name": "Créer, échanger, stocker et utiliser",
+      "desc": "Même les clés doivent être « approuvées ».",
+      "reward": 5,
+      "hidden": true,
+      "order": 1254
+    },
+    {
+      "id": 81269,
+      "name": "La lampe magique divine",
+      "desc": "Un petit pas vers la dissimulation de la vérité...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1255
+    },
+    {
+      "id": 81270,
+      "name": "La marche du peuple du roi Deshret",
+      "desc": "Obtenez la permission de franchir de nombreuses portes.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1256
+    },
+    {
+      "id": 81271,
+      "name": "Le chemin droit",
+      "desc": "Atteignez l'espace caché au sommet du Mausolée du roi Deshret.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1257
+    },
+    {
+      "id": 81272,
+      "name": "La voie de l'illumination",
+      "desc": "Personne ne sait comment ces grands monuments ont été construits ou pourquoi ils ont été perdus dans le temps...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1258
+    },
+    {
+      "id": 81273,
+      "name": "Bis repetita !",
+      "desc": "Tenez-vous à nouveau devant le roi Deshret dans Khaj-Nisut.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1259
+    },
+    {
+      "id": 81274,
+      "name": "Incliné au sommet du monde",
+      "desc": "Terminez « Le dilemme d'Afratu ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 1260
+    },
+    {
+      "id": 81275,
+      "name": "Et ce bouton, ça fait quoi ?",
+      "desc": "Tant que vous ratez, ce n'est pas grave...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1261
+    },
+    {
+      "id": 81276,
+      "name": "Le soulèvement des machines",
+      "desc": "Toutes les machines de Khaenri'ah sont-elles aussi étranges ?",
+      "reward": 5,
+      "hidden": true,
+      "order": 1262
+    },
+    {
+      "id": 81277,
+      "name": "Et le mot de passe alors ?",
+      "desc": "Ouvrez la porte mystérieuse du Rocher agneauvore.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1263
+    },
+    {
+      "id": 81278,
+      "name": "La fin du couloir",
+      "desc": "Entrez dans la chambre la plus secrète en bas du Mausolée du roi Deshret.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1264
+    },
+    {
+      "id": 81280,
+      "name": "Le roi des quatre terres",
+      "desc": "Trouvez et débloquez les secrets de toutes les ruines transparentes du désert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1266
+    },
+    {
+      "id": 81281,
+      "name": "La mer de sable du règne écarlate",
+      "desc": "Explorez les trois grands obélisques dans le désert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1267
+    },
+    {
+      "id": 81282,
+      "name": "Gravé",
+      "desc": "La beauté et l'espoir sont les plus tendres souvenirs des morts.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1268
+    },
+    {
+      "id": 81283,
+      "name": "Avant moi",
+      "desc": "Les gens ne veulent pas mentionner son nom, ni se souvenir de ses paroles ou de ses actes.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1269
+    },
+    {
+      "id": 81284,
+      "name": "La cité illusoire",
+      "desc": "Vivez votre premier mirage dans le désert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1270
+    },
+    {
+      "id": 81285,
+      "name": "Comment ça s'écrit, un rapport de fouille ?",
+      "desc": "Explorez les ruines sous le désert pour la première fois.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1271
+    },
+    {
+      "id": 81286,
+      "name": "Dérivant dans le vent",
+      "desc": "Brisez la boule d'herbes virevoltant dans le désert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1272
+    },
+    {
+      "id": 81288,
+      "name": "« Hôpital Break »",
+      "desc": "Il y a un survivant qui s'est enfui...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1274
+    },
+    {
+      "id": 81289,
+      "name": "Un archéologue bien formé",
+      "desc": "Ramenez tous les obélisques primaux du Désert hypostyle, du Haut-Setekh et du Bas-Setekh à la vie.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1275
+    },
+    {
+      "id": 81290,
+      "name": "Au-delà de l'ombre du temps",
+      "desc": "Touchez toutes les fresques mystérieuses du désert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1276
+    },
+    {
+      "id": 81291,
+      "name": "« Si elles avaient connu l'Inconnaissable... »",
+      "desc": "Liloupar se libère de son contrat avec vous, choisissant d'affronter son destin sombre et lointain...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1277
+    },
+    {
+      "id": 81292,
+      "name": "« Oh, qu'est-ce qu'une éternité de servitude... »",
+      "desc": "La djinn Liloupar, qui sommeille depuis des centaines et des milliers d'années, a conclu un pacte avec vous.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1278
+    },
+    {
+      "id": 81293,
+      "name": "Le passé de la ville sans nom",
+      "desc": "Les fresques du temple de Gurabad parlent d'une époque révolue glorieuse...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1279
+    },
+    {
+      "id": 81295,
+      "name": "Le silencieux paradis sans rêves",
+      "desc": "C'est le mausolée de la déesse des fleurs, c'est le long sommeil sans rêve d'une divinité...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1282
+    },
+    {
+      "id": 81296,
+      "name": "« ... Car elle rend à chacun selon ses œuvres... »",
+      "desc": "Les malfaiteurs et leurs oracles auront-ils connu ce jour où le vengeur déchaîne sa juste fureur ?",
+      "reward": 5,
+      "hidden": true,
+      "order": 1283
+    },
+    {
+      "id": 81297,
+      "name": "Au clair de la lune rouge sang",
+      "desc": "À travers ce vaste échiquier, quelles horreurs se sont jouées sous la lumière de la lune rouge sang ?",
+      "reward": 5,
+      "hidden": true,
+      "order": 1284
+    },
+    {
+      "id": 81298,
+      "name": "Géant ver, écrase tout !",
+      "desc": "Les vers des sables aveugles s'écrasent à travers le désert, et pourtant, même de telles charges imprudentes donnent parfois des résultats...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1285
+    },
+    {
+      "id": 81299,
+      "name": "« Moi aussi, je les déteste ! »",
+      "desc": "Faites-vous attaquer par un Wenut pour la première fois.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1286
+    },
+    {
+      "id": 81300,
+      "name": "Origine de la divergence",
+      "desc": "Découvrez la vérité derrière l'annihilation de l'équipe de recherche érémite à Gurabad.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1287
+    },
+    {
+      "id": 81301,
+      "name": "Même pas besoin de manuel...",
+      "desc": "Redonnez à Benben son état d'origine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1288
+    },
+    {
+      "id": 81302,
+      "name": "La bonté du chasseur",
+      "desc": "Laissez Tadhla le faucon choisir son propre destin...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1289
+    },
+    {
+      "id": 81303,
+      "name": "Merci d'avoir choisi la compagnie tapis volant",
+      "desc": "Ce rêve bleu. Je n'y crois pas, c'est merveilleux !",
+      "reward": 5,
+      "hidden": true,
+      "order": 1290
+    },
+    {
+      "id": 81304,
+      "name": "« Ô la belle vie »",
+      "desc": "Les palais des vers des sables ont beau être complexes, la vie trouve toujours un chemin inattendu...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1291
+    },
+    {
+      "id": 81306,
+      "name": "Jardins et fontaines d'antan",
+      "desc": "Les bassins en terrasses qui débordaient autrefois d'eau de source sont désormais remplis de sable jaune...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1293
+    },
+    {
+      "id": 81307,
+      "name": "« La gloire de ma mère »",
+      "desc": "Les padisachidées fuchsia s'épanouissent sur un trône vide, comme l'éternel sourire de leur maîtresse...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1294
+    },
+    {
+      "id": 81308,
+      "name": "« ... Montrerai aux royaumes ta honte. »",
+      "desc": "Faites réapparaître l'échiquier en ruine au milieu des sables.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1295
+    },
+    {
+      "id": 81309,
+      "name": "Car tu es sable, et tu retourneras dans le sable",
+      "desc": "Comme toute vie dans le désert...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1296
+    },
+    {
+      "id": 81310,
+      "name": "Qui sème le vent...",
+      "desc": "« On se dirige vers un enfer météorologique. »",
+      "reward": 5,
+      "hidden": true,
+      "order": 1297
+    },
+    {
+      "id": 81311,
+      "name": "La tarentule de Loveless",
+      "desc": "« Je te réduirai en cambouis ! »",
+      "reward": 5,
+      "hidden": true,
+      "order": 1298
+    },
+    {
+      "id": 81312,
+      "name": "Parvezravan Khwarrah",
+      "desc": "Ramenez tous les obélisques primaux du Désert de Hadramaveth à la vie.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1299
+    },
+    {
+      "id": 81313,
+      "name": "Un très long engagement",
+      "desc": "Même si les destins sont rompus, le pacte vit dans un sommeil...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1300
+    },
+    {
+      "id": 81314,
+      "name": "Terre de lumière",
+      "desc": "Atteignez l'Éden du vourukasha.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1301
+    },
+    {
+      "id": 81315,
+      "name": "S'élevant au-dessus des montagnes sombres",
+      "desc": "Accompagnez Mihir tout au long de son pèlerinage de purification.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1302
+    },
+    {
+      "id": 81316,
+      "name": "La colline a des arbres",
+      "desc": "Ramenez Rashnu à l'Éden du vourukasha.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1303
+    },
+    {
+      "id": 81317,
+      "name": "Dans la brume",
+      "desc": "Dissipez la brume violette imprégnant le Marais de l'asipattravana.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1304
+    },
+    {
+      "id": 81318,
+      "name": "Paimon Konga",
+      "desc": "Récupérez les cinq korybantes.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1305
+    },
+    {
+      "id": 81319,
+      "name": "Vyakarana des oiseaux",
+      "desc": "Sorush obtient le chapelet à deux cornes avec Zurvan comme témoin...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1306
+    },
+    {
+      "id": 81320,
+      "name": "Justiço-Fulguropoing !",
+      "desc": "Utilisez le canon des ruines pour détruire le noyau du Golem.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1307
+    },
+    {
+      "id": 81321,
+      "name": "« Vous qui entrez ici, abandonnez toute espérance. »",
+      "desc": "Atteignez la fin des royaumes de la surface.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1308
+    },
+    {
+      "id": 81322,
+      "name": "Fabricator Général",
+      "desc": "Activez le grand ascenseur dans l'atelier des ruines souterraines.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1309
+    },
+    {
+      "id": 81323,
+      "name": "L'épreuve des Haft-Vádí",
+      "desc": "Vous détenez désormais le pouvoir des hymnes finaux de la khvarena.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1310
+    },
+    {
+      "id": 81324,
+      "name": "Une corde à travers l'abîme",
+      "desc": "Terminez le rituel de la traversée et frayez-vous un chemin à travers l'obscurité.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1311
+    },
+    {
+      "id": 81325,
+      "name": "Chameau, lion, puis enfant",
+      "desc": "Obtenez tous les cœurs spentas dans les Chambres souillées.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1312
+    },
+    {
+      "id": 81326,
+      "name": "Le jour de Tirgan",
+      "desc": "En nettoyant l'abîme depuis le ciel, l'énergie de la khvarena et de l'amrita rayonne à travers les terres.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1313
+    },
+    {
+      "id": 81327,
+      "name": "Un voyage fantastique",
+      "desc": "Terminez « Un artiste à la dérive ».",
+      "reward": 5,
+      "hidden": true,
+      "order": 1314
+    },
+    {
+      "id": 81328,
+      "name": "« Mystère résolu ! »",
+      "desc": "Terminez « Analyse de monument ».",
+      "reward": 5,
+      "hidden": true,
+      "order": 1315
+    },
+    {
+      "id": 81329,
+      "name": "Ils sont de retour",
+      "desc": "Terminez « Flamme vacillante ».",
+      "reward": 5,
+      "hidden": true,
+      "order": 1316
+    },
+    {
+      "id": 81339,
+      "name": "Mers d'abondance",
+      "desc": "Tous les bassins de l'Éden sont désormais revitalisés.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1317
+    },
+    {
+      "id": 81331,
+      "name": "Même pas peur !",
+      "desc": "Réussissez toutes les épreuves de Jarjar.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1318
+    },
+    {
+      "id": 81332,
+      "name": "Deepavali",
+      "desc": "Terminez tous les défis de la cloche des âmes.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1319
+    },
+    {
+      "id": 81333,
+      "name": "Danse des sept plats",
+      "desc": "Terminez tous les défis de « Saute-champis percutant ».",
+      "reward": 5,
+      "hidden": true,
+      "order": 1320
+    },
+    {
+      "id": 81334,
+      "name": "Lumière dans la boue",
+      "desc": "Utilisez l'énergie de la khvarena pour détruire un cristal gris pour la première fois.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1321
+    },
+    {
+      "id": 81335,
+      "name": "« Est-ce un avion ? Est-ce un oiseau ? »",
+      "desc": "Non, c'est Sorush qui fait son premier vol !",
+      "reward": 5,
+      "hidden": true,
+      "order": 1322
+    },
+    {
+      "id": 81336,
+      "name": "Dans le ciel de Sary-Ozek",
+      "desc": "Sorush est restée en vol pendant un certain temps.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1323
+    },
+    {
+      "id": 81337,
+      "name": "De qui es-tu la descendante et quel est ton nom ?",
+      "desc": "Sorush a fait appel à l'énergie de la khvarena pour la première fois.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1324
+    },
+    {
+      "id": 81338,
+      "name": "Utilise la Force, Sorush",
+      "desc": "Sorush a lancé des fruits de nirodha pour dissoudre 15 cristaux condensés à partir d'amrita.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1325
+    },
+    {
+      "id": 81340,
+      "name": "Gommeur d'angle",
+      "desc": "Réprimez la faille bestiale en utilisant la puissance des cristaux.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1326
+    },
+    {
+      "id": 81341,
+      "name": "Refroidissement à eau",
+      "desc": "Faites en sorte que le lac agité redevienne calme.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1327
+    },
+    {
+      "id": 81342,
+      "name": "Le bateau blanc",
+      "desc": "« Il navigue sur la mer des rêves... »",
+      "reward": 5,
+      "hidden": true,
+      "order": 1328
+    },
+    {
+      "id": 81362,
+      "name": "L'eau vraiment à la bouche !",
+      "desc": "Aidez Henri à changer son destin.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1329
+    },
+    {
+      "id": 81344,
+      "name": "Encyclopédie de philosophie naturelle",
+      "desc": "Utilisez le mur de verre et un livre indéchiffrable pour découvrir le lieu de rassemblement d'un ancien ordre.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1330
+    },
+    {
+      "id": 81345,
+      "name": "Un message fontainois",
+      "desc": "Ayez une discussion amicale avec Virgil.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1331
+    },
+    {
+      "id": 81346,
+      "name": "Rien qu'un limier...",
+      "desc": "Aidez Mamère à réparer Seymour.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1332
+    },
+    {
+      "id": 81347,
+      "name": "C'est bon avec du poisson",
+      "desc": "Goûtez au merveilleux « gâteau d'anniversaire » avec les mélusines.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1333
+    },
+    {
+      "id": 81348,
+      "name": "Bienvenue à Fontaine",
+      "desc": "Terminez un voyage sur l'aquebus.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1334
+    },
+    {
+      "id": 81349,
+      "name": "Le rêve d'Icare",
+      "desc": "Terminez un vol avec l'aéroplane d'Antoine Roger.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1335
+    },
+    {
+      "id": 81350,
+      "name": "La naissance de l'horlogerie moderne",
+      "desc": "Aidez Puca à trouver une « utilité » au minerai.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1336
+    },
+    {
+      "id": 81351,
+      "name": "Futur du monde d'eau",
+      "desc": "Contemplez l'eau sous la surface...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1337
+    },
+    {
+      "id": 81352,
+      "name": "Esthétique de la laideur",
+      "desc": "Et Fontaine fait ainsi deux pas de plus vers la beauté...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1338
+    },
+    {
+      "id": 81353,
+      "name": "Une larme sous la pluie",
+      "desc": "Trouvez l'imposteur au milieu des Raies prédatrices.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1339
+    },
+    {
+      "id": 81368,
+      "name": "Théorie de l'évolution potelée",
+      "desc": "Accompagnez le petit boudiné à mesure qu'il grandit et devient fort.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1340
+    },
+    {
+      "id": 81355,
+      "name": "Quelques-unes de mes...",
+      "desc": "... Choses préférées.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1341
+    },
+    {
+      "id": 81356,
+      "name": "Rendre la monnaie des moras",
+      "desc": "Occupez-vous de ces ennuyeuses balles-balanes !",
+      "reward": 5,
+      "hidden": true,
+      "order": 1342
+    },
+    {
+      "id": 81357,
+      "name": "Foi en l'élysée ?",
+      "desc": "Aidez à construire un paradis pour les boudinés.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1343
+    },
+    {
+      "id": 81358,
+      "name": "Après les maux...",
+      "desc": "« Pour obtenir la sainte lame qui pourrait vaincre le roi démon, le chevalier a fait irruption dans l'ancienne ville scellée par la magie... »",
+      "reward": 5,
+      "hidden": true,
+      "order": 1344
+    },
+    {
+      "id": 81359,
+      "name": "Et après ça...",
+      "desc": "« Le chevalier a vaincu le roi démon, sauvant la princesse emprisonnée et illuminant à nouveau le royaume... »",
+      "reward": 5,
+      "hidden": true,
+      "order": 1345
+    },
+    {
+      "id": 81360,
+      "name": "Sémantique en noir",
+      "desc": "Trouvez un sujet... particulier des études de l'Institut de philosophie naturelle.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1346
+    },
+    {
+      "id": 81361,
+      "name": "Vingt mille lieues sous les mers",
+      "desc": "Suivez le courant...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1347
+    },
+    {
+      "id": 81363,
+      "name": "Chant des anciens",
+      "desc": "Écoutez la mélodie d'un passé lointain.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1348
+    },
+    {
+      "id": 81364,
+      "name": "Ninianne du lac",
+      "desc": "Vainquez la légende locale : Ninianne du lac.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1349
+    },
+    {
+      "id": 81365,
+      "name": "Vivianne du lac",
+      "desc": "Vainquez la légende locale : Vinianne du lac.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1350
+    },
+    {
+      "id": 81366,
+      "name": "Le credo de chacun",
+      "desc": "Chaque chose à sa place...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1351
+    },
+    {
+      "id": 81367,
+      "name": "À la recherche du temps perdu",
+      "desc": "Atteignez un Niv. de réputation 10 à Fontaine.",
+      "reward": 20,
+      "hidden": false,
+      "order": 1352
+    },
+    {
+      "id": 81369,
+      "name": "Juge du circuit océanique",
+      "desc": "Vainquez la légende locale : le Juge du circuit océanique.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1353
+    },
+    {
+      "id": 81370,
+      "name": "Vicomte de fer",
+      "desc": "Vainquez la légende locale : le Vicomte de fer.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1354
+    },
+    {
+      "id": 81371,
+      "name": "Dobharcu, le seigneur du dissimulé",
+      "desc": "Vainquez la légende locale : Dobharcu, le seigneur du dissimulé",
+      "reward": 5,
+      "hidden": true,
+      "order": 1355
+    },
+    {
+      "id": 81372,
+      "name": "Vétéran fané",
+      "desc": "Vainquez la légende locale : le Vétéran fané.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1356
+    },
+    {
+      "id": 81373,
+      "name": "Lames des gorges",
+      "desc": "Vainquez les légendes locales : les lames des gorges.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1357
+    },
+    {
+      "id": 81374,
+      "name": "Jumeaux fées chevaliers",
+      "desc": "Vainquez les légendes locales : les jumeaux fées chevaliers.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1358
+    },
+    {
       "id": 82008,
       "name": "Invincible",
       "desc": "Détruisez tous les piliers rocheux d'une Hypostase Géo avant qu'elle ne se régénère.",
@@ -1270,7 +2431,7 @@
     {
       "id": 82015,
       "name": "Rien qu'en une attaque",
-      "desc": "Éliminez un ennemi grâce aux DGT de l'effet Brise-glace (en brisant la glace dans laquelle il est piégé).",
+      "desc": "Éliminez un ennemi grâce aux DGT de l'effet Brise-glace.",
       "reward": 5,
       "hidden": true,
       "order": 2015
@@ -1472,7 +2633,7 @@
     {
       "id": 82089,
       "name": "« Il a suffi d'un coup de pelle »",
-      "desc": "Éliminez une Hypostase Cryo en état affaibli.",
+      "desc": "Éliminez une Hypostase Cryo dans l'état affaibli.",
       "reward": 5,
       "hidden": true,
       "order": 2089
@@ -1654,6 +2815,174 @@
       "order": 2127
     },
     {
+      "id": 82129,
+      "name": "« Han tire le premier... »",
+      "desc": "Donc... Pas de couteau dans une fusillade...",
+      "reward": 5,
+      "hidden": true,
+      "order": 2129
+    },
+    {
+      "id": 82130,
+      "name": "L'opportuniste",
+      "desc": "Soyez témoin des luttes intestines entre les Fongus.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2130
+    },
+    {
+      "id": 82131,
+      "name": "« Viens voir papa »",
+      "desc": "Abattez un Fongus en plein air.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2131
+    },
+    {
+      "id": 82132,
+      "name": "La rencontre du vent et de la rosée",
+      "desc": "Laissez l'Arbre foudroyé effectuer une explosion électrique de contact.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2132
+    },
+    {
+      "id": 82133,
+      "name": "Jamais deux sans trois ?",
+      "desc": "Soyez témoin des trois puissantes compétences du Champieffroi panaché activé.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2133
+    },
+    {
+      "id": 82142,
+      "name": "Coucouche panier !",
+      "desc": "Interrompez la charge d'un Dragon cataclysmique en attaquant le noyau sur sa tête.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2142
+    },
+    {
+      "id": 82143,
+      "name": "Nanomachines, fiston !",
+      "desc": "Vainquez un Champieffroi panaché activé pendant qu'il lance un sort puissant...",
+      "reward": 5,
+      "hidden": true,
+      "order": 2143
+    },
+    {
+      "id": 82144,
+      "name": "Brûle, mon cosmos !",
+      "desc": "Assistez à l'attaque overclockée d'un Algorithme de semi-intransition matriciaire d'observation en néo-réseau.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2144
+    },
+    {
+      "id": 82145,
+      "name": "Hop, sans les yeux !",
+      "desc": "Vainquez une Structure primale sans désactiver sa dissimulation.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2145
+    },
+    {
+      "id": 82155,
+      "name": "L'utilisation magique de l'azote",
+      "desc": "Pendant un défi d'Hypostase Dendro, faites en sorte que trois zistes réparateurs soient activés simultanément.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2155
+    },
+    {
+      "id": 82156,
+      "name": "Plus dure sera la chute",
+      "desc": "Brûlez la coque de liane d'une Hypostase Dendro pendant qu'elle effectue une attaque plongeante.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2156
+    },
+    {
+      "id": 82157,
+      "name": "Ça tombera pas plus bas...",
+      "desc": "Utilisez les matrices élémentaires pour surcadencer et immobiliser Shouki no Kami.",
+      "reward": 10,
+      "hidden": true,
+      "order": 2157
+    },
+    {
+      "id": 82158,
+      "name": "Entre vie et mort...",
+      "desc": "Même au bord de la destruction, un retour est toujours sur les cartes...",
+      "reward": 10,
+      "hidden": true,
+      "order": 2158
+    },
+    {
+      "id": 82160,
+      "name": "Celui qui contrôle l'épice...",
+      "desc": "Utilisez une balle de craquelure pour déclencher une Dispersion et annuler l'état flottant d'un Wenut de Setekh.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2160
+    },
+    {
+      "id": 82168,
+      "name": "Le silence est d'or",
+      "desc": "Détruisez tous les anneaux élémentaires pour paralyser un Lustrateur inique lorsqu'il commence à canaliser son attaque.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2168
+    },
+    {
+      "id": 82175,
+      "name": "Le chenal entre deux rivières",
+      "desc": "Perdez dans le duel contre la légendaire Raie prédatrice...",
+      "reward": 5,
+      "hidden": true,
+      "order": 2175
+    },
+    {
+      "id": 82176,
+      "name": "♪ Quand votre cœur fait boum ♪",
+      "desc": "Utilisez des attaques pneuma ou ousia pour interrompre l'état de stress d'un Primus briseur.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2176
+    },
+    {
+      "id": 82177,
+      "name": "L'eau, ça brûle ?",
+      "desc": "Essayer constamment de geler les Fantasmes Hydro croupis...",
+      "reward": 5,
+      "hidden": true,
+      "order": 2177
+    },
+    {
+      "id": 82178,
+      "name": "Tempête funéraire",
+      "desc": "Utilisez une attaque pneuma pour affaiblir le tourbillon de Coppelia lors de l'apogée de sa performance.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2178
+    },
+    {
+      "id": 82180,
+      "name": "Lié par la glace",
+      "desc": "Utilisez une attaque ousia pour annuler le bouclier de Coppelius lors de l'apogée de sa performance.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2179
+    },
+    {
+      "id": 82179,
+      "name": "Le roi est mort, vive le roi !",
+      "desc": "Interrompez le couronnement enflammé de l'Empereur du feu ferreux.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2180
+    },
+    {
       "id": 84000,
       "name": "Le début d'un long voyage",
       "desc": "Terminez les quêtes d'Archons de Mondstadt.",
@@ -1663,8 +2992,8 @@
     },
     {
       "id": 84001,
-      "name": "Le Voyageur qui attrapa le vent",
-      "desc": "Terminez « Le Voyageur qui attrapa le vent ».",
+      "name": "Le voyageur qui attrapa le vent",
+      "desc": "Terminez « Le voyageur qui attrapa le vent ».",
       "reward": 10,
       "hidden": true,
       "order": 4002
@@ -2118,6 +3447,230 @@
       "order": 4066
     },
     {
+      "id": 84543,
+      "name": "Hein, ça a mordu ?",
+      "desc": "Pêchez des choses étranges avec Kayvan...",
+      "reward": 5,
+      "hidden": true,
+      "order": 4067
+    },
+    {
+      "id": 84544,
+      "name": "Fongus de Kalimi",
+      "desc": "Regardez Hatim faire fortune lors d'une transaction !",
+      "reward": 5,
+      "hidden": true,
+      "order": 4068
+    },
+    {
+      "id": 84545,
+      "name": "Quand la fortune fait toc toc",
+      "desc": "Donnez du cidre de pomme à Hatim.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4069
+    },
+    {
+      "id": 84546,
+      "name": "Attrape-miaou si tu peux !",
+      "desc": "Aidez Sareh à retrouver tous les chats.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4070
+    },
+    {
+      "id": 84547,
+      "name": "Principes arithmétiques",
+      "desc": "Aidez Garcia à perfectionner sa machine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4071
+    },
+    {
+      "id": 84548,
+      "name": "Le travail, c'est la santé...",
+      "desc": "Aidez Hanbei à cueillir plus de champignons.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4072
+    },
+    {
+      "id": 84549,
+      "name": "C'est thérapeutique !",
+      "desc": "Réalisez les souhaits des 3 patients.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4073
+    },
+    {
+      "id": 84550,
+      "name": "Par les racines",
+      "desc": "Trouvez et vainquez la Fleur mensongère en fuite.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4074
+    },
+    {
+      "id": 84551,
+      "name": "Date du départ",
+      "desc": "Récupérez la lettre d'Alexandra...",
+      "reward": 5,
+      "hidden": true,
+      "order": 4075
+    },
+    {
+      "id": 84552,
+      "name": "Pas la faute des moras !",
+      "desc": "Assistez aux aventures des Gourmets suprêmes à Sumeru...",
+      "reward": 5,
+      "hidden": true,
+      "order": 4076
+    },
+    {
+      "id": 84553,
+      "name": "À la mesure du monde...",
+      "desc": "Aidez Farghani à effectuer des mesures.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4077
+    },
+    {
+      "id": 84554,
+      "name": "Le temps des réponses",
+      "desc": "Soyez témoin de l'histoire d'Alrani à Sumeru.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4078
+    },
+    {
+      "id": 84555,
+      "name": "Circonstance aléatoire de la floraison d'une rose",
+      "desc": "Aidez Collei à s'occuper de sa rose sumérienne.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4079
+    },
+    {
+      "id": 84556,
+      "name": "Rêve ô rêve, où es-tu ?",
+      "desc": "Soyez témoin de l'histoire de Javi et du rêve.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4080
+    },
+    {
+      "id": 84557,
+      "name": "Une demande optionnelle",
+      "desc": "Trouvez tous les objets que Gulabgir a fabriqués pour ses serpents.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4081
+    },
+    {
+      "id": 84558,
+      "name": "Le p'tit bateau qui va sur l'eau ♪",
+      "desc": "Aidez Rafiq à tester avec succès la résistance de la coque de son bateau.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4082
+    },
+    {
+      "id": 84559,
+      "name": "Un souci ? Quel souci ?",
+      "desc": "Dégustez trois plats de Jafar.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4083
+    },
+    {
+      "id": 84560,
+      "name": "La tête pensante de Sumeru",
+      "desc": "Répondez correctement à 6 questions différentes.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4084
+    },
+    {
+      "id": 84561,
+      "name": "Attention, ça glisse !",
+      "desc": "Glissez pendant une course contre Hilmi...",
+      "reward": 5,
+      "hidden": true,
+      "order": 4085
+    },
+    {
+      "id": 84562,
+      "name": "Une vraie écriture de médecin",
+      "desc": "Aidez Maruf à interpréter correctement l'ordonnance.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4086
+    },
+    {
+      "id": 84563,
+      "name": "Fragrance durable",
+      "desc": "Assistez à l'histoire de Nermin.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4087
+    },
+    {
+      "id": 84564,
+      "name": "À la recherche d'une « lame sœur »",
+      "desc": "Soyez témoin de l'histoire de Lan et du Glaive occulte.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4088
+    },
+    {
+      "id": 84565,
+      "name": "Marcher à l'horizon...?",
+      "desc": "Soyez témoin de l'histoire de Sun Yu.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4089
+    },
+    {
+      "id": 84566,
+      "name": "Bureau sur rue",
+      "desc": "Soyez témoin des diverses affaires de la Cour de Fontaine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4090
+    },
+    {
+      "id": 84567,
+      "name": "Moi, c'est le goût",
+      "desc": "Préparez un mélange spécial de café.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4091
+    },
+    {
+      "id": 84568,
+      "name": "Critique esthétique",
+      "desc": "Écoutez les théories de Depierris concernant l'esthétique.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4092
+    },
+    {
+      "id": 84569,
+      "name": "Jeux d'enfants",
+      "desc": "Jouez avec les enfants et assistez à leur histoire.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4093
+    },
+    {
+      "id": 84570,
+      "name": "Une bourrasque soudaine",
+      "desc": "Soyez témoin du travail laborieux d'Iaune.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4094
+    },
+    {
       "id": 85000,
       "name": "Vous ne perdez rien à part votre temps !",
       "desc": "Résolvez l'énigme des deux cadrans solaires.",
@@ -2484,6 +4037,302 @@
       "reward": 10,
       "hidden": true,
       "order": 5045
+    },
+    {
+      "id": 84067,
+      "name": "Le son de l'Akasha",
+      "desc": "Écoutez la voix de la sagesse divine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5046
+    },
+    {
+      "id": 84068,
+      "name": "La marchande et la porte de la connaissance",
+      "desc": "Rencontrez Dori et achetez des concentrés de connaissances.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5047
+    },
+    {
+      "id": 84069,
+      "name": "Tel Popeye",
+      "desc": "Utilisez le concentré de connaissances pour augmenter votre puissance de combat.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5048
+    },
+    {
+      "id": 84070,
+      "name": "À travers la brume et les forêts",
+      "desc": "Terminez « À travers la brume et les forêts ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 5049
+    },
+    {
+      "id": 84071,
+      "name": "Le goût du déjà-vu",
+      "desc": "Choisissez vous-même la boîte à bonbons saveur pomme crépusculaire.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5050
+    },
+    {
+      "id": 84072,
+      "name": "Même Paimon n'en veut pas !",
+      "desc": "Mangez un charbon d'ajilenakh visiblement mauvais.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5051
+    },
+    {
+      "id": 84073,
+      "name": "Tout rêve doit finir",
+      "desc": "Réveillez-vous du samsara du Festival Sabzeruz.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5052
+    },
+    {
+      "id": 84074,
+      "name": "L'aube accordant mille roses",
+      "desc": "Terminez « L'aube accordant mille roses ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 5053
+    },
+    {
+      "id": 84075,
+      "name": "L'âme transposée",
+      "desc": "Partagez vos sens avec Nahida grâce à la possession en utilisant l'Akasha.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5054
+    },
+    {
+      "id": 84076,
+      "name": "L'imaginarium du Dottore",
+      "desc": "Soyez considéré comme le sauveur du monde par les citoyens contrôlés par Dottore.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5055
+    },
+    {
+      "id": 84077,
+      "name": "Dieu aussi regarde...",
+      "desc": "Soyez témoin du passé de Scaramuccia en vous connectant à la conscience divine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5056
+    },
+    {
+      "id": 84078,
+      "name": "Rêves, futilité et tromperie",
+      "desc": "Terminez « Rêves, futilité et tromperie ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 5057
+    },
+    {
+      "id": 84079,
+      "name": "Nara Croft ?",
+      "desc": "Trouvez l'ancien temple sous les sables mouvants.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5058
+    },
+    {
+      "id": 84080,
+      "name": "Quand le soleil noir passe",
+      "desc": "Comprenez le passé au travers des derniers mots du prêtre du roi Deshret.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5059
+    },
+    {
+      "id": 84081,
+      "name": "Le roi Deshret et les trois mages",
+      "desc": "Terminez « Le roi Deshret et les trois mages ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 5060
+    },
+    {
+      "id": 84082,
+      "name": "Eremitis ne credite",
+      "desc": "Aidez Cyno à amener Rahman et son équipage à Sumeru.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5061
+    },
+    {
+      "id": 84083,
+      "name": "Vers la victoire et au-delà",
+      "desc": "Terminez les préparatifs nécessaires à la mise en œuvre de votre plan.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5062
+    },
+    {
+      "id": 84084,
+      "name": "Le jour le plus long",
+      "desc": "Sauvez une divinité lors du Jour de Jnagarbha.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5063
+    },
+    {
+      "id": 84085,
+      "name": "... Non éligible !",
+      "desc": "Empêchez la naissance d'une fausse divinité.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5064
+    },
+    {
+      "id": 84086,
+      "name": "Pulsation akashienne et montée de la flamme de kalpa",
+      "desc": "Terminez « Pulsation akashienne et montée de la flamme de kalpa ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 5065
+    },
+    {
+      "id": 84087,
+      "name": "Le mystère de Tatarasuna",
+      "desc": "Enquêtez sur les souvenirs du passé de Tatarasuna dans l'Irminsul.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5066
+    },
+    {
+      "id": 84088,
+      "name": "Échos du passé",
+      "desc": "Découvrez les conséquences de l'entrée de Scaramuccia dans l'Irminsul.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5067
+    },
+    {
+      "id": 84089,
+      "name": "Parinama : renard, chat, oiseau et monstre",
+      "desc": "Résolvez l'énigme cachée de Nahida et découvrez le passé de Scaramuccia.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5068
+    },
+    {
+      "id": 84090,
+      "name": "Moi, moi-même, mais pas moi",
+      "desc": "Vainquez le Seigneur éternel de la sagesse arcanique dans les souvenirs.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5069
+    },
+    {
+      "id": 84091,
+      "name": "Genèse inversée",
+      "desc": "Terminez « Genèse inversée ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 5070
+    },
+    {
+      "id": 84092,
+      "name": "Une nuit à travers les étoiles",
+      "desc": "Rappelez-vous des souvenirs de votre lignée.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5071
+    },
+    {
+      "id": 84093,
+      "name": "Expérience de mort imminente",
+      "desc": "Créez le médicament qui apportera de l'espoir.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5072
+    },
+    {
+      "id": 84094,
+      "name": "L'envers du destin",
+      "desc": "Soyez témoin du miracle accordé par le transgresseur.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5073
+    },
+    {
+      "id": 84095,
+      "name": "Caribert",
+      "desc": "Terminez « Caribert ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 5074
+    },
+    {
+      "id": 84096,
+      "name": "Comme l'eau retournant à la mer",
+      "desc": "Découvrez la prophétie qui circule à Fontaine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5075
+    },
+    {
+      "id": 84097,
+      "name": "Détective en action !",
+      "desc": "Enquêtez sur la vérité de l'incident en tant qu'avocat de Lyney.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5076
+    },
+    {
+      "id": 84098,
+      "name": "Un rebondissement presque magique...",
+      "desc": "L'Oratrice mécanique d'analyse cardinale a prononcé un verdict de non-culpabilité.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5077
+    },
+    {
+      "id": 84099,
+      "name": "Prélude de blancheur et de noirceur",
+      "desc": "Terminez « Prélude de blancheur et de noirceur ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 5078
+    },
+    {
+      "id": 84300,
+      "name": "Lennék én folyóvíz",
+      "desc": "Entendez l'appel de l'océanide et connectez-vous avec sa conscience.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5079
+    },
+    {
+      "id": 84301,
+      "name": "Il était une fois au Fleuve cendré",
+      "desc": "Découvrez l'histoire du père de Navia au bastion de la Spina di Rosula.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5080
+    },
+    {
+      "id": 84302,
+      "name": "Quand la tragédie se répète",
+      "desc": "Révélez la vérité derrière l'affaire des disparitions en série.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5081
+    },
+    {
+      "id": 84303,
+      "name": "Alors que la bruine tombe sans raison",
+      "desc": "Terminez « Alors que la bruine tombe sans raison ».",
+      "reward": 10,
+      "hidden": true,
+      "order": 5082
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
+  "_id": 368111,
   "id": "venti",
-  "originalId": 368111,
   "rarity": 1,
   "name": "Венти",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

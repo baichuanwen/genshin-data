@@ -1,4 +1,5 @@
 {
+  "_id": 11304,
   "id": "dark_iron_sword",
   "name": "Espada de Hierro Oscuro",
   "description": "Esta espada... es simplemente una espada de hierro de un tono oscuro.",
@@ -6,7 +7,7 @@
   "type": "Espada ligera",
   "domain": "Palacio oculto de la fórmula Lianshan",
   "passive": "Sobrecarga",
-  "bonus": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado o Torbellino Electro, aumenta el ATQ en un <span>20%/25%/30%/35%/40%</span> durante 12 s.",
+  "bonus": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado, Aceleración, Intensificación, Sobreflorecimiento o Torbellino Electro, aumenta el ATQ en un <span>20%/25%/30%/35%/40%</span> durante 12 s.",
   "stats": {
     "primary": "ATQ Básico",
     "secondary": "Maestría Elemental",
@@ -109,18 +110,21 @@
       "cost": 5000,
       "materials": [
         {
+          "_id": 114013,
           "id": "luminous_sands_from_guyun",
           "name": "Arena brillante de Guyun",
           "amount": 2,
           "rarity": 2
         },
         {
+          "_id": 112029,
           "id": "hunters_sacrificial_knife",
           "name": "Daga de cacería",
           "amount": 2,
           "rarity": 2
         },
         {
+          "_id": 112005,
           "id": "damaged_mask",
           "name": "Máscara dañada",
           "amount": 1,
@@ -134,18 +138,21 @@
       "cost": 10000,
       "materials": [
         {
+          "_id": 114014,
           "id": "lustrous_stone_from_guyun",
           "name": "Piedra reluciente de Guyun",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112029,
           "id": "hunters_sacrificial_knife",
           "name": "Daga de cacería",
           "amount": 8,
           "rarity": 2
         },
         {
+          "_id": 112005,
           "id": "damaged_mask",
           "name": "Máscara dañada",
           "amount": 5,
@@ -159,18 +166,21 @@
       "cost": 15000,
       "materials": [
         {
+          "_id": 114014,
           "id": "lustrous_stone_from_guyun",
           "name": "Piedra reluciente de Guyun",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112030,
           "id": "agents_sacrificial_knife",
           "name": "Daga del agente",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Máscara sucia",
           "amount": 4,
@@ -184,18 +194,21 @@
       "cost": 20000,
       "materials": [
         {
+          "_id": 114015,
           "id": "relic_from_guyun",
           "name": "Reliquia de Guyun",
           "amount": 2,
           "rarity": 4
         },
         {
+          "_id": 112030,
           "id": "agents_sacrificial_knife",
           "name": "Daga del agente",
           "amount": 8,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Máscara sucia",
           "amount": 6,
@@ -209,18 +222,21 @@
       "cost": 25000,
       "materials": [
         {
+          "_id": 114015,
           "id": "relic_from_guyun",
           "name": "Reliquia de Guyun",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112031,
           "id": "inspectors_sacrificial_knife",
           "name": "Daga larga del inspector",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Máscara amenazante",
           "amount": 4,
@@ -234,18 +250,21 @@
       "cost": 30000,
       "materials": [
         {
+          "_id": 114016,
           "id": "divine_body_from_guyun",
           "name": "Cuerpo divino de Guyun",
           "amount": 3,
           "rarity": 5
         },
         {
+          "_id": 112031,
           "id": "inspectors_sacrificial_knife",
           "name": "Daga larga del inspector",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Máscara amenazante",
           "amount": 8,
@@ -254,26 +273,31 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "Sobrecarga",
+    "template": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado, Aceleración, Intensificación, Sobreflorecimiento o Torbellino Electro, aumenta el ATQ en un <span style=\"color:#99FFFFFF\">{0}</span> durante 12 s.",
+    "params": [["20%"], ["25%"], ["30%"], ["35%"], ["40%"]]
+  },
   "refinements": [
     {
       "refinement": 1,
-      "desc": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado o Torbellino Electro, aumenta el ATQ en un <span>20%</span> durante 12 s."
+      "desc": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado, Aceleración, Intensificación, Sobreflorecimiento o Torbellino Electro, aumenta el ATQ en un <span>20%</span> durante 12 s."
     },
     {
       "refinement": 2,
-      "desc": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado o Torbellino Electro, aumenta el ATQ en un <span>25%</span> durante 12 s."
+      "desc": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado, Aceleración, Intensificación, Sobreflorecimiento o Torbellino Electro, aumenta el ATQ en un <span>25%</span> durante 12 s."
     },
     {
       "refinement": 3,
-      "desc": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado o Torbellino Electro, aumenta el ATQ en un <span>30%</span> durante 12 s."
+      "desc": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado, Aceleración, Intensificación, Sobreflorecimiento o Torbellino Electro, aumenta el ATQ en un <span>30%</span> durante 12 s."
     },
     {
       "refinement": 4,
-      "desc": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado o Torbellino Electro, aumenta el ATQ en un <span>35%</span> durante 12 s."
+      "desc": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado, Aceleración, Intensificación, Sobreflorecimiento o Torbellino Electro, aumenta el ATQ en un <span>35%</span> durante 12 s."
     },
     {
       "refinement": 5,
-      "desc": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado o Torbellino Electro, aumenta el ATQ en un <span>40%</span> durante 12 s."
+      "desc": "Tras causar una reacción de Sobrecarga, Superconductor, Electrocargado, Aceleración, Intensificación, Sobreflorecimiento o Torbellino Electro, aumenta el ATQ en un <span>40%</span> durante 12 s."
     }
   ]
 }

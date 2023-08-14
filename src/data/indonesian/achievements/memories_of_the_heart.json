@@ -1,6 +1,6 @@
 {
+  "_id": 17,
   "id": "memories_of_the_heart",
-  "originalId": 17,
   "name": "Ingatan Hati",
   "order": 2,
   "achievements": [
@@ -315,6 +315,126 @@
       "reward": 5,
       "hidden": true,
       "order": 7211
+    },
+    {
+      "id": 84137,
+      "name": "Kamu Pikir Kami Ini Nyata Ya?",
+      "desc": "Selesaikan quest \"Jebakan Badai\" dan buka semua akhir cerita.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7300
+    },
+    {
+      "id": 84138,
+      "name": "Aku, Detektif Jagoan!",
+      "desc": "Berhasil menganalisis motif dan kebenaran di balik tindak kriminal untuk pertama kalinya.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7310
+    },
+    {
+      "id": 84139,
+      "name": "Permohonan Sangonomiya",
+      "desc": "Tanyakan pada Gorou apakah Kokomi tahu soal kejadian di Pulau Watatsumi.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7311
+    },
+    {
+      "id": 84140,
+      "name": "Solusi Terbaix",
+      "desc": "Selesaikan \"Keruwetan Maksimal\" dan buka semua akhir cerita.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7400
+    },
+    {
+      "id": 84141,
+      "name": "Kepada: Kamu di Seratus Tahun Mendatang",
+      "desc": "Baca semua surat yang dikirim ke Faruzan.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7410
+    },
+    {
+      "id": 84142,
+      "name": "Mekanika: Dari Pemula Sampai ...?",
+      "desc": "Tebak jumlah langkah paling sedikit yang diperlukan untuk menyelesaikan Pagoda Bertumpuk tujuh tingkat.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7411
+    },
+    {
+      "id": 84143,
+      "name": "Namanya Adalah \"Layla\"",
+      "desc": "Selesaikan \"Bintang Tanpa Kata-Kata\" dan buka semua akhir cerita.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7500
+    },
+    {
+      "id": 84144,
+      "name": "Dia Sudah Sangat Cemas",
+      "desc": "Bantu Layla menyelesaikan tesisnya tanpa membuatnya semakin gugup.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7510
+    },
+    {
+      "id": 84145,
+      "name": "Rahasia Bintang dan Seelie",
+      "desc": "Mendapatkan surat balasan sesungguhnya dari Wisdom Seelie.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7511
+    },
+    {
+      "id": 84146,
+      "name": "Seni dan Kehidupan",
+      "desc": "Selesaikan quest \"Bandul Kesengsaraan dan Keberuntungan\" dan buka semua akhir cerita.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7600
+    },
+    {
+      "id": 84147,
+      "name": "Masa-Masa Sekolah",
+      "desc": "Temukan buku yang ditandai di House of Daena.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7610
+    },
+    {
+      "id": 84148,
+      "name": "Romantisme Seorang Arsitek",
+      "desc": "Bicarakan tentang masa depan dengan Kaveh di padang pasir.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7611
+    },
+    {
+      "id": 84149,
+      "name": "Pencarian Kebahagiaan Hakiki",
+      "desc": "Selesaikan Kebohongan dan Arak Manis dan buka semua akhir cerita.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7700
+    },
+    {
+      "id": 84150,
+      "name": "Koin Keberuntungan",
+      "desc": "Ikuti taruhan yang direncanakan oleh Kaeya.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7710
+    },
+    {
+      "id": 84151,
+      "name": "Ssst ... Dengar!",
+      "desc": "Dengarkan suara yang berasal dari ruang tahanan.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7711
     }
   ]
 }

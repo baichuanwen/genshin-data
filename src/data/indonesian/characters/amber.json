@@ -1,8 +1,9 @@
 {
+  "_id": 10000021,
   "id": "amber",
   "name": "Amber",
   "title": "Gliding Champion",
-  "description": "Gadis periang yang selalu energik dan penuh semangat. Amber adalah Outrider terbaik (dan juga satu-satunya) di Knights of Favonius.",
+  "description": "Gadis periang yang selalu penuh semangat. Amber adalah Outrider terbaik (dan juga satu-satunya) di Knights of Favonius.",
   "weapon_type": "Bow",
   "element": "Pyro",
   "gender": "Perempuan",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10041,
       "id": "normal_attack_sharpshooter",
       "name": "Normal Attack: Sharpshooter",
-      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 5 serangan berturut-turut menggunakan busur.<br/><br/><span>Charged Attack</span><br/>Melancarkan sebuah <span>Serangan Membidik</span> yang lebih akurat untuk mengakibatkan DMG lebih besar.<br/>Saat membidik, api akan berkumpul di ujung anak panah. Panah dengan api yang terkumpul penuh akan mengakibatkan <span>Pyro DMG</span>.<br/><br/><span>Plunging Attack</span><br/>Melancarkan hujan panah dari udara dan menerjang tanah dengan kecepatan tinggi, mengakibatkan DMG area saat mendarat.",
+      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 5 serangan berturut-turut menggunakan busur.<br/><br/><span>Charged Attack</span><br/>Melancarkan sebuah <span>Serangan Membidik</span> yang lebih akurat dengan DMG lebih besar.<br/>Saat membidik, api akan berkumpul di ujung anak panah. Panah dengan api yang terkumpul penuh akan mengakibatkan <span>Pyro DMG</span>.<br/><br/><span>Plunging Attack</span><br/>Melancarkan hujan panah dari udara dan menerjang tanah dengan kecepatan tinggi, mengakibatkan DMG Area saat mendarat.",
       "info": "",
       "attributes": [
         {
@@ -209,9 +211,10 @@
       ]
     },
     {
+      "_id": 10032,
       "id": "explosive_puppet",
       "name": "Explosive Puppet",
-      "description": "Serahkan kepada Baron Bunny yang selalu dapat diandalkan.<br/><br/><span>Baron Bunny</span><br/>·Terus mengejek musuh untuk mengalihkan serangan mereka.<br/>·HP Baron Bunny mewarisi Max HP Amber berdasarkan persentase tertentu.<br/>·Saat meledak atau saat durasi skill habis, Baron Bunny meledak dan mengakibatkan <span>Pyro DMG area</span>.<br/><br/><span>Tahan</span><br/>Atur arah lemparan Baron Bunny.<br/>Semakin lama tombolnya ditahan, semakin jauh lemparannya.",
+      "description": "Memanggil si Baron Bunny yang selalu dapat diandalkan.<br/><br/><span>Baron Bunny</span><br/>·Terus menarik perhatian musuh dan mengalihkan serangan mereka.<br/>·HP Baron Bunny didasarkan pada persentase tertentu dari Max HP Amber.<br/>·Saat dihancurkan atau durasi skill habis, Baron Bunny akan meledak dan mengakibatkan <span>Pyro DMG Area</span>.<br/><br/><span>Mode Tahan</span><br/>Mengatur arah lemparan Baron Bunny.<br/>Semakin lama tombolnya ditahan, semakin jauh juga jarak lemparannya.",
       "info": "Baron Bunny datang dari keluarga dengan garis keturunan yang sangat panjang, tapi Amber sudah berhenti menghitungnya sejak Baron Bunny ke-893.",
       "attributes": [
         {
@@ -277,13 +280,14 @@
       ]
     },
     {
+      "_id": 10017,
       "id": "fiery_rain",
       "name": "Fiery Rain",
-      "description": "Menembakkan hujan panah yang mengakibatkan <span>Pyro DMG area</span>.",
+      "description": "Menembakkan hujan panah untuk mengakibatkan <span>Pyro DMG Area</span>.",
       "info": "Semangat Amber benar-benar membara.",
       "attributes": [
         {
-          "label": "DMG Fiery Rain Per Gelombang",
+          "label": "DMG Fiery Rain per Serangan",
           "values": [
             "28.08%",
             "30.19%",
@@ -389,7 +393,7 @@
     {
       "id": "every_arrow_finds_its_target",
       "name": "Every Arrow Finds Its Target",
-      "description": "Meningkatkan 10% CRIT Rate skill<span>Fiery Rain</span> dan memperluas area skill tersebut sebesar 30%.",
+      "description": "Meningkatkan 10% CRIT Rate skill<span>Fiery Rain</span> dan memperluas area efek skill sebesar 30%.",
       "level": 1
     },
     {
@@ -401,66 +405,121 @@
     {
       "id": "gliding_champion",
       "name": "Gliding Champion",
-      "description": "Mengurangi 20% konsumsi Stamina karakter sendiri saat terbang.<br/>Efek tidak dapat ditumpuk dengan Talenta Pasif lain yang memiliki efek yang sama.",
+      "description": "Mengurangi 20% konsumsi Stamina Karakter sendiri saat meluncur.<br/>Efek ini tidak dapat ditumpuk dengan Talenta Pasif lain dengan efek yang sama persis.",
       "level": 0
     }
   ],
   "constellations": [
     {
+      "_id": 211,
       "id": "one_arrow_to_rule_them_all",
       "name": "One Arrow to Rule Them All",
-      "description": "Menembakkan 2 anak panah setiap <span>Serangan Membidik</span>. Anak panah kedua mengakibatkan DMG sebesar 20% dari DMG anak panah pertama.",
+      "description": "Amber akan menembakkan 2 anak panah saat menggunakan <span>Serangan Membidik</span>. Anak panah kedua mengakibatkan DMG sebesar 20% dari DMG anak panah pertama.",
       "level": 1
     },
     {
+      "_id": 212,
       "id": "bunny_triggered",
       "name": "Bunny Triggered",
-      "description": "Baron Bunny, kini hadir lebih fantastis! Menyerang kakinya dengan Serangan Membidik penuh akan meledakkan Baron Bunny secara manual.<br/>Ledakan manual mengakibatkan 200% DMG tambahan.",
+      "description": "Baron Bunny, kini hadir dengan lebih canggih! Menyerang kaki Baron Bunny dengan Serangan Membidik yang terisi penuh akan langsung meledakkan Baron Bunny.<br/>Meledakkan Baron Bunny dengan cara ini akan mengakibatkan 200% DMG tambahan.",
       "level": 2
     },
     {
+      "_id": 213,
       "id": "it_burns",
       "name": "It Burns!",
       "description": "Meningkatkan 3 level <span>Fiery Rain</span>.<br/>Maksimum: Lv. 15.",
       "level": 3
     },
     {
+      "_id": 214,
       "id": "its_not_just_any_doll",
       "name": "It's Not Just Any Doll...",
-      "description": "Mengurangi 20% CD <span>Explosive Puppet</span>. Serta menambah 1 kali jumlah penggunaan.",
+      "description": "Mengurangi 20% waktu cooldown skill <span>Explosive Puppet</span> dan menambah jumlah penggunaannya 1 kali.",
       "level": 4
     },
     {
+      "_id": 215,
       "id": "its_baron_bunny",
       "name": "It's Baron Bunny!",
       "description": "Meningkatkan 3 level <span>Explosive Puppet</span>.<br/>Maksimum: Lv. 15.",
       "level": 5
     },
     {
+      "_id": 216,
       "id": "wildfire",
       "name": "Wildfire",
-      "description": "<span>Fiery Rain</span> meningkatkan 15% Movement SPD dan 15% ATK seluruh anggota party selama 10 detik.",
+      "description": "Melancarkan <span>Fiery Rain</span> akan meningkatkan 15% Movement SPD dan 15% ATK milik seluruh anggota party selama 10 detik.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [0, 1]
+        },
+        {
+          "label": "Base HP",
+          "values": ["-", "793"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["-", "19"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["-", "50"]
+        },
+        {
+          "label": "ATK",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [1, 2]
+        },
+        {
+          "label": "Base HP",
+          "values": ["2038", "2630"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["48", "62"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["129", "167"]
+        },
+        {
+          "label": "ATK",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104111,
         "id": "agnidus_agate_sliver",
         "name": "Agnidus Agate Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Small Lamp Grass",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112011,
         "id": "firm_arrowhead",
         "name": "Firm Arrowhead",
         "amount": 3,
@@ -468,28 +527,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [2, 3]
+        },
+        {
+          "label": "Base HP",
+          "values": ["3940", "4361"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["93", "103"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["250", "277"]
+        },
+        {
+          "label": "ATK",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Everflame Seed",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Small Lamp Grass",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112011,
         "id": "firm_arrowhead",
         "name": "Firm Arrowhead",
         "amount": 15,
@@ -497,28 +581,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [3, 4]
+        },
+        {
+          "label": "Base HP",
+          "values": ["5016", "5578"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["118", "131"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["318", "354"]
+        },
+        {
+          "label": "ATK",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Everflame Seed",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Small Lamp Grass",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112012,
         "id": "sharp_arrowhead",
         "name": "Sharp Arrowhead",
         "amount": 12,
@@ -526,28 +635,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [4, 5]
+        },
+        {
+          "label": "Base HP",
+          "values": ["6233", "6654"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["147", "157"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["396", "422"]
+        },
+        {
+          "label": "ATK",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Agnidus Agate Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Everflame Seed",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Small Lamp Grass",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112012,
         "id": "sharp_arrowhead",
         "name": "Sharp Arrowhead",
         "amount": 18,
@@ -555,28 +689,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [5, 6]
+        },
+        {
+          "label": "Base HP",
+          "values": ["7309", "7730"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["172", "182"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["464", "491"]
+        },
+        {
+          "label": "ATK",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Agnidus Agate Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Everflame Seed",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Small Lamp Grass",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112013,
         "id": "weathered_arrowhead",
         "name": "Weathered Arrowhead",
         "amount": 12,
@@ -584,28 +743,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [6, 7]
+        },
+        {
+          "label": "Base HP",
+          "values": ["8385", "8806"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["198", "208"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["532", "559"]
+        },
+        {
+          "label": "ATK",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104114,
         "id": "agnidus_agate_gemstone",
         "name": "Agnidus Agate Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Everflame Seed",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Small Lamp Grass",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112013,
         "id": "weathered_arrowhead",
         "name": "Weathered Arrowhead",
         "amount": 24,
@@ -619,12 +803,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104301,
           "id": "teachings_of_freedom",
           "name": "Teachings of \"Freedom\"",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112011,
           "id": "firm_arrowhead",
           "name": "Firm Arrowhead",
           "amount": 6,
@@ -637,12 +823,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to \"Freedom\"",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Sharp Arrowhead",
           "amount": 3,
@@ -655,12 +843,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to \"Freedom\"",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Sharp Arrowhead",
           "amount": 4,
@@ -673,12 +863,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to \"Freedom\"",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Sharp Arrowhead",
           "amount": 6,
@@ -691,12 +883,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to \"Freedom\"",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Sharp Arrowhead",
           "amount": 9,
@@ -709,18 +903,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of \"Freedom\"",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Weathered Arrowhead",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 1,
@@ -733,18 +930,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of \"Freedom\"",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Weathered Arrowhead",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 1,
@@ -757,18 +957,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of \"Freedom\"",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Weathered Arrowhead",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 2,
@@ -781,24 +984,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of \"Freedom\"",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Weathered Arrowhead",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

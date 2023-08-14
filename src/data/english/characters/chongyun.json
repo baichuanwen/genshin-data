@@ -1,4 +1,5 @@
 {
+  "_id": 10000036,
   "id": "chongyun",
   "name": "Chongyun",
   "title": "Frozen Ardor",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10401,
       "id": "normal_attack_demonbane",
       "name": "Normal Attack: Demonbane",
-      "description": "<span>Normal Attack</span><br/>Perform up to 4 consecutive strikes.<br/><br/><span>Charged Attack</span><br/>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br/>At the end of the sequence, perform a more powerful slash. <br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "<span>Normal Attack</span><br/>Performs up to 4 consecutive strikes.<br/><br/><span>Charged Attack</span><br/>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br/>At the end of the sequence, performs a more powerful slash. <br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "info": "",
       "attributes": [
         {
@@ -107,7 +109,7 @@
           ]
         },
         {
-          "label": "Charged Attack Spinning DMG",
+          "label": "Charged Attack Cyclic DMG",
           "values": [
             "56.29%",
             "60.87%",
@@ -229,6 +231,7 @@
       ]
     },
     {
+      "_id": 10402,
       "id": "spirit_blade_chonghuas_layered_frost",
       "name": "Spirit Blade: Chonghua's Layered Frost",
       "description": "Chongyun strikes the ground with his greatsword, causing a Cryo explosion in a circular AoE in front of him that deals <span>Cryo DMG</span>.<br/>After a short delay, the cold air created by the Cryo explosion will coalesce into a Chonghua Frost Field, within which all Sword, Claymore and Polearm-wielding characters' weapons will be infused with <span>Cryo</span>.",
@@ -317,6 +320,7 @@
       ]
     },
     {
+      "_id": 10403,
       "id": "spirit_blade_cloudparting_star",
       "name": "Spirit Blade: Cloud-Parting Star",
       "description": "Performing the secret hand seals, Chongyun summons 3 giant spirit blades in mid-air that fall to the earth one by one after a short delay, exploding as they hit the ground.<br/>When the spirit blades explode, they will deal <span>AoE Cryo DMG</span> and launch opponents.",
@@ -407,36 +411,42 @@
   ],
   "constellations": [
     {
+      "_id": 361,
       "id": "ice_unleashed",
       "name": "Ice Unleashed",
       "description": "The last attack of Chongyun's Normal Attack combo releases 3 ice blades. Each blade deals 50% of Chongyun's ATK as <span>Cryo DMG</span> to all opponents in its path.",
       "level": 1
     },
     {
+      "_id": 362,
       "id": "atmospheric_revolution",
       "name": "Atmospheric Revolution",
       "description": "Elemental Skills and Elemental Bursts cast within the Frost Field created by <span>Spirit Blade: Chonghua's Layered Frost</span> have their CD time decreased by 15%.",
       "level": 2
     },
     {
+      "_id": 363,
       "id": "cloudburst",
       "name": "Cloudburst",
       "description": "Increases the Level of <span>Spirit Blade: Cloud-Parting Star</span> by 3.<br/>Maximum upgrade level is 15.",
       "level": 3
     },
     {
+      "_id": 364,
       "id": "frozen_skies",
       "name": "Frozen Skies",
       "description": "Chongyun regenerates 1 Energy every time he hits an opponent affected by <span>Cryo</span>.<br/>This effect can only occur once every 2s.",
       "level": 4
     },
     {
+      "_id": 365,
       "id": "the_true_path",
       "name": "The True Path",
       "description": "Increases the Level of <span>Spirit Blade: Chonghua's Layered Frost</span> by 3.<br/>Maximum upgrade level is 15.",
       "level": 5
     },
     {
+      "_id": 366,
       "id": "rally_of_four_blades",
       "name": "Rally of Four Blades",
       "description": "<span>Spirit Blade: Cloud-Parting Star</span> deals 15% more DMG to opponents with a lower percentage of their Max HP remaining than Chongyun.<br/>This skill will also summon 1 additional spirit blade.",
@@ -445,22 +455,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [0, 1]
+        },
+        {
+          "label": "Base HP",
+          "values": ["-", "921"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["-", "19"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["-", "54"]
+        },
+        {
+          "label": "ATK",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [1, 2]
+        },
+        {
+          "label": "Base HP",
+          "values": ["2366", "3054"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["48", "62"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["140", "180"]
+        },
+        {
+          "label": "ATK",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104161,
         "id": "shivada_jade_sliver",
         "name": "Shivada Jade Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor Lapis",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "Damaged Mask",
         "amount": 3,
@@ -468,28 +527,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [2, 3]
+        },
+        {
+          "label": "Base HP",
+          "values": ["4574", "5063"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["93", "103"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["270", "299"]
+        },
+        {
+          "label": "ATK",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hoarfrost Core",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor Lapis",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "Damaged Mask",
         "amount": 15,
@@ -497,28 +581,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [3, 4]
+        },
+        {
+          "label": "Base HP",
+          "values": ["5824", "6475"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["118", "131"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["344", "382"]
+        },
+        {
+          "label": "ATK",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hoarfrost Core",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor Lapis",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "Stained Mask",
         "amount": 12,
@@ -526,28 +635,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [4, 5]
+        },
+        {
+          "label": "Base HP",
+          "values": ["7236", "7725"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["147", "157"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["427", "456"]
+        },
+        {
+          "label": "ATK",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hoarfrost Core",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor Lapis",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "Stained Mask",
         "amount": 18,
@@ -555,28 +689,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [5, 6]
+        },
+        {
+          "label": "Base HP",
+          "values": ["8485", "8974"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["172", "182"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["501", "530"]
+        },
+        {
+          "label": "ATK",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hoarfrost Core",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor Lapis",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "Ominous Mask",
         "amount": 12,
@@ -584,28 +743,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [6, 7]
+        },
+        {
+          "label": "Base HP",
+          "values": ["9734", "10223"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["198", "208"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["575", "603"]
+        },
+        {
+          "label": "ATK",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104164,
         "id": "shivada_jade_gemstone",
         "name": "Shivada Jade Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hoarfrost Core",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100058,
         "id": "cor_lapis",
         "name": "Cor Lapis",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "Ominous Mask",
         "amount": 24,
@@ -619,12 +803,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104313,
           "id": "teachings_of_diligence",
           "name": "Teachings of Diligence",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112005,
           "id": "damaged_mask",
           "name": "Damaged Mask",
           "amount": 6,
@@ -637,12 +823,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guide to Diligence",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 3,
@@ -655,12 +843,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guide to Diligence",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 4,
@@ -673,12 +863,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guide to Diligence",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 6,
@@ -691,12 +883,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guide to Diligence",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 9,
@@ -709,18 +903,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Philosophies of Diligence",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 1,
@@ -733,18 +930,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Philosophies of Diligence",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 1,
@@ -757,18 +957,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Philosophies of Diligence",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 2,
@@ -781,24 +984,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Philosophies of Diligence",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

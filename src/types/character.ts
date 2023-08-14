@@ -4,6 +4,7 @@ export interface SkillAttribute {
 }
 
 export interface Skill {
+  _id: number;
   id: string;
   name: string;
   description: string;
@@ -19,6 +20,7 @@ export interface Passive {
 }
 
 export interface Constellation {
+  _id: number;
   id: string;
   name: string;
   description: string;
@@ -26,20 +28,25 @@ export interface Constellation {
 }
 
 export interface AscensionMaterial {
+  _id: number;
   id: string;
   name: string;
   amount: number;
   rarity: number;
 }
 
+export type AscendStat = {
+  label: string;
+  values: (string | number)[] | null;
+};
 export interface Ascension {
-  ascension: number;
   level: [number, number];
-  cost: number;
-  mat1: AscensionMaterial;
+  cost?: number;
+  stats: AscendStat[];
+  mat1?: AscensionMaterial;
   mat2?: AscensionMaterial;
-  mat3: AscensionMaterial;
-  mat4: AscensionMaterial;
+  mat3?: AscensionMaterial;
+  mat4?: AscensionMaterial;
 }
 
 export type CharacterVoice = {
@@ -56,18 +63,19 @@ export type TalentMaterial = {
 };
 
 export interface Character {
+  _id: number;
   id: string;
   name: string;
-  title: string;
+  title?: string;
   description: string;
   weapon_type: string;
   element: string;
   gender: string;
   substat: string;
   affiliation: string;
-  region: string;
+  region?: string;
   rarity: number;
-  birthday: [number, number];
+  birthday: [number | null, number | null];
   constellation: string;
   domain: string;
   cv: CharacterVoice;

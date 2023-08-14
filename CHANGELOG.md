@@ -1,3 +1,175 @@
+## [0.33.0](https://github.com/dvaJi/genshin-data/compare/0.32.0...0.33.0) (2023-08-14)
+
+### Features
+
+- update data to GI v4.0 [38489b6](https://github.com/dvaJi/genshin-data/commit/38489b6c5b01b2c2ea35cf7a0c021ae23684427a) [@dvaJi](https://github.com/dvaJi)
+
+## [0.32.0](https://github.com/dvaJi/genshin-data/compare/0.31.2...0.32.0) (2023-07-05)
+
+### Features
+
+- update data to GI v3.8 [8a63447](https://github.com/dvaJi/genshin-data/commit/8a63447e524b92c8a32d5ab0db9a2f75cddcf9c6) [@dvaJi](https://github.com/dvaJi)
+
+### Fixes
+
+- multiple typings fixes ([#17](https://github.com/dvaJi/genshin-data/pull/17)) ([c9cb07e](https://github.com/dvaJi/genshin-data/commit/c9cb07e8d658acbd31697883c90561ee8717a20b)) [@Victorsitou](https://github.com/Victorsitou) 
+
+## [0.31.2](https://github.com/dvaJi/genshin-data/compare/0.31.1...0.31.2) (2023-05-24)
+
+### Fixes
+
+- **tcg** add missing action cards, Closes ([#13](https://github.com/dvaJi/genshin-data/pull/13)) ([ed517b3](https://github.com/dvaJi/genshin-data/commit/ed517b3004e0dbb467979b3ace6e2a3a96de6039))
+
+- **characters** Missing stats field in Kirara's ascension Closes ([#12](https://github.com/dvaJi/genshin-data/pull/12)) ([d91fab5](https://github.com/dvaJi/genshin-data/commit/d91fab546dc2ae0a9e5cb4b3639e2fd15543db60))
+
+## [0.31.1](https://github.com/dvaJi/genshin-data/compare/0.31.0...0.31.1) (2023-05-23)
+
+### Features
+
+- **Character** region is optional ([#11](https://github.com/dvaJi/genshin-data/pull/11)) ([c8fb1b4](https://github.com/dvaJi/genshin-data/commit/c8fb1b4c0334bc8991c3c2124485299f47b9090e)) [@Victorsitou](https://github.com/Victorsitou)
+
+## [0.31.0](https://github.com/dvaJi/genshin-data/compare/0.30.1...0.31.0) (2023-05-23)
+
+### Features
+
+- add update data to GI v3.7 ([3d7cbc5](https://github.com/dvaJi/genshin-data/commit/3d7cbc595668cb59a909b76e26783cb3a216347b))
+
+## [0.30.1](https://github.com/dvaJi/genshin-data/compare/0.30.0...0.30.1) (2023-04-17)
+
+### Fixes
+
+- feat: add missing artifacts from v3.6 ([33edeb3](https://github.com/dvaJi/genshin-data/commit/33edeb38a403f97fab15e850a1f21ea80b4d2ef5))
+
+## [0.30.0](https://github.com/dvaJi/genshin-data/compare/0.29.0...0.30.0) (2023-04-17)
+
+### Features
+
+- feat: update data to GI v3.6 ([388d16c](https://github.com/dvaJi/genshin-data/commit/388d16c6f1ad3118f38365b77dbf9bc32474c837))
+
+## [0.29.0](https://github.com/dvaJi/genshin-data/compare/0.28.2...0.29.0) (2023-03-01)
+
+### Features
+
+- feat: update data to GI v3.5 ([1dc79da](https://github.com/dvaJi/genshin-data/commit/1dc79da5ad494b4e98d9d3c273e13bd1259759f0))
+
+## [0.28.2](https://github.com/dvaJi/genshin-data/compare/0.28.1...0.28.2) (2023-01-31)
+
+### Fixes
+
+- update workflows ([ee8b3f2](https://github.com/dvaJi/genshin-data/commit/ee8b3f23b562ada3c432e11d4c41488099320598))
+
+- increase max_old_space_size workflow ([1f7d0b6](https://github.com/dvaJi/genshin-data/commit/1f7d0b6d05d849645161365f981d7bbbd280dd85))
+
+- add id to 'special' food ([00e0ffd](https://github.com/dvaJi/genshin-data/commit/00e0ffdbba53703690eb0c6d12d68f8b0c3a07db))
+
+## [0.28.1](https://github.com/dvaJi/genshin-data/compare/0.28.0...0.28.1) (2023-01-31)
+
+### Features
+
+- add missing ingredients ([5f484e9](https://github.com/dvaJi/genshin-data/commit/5f484e9eae1a52446e1683f67e87302dc1a53619))
+
+## [0.28.0](https://github.com/dvaJi/genshin-data/compare/0.27.3...0.28.0) (2023-01-18)
+
+### Features
+
+- feat: update data to GI v3.4 ([03ee634](https://github.com/dvaJi/genshin-data/commit/03ee634c1b6da56cfd107f3aa82711aa1a1ccb41))
+
+## [0.27.3](https://github.com/dvaJi/genshin-data/compare/0.27.2...0.27.3) (2022-12-21)
+
+### Features
+
+- **tcg**: add monster cards ([b861060](https://github.com/dvaJi/genshin-data/commit/b861060c51dc0aa6b01cde86e9c9a519b27e69e7))
+
+## [0.27.2](https://github.com/dvaJi/genshin-data/compare/0.27.1...0.27.2) (2022-12-19)
+
+### Features
+
+- add italian and turkish ([b667094](https://github.com/dvaJi/genshin-data/commit/b667094f767e25d14e67927e85303ca03a55a52a))
+
+## [0.27.1](https://github.com/dvaJi/genshin-data/compare/0.27.0...0.27.1) (2022-12-17)
+
+### Fixes
+
+- fix typing for ascension ([cce3c2e](https://github.com/dvaJi/genshin-data/commit/cce3c2eb8e6fed17d62b7f72075eb03e0a54130b))
+
+## [0.27.0](https://github.com/dvaJi/genshin-data/compare/0.26.0...0.27.0) (2022-12-17)
+
+### Fixes
+
+- **achievements**: replace {param0} with actual value ([3d20442](https://github.com/dvaJi/genshin-data/commit/3d2044284b9ce4bb1ee184eaaf8209dadbbcf381))
+
+- remove {NON_BREAK_SPACE} from descriptions ([d17a9b75](https://github.com/dvaJi/genshin-data/commit/d17a9b7551fc71388dbcc924700082d2764a5fd7))
+
+### Features
+
+- **tcg**: add Genius Invokation TCG Cards data ([3bdb5e0](https://github.com/dvaJi/genshin-data/commit/3bdb5e001469a562b71370b0ab18bd2c7d77961a))
+
+- **characters**: modify ascension to include stats. Now it includes level 1, so the first ascend will not have mat1, mat3, and mat4 ([db273d8](https://github.com/dvaJi/genshin-data/commit/db273d898ca29d688c025d0ec3b9a4ac3a5a7ec8))
+
+- **tcg**: fix character card skill description ([3c77ce0](https://github.com/dvaJi/genshin-data/commit/3c77ce026d49da9d93f4be0c209db96940d4ae11))
+
+## [0.26.0](https://github.com/dvaJi/genshin-data/compare/0.25.0...0.26.0) (2022-12-07)
+
+### Features
+
+- feat: update data to GI v3.3 ([4d41dc2](https://github.com/dvaJi/genshin-data/commit/4d41dc2716202c41b714fba94032580391a6e75f))
+
+## [0.25.0](https://github.com/dvaJi/genshin-data/compare/0.24.1...0.25.0) (2022-11-02)
+
+### Features
+
+- feat: update data to GI v3.2 ([3365b71](https://github.com/dvaJi/genshin-data/commit/3365b718ed4ca1e200e380daba7d4d06ff17c19f))
+
+## [0.24.1](https://github.com/dvaJi/genshin-data/compare/0.24.0...0.24.1) (2022-10-11)
+
+### Fixes
+
+- fix exports definition ([6003661](https://github.com/dvaJi/genshin-data/commit/6003661049f1015b72ec1f48a48249250078db5e))
+
+## [0.24.0](https://github.com/dvaJi/genshin-data/compare/0.23.1...0.24.0) (2022-10-11)
+
+### Features
+
+- build library using vite to generate CJS and ESM exports ([a4940cc](https://github.com/dvaJi/genshin-data/commit/a4940cc44120b0fd8cb97263e9502aa55a3f0802))
+
+## [0.23.1](https://github.com/dvaJi/genshin-data/compare/0.23.0...0.23.1) (2022-10-06)
+
+### Fixes
+
+- add missing local materials ([34e8c18](https://github.com/dvaJi/genshin-data/commit/34e8c180a94aa5c5c4249a56701832a52bcb34ea))
+
+## [0.23.0](https://github.com/dvaJi/genshin-data/compare/0.22.2...0.23.0) (2022-09-26)
+
+### Features
+
+- feat: update data to GI v3.1 ([0eae320](https://github.com/dvaJi/genshin-data/commit/0eae32051e0f7098b1da9e1f11c0b61cf4aeceb6))
+
+- add \_id (original id) field to all data type ([ad5bf99](https://github.com/dvaJi/genshin-data/commit/ad5bf999b94a919098191b3ccc23898900b7b0c7))
+
+## [0.22.2](https://github.com/dvaJi/genshin-data/compare/0.22.1...0.22.2) (2022-08-25)
+
+### Fixes
+
+- **domains**: fix domains returning array instead of object ([1cce295](https://github.com/dvaJi/genshin-data/commit/1cce2954ce967744b1b40892d47d92a217eb1052))
+
+## [0.22.1](https://github.com/dvaJi/genshin-data/compare/0.22.0...0.22.1) (2022-08-24)
+
+### Fixes
+
+- **artifacts**: fix names and pieces bonus ([1f17adc](https://github.com/dvaJi/genshin-data/commit/1f17adc76da2e4953b01dd6b0f9223271604ae2e))
+
+## [0.22.0](https://github.com/dvaJi/genshin-data/compare/0.21.0...0.22.0) (2022-08-24)
+
+### Features
+
+- update GI data to v3.0 ([bbadd15](https://github.com/dvaJi/genshin-data/commit/bbadd155e1f0850b5ed771ffc42124c8b4c37f04))
+
+## [0.21.0](https://github.com/dvaJi/genshin-data/compare/0.20.1...0.21.0) (2022-07-12)
+
+### Features
+
+- update GI data to v2.8 ([71a9529](https://github.com/dvaJi/genshin-data/commit/71a9529a1085cb3c8132d5bd0c93996416c9e2bf))
+
 ## [0.20.1](https://github.com/dvaJi/genshin-data/compare/0.20.0...0.20.1) (2022-06-08)
 
 ### Fixes

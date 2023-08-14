@@ -1,0 +1,28 @@
+{
+  "_id": 332008,
+  "id": "starsigns",
+  "name": "Burçlar",
+  "title": "Kader Yolu",
+  "desc": "\"Bu kaderdir ve ona karşı gelinmez.\"",
+  "in_play_description": "",
+  "attributes": {
+    "cost": 2,
+    "cost_type": "Nötr Element",
+    "card_type": "Etki Kartı",
+    "energy": [
+      {
+        "_id": 1109,
+        "id": "unaligned_element",
+        "type": "Nötr Element",
+        "count": 2
+      }
+    ],
+    "source": "Başlangıç destesinden elde edilir."
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Mevcut Aktif Karakterin <span style=\"color:#FFFFFFFF\">1 <span style=\"color:#FFFFFFFF\">Enerji</span></span> kazanır."
+    }
+  ]
+}

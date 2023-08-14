@@ -1,9 +1,9 @@
 {
+  "_id": 368134,
   "id": "paimon",
-  "originalId": 368134,
   "rarity": 1,
   "name": "Паймон",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1500,
   "energy": 300,
   "category": [

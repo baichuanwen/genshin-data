@@ -1,8 +1,8 @@
 {
+  "_id": 20,
   "id": "challenger_series_iv",
-  "originalId": 20,
-  "name": "Retador - Parte 4",
-  "order": 14,
+  "name": "Retador: Parte 4",
+  "order": 17,
   "achievements": [
     {
       "id": 82091,
@@ -23,7 +23,7 @@
     {
       "id": 82093,
       "name": "Espectáculo de marionetas",
-      "desc": "Derrota al Oni Espadachín mientras se burla de ti.",
+      "desc": "Derrota al Oni Espadachín mientras te provoca.",
       "reward": 5,
       "hidden": false,
       "order": 2093
@@ -55,7 +55,7 @@
     {
       "id": 82097,
       "name": "Silencio absoluto",
-      "desc": "Derrota un Hipostasis Pyro habiendo entrado en el estado de extinguido solo una vez.",
+      "desc": "Derrota un Hipóstasis Pyro habiendo entrado en el estado de extinguido solo una vez.",
       "reward": 5,
       "hidden": false,
       "order": 2097

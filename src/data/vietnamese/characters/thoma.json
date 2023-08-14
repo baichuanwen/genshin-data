@@ -1,4 +1,5 @@
 {
+  "_id": 10000050,
   "id": "thoma",
   "name": "Thoma",
   "title": "Người Bảo Vệ Phương Xa",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10501,
       "id": "normal_attack_swiftshatter_spear",
       "name": "Tấn Công Thường - Ngọn Thương Dũng Mãnh",
       "description": "<span>Tấn Công Thường</span><br/>Thực hiện tối đa 4 lần đánh liên tiếp.<br/><br/><span>Trọng Kích</span><br/>Tiêu hao thể lực nhất định, xông về phía trước, gây sát thương cho địch trên đường đi.<br/><br/><span>Tấn Công Khi Đáp</span><br/>Đáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
@@ -189,9 +191,10 @@
       ]
     },
     {
+      "_id": 10502,
       "id": "blazing_blessing",
       "name": "Liệt Hỏa Hộ Mệnh",
-      "description": "Thoma dùng mũi giáo làm điểm tựa, tiếp thêm sức mạnh của lửa để tung cú đá về phía trước, gây <span>Sát Thương Phạm Vi Nguyên Tố Hỏa</span> và triệu hồi Khiên Lửa Hộ Mệnh, đồng thời trong phút chốc khi thi triển sẽ khiến Thoma nhận <span>đính kèm Nguyên Tố Hỏa</span>.<br/>Lượng hấp thụ sát thương của khiên sẽ bị ảnh hưởng bởi giới hạn HP của Thoma.<br/>Khiên Lửa Hộ Mệnh có những đặc tính sau:<br/>·Có 250% hiệu quả hấp thụ đối với <span>Sát Thương Nguyên Tố Hỏa</span>;<br/>·Lượng hấp thụ sát thương còn lại của khiên sẽ cộng dồn khi nhận Khiên Lửa Hộ Mệnh lần nữa, đồng thời làm mới thời gian duy trì.<br/><br/>Lượng hấp thụ sát thương của khiên tối đa sẽ không vượt quá tỷ lệ nhất định dựa trên giới hạn HP của Thoma.",
+      "description": "Thoma dùng mũi giáo làm điểm tựa, tiếp thêm sức mạnh của lửa để tung cú đá về phía trước, gây <span>Sát Thương Phạm Vi Nguyên Tố Hỏa</span> và triệu hồi Khiên Lửa Hộ Mệnh, đồng thời trong phút chốc khi thi triển sẽ gán <span>ấn nguyên tố Hỏa</span> cho Thoma.<br/>Lượng hấp thụ sát thương của khiên sẽ bị ảnh hưởng bởi giới hạn HP của Thoma.<br/>Khiên Lửa Hộ Mệnh có những đặc tính sau:<br/>·Có 250% hiệu quả hấp thụ đối với <span>Sát Thương Nguyên Tố Hỏa</span>;<br/>·Lượng hấp thụ sát thương còn lại của khiên sẽ cộng dồn khi nhận Khiên Lửa Hộ Mệnh lần nữa, đồng thời làm mới thời gian duy trì.<br/><br/>Lượng hấp thụ sát thương của khiên tối đa sẽ không vượt quá tỷ lệ nhất định dựa trên giới hạn HP của Thoma.",
       "info": "Thân là kẻ tha hương, chỉ khi thắp sáng ngọn lửa nhiệt huyết nồng nhiệt nhất mới có thể học được thương thuật tinh tế và thuần túy của Inazuma. Và thành tựu của Thoma sớm đã vượt khỏi mức \"xuất sư\" và \"hào kiệt\". Mang theo ý niệm \"bảo vệ\", Thoma còn kết hợp cả kỹ xảo phòng ngự và đặc tính giáp phòng vệ vào trong thương thuật của mình.",
       "attributes": [
         {
@@ -297,6 +300,7 @@
       ]
     },
     {
+      "_id": 10505,
       "id": "crimson_ooyoroi",
       "name": "Chiến Giáp Rực Cháy",
       "description": "Thoma xoay ngọn thương, dùng ngọn lửa đỏ rực quét tan kẻ địch xung quanh, gây <span>Sát Thương Phạm Vi Nguyên Tố Hỏa</span>, đồng thời tạo ra Chiến Giáp Lửa Đỏ.<br/><br/><span>Chiến Giáp Lửa Đỏ</span><br/>Nhân vật trong trận có hiệu quả Chiến Giáp Lửa Đỏ khi đánh thường sẽ kích hoạt Lửa Đỏ Công Phá, gây <span>Sát Thương Phạm Vi Nguyên Tố Hỏa</span>, đồng thời triệu hồi ra Khiên Lửa Hộ Mệnh.<br/>Lửa Đỏ Công Phá mỗi 1 giây tối đa kích hoạt một lần.<br/><br/>Đối với khiên tạo ra, ngoài lượng hấp thụ sát thương ra, đặc tính sẽ giống như khiên của kỹ năng nguyên tố \"Liệt Hỏa Hộ Mệnh\":<br/>·Có 250% hiệu quả hấp thụ đối với <span>Sát Thương Nguyên Tố Hỏa</span>;<br/>·Lượng hấp thụ sát thương còn lại của khiên sẽ cộng dồn khi nhận Khiên Lửa Hộ Mệnh lần nữa, đồng thời làm mới thời gian duy trì.<br/><br/>Lượng hấp thụ sát thương của khiên tối đa sẽ không vượt quá tỷ lệ nhất định dựa trên giới hạn HP của Thoma.<br/><br/>Khi Thoma ngã xuống, hiệu quả Chiến Giáp Lửa Đỏ sẽ bị xóa.",
@@ -467,36 +471,42 @@
   ],
   "constellations": [
     {
+      "_id": 501,
       "id": "a_comrades_duty",
       "name": "Nghĩa Vụ Của Đồng Bào",
       "description": "Khi nhân vật (Ngoại trừ bản thân Thoma) được bảo vệ bởi <span>Khiên Lửa Hộ Mệnh</span> của Thoma bị tấn công, sẽ giảm 3 giây CD <span>Liệt Hỏa Hộ Mệnh</span>, giảm 3 giây CD <span>Chiến Giáp Rực Cháy</span> của Thoma.<br/>Hiệu quả này mỗi 20 giây tối đa kích hoạt 1 lần.",
       "level": 1
     },
     {
+      "_id": 502,
       "id": "a_subordinates_skills",
       "name": "Tài Cán Của Trợ Thủ",
       "description": "Thời gian duy trì <span>Chiến Giáp Rực Cháy</span> kéo dài thêm 3 giây.",
       "level": 2
     },
     {
+      "_id": 503,
       "id": "fortified_resolve",
       "name": "Định Luật Của Chiến Đấu",
       "description": "Cấp kỹ năng <span>Liệt Hỏa Hộ Mệnh</span> +3.<br/>Tăng tối đa đến cấp 15.",
       "level": 3
     },
     {
+      "_id": 504,
       "id": "longterm_planning",
       "name": "Mưu Kế Của Gia Thần",
       "description": "Sau khi thi triển <span>Chiến Giáp Rực Cháy</span> sẽ hồi 15 điểm Năng Lượng Nguyên Tố cho Thoma.",
       "level": 4
     },
     {
+      "_id": 505,
       "id": "raging_wildfire",
       "name": "Sức Nóng Của Lửa Đỏ",
       "description": "Cấp kỹ năng <span>Chiến Giáp Rực Cháy</span> +3.<br/>Tăng tối đa đến cấp 15.",
       "level": 5
     },
     {
+      "_id": 506,
       "id": "burning_heart",
       "name": "Trái Tim Của Nhiệt Huyết",
       "description": "Khi nhận hoặc làm mới <span>Khiên Lửa Hộ Mệnh</span>, sát thương gây ra bởi tấn công thường, trọng kích, tấn công khi đáp của tất cả nhân vật trong đội tăng 15%, duy trì 6 giây.",
@@ -505,22 +515,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [0, 1]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["-", "866"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["-", "17"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["-", "63"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [1, 2]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["2225", "2872"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["43", "56"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["162", "209"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104111,
         "id": "agnidus_agate_sliver",
         "name": "Vụn Mã Não Cháy",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 101209,
         "id": "fluorescent_fungus",
         "name": "Nấm U Ám",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112035,
         "id": "treasure_hoarder_insignia",
         "name": "Ấn Quạ Tầm Bảo",
         "amount": 3,
@@ -528,28 +587,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [2, 3]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["4302", "4762"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["84", "93"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["313", "346"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Mảnh Mã Não Cháy",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113024,
         "id": "smoldering_pearl",
         "name": "Ngọc Lửa Âm Ỉ",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101209,
         "id": "fluorescent_fungus",
         "name": "Nấm U Ám",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112035,
         "id": "treasure_hoarder_insignia",
         "name": "Ấn Quạ Tầm Bảo",
         "amount": 15,
@@ -557,28 +641,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [3, 4]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["5478", "6091"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["107", "119"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["398", "443"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Mảnh Mã Não Cháy",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113024,
         "id": "smoldering_pearl",
         "name": "Ngọc Lửa Âm Ỉ",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101209,
         "id": "fluorescent_fungus",
         "name": "Nấm U Ám",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112036,
         "id": "silver_raven_insignia",
         "name": "Ấn Quạ Bạc Ẩn",
         "amount": 12,
@@ -586,28 +695,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [4, 5]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["6806", "7266"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["133", "142"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["495", "528"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Miếng Mã Não Cháy",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113024,
         "id": "smoldering_pearl",
         "name": "Ngọc Lửa Âm Ỉ",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101209,
         "id": "fluorescent_fungus",
         "name": "Nấm U Ám",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112036,
         "id": "silver_raven_insignia",
         "name": "Ấn Quạ Bạc Ẩn",
         "amount": 18,
@@ -615,28 +749,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [5, 6]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["7981", "8440"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["156", "165"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["580", "613"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Miếng Mã Não Cháy",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113024,
         "id": "smoldering_pearl",
         "name": "Ngọc Lửa Âm Ỉ",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101209,
         "id": "fluorescent_fungus",
         "name": "Nấm U Ám",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112037,
         "id": "golden_raven_insignia",
         "name": "Ấn Quạ Trộm Vàng",
         "amount": 12,
@@ -644,28 +803,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [6, 7]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["9156", "9616"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["179", "188"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["665", "699"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104114,
         "id": "agnidus_agate_gemstone",
         "name": "Mã Não Cháy",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113024,
         "id": "smoldering_pearl",
         "name": "Ngọc Lửa Âm Ỉ",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101209,
         "id": "fluorescent_fungus",
         "name": "Nấm U Ám",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112037,
         "id": "golden_raven_insignia",
         "name": "Ấn Quạ Trộm Vàng",
         "amount": 24,
@@ -679,12 +863,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104320,
           "id": "teachings_of_transience",
           "name": "Bài Giảng Của \"Phù Thế\"",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112035,
           "id": "treasure_hoarder_insignia",
           "name": "Ấn Quạ Tầm Bảo",
           "amount": 6,
@@ -697,12 +883,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104321,
           "id": "guide_to_transience",
           "name": "Hướng Dẫn Của \"Phù Thế\"",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Ấn Quạ Bạc Ẩn",
           "amount": 3,
@@ -715,12 +903,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104321,
           "id": "guide_to_transience",
           "name": "Hướng Dẫn Của \"Phù Thế\"",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Ấn Quạ Bạc Ẩn",
           "amount": 4,
@@ -733,12 +923,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104321,
           "id": "guide_to_transience",
           "name": "Hướng Dẫn Của \"Phù Thế\"",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Ấn Quạ Bạc Ẩn",
           "amount": 6,
@@ -751,12 +943,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104321,
           "id": "guide_to_transience",
           "name": "Hướng Dẫn Của \"Phù Thế\"",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Ấn Quạ Bạc Ẩn",
           "amount": 9,
@@ -769,18 +963,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104322,
           "id": "philosophies_of_transience",
           "name": "Triết Học Của \"Phù Thế\"",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Ấn Quạ Trộm Vàng",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113026,
           "id": "hellfire_butterfly",
           "name": "Bướm Hỏa Ngục",
           "amount": 1,
@@ -793,18 +990,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104322,
           "id": "philosophies_of_transience",
           "name": "Triết Học Của \"Phù Thế\"",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Ấn Quạ Trộm Vàng",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113026,
           "id": "hellfire_butterfly",
           "name": "Bướm Hỏa Ngục",
           "amount": 1,
@@ -817,18 +1017,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104322,
           "id": "philosophies_of_transience",
           "name": "Triết Học Của \"Phù Thế\"",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Ấn Quạ Trộm Vàng",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113026,
           "id": "hellfire_butterfly",
           "name": "Bướm Hỏa Ngục",
           "amount": 2,
@@ -841,24 +1044,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104322,
           "id": "philosophies_of_transience",
           "name": "Triết Học Của \"Phù Thế\"",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Ấn Quạ Trộm Vàng",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113026,
           "id": "hellfire_butterfly",
           "name": "Bướm Hỏa Ngục",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Vương Miện Trí Thức",
           "amount": 1,

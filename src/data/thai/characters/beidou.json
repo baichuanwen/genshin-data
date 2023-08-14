@@ -1,8 +1,9 @@
 {
+  "_id": 10000024,
   "id": "beidou",
   "name": "Beidou",
   "title": "ราชินีไร้บัลลังก์แห่งท้องทะเล",
-  "description": "ผู้นำกองทัพเรือติดอาวุธ \"Crux\" สตรีผู้ซื่อตรงและ ไร้ซึ่งพันธนาการ",
+  "description": "ผู้นำกองเรือติดอาวุธ \"Crux\" สตรีผู้ซื่อตรง และไร้ซึ่งพันธนาการ",
   "weapon_type": "ดาบใหญ่",
   "element": "ไฟฟ้า",
   "gender": "ผู้หญิง",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10241,
       "id": "normal_attack_oceanborne",
       "name": "โจมตีปกติ: Oceanborne",
-      "description": "<span>โจมตีปกติ</span><br/>โจมตีต่อเนื่องมากสุดห้าครั้ง<br/><br/><span>ชาร์จโจมตี</span><br/>ใช้พลังกายต่อเนื่อง เพื่อฟันโจมตีติดต่อกันอย่างรวดเร็ว<br/>เมื่อชาร์จโจมตีสิ้นสุดลง จะทำการฟันอย่างรุนแรงเพิ่มอีกหนึ่งครั้ง<br/><br/><span>โจมตีพุ่งลงจากอากาศ</span><br/>กระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+      "description": "<span>โจมตีปกติ</span><br/>โจมตีต่อเนื่องมากสุด 5 ครั้ง<br/><br/><span>ชาร์จโจมตี</span><br/>ใช้พลังกายอย่างต่อเนื่อง เพื่อฟันโจมตีติดต่อกันอย่างรวดเร็ว<br/>เมื่อการชาร์จโจมตีสิ้นสุดลง จะทำการฟันอย่างรุนแรงเพิ่มอีกหนึ่งครั้ง<br/><br/><span>โจมตีพุ่งลงจากอากาศ</span><br/>กระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
       "info": "",
       "attributes": [
         {
@@ -249,9 +251,10 @@
       ]
     },
     {
+      "_id": 10242,
       "id": "tidecaller",
       "name": "Tidecaller",
-      "description": "ไม่มีอะไรต้องเป็นห่วง หากมีใครกล้า ที่จะแตะต้องเธอหรือคนของเธอ ผู้นั้นจะต้องได้รับบทเรียนของสายฟ้า และดาบยักษ์คืนเป็นสิบเท่าอย่างแน่นอน<br/><br/><span>กดค้าง</span><br/>ยกอาวุธขึ้นมาเป็นเกราะป้องกัน โดยปริมาณการดูดซับความเสียหายจะขึ้นอยู่กับพลังชีวิตสูงสุดของ Beidou<br/>เมื่อปลดสกิลออกหรือหมดช่วงเวลา ต่อเนื่อง จะทำการโจมตีด้วยดาบยักษ์ ที่เต็มไปด้วยพลังที่รวบรวมเอาไว้ เพื่อสร้าง<span>ความเสียหายไฟฟ้า</span> ซึ่งความรุนแรงของความเสียหายที่สร้าง จะขึ้นอยู่กับจำนวนครั้งการโจมตีที่ได้รับขณะใช้สกิล โดยโบนัสความเสียหายสูงสุด จะเกิดขึ้นเมื่อปลดปล่อยเอฟเฟกต์นี้ 2 ครั้ง<br/>โล่ป้องกันจะมีเอฟเฟกต์ดังนี้:<br/>·มีเอฟเฟกต์การดูดซับ <span>ความเสียหายไฟฟ้า</span> 250%;<br/>·ทันทีที่ปลดปล่อยออกไปจะเพิ่ม การ<span>ติดสถานะธาตุไฟฟ้า</span>ให้แก่ Beidou",
+      "description": "ไม่มีอะไรต้องเป็นห่วง หากมีใครกล้า ที่จะแตะต้องเธอหรือคนของเธอ ผู้นั้นจะต้องรับบทเรียนของสายฟ้า และดาบยักษ์คืนเป็นสิบเท่าอย่างแน่นอน<br/><br/><span>กดค้าง</span><br/>ยกอาวุธขึ้นมาเป็นเกราะป้องกัน โดยที่ปริมาณการดูดซับความเสียหาย จะขึ้นอยู่กับพลังชีวิตสูงสุดของ Beidou<br/>เมื่อปลดสกิลออก หรือสิ้นสุดช่วงเวลาต่อเนื่อง จะทำการโจมตีด้วยดาบยักษ์ ที่เต็มไปด้วยพลังที่รวบรวมเอาไว้ เพื่อสร้าง<span>ความเสียหายไฟฟ้า</span> ซึ่งความรุนแรงของความเสียหายที่สร้าง จะขึ้นอยู่กับจำนวนครั้งการโจมตีที่ได้รับขณะใช้สกิล โดยโบนัสความเสียหายสูงสุด จะเกิดขึ้นเมื่อปลดปล่อยเอฟเฟกต์นี้ 2 ครั้ง<br/>โล่ป้องกันจะมีเอฟเฟกต์ดังนี้:<br/>·มีเอฟเฟกต์การดูดซับ <span>ความเสียหายไฟฟ้า</span> 250%;<br/>·ทันทีที่ปลดปล่อยออกไป จะทำให้ Beidou <span>ติดสถานะธาตุไฟฟ้า</span>",
       "info": "โอบล้อมด้วยทะเล ตามหาเกลียวคลื่นและสายฟ้า",
       "attributes": [
         {
@@ -315,31 +318,32 @@
           ]
         },
         {
-          "label": "เวลาคูลดาวน์",
+          "label": "คูลดาวน์",
           "values": [
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที",
-            "7.5 วินาที"
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ",
+            "7.5 วิ"
           ]
         }
       ]
     },
     {
+      "_id": 10245,
       "id": "stormbreaker",
       "name": "Stormbreaker",
-      "description": "ระลึกถึงการต่อสู้ของเธอกับอสูรยักษ์ Haishan เรียกความแข็งแกร่งดุจอสูร และพลังแห่งสายฟ้าออกมาเพื่อสร้าง Thunderbeast's Targe ล้อมรอบตัวเอง และสร้าง<span>ความเสียหายไฟฟ้า</span>แก่ศัตรู ที่อยู่โดยรอบ<br/><br/><span>Thunderbeast's Targe</span><br/>·เมื่อโจมตีปกติหรือชาร์จโจมตี ถูกเป้าหมายจะปลดปล่อยพลังไฟฟ้า และทำให้เกิดสายฟ้าวิ่งผ่านระหว่างศัตรู แต่ละตัวเพื่อสร้าง<span>ความเสียหายไฟฟ้า</span>;<br/>·เพิ่มความสามารถในการต้านทาน การหยุดชะงักของตัวละครและลด ความเสียหายที่ได้รับลง<br/><br/>ทำให้เกิดสายฟ้าอย่างมาก 1 เส้น ในทุกหนึ่งวินาที",
+      "description": "ระลึกถึงการต่อสู้ของเธอกับอสูรยักษ์ Haishan เรียกความแข็งแกร่งดุจอสูร และพลังแห่งสายฟ้าออกมาเพื่อสร้าง Thunderbeast's Targe ล้อมรอบตัวเอง และสร้าง<span>ความเสียหายไฟฟ้า</span>แก่ศัตรู ที่อยู่โดยรอบ<br/><br/><span>Thunderbeast's Targe</span><br/>·เมื่อการโจมตีปกติ และการชาร์จโจมตีถูกเป้าหมาย จะปลดปล่อยพลังสายฟ้าออกมา และทำให้เกิดสายฟ้า 1 เส้น วิ่งผ่านระหว่างศัตรูแต่ละตัว เพื่อสร้าง<span>ความเสียหายไฟฟ้า</span>;<br/>·เพิ่มความสามารถในการต้านทานการหยุดชะงักของตัวละคร และลดความเสียหายที่ได้รับลง<br/><br/>ทำให้เกิดสายฟ้าอย่างมาก 1 เส้น ในทุกหนึ่งวินาที",
       "info": "พลังของสายฟ้าฟาดผ่าทะเลและภูผา",
       "attributes": [
         {
@@ -423,23 +427,23 @@
           ]
         },
         {
-          "label": "เวลาคูลดาวน์",
+          "label": "คูลดาวน์",
           "values": [
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที",
-            "20 วินาที"
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ",
+            "20 วิ"
           ]
         },
         {
@@ -469,13 +473,13 @@
     {
       "id": "retribution",
       "name": "Retribution",
-      "description": "เมื่อปล่อยการโจมตีกลับด้วย <span>Tidecaller</span> จะได้รับโบนัสความเสียหายสูงสุด",
+      "description": "เมื่อปล่อยการโจมตีกลับด้วย <span>Tidecaller</span> ในจังหวะที่ถูกโจมตี จะได้รับโบนัสความเสียหายสูงสุด",
       "level": 1
     },
     {
       "id": "lightning_storm",
       "name": "Lightning Storm",
-      "description": "หลังจากปล่อย <span>Tidecaller</span> ที่มีโบนัสความเสียหายสูงสุด ภายใน 10 วินาที จะได้รับเอฟเฟกต์ดังนี้<br/>·การโจมตีปกติและชาร์จโจมตี สร้างความเสียหายเพิ่มขึ้น 15% และความเร็วในการโจมตีเพิ่มขึ้น 15%<br/>·ลดเวลาที่ต้องใช้ในการเตรียม ชาร์จโจมตีลงอย่างมาก",
+      "description": "หลังจากปล่อย <span>Tidecaller</span> ที่มีโบนัสความเสียหายสูงสุด ภายใน 10 วินาที จะได้รับเอฟเฟกต์ดังนี้<br/>·การโจมตีปกติ และการชาร์จโจมตี สร้างความเสียหายเพิ่มขึ้น 15% และความเร็วในการโจมตีเพิ่มขึ้น 15%<br/>·ลดเวลาที่การชาร์จโจมตี ต้องใช้ในการเตรียมลงอย่างมาก",
       "level": 4
     },
     {
@@ -487,60 +491,115 @@
   ],
   "constellations": [
     {
+      "_id": 241,
       "id": "sea_beasts_scourge",
       "name": "Sea Beast's Scourge",
       "description": "เมื่อใช้ <span>Stormbreaker</span>:<br/>จะสร้างโล่ที่สามารถดูดซับ ความเสียหายได้ 16% ของพลังชีวิตสูงสุด เป็นเวลา 15 วินาที<br/>โล่ป้องกันนี้จะมีเอฟเฟกต์ การดูดซับ<span>ความเสียหายไฟฟ้า</span> 250%",
       "level": 1
     },
     {
+      "_id": 242,
       "id": "upon_the_turbulent_sea_the_thunder_arises",
       "name": "Upon the Turbulent Sea, the Thunder Arises",
-      "description": "สายฟ้าของ <span>Stormbreaker</span> สามารถดีดศัตรูเพิ่มได้อีก 2 ตัว",
+      "description": "สายฟ้าของ <span>Stormbreaker</span> สามารถวิ่งผ่านระหว่างศัตรูเพิ่มได้อีก 2 ตัว",
       "level": 2
     },
     {
+      "_id": 243,
       "id": "summoner_of_storm",
       "name": "Summoner of Storm",
       "description": "เพิ่มเลเวลสกิลของ <span>Tidecaller</span> ขึ้น 3 ระดับ<br/>เพิ่มได้สูงสุดถึงระดับ 15",
       "level": 3
     },
     {
+      "_id": 244,
       "id": "stunning_revenge",
       "name": "Stunning Revenge",
-      "description": "ภายใน 10 วินาที หลังจากถูกโจมตี โจมตีปกติของ Beidou จะแนบ<span>ความเสียหายไฟฟ้า</span>เพิ่มไปด้วย 20%",
+      "description": "ภายใน 10 วินาที หลังจากถูกโจมตี การโจมตีปกติของ Beidou จะแนบ<span>ความเสียหายไฟฟ้า</span>เพิ่มไปด้วย 20%",
       "level": 4
     },
     {
+      "_id": 245,
       "id": "crimson_tidewalker",
       "name": "Crimson Tidewalker",
       "description": "เพิ่มเลเวลสกิลของ <span>Stormbreaker</span> ขึ้น 3 ระดับ<br/>เพิ่มได้สูงสุดถึงระดับ 15",
       "level": 5
     },
     {
+      "_id": 246,
       "id": "bane_of_evil",
       "name": "Bane of Evil",
-      "description": "ช่วงเวลาของ <span>Stormbreaker</span> <span>ความต้านทานไฟฟ้า</span>ของ ศัตรูโดยรอบจะลดลง 15%",
+      "description": "ระหว่างช่วงเวลาของ <span>Stormbreaker</span> <span>ความต้านทานไฟฟ้า</span>ของศัตรูโดยรอบ จะลดลง 15%",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [0, 1]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["-", "1094"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["-", "19"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["-", "54"]
+        },
+        {
+          "label": "โบนัสความเสียหายไฟฟ้า",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [1, 2]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["2811", "3628"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["48", "63"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["140", "180"]
+        },
+        {
+          "label": "โบนัสความเสียหายไฟฟ้า",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104141,
         "id": "vajrada_amethyst_sliver",
         "name": "Vajrada Amethyst Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100028,
         "id": "noctilucous_jade",
         "name": "Noctilucous Jade",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112035,
         "id": "treasure_hoarder_insignia",
         "name": "Treasure Hoarders Insignia",
         "amount": 3,
@@ -548,28 +607,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [2, 3]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["5435", "6015"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["94", "104"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["270", "299"]
+        },
+        {
+          "label": "โบนัสความเสียหายไฟฟ้า",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "Vajrada Amethyst Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "Lightning Prism",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100028,
         "id": "noctilucous_jade",
         "name": "Noctilucous Jade",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112035,
         "id": "treasure_hoarder_insignia",
         "name": "Treasure Hoarders Insignia",
         "amount": 15,
@@ -577,28 +661,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [3, 4]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["6919", "7694"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["119", "133"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["344", "382"]
+        },
+        {
+          "label": "โบนัสความเสียหายไฟฟ้า",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "Vajrada Amethyst Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "Lightning Prism",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100028,
         "id": "noctilucous_jade",
         "name": "Noctilucous Jade",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112036,
         "id": "silver_raven_insignia",
         "name": "Silver Raven Insignia",
         "amount": 12,
@@ -606,28 +715,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [4, 5]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["8597", "9178"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["148", "158"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["427", "456"]
+        },
+        {
+          "label": "โบนัสความเสียหายไฟฟ้า",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "Vajrada Amethyst Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "Lightning Prism",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100028,
         "id": "noctilucous_jade",
         "name": "Noctilucous Jade",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112036,
         "id": "silver_raven_insignia",
         "name": "Silver Raven Insignia",
         "amount": 18,
@@ -635,28 +769,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [5, 6]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["10081", "10662"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["174", "184"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["501", "530"]
+        },
+        {
+          "label": "โบนัสความเสียหายไฟฟ้า",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "Vajrada Amethyst Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "Lightning Prism",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100028,
         "id": "noctilucous_jade",
         "name": "Noctilucous Jade",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112037,
         "id": "golden_raven_insignia",
         "name": "Golden Raven Insignia",
         "amount": 12,
@@ -664,28 +823,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [6, 7]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["11565", "12146"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["200", "210"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["575", "603"]
+        },
+        {
+          "label": "โบนัสความเสียหายไฟฟ้า",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104144,
         "id": "vajrada_amethyst_gemstone",
         "name": "Vajrada Amethyst Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "Lightning Prism",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100028,
         "id": "noctilucous_jade",
         "name": "Noctilucous Jade",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112037,
         "id": "golden_raven_insignia",
         "name": "Golden Raven Insignia",
         "amount": 24,
@@ -699,12 +883,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104316,
           "id": "teachings_of_gold",
           "name": "Teachings of Gold",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112035,
           "id": "treasure_hoarder_insignia",
           "name": "Treasure Hoarders Insignia",
           "amount": 6,
@@ -717,12 +903,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Silver Raven Insignia",
           "amount": 3,
@@ -735,12 +923,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Silver Raven Insignia",
           "amount": 4,
@@ -753,12 +943,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Silver Raven Insignia",
           "amount": 6,
@@ -771,12 +963,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Silver Raven Insignia",
           "amount": 9,
@@ -789,18 +983,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Golden Raven Insignia",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 1,
@@ -813,18 +1010,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Golden Raven Insignia",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 1,
@@ -837,18 +1037,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Golden Raven Insignia",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 2,
@@ -861,24 +1064,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Golden Raven Insignia",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Dvalin's Sigh",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

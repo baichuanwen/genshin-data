@@ -1,8 +1,8 @@
 {
+  "_id": 3,
   "id": "the_heros_journey",
-  "originalId": 3,
   "name": "Hành Trình Anh Hùng",
-  "order": 6,
+  "order": 8,
   "achievements": [
     {
       "id": 80014,

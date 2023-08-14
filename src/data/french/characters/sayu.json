@@ -1,4 +1,5 @@
 {
+  "_id": 10000053,
   "id": "sayu",
   "name": "Sayu",
   "title": "Mujina shinobi",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10531,
       "id": "normal_attack_shuumatsuban_ninja_blade",
       "name": "Attaque normale : Lame ninja du Shuumatsuban",
-      "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 4 coups d'épée.<br/><br/><span>Attaque chargée</span><br/>Exécute une succession d'attaques tournoyantes contre les ennemis proches ; cette attaque consomme de l'endurance de façon continue.<br/>L'attaque chargée se termine sur un coup puissant.<br/><br/><span>Attaque plongeante</span><br/>Plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
+      "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 4 coups d'épée.<br/><br/><span>Attaque chargée</span><br/>Consomme de l'endurance de façon continue pour exécuter une succession d'attaques tournoyantes contre les ennemis proches.<br/>L'attaque chargée se termine sur un coup puissant.<br/><br/><span>Attaque plongeante</span><br/>Plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis en chemin et des DGT de zone à l'impact.",
       "info": "",
       "attributes": [
         {
@@ -229,9 +231,10 @@
       ]
     },
     {
+      "_id": 10532,
       "id": "yoohoo_art_fuuin_dash",
       "name": "École Yoohoo : Course Fuuin",
-      "description": "La technique spéciale des ninjas de l'École Yoohoo !<br/>Se recroqueville sous la forme d'un tourbillon Fuufuu, qui inflige des <span>DGT Anémo</span> aux ennemis qu'elle percute à grande vitesse, pour terminer sur un coup de pied Fuufuu qui inflige des <span>DGT Anémo de zone</span>.<br/><br/><span>Appui simple</span><br/>Se met sous la forme d'un tourbillon Fuufuu et roule vers l'avant sur une courte distance avant d'exécuter son coup de pied Fuufuu.<br/><br/><span>Appui long</span><br/>Roule continuellement en tourbillon Fuufuu, augmentant la RÉS à l'interruption de Sayu.<br/>Sayu peut contrôler la direction dans laquelle elle roule, et utiliser à nouveau la compétence permet de sortir de cet état et d'exécuter un coup de pied Fuufuu plus puissant.<br/>L'appui long de cette compétence peut déclencher une absorption élémentaire.<br/><br/>Cette compétence a une durée max de 10 s, et entre en TdR lorsque son effet prend fin. Plus Sayu reste longtemps en tourbillon Fuufuu, plus le TdR est long.<br/><br/><span>Absorption élémentaire</span><br/>Si Sayu entre en contact avec les éléments <span>Hydro</span>, <span>Pyro</span>, <span>Cryo</span> et <span>Électro</span> lorsqu'elle est en tourbillon Fuufuu, elle obtient les attributs élémentaires correspondants, et le tourbillon Fuufuu ainsi que le coup de pied Fuufuu infligent des DGT supplémentaires de l'élément absorbé.<br/>L'absorption élémentaire ne peut se produire qu'une fois pendant la durée de la compétence.",
+      "description": "La technique spéciale des ninjas de l'École Yoohoo !<br/>Se recroqueville sous la forme d'un tourbillon Fuufuu, qui inflige des <span>DGT Anémo</span> aux ennemis qu'elle percute à grande vitesse, pour terminer sur un coup de pied Fuufuu qui inflige des <span>DGT Anémo de zone</span>.<br/><br/><span>Appui simple</span><br/>Se met sous la forme d'un tourbillon Fuufuu et roule vers l'avant sur une courte distance avant d'exécuter son coup de pied Fuufuu.<br/><br/><span>Appui long</span><br/>Roule continuellement en tourbillon Fuufuu, augmentant la RÉS à l'interruption de Sayu.<br/>Sayu peut contrôler la direction dans laquelle elle roule, et utiliser à nouveau la compétence permet de sortir de cet état et d'exécuter un coup de pied Fuufuu plus puissant.<br/>L'appui long de cette compétence peut déclencher une absorption élémentaire.<br/><br/>Cette compétence a une durée maximum de 10 s, et entre en TdR lorsque son effet prend fin. Plus Sayu reste longtemps en tourbillon Fuufuu, plus le TdR est long.<br/><br/><span>Absorption élémentaire</span><br/>Si Sayu entre en contact avec les éléments <span>Hydro</span>, <span>Pyro</span>, <span>Cryo</span> et <span>Électro</span> lorsqu'elle est en tourbillon Fuufuu, elle obtient les attributs élémentaires correspondants, et le tourbillon Fuufuu ainsi que le coup de pied Fuufuu infligent des DGT supplémentaires de l'élément absorbé.<br/>Une seule réaction d'absorption élémentaire peut avoir lieu par utilisation.",
       "info": "Sayu est capable d'exécuter cette technique les yeux fermés. Technique de fuite à la base, elle peut, maintenant qu'elle possède un œil divin, l'utiliser pour faire mordre la poussière à ses ennemis.",
       "attributes": [
         {
@@ -377,9 +380,10 @@
       ]
     },
     {
+      "_id": 10535,
       "id": "yoohoo_art_mujina_flurry",
       "name": "École Yoohoo : Bourrasque du mujina",
-      "description": "Une autre technique spéciale des ninjas de l'École Yoohoo, qui fait appel à une invocation pour venir en aide à Sayu.<br/>Inflige des <span>DGT Anémo</span> aux ennemis proches, et soigne tous les personnages de l'équipe proches d'une quantité de PV proportionnelle à l'ATQ de Sayu. Invoque également un Daruma Muji-muji.<br/><br/><span>Daruma Muji-muji</span><br/>À intervalles réguliers, le Daruma Muji-muji agit de l'une des manières suivantes en fonction de la situation :<br/>· Lorsque les PV des personnages proches sont supérieurs à 70 %, le Daruma Muji-muji attaque un ennemi proche, à qui il inflige des <span>DGT Anémo</span> ;<br/>· Lorqu'un personnage déployé dont les PV sont inférieurs ou égaux à 70 % se trouve à proximité, le Daruma Muji-muji soigne le personnage déployé proche ayant le plus faible pourcentage de PV d'une quantité de PV proportionnelle à l'ATQ de Sayu. Si aucun ennemi ne se trouve à proximité et que les personnages ont tous plus de 70 % de leurs PV, le Daruma Muji-muji soigne aussi les personnages.",
+      "description": "Une autre technique spéciale des ninjas de l'École Yoohoo, qui fait appel à une invocation pour venir en aide à Sayu.<br/>Inflige des <span>DGT Anémo</span> aux ennemis proches, et soigne tous les personnages de l'équipe proches d'une quantité de PV proportionnelle à l'ATQ de Sayu. Invoque également un Daruma Muji-muji.<br/><br/><span>Daruma Muji-muji</span><br/>À intervalles réguliers, le Daruma Muji-muji agit de l'une des manières suivantes en fonction de la situation :<br/>· Lorsque les PV des personnages proches sont supérieurs à 70 %, le Daruma Muji-muji attaque un ennemi proche, à qui il inflige des <span>DGT Anémo</span> ;<br/>· Lorsqu'un personnage déployé dont les PV sont inférieurs ou égaux à 70 % se trouve à proximité, le Daruma Muji-muji soigne le personnage déployé proche ayant le plus faible pourcentage de PV d'une quantité de PV proportionnelle à l'ATQ de Sayu. Si aucun ennemi ne se trouve à proximité et que les personnages ont tous plus de 70 % de leurs PV, le Daruma Muji-muji soigne aussi les personnages.",
       "info": "Ceux qui ne comprennent rien au jujitsu adorent voir Sayu faire étalage de cette technique, et certains ont même essayé de l'apprendre auprès d'elle. Mais Sayu veut dormir et n'a aucune envie d'être dérangée.",
       "attributes": [
         {
@@ -529,78 +533,133 @@
     {
       "id": "someone_more_capable",
       "name": "Quelqu'un de plus efficace",
-      "description": "Lorsque Sayu déclenche une Dispersion, elle soigne les personnages de l'équipe ainsi que les personnages alliés proches à hauteur de 300 PV. Sayu récupère de plus 1,2 PV supplémentaires pour chacun de ses pts de maîtrise élémentaire.<br/>Cet effet peut être déclenché une fois toutes les 2 s.",
+      "description": "Lorsque Sayu déclenche une réaction de Dispersion sur le champ de bataille, elle soigne vos personnages dans l'équipe ainsi que les personnages alliés proches à hauteur de 300 PV. Sayu récupère de plus 1,2 PV supplémentaire pour chaque point de maîtrise élémentaire qu'elle possède.<br/>Cet effet peut être déclenché une fois toutes les 2 s.",
       "level": 1
     },
     {
       "id": "no_work_today",
       "name": "Pas de boulot aujourd'hui !",
-      "description": "Confère au Daruma Muji-muji invoqué pendant <span>École Yoohoo : Bourrasque du mujina</span> les effets suivants :<br/>· Lorqu'il soigne un personnage, les personnages proches de ce dernier sont soignés à hauteur de 20 % des PV récupérés par le personnage ;<br/>· La zone de DGT infligés augmente lorsqu'il attaque un ennemi.",
+      "description": "Confère au Daruma Muji-muji invoqué pendant <span>École Yoohoo : Bourrasque du mujina</span> les effets suivants :<br/>· Lorsqu'il soigne un personnage, les personnages proches de ce dernier sont soignés à hauteur de 20 % des PV récupérés par le personnage ;<br/>· La zone de DGT infligés augmente lorsqu'il attaque un ennemi.",
       "level": 4
     },
     {
       "id": "yoohoo_art_silencers_secret",
       "name": "École Yoohoo : Art du silence",
-      "description": "Quand Sayu fait partie de l'équipe, vos personnages n'effraient pas certains animaux, tels que le papillon cristallin.<br/>Pour savoir quels sont les animaux concernés, consultez l'onglet « Divers » dans la section « Faune » du Bestiaire des Archives.",
+      "description": "Quand Sayu fait partie de l'équipe, vos personnages dans l'équipe n'effraient pas certains animaux, tels que le papillon cristallin.<br/>Pour savoir quels sont les animaux concernés, consultez l'onglet « Divers » dans la section « Faune » du Bestiaire des Archives.",
       "level": 0
     }
   ],
   "constellations": [
     {
+      "_id": 531,
       "id": "multitask_no_jutsu",
       "name": "Technique multitâche",
       "description": "Le Daruma Muji-muji invoqué par <span>École Yoohoo : Bourrasque du mujina</span> ignore les limites de PV et peut attaquer les ennemis proches et soigner les personnages en même temps.",
       "level": 1
     },
     {
+      "_id": 532,
       "id": "egress_prep",
       "name": "Hors de mon chemin !",
-      "description": "<span>École Yoohoo : Course Fuuin</span> obtient les effets suivants :<br/>· Les DGT infligés par le coup de pied Fuufuu après un appui simple augmentent de 3,3 % ;<br/>· Les DGT infligés par le coup de pied Fuufuu après un appui long augmentent de 3,3 % toutes les 0,5 s passées en tourbillon Fuufuu, jusqu'à un max de 66 %.",
+      "description": "<span>École Yoohoo : Course Fuuin</span> obtient les effets suivants :<br/>· Les DGT infligés par le coup de pied Fuufuu après un appui simple augmentent de 3,3 % ;<br/>· Les DGT infligés par le coup de pied Fuufuu après un appui long augmentent de 3,3 % toutes les 0,5 s passées en tourbillon Fuufuu, jusqu'à un maximum de 66 %.",
       "level": 2
     },
     {
+      "_id": 533,
       "id": "eh_the_bunshin_can_handle_it",
       "name": "Bah, le clone s'en occupe...",
       "description": "Niveau d'aptitude <span>École Yoohoo : Bourrasque du mujina</span> +3.<br/>Niveau max : 15",
       "level": 3
     },
     {
+      "_id": 534,
       "id": "skiving_new_and_improved",
       "name": "Paresse revue et améliorée",
-      "description": "Sayu récupère 1,2 pts d'énergie élémentaire lorsqu'elle déclenche une Dispersion sur le champ de bataille.<br/>Cet effet peut être déclenché une fois toutes les 2 s.",
+      "description": "Sayu récupère 1,2 pt d'énergie élémentaire lorsqu'elle déclenche une réaction de Dispersion sur le champ de bataille.<br/>Cet effet peut être déclenché une fois toutes les 2 s.",
       "level": 4
     },
     {
+      "_id": 535,
       "id": "speed_comes_first",
       "name": "La vitesse avant tout",
       "description": "Niveau d'aptitude <span>École Yoohoo : Course Fuuin</span> +3.<br/>Niveau max : 15",
       "level": 5
     },
     {
+      "_id": 536,
       "id": "sleep_oclock",
       "name": "C'est l'heure d'un bon dodo",
-      "description": "Les attaques et les soins du Daruma Muji-muji invoqué par Sayu lors d'<span>École Yoohoo : Bourrasque du mujina</span> augmentent avec le Niv. de maîtrise élémentaire de Sayu. Chaque pt de maîtrise élémentaire de Sayu confère les effets suivants :<br/>· Augmente les DGT infligés par les attaques du Daruma Muji-muji de 0,2 % de l'ATQ, jusqu'à 400 % de l'ATQ max ;<br/>· Augmente de 3 les PV soignés par le Daruma Muji-muji, jusqu'à 6 000 PV max.",
+      "description": "Les attaques et les soins du Daruma Muji-muji invoqué par Sayu lors d'<span>École Yoohoo : Bourrasque du mujina</span> augmentent avec le Niv. de maîtrise élémentaire de Sayu. Chaque point de maîtrise élémentaire que Sayu possède confère les effets suivants :<br/>· Augmente les DGT infligés par les attaques du Daruma Muji-muji de 0,2 % de l'ATQ, jusqu'à 400 % de l'ATQ maximum ;<br/>· Augmente de 3 les PV soignés par le Daruma Muji-muji, jusqu'à 6 000 PV max.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [0, 1]
+        },
+        {
+          "label": "PV de base",
+          "values": ["-", "994"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["-", "20"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["-", "62"]
+        },
+        {
+          "label": "Maîtrise élémentaire",
+          "values": ["-", "0"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [1, 2]
+        },
+        {
+          "label": "PV de base",
+          "values": ["2553", "3296"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["53", "68"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["160", "207"]
+        },
+        {
+          "label": "Maîtrise élémentaire",
+          "values": ["0", "0"]
+        }
+      ],
       "mat1": {
+        "_id": 104151,
         "id": "vayuda_turquoise_sliver",
         "name": "Éclat de turquoise vayuda",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Moelle cristalline",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112038,
         "id": "whopperflower_nectar",
         "name": "Nectar de Fleur mensongère",
         "amount": 3,
@@ -608,28 +667,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [2, 3]
+        },
+        {
+          "label": "PV de base",
+          "values": ["4937", "5464"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["102", "113"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["310", "343 "]
+        },
+        {
+          "label": "Maîtrise élémentaire",
+          "values": ["0", "24"]
+        }
+      ],
       "mat1": {
+        "_id": 104152,
         "id": "vayuda_turquoise_fragment",
         "name": "Fragment de turquoise vayuda",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113022,
         "id": "marionette_core",
         "name": "Mécanisme oni",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Moelle cristalline",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112038,
         "id": "whopperflower_nectar",
         "name": "Nectar de Fleur mensongère",
         "amount": 15,
@@ -637,28 +721,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [3, 4]
+        },
+        {
+          "label": "PV de base",
+          "values": ["6285", "6988"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["130", "144"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["395", "439"]
+        },
+        {
+          "label": "Maîtrise élémentaire",
+          "values": ["24", "48"]
+        }
+      ],
       "mat1": {
+        "_id": 104152,
         "id": "vayuda_turquoise_fragment",
         "name": "Fragment de turquoise vayuda",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113022,
         "id": "marionette_core",
         "name": "Mécanisme oni",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Moelle cristalline",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112039,
         "id": "shimmering_nectar",
         "name": "Nectar miroitant",
         "amount": 12,
@@ -666,28 +775,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [4, 5]
+        },
+        {
+          "label": "PV de base",
+          "values": ["7809", "8337"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["161", "172"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["491", "524"]
+        },
+        {
+          "label": "Maîtrise élémentaire",
+          "values": ["48", "48"]
+        }
+      ],
       "mat1": {
+        "_id": 104153,
         "id": "vayuda_turquoise_chunk",
         "name": "Morceau de turquoise vayuda",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113022,
         "id": "marionette_core",
         "name": "Mécanisme oni",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Moelle cristalline",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112039,
         "id": "shimmering_nectar",
         "name": "Nectar miroitant",
         "amount": 18,
@@ -695,28 +829,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [5, 6]
+        },
+        {
+          "label": "PV de base",
+          "values": ["9157", "9684"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["189", "200"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["575", "608"]
+        },
+        {
+          "label": "Maîtrise élémentaire",
+          "values": ["48", "72"]
+        }
+      ],
       "mat1": {
+        "_id": 104153,
         "id": "vayuda_turquoise_chunk",
         "name": "Morceau de turquoise vayuda",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113022,
         "id": "marionette_core",
         "name": "Mécanisme oni",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Moelle cristalline",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112040,
         "id": "energy_nectar",
         "name": "Nectar élémentaire",
         "amount": 12,
@@ -724,28 +883,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [6, 7]
+        },
+        {
+          "label": "PV de base",
+          "values": ["10505", "11033"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["216", "227"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["660", "693"]
+        },
+        {
+          "label": "Maîtrise élémentaire",
+          "values": ["72", "96"]
+        }
+      ],
       "mat1": {
+        "_id": 104154,
         "id": "vayuda_turquoise_gemstone",
         "name": "Pierre de turquoise vayuda",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113022,
         "id": "marionette_core",
         "name": "Mécanisme oni",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Moelle cristalline",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112040,
         "id": "energy_nectar",
         "name": "Nectar élémentaire",
         "amount": 24,
@@ -759,12 +943,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104326,
           "id": "teachings_of_light",
-          "name": "Enseignement de la lumière",
+          "name": "Enseignement de la Lumière",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112038,
           "id": "whopperflower_nectar",
           "name": "Nectar de Fleur mensongère",
           "amount": 6,
@@ -777,12 +963,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide de la Lumière",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112039,
           "id": "shimmering_nectar",
           "name": "Nectar miroitant",
           "amount": 3,
@@ -795,12 +983,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide de la Lumière",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112039,
           "id": "shimmering_nectar",
           "name": "Nectar miroitant",
           "amount": 4,
@@ -813,12 +1003,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide de la Lumière",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112039,
           "id": "shimmering_nectar",
           "name": "Nectar miroitant",
           "amount": 6,
@@ -831,12 +1023,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide de la Lumière",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112039,
           "id": "shimmering_nectar",
           "name": "Nectar miroitant",
           "amount": 9,
@@ -849,18 +1043,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
-          "name": "Philosophie de la lumière",
+          "name": "Philosophie de la Lumière",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112040,
           "id": "energy_nectar",
           "name": "Nectar élémentaire",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "Écaille dorée",
           "amount": 1,
@@ -873,18 +1070,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
-          "name": "Philosophie de la lumière",
+          "name": "Philosophie de la Lumière",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112040,
           "id": "energy_nectar",
           "name": "Nectar élémentaire",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "Écaille dorée",
           "amount": 1,
@@ -897,18 +1097,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
-          "name": "Philosophie de la lumière",
+          "name": "Philosophie de la Lumière",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112040,
           "id": "energy_nectar",
           "name": "Nectar élémentaire",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "Écaille dorée",
           "amount": 2,
@@ -921,24 +1124,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
-          "name": "Philosophie de la lumière",
+          "name": "Philosophie de la Lumière",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112040,
           "id": "energy_nectar",
           "name": "Nectar élémentaire",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "Écaille dorée",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Couronne de la sagesse",
           "amount": 1,

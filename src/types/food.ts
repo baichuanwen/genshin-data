@@ -6,21 +6,26 @@ type Ingredient = {
 
 type FoodResult = {
   normal: {
+    _id: number;
     name: string;
     description: string;
     effect: string;
   };
   delicious: {
+    _id: number;
     name: string;
     description: string;
     effect: string;
   };
   suspicious: {
+    _id: number;
     name: string;
     description: string;
     effect: string;
   };
   special?: {
+    _id: number;
+    id: string;
     name: string;
     description: string;
     effect: string;
@@ -32,6 +37,7 @@ type FoodResult = {
 };
 
 export interface Food {
+  _id: number;
   id: string;
   name: string;
   description: string;

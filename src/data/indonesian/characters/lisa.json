@@ -1,8 +1,9 @@
 {
+  "_id": 10000006,
   "id": "lisa",
   "name": "Lisa",
   "title": "Witch of Purple Rose",
-  "description": "Pustakawan Knights of Favonius yang sangat malas namun berwawasan sangat luas, pernah dinyatakan oleh Sumeru Academia sebagai siswi kelulusan terbaik 2 abad terakhir.",
+  "description": "Pustakawan Knights of Favonius yang sangat malas namun berwawasan sangat luas. Sumeru Akademiya menyatakan Lisa sebagai lulusan paling berbakat dalam 2 abad terakhir.",
   "weapon_type": "Catalyst",
   "element": "Electro",
   "gender": "Perempuan",
@@ -11,7 +12,7 @@
   "region": "Mondstadt",
   "rarity": 4,
   "birthday": [9, 6],
-  "constellation": "Horologium",
+  "constellation": "Tempus Fugit",
   "domain": "Forsaken Rift",
   "cv": {
     "english": "Mara Junot",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10060,
       "id": "normal_attack_lightning_touch",
-      "name": "Lighting Touch",
-      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 4 serangan listrik yang mengakibatkan <span>Electro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina dan mengakibatkan <span>Electro DMG area</span> setelah jeda singkat.<br/><br/><span>Plunging Attack</span><br/>Mengumpulkan kekuatan Electro dan menerjang tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan <span>Electro DMG area</span> saat mendarat.",
+      "name": "Normal Attack: Lightning Touch",
+      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 4 serangan listrik yang mengakibatkan <span>Electro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk mengakibatkan <span>Electro DMG Area</span> setelah jeda singkat.<br/><br/><span>Plunging Attack</span><br/>Mengumpulkan kekuatan Electro dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <span>Electro DMG Area</span> saat mendarat.",
       "info": "",
       "attributes": [
         {
@@ -189,13 +191,14 @@
       ]
     },
     {
+      "_id": 10061,
       "id": "violet_arc",
       "name": "Violet Arc",
-      "description": "Menyalurkan kekuatan petir untuk menyapu bersih masalah yang merepotkan.<br/><br/><span>Tekan</span><br/>Melancarkan sebuah bola listrik yang mengejar musuh.<br/>Saat mengenai musuh, mengakibatkan <span>Electro DMG</span> dan memberikan satu lapis efek Conductive (hingga 3 lapis) ke musuh di dalam area kecil.<br/><br/><span>Tahan</span><br/>Setelah waktu casting yang diperpanjang, memanggil petir dari langit untuk mengakibatkan <span>Electro DMG</span> yang besar ke semua musuh di sekitar.<br/>Mengakibatkan tambahan DMG yang besar ke musuh berdasarkan jumlah lapisan Conductive yang mereka miliki dan menghapusnya.",
-      "info": "Warna Electro Purple adalah warna sang Rose Witch.",
+      "description": "Menyalurkan kekuatan petir untuk menyapu bersih masalah yang merepotkan.<br/><br/><span>Mode Tekan</span><br/>Melancarkan sebuah Lightning Orb yang mengejar musuh.<br/>Saat mengenai musuh, Lightning Orb akan mengakibatkan <span>Electro DMG</span> dan memberikan satu lapis efek Conductive (maksimum 3 lapis) ke musuh di dalam sebuah area kecil.<br/><br/><span>Mode Tahan</span><br/>Setelah tombol skill ditahan untuk beberapa saat, Lisa akan memanggil petir dari langit untuk mengakibatkan <span>Electro DMG</span> yang besar ke semua musuh di sekitar.<br/>Akan mengakibatkan DMG tambahan yang besar kepada musuh berdasarkan jumlah lapisan efek Conductive yang dimiliki, kemudian menghapus efek ini.",
+      "info": "Warna ungu Electro adalah warna sang Witch of Purple Rose sendiri.",
       "attributes": [
         {
-          "label": "DMG One-tap",
+          "label": "DMG Mode Tekan",
           "values": [
             "80%",
             "86%",
@@ -215,7 +218,7 @@
           ]
         },
         {
-          "label": "Cooldown (Mode Tekan)",
+          "label": "Cooldown Mode Tekan",
           "values": [
             "1 detik",
             "1 detik",
@@ -235,7 +238,7 @@
           ]
         },
         {
-          "label": "DMG Menahan Non-Conductive",
+          "label": "DMG Mode Tahan Tanpa Efek Conductive",
           "values": [
             "320%",
             "344%",
@@ -255,7 +258,7 @@
           ]
         },
         {
-          "label": "DMG Menahan 1 Conductive",
+          "label": "DMG Mode Tahan (1 Lapis Efek Conductive)",
           "values": [
             "368%",
             "395.6%",
@@ -275,7 +278,7 @@
           ]
         },
         {
-          "label": "DMG Menahan 2 Conductive",
+          "label": "DMG Mode Tahan (2 Lapis Efek Conductive)",
           "values": [
             "424%",
             "455.8%",
@@ -295,7 +298,7 @@
           ]
         },
         {
-          "label": "DMG Menahan 3 Conductive",
+          "label": "DMG Mode Tahan (3 Lapis Efek Conductive)",
           "values": [
             "487.2%",
             "523.74%",
@@ -315,7 +318,7 @@
           ]
         },
         {
-          "label": "Cooldown (Mode Tahan)",
+          "label": "Cooldown Mode Tahan",
           "values": [
             "16 detik",
             "16 detik",
@@ -337,13 +340,14 @@
       ]
     },
     {
+      "_id": 10062,
       "id": "lightning_rose",
       "name": "Lightning Rose",
-      "description": "Memanggil Lightning Rose yang mengerahkan sambaran petir dan menghempas musuh di sekitar untuk mengakibatkan <span>Electro DMG</span>.<br/>Lightning Rose akan terus memanggil petir untuk menghempas musuh dan mengakibatkan <span>Electro DMG</span> selama ia tetap ada.",
-      "info": "Hati-hati dengan duri mematikan dari mawar yang cantik.",
+      "description": "Memanggil Lightning Rose yang melancarkan sambaran petir kuat dan menghempaskan musuh di sekitar dan mengakibatkan <span>Electro DMG</span>.<br/>Selama durasinya berlangsung, Lightning Rose akan terus menyerang musuh di sekitar dengan petir dan mengakibatkan <span>Electro DMG</span>.",
+      "info": "Mawar memang cantik, tapi berhati-hatilah dengan durinya.",
       "attributes": [
         {
-          "label": "DMG Pelepasan Listrik",
+          "label": "DMG Serangan Petir",
           "values": [
             "36.56%",
             "39.3%",
@@ -429,78 +433,133 @@
     {
       "id": "induced_aftershock",
       "name": "Induced Aftershock",
-      "description": "Charged Attack yang mengenai musuh akan menyebabkan status Conductive dari <span>Violet Arc</span> pada musuh.",
+      "description": "Charged Attack yang mengenai musuh akan memberikan efek Conductive dari skill <span>Violet Arc</span> pada musuh.",
       "level": 1
     },
     {
       "id": "static_electricity_field",
       "name": "Static Electricity Field",
-      "description": "Saat mengenai musuh, <span>Lightning Rose</span> akan mengurangi 15% DEF musuh selama 10 detik.",
+      "description": "Serangan <span>Lightning Rose</span> yang mengenai musuh akan mengurangi 15% DEF musuh tersebut selama 10 detik.",
       "level": 4
     },
     {
       "id": "general_pharmaceutics",
       "name": "General Pharmaceutics",
-      "description": "Lisa memiliki 20% kemungkinan mendapatkan kembali material yang digunakan saat membuat potion.",
+      "description": "Lisa memiliki 20% kemungkinan mendapatkan kembali sebagian material yang digunakan saat membuat potion.",
       "level": 0
     }
   ],
   "constellations": [
     {
+      "_id": 41,
       "id": "infinite_circuit",
       "name": "Infinite Circuit",
-      "description": "Saat menahan <span>Violet Arc</span>, memulihkan 2 Energy Lisa untuk setiap musuh yang terkena serang.<br/>Paling banyak dapat memulihkan 10 Energy dengan cara ini setiap kalinya.",
+      "description": "<span>Violet Arc</span> dalam Mode Tahan akan memulihkan 2 Energy Lisa untuk setiap musuh yang terkena serangan.<br/>Maksimum dapat memulihkan 10 Energy dengan cara ini setiap kalinya.",
       "level": 1
     },
     {
+      "_id": 42,
       "id": "electromagnetic_field",
       "name": "Electromagnetic Field",
-      "description": "Menahan <span>Violet Arc</span> memberikan efek berikut:<br/>·Meningkatkan 25% DEF.<br/>·Meningkatkan daya tahan Lisa terhadap gangguan.",
+      "description": "Menahan tombol skill <span>Violet Arc</span> akan memberikan efek berikut:<br/>·Meningkatkan 25% DEF.<br/>·Meningkatkan ketahanan Lisa terhadap interupsi.",
       "level": 2
     },
     {
+      "_id": 43,
       "id": "resonant_thunder",
       "name": "Resonant Thunder",
       "description": "Meningkatkan 3 level <span>Lightning Rose</span>.<br/>Maksimum: Lv. 15.",
       "level": 3
     },
     {
+      "_id": 44,
       "id": "plasma_eruption",
       "name": "Plasma Eruption",
-      "description": "Meningkatkan jumlah petir yang dilepaskan oleh <span>Lightning Rose</span> sebanyak 1-3.",
+      "description": "<span>Lightning Rose</span> akan melancarkan 1-3 sambaran petir saat menyerang.",
       "level": 4
     },
     {
+      "_id": 45,
       "id": "electrocute",
       "name": "Electrocute",
       "description": "Meningkatkan 3 level <span>Violet Arc</span>.<br/>Maksimum: Lv. 15.",
       "level": 5
     },
     {
+      "_id": 46,
       "id": "pulsating_witch",
       "name": "Pulsating Witch",
-      "description": "Saat berganti karakter ke Lisa, Lisa akan memberikan 3 lapis status Conductive dari skill <span>Violet Arc</span> kepada musuh di sekitar.<br/>Efek ini dapat terpicu setiap 5 detik.",
+      "description": "Saat berganti Karakter ke Lisa, Lisa akan memberikan 3 lapis efek Conductive dari skill <span>Violet Arc</span> ke musuh di sekitar.<br/>Efek ini dapat terpicu sekali setiap 5 detik.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [0, 1]
+        },
+        {
+          "label": "Base HP",
+          "values": ["-", "802"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["-", "19"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["-", "48"]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": ["-", "0"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [1, 2]
+        },
+        {
+          "label": "Base HP",
+          "values": ["2061", "2661 "]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["50", "64"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["123", "159"]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": ["0", "0"]
+        }
+      ],
       "mat1": {
+        "_id": 104141,
         "id": "vajrada_amethyst_sliver",
         "name": "Vajrada Amethyst Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100022,
         "id": "valberry",
         "name": "Valberry",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112002,
         "id": "slime_condensate",
         "name": "Slime Condensate",
         "amount": 3,
@@ -508,28 +567,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [2, 3]
+        },
+        {
+          "label": "Base HP",
+          "values": ["3985", "4411"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["96", "107"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["239", "264"]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": ["0", "24"]
+        }
+      ],
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "Vajrada Amethyst Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "Lightning Prism",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100022,
         "id": "valberry",
         "name": "Valberry",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112002,
         "id": "slime_condensate",
         "name": "Slime Condensate",
         "amount": 15,
@@ -537,28 +621,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [3, 4]
+        },
+        {
+          "label": "Base HP",
+          "values": ["5074", "5642"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["123", "136"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["304", "338"]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": ["24", "48"]
+        }
+      ],
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "Vajrada Amethyst Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "Lightning Prism",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100022,
         "id": "valberry",
         "name": "Valberry",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112003,
         "id": "slime_secretions",
         "name": "Slime Secretions",
         "amount": 12,
@@ -566,28 +675,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [4, 5]
+        },
+        {
+          "label": "Base HP",
+          "values": ["6305", "6731 "]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["153", "163"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["378", "403"]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": ["48", "48"]
+        }
+      ],
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "Vajrada Amethyst Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "Lightning Prism",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100022,
         "id": "valberry",
         "name": "Valberry",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112003,
         "id": "slime_secretions",
         "name": "Slime Secretions",
         "amount": 18,
@@ -595,28 +729,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [5, 6]
+        },
+        {
+          "label": "Base HP",
+          "values": ["7393", "7818"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["179", "189"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["443", "468"]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": ["48", "72"]
+        }
+      ],
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "Vajrada Amethyst Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "Lightning Prism",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100022,
         "id": "valberry",
         "name": "Valberry",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112004,
         "id": "slime_concentrate",
         "name": "Slime Concentrate",
         "amount": 12,
@@ -624,28 +783,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [6, 7]
+        },
+        {
+          "label": "Base HP",
+          "values": ["8481", "8907"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["205", "215"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["508", "534"]
+        },
+        {
+          "label": "Elemental Mastery",
+          "values": ["72", "96"]
+        }
+      ],
       "mat1": {
+        "_id": 104144,
         "id": "vajrada_amethyst_gemstone",
         "name": "Vajrada Amethyst Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113002,
         "id": "lightning_prism",
         "name": "Lightning Prism",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100022,
         "id": "valberry",
         "name": "Valberry",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112004,
         "id": "slime_concentrate",
         "name": "Slime Concentrate",
         "amount": 24,
@@ -659,12 +843,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104307,
           "id": "teachings_of_ballad",
           "name": "Teachings of \"Ballad\"",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112002,
           "id": "slime_condensate",
           "name": "Slime Condensate",
           "amount": 6,
@@ -677,12 +863,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104308,
           "id": "guide_to_ballad",
           "name": "Guide to \"Ballad\"",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Slime Secretions",
           "amount": 3,
@@ -695,12 +883,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104308,
           "id": "guide_to_ballad",
           "name": "Guide to \"Ballad\"",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Slime Secretions",
           "amount": 4,
@@ -713,12 +903,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104308,
           "id": "guide_to_ballad",
           "name": "Guide to \"Ballad\"",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Slime Secretions",
           "amount": 6,
@@ -731,12 +923,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104308,
           "id": "guide_to_ballad",
           "name": "Guide to \"Ballad\"",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Slime Secretions",
           "amount": 9,
@@ -749,18 +943,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104309,
           "id": "philosophies_of_ballad",
           "name": "Philosophies of \"Ballad\"",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Slime Concentrate",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Dvalin's Claw",
           "amount": 1,
@@ -773,18 +970,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104309,
           "id": "philosophies_of_ballad",
           "name": "Philosophies of \"Ballad\"",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Slime Concentrate",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Dvalin's Claw",
           "amount": 1,
@@ -797,18 +997,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104309,
           "id": "philosophies_of_ballad",
           "name": "Philosophies of \"Ballad\"",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Slime Concentrate",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Dvalin's Claw",
           "amount": 2,
@@ -821,24 +1024,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104309,
           "id": "philosophies_of_ballad",
           "name": "Philosophies of \"Ballad\"",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Slime Concentrate",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Dvalin's Claw",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

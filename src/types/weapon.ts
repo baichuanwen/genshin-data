@@ -1,4 +1,5 @@
 type AscensionMaterial = {
+  _id: number;
   id: string;
   name: string;
   amount: number;
@@ -31,6 +32,7 @@ type WeaponStat = {
 };
 
 export interface Weapon {
+  _id: number;
   id: string;
   name: string;
   description: string;
@@ -41,5 +43,10 @@ export interface Weapon {
   bonus: string;
   stats: WeaponStat;
   ascensions: WeaponAscension[];
+  refinement_raw: {
+    name: string;
+    template: string;
+    params: [string[]];
+  };
   refinements: WeaponRefinement[];
 }

@@ -1,6 +1,6 @@
 {
+  "_id": 17,
   "id": "memories_of_the_heart",
-  "originalId": 17,
   "name": "Memories of the Heart",
   "order": 2,
   "achievements": [
@@ -315,6 +315,126 @@
       "reward": 5,
       "hidden": true,
       "order": 7211
+    },
+    {
+      "id": 84137,
+      "name": "You Thought We Were For Real, Eh?",
+      "desc": "Complete \"Trap 'Em by Storm\" and unlock all endings.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7300
+    },
+    {
+      "id": 84138,
+      "name": "An Ideal Detective Am I",
+      "desc": "Correctly analyze the motives and the truth behind the crime the first time.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7310
+    },
+    {
+      "id": 84139,
+      "name": "Sangonomiya Supplications",
+      "desc": "Ask Gorou whether Kokomi knows about the happenings on Watatsumi Island.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7311
+    },
+    {
+      "id": 84140,
+      "name": "Optimal Solution",
+      "desc": "Complete \"A Confounding Conundrum\" and unlock all endings.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7400
+    },
+    {
+      "id": 84141,
+      "name": "To You in a Hundred Years",
+      "desc": "Read all the letters sent to Faruzan.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7410
+    },
+    {
+      "id": 84142,
+      "name": "Mechanics: From Beginner to...?",
+      "desc": "Guess correctly the smallest number of moves it will take to solve a seven-layer Pagoda Stack.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7411
+    },
+    {
+      "id": 84143,
+      "name": "The Name Is Layla",
+      "desc": "Complete \"Ever Silent Stars\" and unlock all endings.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7500
+    },
+    {
+      "id": 84144,
+      "name": "She's Already Tense",
+      "desc": "Help Layla finish her thesis without causing her further anxiety.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7510
+    },
+    {
+      "id": 84145,
+      "name": "Secret of Seelie and the Star-Lit Sky",
+      "desc": "Obtain the authentic letter of the Wisdom Seelie.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7511
+    },
+    {
+      "id": 84146,
+      "name": "Art and Life",
+      "desc": "Complete \"The Pendulum of Weal and Woe\" and unlock all endings.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7600
+    },
+    {
+      "id": 84147,
+      "name": "School Days",
+      "desc": "Find the annotated books in the House of Daena.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7610
+    },
+    {
+      "id": 84148,
+      "name": "An Architect's Romanticism",
+      "desc": "Chat about the future with Kaveh in the desert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7611
+    },
+    {
+      "id": 84149,
+      "name": "Make Merry",
+      "desc": "Complete \"Shenanigans and Sweet Wine\" and unlock all endings.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7700
+    },
+    {
+      "id": 84150,
+      "name": "Lucky Coin",
+      "desc": "Participate in the wager set up by Kaeya.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7710
+    },
+    {
+      "id": 84151,
+      "name": "Shh... Listen!",
+      "desc": "Listen to the voice coming from the confinement room.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7711
     }
   ]
 }

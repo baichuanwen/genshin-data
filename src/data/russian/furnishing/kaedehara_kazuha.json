@@ -1,9 +1,9 @@
 {
+  "_id": 368101,
   "id": "kaedehara_kazuha",
-  "originalId": 368101,
   "rarity": 1,
   "name": "Кадзуха",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

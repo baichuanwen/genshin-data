@@ -1,8 +1,8 @@
 {
+  "_id": 20,
   "id": "challenger_series_iv",
-  "originalId": 20,
   "name": "Au défi ! - Partie IV",
-  "order": 14,
+  "order": 17,
   "achievements": [
     {
       "id": 82091,
@@ -63,7 +63,7 @@
     {
       "id": 82098,
       "name": "Bataille de l'Île de Narukami",
-      "desc": "Vainquez une Matrice mécanique perpétuelle en état affaibli.",
+      "desc": "Vainquez une Matrice mécanique perpétuelle dans l'état affaibli.",
       "reward": 5,
       "hidden": false,
       "order": 2098

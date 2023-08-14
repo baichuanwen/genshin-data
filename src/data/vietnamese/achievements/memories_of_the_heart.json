@@ -1,6 +1,6 @@
 {
+  "_id": 17,
   "id": "memories_of_the_heart",
-  "originalId": 17,
   "name": "Ký Ức Về Trái Tim",
   "order": 2,
   "achievements": [
@@ -315,6 +315,126 @@
       "reward": 5,
       "hidden": true,
       "order": 7211
+    },
+    {
+      "id": 84137,
+      "name": "Bạn Nghĩ Chân Tướng Đã Rõ Hết Chưa?",
+      "desc": "Hoàn thành \"Tiểu Thuyết Trinh Thám Bão Táp\", mở khóa toàn bộ kết cục.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7300
+    },
+    {
+      "id": 84138,
+      "name": "Ta Là Thám Tử Hoàn Hảo!",
+      "desc": "Phân tích động cơ và cách thức phạm tội thành công ngay lần đầu.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7310
+    },
+    {
+      "id": 84139,
+      "name": "Lời Cầu Nguyện Của Sangonomiya",
+      "desc": "Hỏi thăm Gorou và Kokomi xem có biết chuyện của Đảo Watatsumi không.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7311
+    },
+    {
+      "id": 84140,
+      "name": "Giải Pháp Tối Ưu",
+      "desc": "Hoàn thành \"Khúc Mắc Khó Gỡ\", mở khóa toàn bộ kết cục.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7400
+    },
+    {
+      "id": 84141,
+      "name": "Gửi Đến Bạn Của Trăm Năm Sau",
+      "desc": "Đọc tất cả thư gửi cho Faruzan.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7410
+    },
+    {
+      "id": 84142,
+      "name": "Cơ Quan Học: Từ Nhập Môn Đến...?",
+      "desc": "Đoán đúng số bước tối thiểu để giải được Tháp Xếp Chồng 7 tầng.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7411
+    },
+    {
+      "id": 84143,
+      "name": "Tên Cô Ấy Là \"Layla\"",
+      "desc": "Hoàn thành \"Ngôi Sao Không Lời\", mở khóa toàn bộ kết cục.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7500
+    },
+    {
+      "id": 84144,
+      "name": "Cô Ấy Căng Thẳng Lắm Rồi",
+      "desc": "Trong quá trình giúp Layla hoàn thành luận văn, không làm cô ấy thêm lo lắng.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7510
+    },
+    {
+      "id": 84145,
+      "name": "Bí Mật Tiên Linh Và Trời Sao",
+      "desc": "Nhận được hồi âm thật sự của \"Tiên Linh Trí Tuệ\".",
+      "reward": 5,
+      "hidden": true,
+      "order": 7511
+    },
+    {
+      "id": 84146,
+      "name": "Nghệ Thuật Và Cuộc Sống",
+      "desc": "Hoàn thành \"Dao Động Giữa Đau Khổ Và Hạnh Phúc\", mở khóa toàn bộ kết cục.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7600
+    },
+    {
+      "id": 84147,
+      "name": "Thời Học Sinh",
+      "desc": "Lật xem các quyển sách có để lại ghi chú tại Cung Điện Daena.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7610
+    },
+    {
+      "id": 84148,
+      "name": "Sự Lãng Mạn Của Kiến Trúc Sư",
+      "desc": "Tán gẫu về tương lai với Kaveh trong sa mạc.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7611
+    },
+    {
+      "id": 84149,
+      "name": "Tìm Kiếm Niềm Vui",
+      "desc": "Hoàn thành \"Lời Nói Dối Và Rượu Ngọt\" mở khóa toàn bộ kết cục.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7700
+    },
+    {
+      "id": 84150,
+      "name": "Đồng Xu May Mắn",
+      "desc": "Tham gia màn cá cược mà Kaeya đã bày ra.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7710
+    },
+    {
+      "id": 84151,
+      "name": "Suỵt... Nghe Kìa!",
+      "desc": "Lắng nghe tiếng nói vọng ra từ phòng giam.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7711
     }
   ]
 }

@@ -1,9 +1,9 @@
 {
+  "_id": 368135,
   "id": "yoimiya",
-  "originalId": 368135,
   "rarity": 1,
   "name": "Ёимия",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

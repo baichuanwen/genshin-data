@@ -1,8 +1,8 @@
 {
+  "_id": 27,
   "id": "the_chronicles_of_the_sea_of_fog",
-  "originalId": 27,
   "name": "The Chronicles of the Sea of Fog",
-  "order": 28,
+  "order": 35,
   "achievements": [
     {
       "id": 80113,
@@ -15,7 +15,7 @@
     {
       "id": 80114,
       "name": "Fog's Edge",
-      "desc": "Unlock all Teleport Waypoints in Tsurumi Island.",
+      "desc": "Unlock all Teleport Waypoints on Tsurumi Island.",
       "reward": 5,
       "hidden": false,
       "order": 114

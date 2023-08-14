@@ -1,9 +1,9 @@
 {
+  "_id": 370401,
   "id": "hilichurl_outpost_hut",
-  "originalId": 370401,
   "rarity": 3,
   "name": "Avant-poste Brutocollinus",
-  "description": "Une hutte de style Brutocollinus. Bien qu'elle ressemble à un château qui aurait été fermé à clé, elle est en fait assez aérée et possède même des interstices dans le toit à travers lesquels la pluie peut entrer.\\nL'érudit Musk a souligné que ces espaces peuvent être utilisés pour collecter l'eau de pluie, et que des pots peuvent être installés à l'intérieur de ces structures.",
+  "description": "Une hutte de style Brutocollinus. Bien qu'elle ressemble à un château qui aurait été fermé à clé, elle est en fait assez aérée et possède même des interstices dans le toit à travers lesquels la pluie peut entrer.\\nLe chercheur Musk a souligné que ces espaces peuvent être utilisés pour collecter l'eau de pluie, et que des pots peuvent être installés à l'intérieur de ces structures.",
   "load": 155,
   "energy": 60,
   "exp": 60,
@@ -16,6 +16,7 @@
   ],
   "recipe": [
     {
+      "_id": 101301,
       "id": "birch_wood",
       "name": "Bois de bouleau",
       "amount": 12

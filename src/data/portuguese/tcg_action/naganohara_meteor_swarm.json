@@ -1,0 +1,29 @@
+{
+  "_id": 213051,
+  "id": "naganohara_meteor_swarm",
+  "name": "Chuva de Meteoros de Naganohara",
+  "title": "Yoimiya - Chuva de Meteoros de Naganohara",
+  "desc": "Naganohara - Teoria Dominante da Reserva de Fogos de Artifício",
+  "in_play_description": "Após Yoimiya, com esta carta equipada, desencadear <span style=\"color:#FFFFFFFF\">Niwabi Enshou</span>, causará 1 ponto extra de <span style=\"color:#FF9999FF\">Dano Pyro</span>.",
+  "attributes": {
+    "cost": 2,
+    "cost_type": "Pyro",
+    "card_type": "Carta de Equipamento",
+    "energy": [
+      {
+        "_id": 1103,
+        "id": "pyro",
+        "type": "Pyro",
+        "count": 2
+      }
+    ],
+    "source": "Recompensa por desafiar Yoimiya para um duelo na Cauda do Gato e conquistar todos os objetivos de desafio correspondentes",
+    "tags": ["Talento", "Ação de Combate"]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "<span style=\"color:#FFFFFFFF\">Ações de Combate</span>: Equipe esta carta quando seu Personagem em Combate for <span style=\"color:#FFFFFFFF\">Yoimiya</span>.<br/>Após equipar esta carta, Yoimiya instantaneamente usará <span style=\"color:#FFD780FF\">Dança de Fogo Niwabi</span> uma vez.<br/>Após Yoimiya, com esta carta equipada, desencadear <span style=\"color:#FFFFFFFF\">Niwabi Enshou</span>, causará 1 ponto extra de <span style=\"color:#FF9999FF\">Dano Pyro</span>.<br/>(Essa carta só pode ser colocada em Decks que incluam Yoimiya)"
+    }
+  ]
+}

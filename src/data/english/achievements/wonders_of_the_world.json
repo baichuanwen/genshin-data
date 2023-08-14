@@ -1,4 +1,5 @@
 {
+  "_id": 0,
   "id": "wonders_of_the_world",
   "name": "Wonders of the World",
   "order": 1,
@@ -1126,7 +1127,7 @@
     {
       "id": 81210,
       "name": "The Alchemistake",
-      "desc": "Rescue Clitopho",
+      "desc": "Rescue Clitopho.",
       "reward": 5,
       "hidden": true,
       "order": 1196
@@ -1218,6 +1219,1166 @@
       "reward": 5,
       "hidden": true,
       "order": 1208
+    },
+    {
+      "id": 81223,
+      "name": "Nature's Infinite Wit",
+      "desc": "Reach Reputation Lv. 10 in Sumeru.",
+      "reward": 20,
+      "hidden": false,
+      "order": 1209
+    },
+    {
+      "id": 81224,
+      "name": "For Meritorious Service",
+      "desc": "Offer help to many Aranara in the forest.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1210
+    },
+    {
+      "id": 81225,
+      "name": "Portal of Marvels",
+      "desc": "Truly step into \"the world of the Aranara\"...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1211
+    },
+    {
+      "id": 81226,
+      "name": "Perched Between Dream and Reality",
+      "desc": "Enter Vanarana in reality.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1212
+    },
+    {
+      "id": 81227,
+      "name": "Music of the Forest",
+      "desc": "You seem to have the potential to be a \"song gatherer\"...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1213
+    },
+    {
+      "id": 81228,
+      "name": "A Leisurely Journey",
+      "desc": "One should not miss out on the scenery along the way.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1214
+    },
+    {
+      "id": 81229,
+      "name": "Glittering Melody",
+      "desc": "...They will carry this melody for generation after generation.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1215
+    },
+    {
+      "id": 81230,
+      "name": "The Tale of the Forest",
+      "desc": "Hear 5 tales of the forest from Aravinay.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1216
+    },
+    {
+      "id": 81231,
+      "name": "A Once-Emerald Nursery",
+      "desc": "Enter the Vanarana of yesteryear.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1217
+    },
+    {
+      "id": 81232,
+      "name": "The End of Annihilation",
+      "desc": "Defeated Marana's Avatar, and then...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1218
+    },
+    {
+      "id": 81233,
+      "name": "Though to the Earth I May Return...",
+      "desc": "...My Dreams and Desires Shall Not Adjourn.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1219
+    },
+    {
+      "id": 81234,
+      "name": "Ever an Outcast in the Forest",
+      "desc": "Now it's all settled.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1220
+    },
+    {
+      "id": 81235,
+      "name": "Master Chef: Vanarana",
+      "desc": "Help Arapacati's brothers with their \"Supreme Delicacies.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1221
+    },
+    {
+      "id": 81236,
+      "name": "Open Sesame!",
+      "desc": "Use the secret code to enter the Fatui's hidden encampment.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1222
+    },
+    {
+      "id": 81237,
+      "name": "A Conversation with the Treasure Chest Owner",
+      "desc": "Find the Aranara's \"Treasure Chest.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1223
+    },
+    {
+      "id": 81238,
+      "name": "Vamadha-Go-Round",
+      "desc": "Turn every Vamadha that holds a hidden treasure chest.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1224
+    },
+    {
+      "id": 81239,
+      "name": "In the Name of Anfortas",
+      "desc": "Visit the place where the heroes met their end.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1225
+    },
+    {
+      "id": 81240,
+      "name": "Call of the Nameless City",
+      "desc": "Quiet the mysterious parchment.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1226
+    },
+    {
+      "id": 81241,
+      "name": "Walking with Water and Wind",
+      "desc": "Complete \"Until Vana Is Healed.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1227
+    },
+    {
+      "id": 81242,
+      "name": "...Let Me Fade With Memory",
+      "desc": "Complete \"Vimana Agama.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 1228
+    },
+    {
+      "id": 81243,
+      "name": "Now Let Time Resume",
+      "desc": "Complete Aradasha's unfinished business.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1229
+    },
+    {
+      "id": 81244,
+      "name": "Please Play Safely",
+      "desc": "Play with the Aranara in the forest.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1230
+    },
+    {
+      "id": 81245,
+      "name": "Eternal Sustenance",
+      "desc": "Go with Varsha to visit the Aranara nursery in real life.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1231
+    },
+    {
+      "id": 81246,
+      "name": "When the Dreams Bloom",
+      "desc": "Have the Viparyas bloom throughout the Aranara nursery.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1232
+    },
+    {
+      "id": 81247,
+      "name": "A Walnut Tree Amidst the Gardens",
+      "desc": "Ask Khayyam about the lost memories.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1233
+    },
+    {
+      "id": 81248,
+      "name": "Sumeru Monster Ecology Survey",
+      "desc": "Complete your task of protecting those who dwell in the forests.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1234
+    },
+    {
+      "id": 81249,
+      "name": "As the Lion Searched for Courage...",
+      "desc": "Find Arashakun's lost \"courage.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1235
+    },
+    {
+      "id": 81250,
+      "name": "Summit of Wisdom",
+      "desc": "Reach the highest point in Sumeru City.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1236
+    },
+    {
+      "id": 81251,
+      "name": "Explorer",
+      "desc": "Use Catalyze reactions to recover what should have been lost.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1237
+    },
+    {
+      "id": 81252,
+      "name": "The Jasmines Whisper, the Pomegranates Are Glad",
+      "desc": "Complete \"Agnihotra Sutra.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 1238
+    },
+    {
+      "id": 81253,
+      "name": "Swift as the Wind",
+      "desc": "Activate three wind currents in Mawtiyima Forest.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1239
+    },
+    {
+      "id": 81254,
+      "name": "The Rule of Three",
+      "desc": "Find three lost musical scores and obtain three Vasoma Fruits.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1240
+    },
+    {
+      "id": 81255,
+      "name": "The Bitter Fruit of Dreams",
+      "desc": "Use Kusava for the first time.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1241
+    },
+    {
+      "id": 81256,
+      "name": "The Rain Seeps Into the Soil",
+      "desc": "Complete \"Varuna Gatha.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 1242
+    },
+    {
+      "id": 81257,
+      "name": "They Enter the Flow",
+      "desc": "Use your Kamera to capture the moment when the Varunastra starts up.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1243
+    },
+    {
+      "id": 81258,
+      "name": "Weather Control Activated",
+      "desc": "Control the Varuna Contraption to change the weather in Apam Woods.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1244
+    },
+    {
+      "id": 81259,
+      "name": "Oh, Frabjous Day!",
+      "desc": "Find the secret treasure by following the clues in the chests.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1245
+    },
+    {
+      "id": 81260,
+      "name": "Kara's Child",
+      "desc": "Drift freely in the forest.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1246
+    },
+    {
+      "id": 81261,
+      "name": "The Lengthy Reunion",
+      "desc": "Follow the Sumpter Beast that has lost its owner until it finishes its journey.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1247
+    },
+    {
+      "id": 81262,
+      "name": "\"I've Got It! I've Got It!\"",
+      "desc": "Find and solve a series of riddles in Sumeru City.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1248
+    },
+    {
+      "id": 81263,
+      "name": "Song of Night and Dawn",
+      "desc": "...We shall meet each other somewhere in the future.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1249
+    },
+    {
+      "id": 81264,
+      "name": "Close Encounters of the Which Kind?",
+      "desc": "An unusual \"friend\" has joined the archaeology team...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1250
+    },
+    {
+      "id": 81265,
+      "name": "Exploration in the Desert",
+      "desc": "The exploration in the desert has just begun.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1251
+    },
+    {
+      "id": 81266,
+      "name": "Thinking Like a Vahumana Scholar",
+      "desc": "The ink bottle has a fearsome power.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1252
+    },
+    {
+      "id": 81267,
+      "name": "Fata Morgana",
+      "desc": "The way to the throne has finally been revealed.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1253
+    },
+    {
+      "id": 81268,
+      "name": "Create, Swap, Store, and Use",
+      "desc": "Even the key must first receive \"acknowledgment.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1254
+    },
+    {
+      "id": 81269,
+      "name": "The Amazing Pyramid",
+      "desc": "A small step towards hiding the truth.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1255
+    },
+    {
+      "id": 81270,
+      "name": "Walk Like King Deshret's People",
+      "desc": "Obtain permission to go through many doors.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1256
+    },
+    {
+      "id": 81271,
+      "name": "The Straight Path",
+      "desc": "Head to the hidden compartment at the top of the Mausoleum of King Deshret.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1257
+    },
+    {
+      "id": 81272,
+      "name": "The Path to Enlightenment",
+      "desc": "No one knows how these great monuments were built or why they were lost to time.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1258
+    },
+    {
+      "id": 81273,
+      "name": "Encore!",
+      "desc": "Stand before King Deshret again in Khaj-Nisut.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1259
+    },
+    {
+      "id": 81274,
+      "name": "Reclining on Top of the World",
+      "desc": "Complete Afratu's Dilemma.",
+      "reward": 10,
+      "hidden": true,
+      "order": 1260
+    },
+    {
+      "id": 81275,
+      "name": "What Does This Button Do?",
+      "desc": "As long as you miss, it isn't a big deal.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1261
+    },
+    {
+      "id": 81276,
+      "name": "The Breakthrough",
+      "desc": "Are all machines from Khaenri'ah this strange?",
+      "reward": 5,
+      "hidden": true,
+      "order": 1262
+    },
+    {
+      "id": 81277,
+      "name": "What's the Password?",
+      "desc": "Open the mysterious gate of the Lamb-Devourer Rock.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1263
+    },
+    {
+      "id": 81278,
+      "name": "The End of the Corridor",
+      "desc": "Enter the most secret chamber at the bottom of the Mausoleum of King Deshret.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1264
+    },
+    {
+      "id": 81280,
+      "name": "The King of Four Lands",
+      "desc": "Find and unlock the secrets of all Transparent Ruins in the desert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1266
+    },
+    {
+      "id": 81281,
+      "name": "Scarlet Reign's Great Red Sand",
+      "desc": "Explore the three large Obelisks in the desert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1267
+    },
+    {
+      "id": 81282,
+      "name": "Engraved",
+      "desc": "Beauty and hope are the tenderest remembrances of the dead.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1268
+    },
+    {
+      "id": 81283,
+      "name": "Before My Time",
+      "desc": "People don't want to mention his name, nor do they want to remember his words or deeds.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1269
+    },
+    {
+      "id": 81284,
+      "name": "The Illusory City",
+      "desc": "Experience your first mirage in the desert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1270
+    },
+    {
+      "id": 81285,
+      "name": "How Do You Write the Excavation Report?",
+      "desc": "Explore the ruins beneath the desert for the first time.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1271
+    },
+    {
+      "id": 81286,
+      "name": "Drifting in the Wind",
+      "desc": "Break the tumbleweed drifting in the desert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1272
+    },
+    {
+      "id": 81288,
+      "name": "One Flew Over the Sick Men's Rest",
+      "desc": "There was one survivor who got away.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1274
+    },
+    {
+      "id": 81289,
+      "name": "A Well-Trained Archaeologist",
+      "desc": "Bring all the Primal Obelisks in the Hypostyle Desert, Land of Upper Setekh, and Land of Lower Setekh back to life.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1275
+    },
+    {
+      "id": 81290,
+      "name": "Beyond the Shadow of Time",
+      "desc": "Touch every mysterious mural in the desert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1276
+    },
+    {
+      "id": 81291,
+      "name": "\"If They Had Known the Unseen...\"",
+      "desc": "Liloupar frees herself of her contract with you, choosing to face her dark and distant destiny...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1277
+    },
+    {
+      "id": 81292,
+      "name": "\"It's Only an Eternity of Servitude!\"",
+      "desc": "The Jinni Liloupar, who has slumbered for hundreds and thousands of years, enters into a pact with you.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1278
+    },
+    {
+      "id": 81293,
+      "name": "The Nameless City's Past",
+      "desc": "The murals within the temple of Gurabad speak of a glorious bygone age...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1279
+    },
+    {
+      "id": 81295,
+      "name": "The Silent, Dreamless Paradise",
+      "desc": "This is the mausoleum of the Goddess of Flowers. This is the long and dreamless slumber of a god...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1282
+    },
+    {
+      "id": 81296,
+      "name": "\"...For She Shall Surely Requite.\"",
+      "desc": "Will the evil-doers and their oracles have known of this day, when the avenger unleashes her righteous fury?",
+      "reward": 5,
+      "hidden": true,
+      "order": 1283
+    },
+    {
+      "id": 81297,
+      "name": "La Luna Rossa",
+      "desc": "Across this vast chessboard, what horrors have been enacted under the light of the blood-red moon?",
+      "reward": 5,
+      "hidden": true,
+      "order": 1284
+    },
+    {
+      "id": 81298,
+      "name": "Flat Out",
+      "desc": "The blind Wenut crash across the desert, and yet even such reckless charges do sometimes yield results...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1285
+    },
+    {
+      "id": 81299,
+      "name": "\"I Hate 'Em Myself!\"",
+      "desc": "Be attacked by a Wenut for the first time.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1286
+    },
+    {
+      "id": 81300,
+      "name": "Genesis of the Rift",
+      "desc": "Discover the truth behind the destruction of the Eremite investigative expedition to Gurabad.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1287
+    },
+    {
+      "id": 81301,
+      "name": "Didn't Even Need a Manual...",
+      "desc": "Revive Benben to its former state.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1288
+    },
+    {
+      "id": 81302,
+      "name": "Hunter's Mercy",
+      "desc": "Let Tadhla the Falcon choose her own fate...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1289
+    },
+    {
+      "id": 81303,
+      "name": "On a Magic Carpet Ride",
+      "desc": "This whole new world, this dazzling place I never knew!",
+      "reward": 5,
+      "hidden": true,
+      "order": 1290
+    },
+    {
+      "id": 81304,
+      "name": "\"Isn't Life Wondrous?\"",
+      "desc": "The Wenut tunnel their palaces windingly, perhaps even intricately, since life always finds a way...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1291
+    },
+    {
+      "id": 81306,
+      "name": "The Ancient Orchard and Spring",
+      "desc": "The terraced pools that once overflowed with spring water have now been filled with yellow sand...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1293
+    },
+    {
+      "id": 81307,
+      "name": "In Her Full Glory...",
+      "desc": "The fuchsia Padisarahs bloom upon an empty throne, like the eternal smile of their mistress...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1294
+    },
+    {
+      "id": 81308,
+      "name": "\"...Shew the Kingdoms Thy Shame.\"",
+      "desc": "Make the damaged chessboard re-emerge amidst the sands.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1295
+    },
+    {
+      "id": 81309,
+      "name": "From Soil You Are, and to the Sand You Shall Return...",
+      "desc": "Just like all who dwell in the desert...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1296
+    },
+    {
+      "id": 81310,
+      "name": "The Perfect Sandstorm",
+      "desc": "\"We're heading straight into meteorological hell.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1297
+    },
+    {
+      "id": 81311,
+      "name": "The Loveless Tarantula",
+      "desc": "\"I swear I'm gonna boil you down for axle grease!\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1298
+    },
+    {
+      "id": 81312,
+      "name": "Parvezravan Khwarrah",
+      "desc": "Bring all the Primal Obelisks in the Desert of Hadramaveth back to life.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1299
+    },
+    {
+      "id": 81313,
+      "name": "A Very Long Engagement",
+      "desc": "Though destinies may be sundered, the pact lives on in slumber...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1300
+    },
+    {
+      "id": 81314,
+      "name": "Where the Light Touches",
+      "desc": "Reach Vourukasha Oasis.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1301
+    },
+    {
+      "id": 81315,
+      "name": "Like a Morning Sun Coming Out of Gloomy Mountains",
+      "desc": "Escort Mihir through her cleansing pilgrimage.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1302
+    },
+    {
+      "id": 81316,
+      "name": "The Tree on the Hill",
+      "desc": "Bring Rashnu back to the Vourukasha Oasis.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1303
+    },
+    {
+      "id": 81317,
+      "name": "Beneath the Fog",
+      "desc": "Dispel the purple mist permeating Asipattravana Swamp.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1304
+    },
+    {
+      "id": 81318,
+      "name": "Hic Pulso",
+      "desc": "Retrieve all five Korybantes.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1305
+    },
+    {
+      "id": 81319,
+      "name": "Vyakarana of the Birds",
+      "desc": "Sorush has obtained the Twin-Horned Chaplet with Zurvan as her witness...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1306
+    },
+    {
+      "id": 81320,
+      "name": "Behold My Righteous Strike!",
+      "desc": "Use the Ruin Cannon to destroy the Golem's core.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1307
+    },
+    {
+      "id": 81321,
+      "name": "\"...Abandon All Hope, Ye Who Enter Here.\"",
+      "desc": "Reach the end of the surface realms.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1308
+    },
+    {
+      "id": 81322,
+      "name": "Fabricator-General",
+      "desc": "Activate the large elevator in the underground ruin workshop.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1309
+    },
+    {
+      "id": 81323,
+      "name": "Trial of Haft-Vádí",
+      "desc": "You now wield the power of the Great Songs of Khvarena.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1310
+    },
+    {
+      "id": 81324,
+      "name": "A Rope Over an Abyss",
+      "desc": "Complete the Rite of Chinvat and clear a path through the dark hollow.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1311
+    },
+    {
+      "id": 81325,
+      "name": "The Camel, the Lion, and the Child",
+      "desc": "Obtain all Spenta Hearts from the tarnished Defiled Chambers.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1312
+    },
+    {
+      "id": 81326,
+      "name": "The Day of Tirgan",
+      "desc": "Upon cleansing the abyss of heaven above, the power of Khvarena and Amrita radiates across the land.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1313
+    },
+    {
+      "id": 81327,
+      "name": "A Fascinating Journey",
+      "desc": "Complete \"An Artist Adrift.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1314
+    },
+    {
+      "id": 81328,
+      "name": "\"This Mystery Is Solved!\"",
+      "desc": "Complete \"Monumental Study.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1315
+    },
+    {
+      "id": 81329,
+      "name": "Homeward-Bound Spirits",
+      "desc": "Complete \"Pale Fire.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1316
+    },
+    {
+      "id": 81339,
+      "name": "The Sea of Fertility",
+      "desc": "All the ponds in the Vourukasha Oasis are now revitalized.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1317
+    },
+    {
+      "id": 81331,
+      "name": "The Brave Shall Not Falter",
+      "desc": "Pass all the trials set by Jarjar.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1318
+    },
+    {
+      "id": 81332,
+      "name": "Bifröst",
+      "desc": "Complete all the \"Soul Bell\" challenges.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1319
+    },
+    {
+      "id": 81333,
+      "name": "Seven Dish Dance",
+      "desc": "Complete all \"Percussive Prancing Mushroom\" challenges.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1320
+    },
+    {
+      "id": 81334,
+      "name": "Shining in the Mire",
+      "desc": "Use the power of Khvarena to destroy the Gray Crystals for the first time.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1321
+    },
+    {
+      "id": 81335,
+      "name": "When the Red Scarf Transforms Into a Bird in Flight...",
+      "desc": "Make your first flight with Sorush.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1322
+    },
+    {
+      "id": 81336,
+      "name": "Soaring in the Skies of Sary-Ozek",
+      "desc": "Keep Sorush in flight for a while.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1323
+    },
+    {
+      "id": 81337,
+      "name": "Whose Descendant Are You, and What's Your Name?",
+      "desc": "Call upon the power of Khvarena with Sorush for the first time.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1324
+    },
+    {
+      "id": 81338,
+      "name": "Use the Force, Sorush",
+      "desc": "Launch Nirodha Fruits with Sorush's help to melt 15 crystals condensed from Amrita.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1325
+    },
+    {
+      "id": 81340,
+      "name": "Angle Eraser",
+      "desc": "Suppress the Beastly Rift using the power of the crystals.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1326
+    },
+    {
+      "id": 81341,
+      "name": "Core Cooling",
+      "desc": "Cause the roiling lake to become placid once more.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1327
+    },
+    {
+      "id": 81342,
+      "name": "The White Ship",
+      "desc": "\"She's sailing on the sea of dreams...\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1328
+    },
+    {
+      "id": 81362,
+      "name": "Truly Mouthwatering!",
+      "desc": "Help Henri change his fate.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1329
+    },
+    {
+      "id": 81344,
+      "name": "Encyclopedia of Natural Philosophy",
+      "desc": "Use the glass wall and an indecipherable book to discover the gathering place of an old society.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1330
+    },
+    {
+      "id": 81345,
+      "name": "A Fontainian Message",
+      "desc": "Have a friendly chat with Virgil.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1331
+    },
+    {
+      "id": 81346,
+      "name": "Nothing but a Hound Dog...",
+      "desc": "Help Mamere fix Seymour.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1332
+    },
+    {
+      "id": 81347,
+      "name": "It's Fish, I Added Fish",
+      "desc": "Taste the wonderful \"birthday cake\" with the Melusine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1333
+    },
+    {
+      "id": 81348,
+      "name": "Welcome to Fontaine",
+      "desc": "Complete a cruise on the aquabus.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1334
+    },
+    {
+      "id": 81349,
+      "name": "Sogno di Volare",
+      "desc": "Complete a flight with the Antoine Roger Aircraft.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1335
+    },
+    {
+      "id": 81350,
+      "name": "Birth of the Modern Clock",
+      "desc": "Help Puca find a way to \"use\" the ore.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1336
+    },
+    {
+      "id": 81351,
+      "name": "Waterworld Future",
+      "desc": "Gaze upon the \"water\" beneath the \"surface.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1337
+    },
+    {
+      "id": 81352,
+      "name": "Aesthetics of Ugliness",
+      "desc": "And thus does Fontaine take two steps further toward beauty.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1338
+    },
+    {
+      "id": 81353,
+      "name": "Like Tears in the Rain",
+      "desc": "Find the impostor amidst the Hunter's Rays.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1339
+    },
+    {
+      "id": 81368,
+      "name": "Blubby, Chubby, Creative Evolution",
+      "desc": "Accompany the small Blubberbeast as it grows big and strong.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1340
+    },
+    {
+      "id": 81355,
+      "name": "These Are a Few of My...",
+      "desc": "...Favorite Things.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1341
+    },
+    {
+      "id": 81356,
+      "name": "An Eye for an Eye",
+      "desc": "Take care of those annoying Bullet Barnacles!",
+      "reward": 5,
+      "hidden": true,
+      "order": 1342
+    },
+    {
+      "id": 81357,
+      "name": "Do You Believe In Rapture?",
+      "desc": "Help build a Blubberbeast paradise.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1343
+    },
+    {
+      "id": 81358,
+      "name": "Hardships Experienced...",
+      "desc": "\"To obtain the holy blade that might defeat the demon king, the knight broke into the ancient city, sealed using magic...\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1344
+    },
+    {
+      "id": 81359,
+      "name": "And After That...",
+      "desc": "\"The knight defeated the demon king, saving the imprisoned princess. Light has returned to the kingdom...\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 1345
+    },
+    {
+      "id": 81360,
+      "name": "A Study in Sable",
+      "desc": "Find a more... special subject of the Institute of Natural Philosophy's study.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1346
+    },
+    {
+      "id": 81361,
+      "name": "Twenty Thousand Leagues Under the Sea",
+      "desc": "Go with the flow...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1347
+    },
+    {
+      "id": 81363,
+      "name": "Song of the Ancients",
+      "desc": "Hear now the melody of ancient eons.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1348
+    },
+    {
+      "id": 81364,
+      "name": "Ninianne of the Lake",
+      "desc": "Defeat the local legend, Ninianne of the Lake.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1349
+    },
+    {
+      "id": 81365,
+      "name": "Vivianne of the Lake",
+      "desc": "Defeat the local legend, Vivianne of the Lake.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1350
+    },
+    {
+      "id": 81366,
+      "name": "Fontaine Expects That Everyone Will Do Their Duty",
+      "desc": "An item, returned to its rightful owner...",
+      "reward": 5,
+      "hidden": true,
+      "order": 1351
+    },
+    {
+      "id": 81367,
+      "name": "In Search of Frittered Time",
+      "desc": "Reach Reputation Lv. 10 in Fontaine.",
+      "reward": 20,
+      "hidden": false,
+      "order": 1352
+    },
+    {
+      "id": 81369,
+      "name": "Ocean Circuit Judge",
+      "desc": "Defeat the local legend, Ocean Circuit Judge.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1353
+    },
+    {
+      "id": 81370,
+      "name": "Iron Viscount",
+      "desc": "Defeat the local legend, Iron Viscount.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1354
+    },
+    {
+      "id": 81371,
+      "name": "Dobharcu, Lord of the Hidden",
+      "desc": "Defeat the local legend, Dobharcu, Lord of the Hidden.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1355
+    },
+    {
+      "id": 81372,
+      "name": "Fading Veteran",
+      "desc": "Defeat the local legend, Fading Veteran.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1356
+    },
+    {
+      "id": 81373,
+      "name": "Swords of the Gorge",
+      "desc": "Defeat the local legends, the Swords of the Gorge.",
+      "reward": 5,
+      "hidden": true,
+      "order": 1357
+    },
+    {
+      "id": 81374,
+      "name": "The Fairy Knight Twins",
+      "desc": "Defeat the local legends, the Fairy Knight Twins",
+      "reward": 5,
+      "hidden": true,
+      "order": 1358
     },
     {
       "id": 82008,
@@ -1654,6 +2815,174 @@
       "order": 2127
     },
     {
+      "id": 82129,
+      "name": "\"Han Always Shoots First...\"",
+      "desc": "...So don't bring a knife to a gunfight.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2129
+    },
+    {
+      "id": 82130,
+      "name": "Opportunistic Gain",
+      "desc": "Watch the infighting between the Fungi.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2130
+    },
+    {
+      "id": 82131,
+      "name": "\"Get Over Here!\"",
+      "desc": "Shoot down a flying Fungus.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2131
+    },
+    {
+      "id": 82132,
+      "name": "When Autumn and Dew Meet",
+      "desc": "Let the Electro Regisvine perform its charged electrical collision.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2132
+    },
+    {
+      "id": 82133,
+      "name": "Three Strikes",
+      "desc": "Witness the three powerful abilities used by the activated Jadeplume Terrorshroom.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2133
+    },
+    {
+      "id": 82142,
+      "name": "Stop It, Mr. Robot!",
+      "desc": "Interrupt the charged attack of the Aeonblight Drake by attacking the core on its head.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2142
+    },
+    {
+      "id": 82143,
+      "name": "Nanomachines, Son!",
+      "desc": "Defeat an activated Jadeplume Terrorshroom while it is unleashing a powerful skill...",
+      "reward": 5,
+      "hidden": true,
+      "order": 2143
+    },
+    {
+      "id": 82144,
+      "name": "Establishing a Beachhead",
+      "desc": "Witness the overclocking impact of the Algorithm of Semi-Intransient Matrix of Overseer Network.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2144
+    },
+    {
+      "id": 82145,
+      "name": "The Invisible Hand",
+      "desc": "Defeat the Primal Construct without disabling its invisible state.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2145
+    },
+    {
+      "id": 82155,
+      "name": "The Marvelous Uses of Nitrogen Fixation",
+      "desc": "During one Dendro Hypostasis challenge, cause three Restorative Piths to be in an Activated state simultaneously.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2155
+    },
+    {
+      "id": 82156,
+      "name": "Records of the Fall",
+      "desc": "Burn the Dendro Hypostasis' vine shell as it is performing a Plunging Attack.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2156
+    },
+    {
+      "id": 82157,
+      "name": "It All Comes Tumbling Down",
+      "desc": "Use the Elemental Matrices to overload and paralyze Shouki no Kami.",
+      "reward": 10,
+      "hidden": true,
+      "order": 2157
+    },
+    {
+      "id": 82158,
+      "name": "Causality of Birth and Extinction",
+      "desc": "Even at the edge of obliteration, a comeback is still on the cards...",
+      "reward": 10,
+      "hidden": true,
+      "order": 2158
+    },
+    {
+      "id": 82160,
+      "name": "He Who Controls the Spice...",
+      "desc": "Use the Windbite Bullets to perform Swirl reactions and bring the Setekh Wenut in its floating form down.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2160
+    },
+    {
+      "id": 82168,
+      "name": "When You Say Nothing at All",
+      "desc": "Destroy all Elemental Rings to paralyze the Iniquitous Baptist when it begins to channel its attack.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2168
+    },
+    {
+      "id": 82175,
+      "name": "The White Path Between Two Rivers",
+      "desc": "Lose in the duel against the legendary Hunter's Ray...",
+      "reward": 5,
+      "hidden": true,
+      "order": 2175
+    },
+    {
+      "id": 82176,
+      "name": "Cell, Splinter",
+      "desc": "Use Pneuma or Ousia attacks to interrupt the Breacher Primus's stress state.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2176
+    },
+    {
+      "id": 82177,
+      "name": "Too Hot to Handle!",
+      "desc": "Constantly attempt to freeze Tainted Hydro Phantasms...",
+      "reward": 5,
+      "hidden": true,
+      "order": 2177
+    },
+    {
+      "id": 82178,
+      "name": "Funerary Storm",
+      "desc": "Use a Pneuma attack to weaken the whirlwind Coppelia creates during the performance's climax.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2178
+    },
+    {
+      "id": 82180,
+      "name": "Icebound Oath",
+      "desc": "Use an Ousia attack to remove the shield that Coppelius deploys during the performance's climax.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2179
+    },
+    {
+      "id": 82179,
+      "name": "The King Is Dead, Long Live the King!",
+      "desc": "Interrupt the Emperor of Fire and Iron's Searing Coronation.",
+      "reward": 5,
+      "hidden": true,
+      "order": 2180
+    },
+    {
       "id": 84000,
       "name": "The End of the Beginning",
       "desc": "Complete the Mondstadt Archon Quests.",
@@ -1848,7 +3177,7 @@
     {
       "id": 84024,
       "name": "A New Star Approaches",
-      "desc": "Complete \"A New Star Approaches\".",
+      "desc": "Complete \"A New Star Approaches.\"",
       "reward": 5,
       "hidden": true,
       "order": 4025
@@ -2118,6 +3447,230 @@
       "order": 4066
     },
     {
+      "id": 84543,
+      "name": "Aha! What's on the Hook?",
+      "desc": "Fish some strange things up with Kayvan...",
+      "reward": 5,
+      "hidden": true,
+      "order": 4067
+    },
+    {
+      "id": 84544,
+      "name": "Kalimi's Fungus",
+      "desc": "Watch Hatim make a killing on the exchange!",
+      "reward": 5,
+      "hidden": true,
+      "order": 4068
+    },
+    {
+      "id": 84545,
+      "name": "When Wealth Comes A-Knockin'",
+      "desc": "Give Hatim some Apple Cider.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4069
+    },
+    {
+      "id": 84546,
+      "name": "Catch Me-ow if You Can!",
+      "desc": "Help Sareh find all the little cats.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4070
+    },
+    {
+      "id": 84547,
+      "name": "Principia Arithmetica",
+      "desc": "Help Garcia perfect his machine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4071
+    },
+    {
+      "id": 84548,
+      "name": "\"It's My Job.\"",
+      "desc": "Help Hanbei pick more mushrooms.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4072
+    },
+    {
+      "id": 84549,
+      "name": "Relaxation Therapy",
+      "desc": "Fulfill the 3 patients' wishes.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4073
+    },
+    {
+      "id": 84550,
+      "name": "Up by the Roots",
+      "desc": "Find and defeat the fleeing Whopperflower",
+      "reward": 5,
+      "hidden": true,
+      "order": 4074
+    },
+    {
+      "id": 84551,
+      "name": "Date of Departure",
+      "desc": "Receive Alexandra's letter...",
+      "reward": 5,
+      "hidden": true,
+      "order": 4075
+    },
+    {
+      "id": 84552,
+      "name": "Don't Blame the Mora!",
+      "desc": "Witness the Gourmet Supremos' adventures in Sumeru...",
+      "reward": 5,
+      "hidden": true,
+      "order": 4076
+    },
+    {
+      "id": 84553,
+      "name": "The Sky is Vast; The Earth...",
+      "desc": "Help Farghani perform measurements.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4077
+    },
+    {
+      "id": 84554,
+      "name": "Answer Time",
+      "desc": "Witness Alrani's story in Sumeru.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4078
+    },
+    {
+      "id": 84555,
+      "name": "The Random Circumstances of a Rose's Blooming",
+      "desc": "Help Collei tend to her Sumeru Rose.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4079
+    },
+    {
+      "id": 84556,
+      "name": "Where Have You Gone, My Dream?",
+      "desc": "Witness the tale of Javi and the \"dream.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 4080
+    },
+    {
+      "id": 84557,
+      "name": "Non-Obligatory Request",
+      "desc": "Find all the items that Gulabgir made for his snakes.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4081
+    },
+    {
+      "id": 84558,
+      "name": "The Ship Has It",
+      "desc": "Help Rafiq test his ship's hull strength successfully.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4082
+    },
+    {
+      "id": 84559,
+      "name": "What's the Matter?",
+      "desc": "Enjoy three of Jafar's dishes.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4083
+    },
+    {
+      "id": 84560,
+      "name": "Scholarly in Sumeru",
+      "desc": "Answer 6 different questions correctly.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4084
+    },
+    {
+      "id": 84561,
+      "name": "One Step Too Far",
+      "desc": "Slip up in a race against Hilmi...",
+      "reward": 5,
+      "hidden": true,
+      "order": 4085
+    },
+    {
+      "id": 84562,
+      "name": "Doctor's Handwriting",
+      "desc": "Help Maruf make out the prescription correctly.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4086
+    },
+    {
+      "id": 84563,
+      "name": "A Lingering Fragrance",
+      "desc": "Witness Nermin's tale.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4087
+    },
+    {
+      "id": 84564,
+      "name": "Swordseeker",
+      "desc": "Witness the tale of Lan and the \"Unseen Razor.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 4088
+    },
+    {
+      "id": 84565,
+      "name": "To Walk The Horizon...?",
+      "desc": "Witness Sun Yu's tale.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4089
+    },
+    {
+      "id": 84566,
+      "name": "Office on the Avenue",
+      "desc": "Witness various miscellaneous matters in the Court of Fontaine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4090
+    },
+    {
+      "id": 84567,
+      "name": "Not Your Average Joe",
+      "desc": "Brew a special blend of coffee.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4091
+    },
+    {
+      "id": 84568,
+      "name": "Aesthetic Critique",
+      "desc": "Listen to Depierris' theories regarding \"aesthetics.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 4092
+    },
+    {
+      "id": 84569,
+      "name": "Second Childhood",
+      "desc": "Play with the kids, and witness their story.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4093
+    },
+    {
+      "id": 84570,
+      "name": "A Sudden Squall",
+      "desc": "Witness Iaune's work travails.",
+      "reward": 5,
+      "hidden": true,
+      "order": 4094
+    },
+    {
       "id": 85000,
       "name": "Nothing to Lose But Time",
       "desc": "Unlock the secrets of two sundials.",
@@ -2375,7 +3928,7 @@
     },
     {
       "id": 84053,
-      "name": "\"All is Well\"",
+      "name": "\"All Is Well\"",
       "desc": "Help Wang Ping'an renovate Pervases' temple.",
       "reward": 5,
       "hidden": true,
@@ -2484,6 +4037,302 @@
       "reward": 10,
       "hidden": true,
       "order": 5045
+    },
+    {
+      "id": 84067,
+      "name": "Voice of Akasha",
+      "desc": "Hear the voice of divine wisdom.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5046
+    },
+    {
+      "id": 84068,
+      "name": "The Merchant and the Gate of Knowledge",
+      "desc": "Meet Dori and purchase Canned Knowledge.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5047
+    },
+    {
+      "id": 84069,
+      "name": "The House of Canned Time",
+      "desc": "Use the Canned Knowledge to increase your combat strength.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5048
+    },
+    {
+      "id": 84070,
+      "name": "Through Mists of Smoke and Forests Dark",
+      "desc": "Complete \"Through Mists of Smoke and Forests Dark.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5049
+    },
+    {
+      "id": 84071,
+      "name": "The Flavor of Déjà Vu",
+      "desc": "Pick the Sunsettia-flavored box of candy by yourself.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5050
+    },
+    {
+      "id": 84072,
+      "name": "Even Paimon Wouldn't Eat That!",
+      "desc": "Eat a visibly terrible Charcoal-Baked Ajilenakh Cake.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5051
+    },
+    {
+      "id": 84073,
+      "name": "All Dreams Must End With an Awakening",
+      "desc": "Wake from the Sabzeruz samsara.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5052
+    },
+    {
+      "id": 84074,
+      "name": "The Morn a Thousand Roses Brings",
+      "desc": "Complete \"The Morn a Thousand Roses Brings.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5053
+    },
+    {
+      "id": 84075,
+      "name": "The Soul Transposed",
+      "desc": "Share senses with Nahida through possession using Akasha.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5054
+    },
+    {
+      "id": 84076,
+      "name": "Triumph of the Imagination",
+      "desc": "Be viewed as the savior of the world by the citizens controlled by Dottore.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5055
+    },
+    {
+      "id": 84077,
+      "name": "The God Gazes Back",
+      "desc": "Witness Scaramouche's past after being connected to the \"divine consciousness.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 5056
+    },
+    {
+      "id": 84078,
+      "name": "Dreams, Emptiness, Deception",
+      "desc": "Complete \"Dreams, Emptiness, Deception.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5057
+    },
+    {
+      "id": 84079,
+      "name": "Desert Raider",
+      "desc": "Find the ancient temple beneath the flowing desert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5058
+    },
+    {
+      "id": 84080,
+      "name": "When the Dark Sun Passes",
+      "desc": "Understand the past through the final words of the priest of Deshret.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5059
+    },
+    {
+      "id": 84081,
+      "name": "King Deshret and the Three Magi",
+      "desc": "Complete \"King Deshret and the Three Magi.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5060
+    },
+    {
+      "id": 84082,
+      "name": "Eremitis ne credite",
+      "desc": "Help Cyno get Rahman and his crew into Sumeru.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5061
+    },
+    {
+      "id": 84083,
+      "name": "Victory Road",
+      "desc": "Finish the preparations required to put that plan into action.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5062
+    },
+    {
+      "id": 84084,
+      "name": "The Longest Day",
+      "desc": "Rescue a god on Jnagarbha Day.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5063
+    },
+    {
+      "id": 84085,
+      "name": "...I'm Sorry, Sir, But You're Ineligible",
+      "desc": "Prevent the birth of the \"forged god.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 5064
+    },
+    {
+      "id": 84086,
+      "name": "Akasha Pulses, the Kalpa Flame Rises",
+      "desc": "Complete \"Akasha Pulses, the Kalpa Flame Rises.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5065
+    },
+    {
+      "id": 84087,
+      "name": "Mystery of Tatarasuna",
+      "desc": "Investigate the memories of Tatarasuna's past within Irminsul.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5066
+    },
+    {
+      "id": 84088,
+      "name": "Echoes of History",
+      "desc": "Discover the consequences that have resulted from The Balladeer entering Irminsul.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5067
+    },
+    {
+      "id": 84089,
+      "name": "Parinama: Fox, Cat, Bird, and Monster",
+      "desc": "Solve Nahida's hidden riddle and discover The Balladeer's past.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5068
+    },
+    {
+      "id": 84090,
+      "name": "Me, Myself, But Not I",
+      "desc": "Defeat the Everlasting Lord of Arcane Wisdom within the memory.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5069
+    },
+    {
+      "id": 84091,
+      "name": "Inversion of Genesis",
+      "desc": "Complete \"Inversion of Genesis.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5070
+    },
+    {
+      "id": 84092,
+      "name": "Star-Crossed Night",
+      "desc": "Recall memories related to your kin.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5071
+    },
+    {
+      "id": 84093,
+      "name": "The Sickness Unto Near-Death",
+      "desc": "Create the medicine that will bring hope.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5072
+    },
+    {
+      "id": 84094,
+      "name": "The Far Side of Fate",
+      "desc": "Witness the miracle granted by the \"Sinner.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 5073
+    },
+    {
+      "id": 84095,
+      "name": "Caribert",
+      "desc": "Complete \"Caribert.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5074
+    },
+    {
+      "id": 84096,
+      "name": "Like Water Disappearing Into Water",
+      "desc": "Hear about the \"prophecy\" that has been circulating around Fontaine.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5075
+    },
+    {
+      "id": 84097,
+      "name": "A Detective in Action",
+      "desc": "Investigate the truth of the incident as Lyney's \"attorney.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 5076
+    },
+    {
+      "id": 84098,
+      "name": "A Twist of Great Magic",
+      "desc": "The Oratrice Mecanique d'Analyse Cardinale has delivered a verdict of not guilty.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5077
+    },
+    {
+      "id": 84099,
+      "name": "Prelude of Blancheur and Noirceur",
+      "desc": "Complete \"Prelude of Blancheur and Noirceur.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5078
+    },
+    {
+      "id": 84300,
+      "name": "Lennék én folyóvíz",
+      "desc": "Hear the Oceanid's call and connect with her consciousness.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5079
+    },
+    {
+      "id": 84301,
+      "name": "Once Upon a Time in Fleuve Cendre",
+      "desc": "Learn about Navia's father at the Spina di Rosula's stronghold.",
+      "reward": 5,
+      "hidden": true,
+      "order": 5080
+    },
+    {
+      "id": 84302,
+      "name": "Tragedy Repeats Itself",
+      "desc": "Reveal the truth behind the \"serial disappearances case.\"",
+      "reward": 5,
+      "hidden": true,
+      "order": 5081
+    },
+    {
+      "id": 84303,
+      "name": "As Light Rain Falls Without Reason",
+      "desc": "Complete \"As Light Rain Falls Without Reason.\"",
+      "reward": 10,
+      "hidden": true,
+      "order": 5082
     }
   ]
 }

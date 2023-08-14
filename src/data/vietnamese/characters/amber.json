@@ -1,4 +1,5 @@
 {
+  "_id": 10000021,
   "id": "amber",
   "name": "Amber",
   "title": "Quán Quân Bay Lượn",
@@ -11,7 +12,7 @@
   "region": "Mondstadt",
   "rarity": 4,
   "birthday": [10, 8],
-  "constellation": "Tiểu Thố",
+  "constellation": "Cung Tiểu Thố",
   "domain": "Vách Núi Quên",
   "cv": {
     "english": "Kelly Baskin",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10041,
       "id": "normal_attack_sharpshooter",
       "name": "Tấn Công Thường: Xạ Thủ Thần",
       "description": "<span>Tấn Công Thường</span><br/>Thực hiện tối đa 5 lần bắn tên liên tiếp.<br/><br/><span>Trọng Kích</span><br/>Sát thương càng cao, <span>ngắm bắn</span> càng chuẩn.<br/>Khi ngắm bắn, ngọn lửa sẽ tích tụ trên mũi tên. Mũi tên đầy lửa sẽ gây <span>Sát Thương Nguyên Tố Hỏa</span>.<br/><br/><span>Tấn Công Khi Đáp</span><br/>Bắn mưa tên liên tiếp xuống mặt đất, gây sát thương phạm vi khi chạm đất.",
@@ -209,6 +211,7 @@
       ]
     },
     {
+      "_id": 10032,
       "id": "explosive_puppet",
       "name": "Con Rối Nổ",
       "description": "Mời Bá Tước Thỏ ra trận.<br/><br/><span>Bá Tước Thỏ</span><br/>·Khiêu khích địch xung quanh, thu hút hỏa lực;<br/>·Độ bền sẽ kế thừa giới hạn HP của Amber theo tỷ lệ nhất định;<br/>·Nếu bị hủy diệt hoặc hết thời gian, Bá Tước Thỏ sẽ nổ, gây <span>Sát Thương Phạm Vi Nguyên Tố Hỏa</span>.<br/><br/><span>Nhấn Giữ</span><br/>Điều chỉnh hướng ném.<br/>Khoảng cách ném sẽ tăng theo thời gian nhấn giữ.",
@@ -277,6 +280,7 @@
       ]
     },
     {
+      "_id": 10017,
       "id": "fiery_rain",
       "name": "Mưa Tên",
       "description": "Bắn ra cơn mưa tên lửa, duy trì gây <span>Sát Thương Phạm Vi Nguyên Tố Hỏa</span>.",
@@ -407,36 +411,42 @@
   ],
   "constellations": [
     {
+      "_id": 211,
       "id": "one_arrow_to_rule_them_all",
       "name": "Bắn Một Được Hai Hilichurl!",
       "description": "Khi <span>ngắm bắn</span>, sẽ bắn ra 2 mũi tên liên tiếp. Mũi tên thứ hai tạo ra 20% sát thương so với sát thương gốc.",
       "level": 1
     },
     {
+      "_id": 212,
       "id": "bunny_triggered",
-      "name": "Thỏ Xông Lên",
+      "name": "Toàn Lực Khai Hỏa",
       "description": "Bá Tước Thỏ bản cải tiến! Khi hoàn thành tụ lực ngắm bắn trúng chân Bá Tước Thỏ, sẽ gây nổ ngay.<br/>Chủ động làm nổ Bá Tước Thỏ, sẽ gây thêm 200% sát thương.",
       "level": 2
     },
     {
+      "_id": 213,
       "id": "it_burns",
       "name": "Cháy Lên Nào!",
       "description": "Cấp kỹ năng <span>Mưa Tên</span> +3.<br/>Tăng tối đa đến cấp 15.",
       "level": 3
     },
     {
+      "_id": 214,
       "id": "its_not_just_any_doll",
       "name": "Không Phải Con Rối Thường",
       "description": "CD của <span>Con Rối Nổ</span> giảm 20%, và tăng thêm 1 lần sử dụng.",
       "level": 4
     },
     {
+      "_id": 215,
       "id": "its_baron_bunny",
       "name": "Là Bá Tước Thỏ!",
       "description": "Cấp kỹ năng <span>Con Rối Nổ</span> +3.<br/>Tăng tối đa đến cấp 15.",
       "level": 5
     },
     {
+      "_id": 216,
       "id": "wildfire",
       "name": "Nhanh Như Lửa",
       "description": "Sau khi sử dụng <span>Mưa Tên</span>, 10s tiếp theo tăng 15% tốc độ di chuyển của tất cả thành viên trong đội, tấn công tăng 15%.",
@@ -445,22 +455,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [0, 1]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["-", "793"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["-", "19"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["-", "50"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [1, 2]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["2038", "2630"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["48", "62"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["129", "167"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104111,
         "id": "agnidus_agate_sliver",
         "name": "Vụn Mã Não Cháy",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Tiểu Đăng Thảo",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112011,
         "id": "firm_arrowhead",
         "name": "Mũi Tên Chắc Chắn",
         "amount": 3,
@@ -468,28 +527,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [2, 3]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["3940", "4361"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["93", "103"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["250", "277"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Mảnh Mã Não Cháy",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Ngọn Lửa Vĩnh Hằng",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Tiểu Đăng Thảo",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112011,
         "id": "firm_arrowhead",
         "name": "Mũi Tên Chắc Chắn",
         "amount": 15,
@@ -497,28 +581,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [3, 4]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["5016", "5578"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["118", "131"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["318", "354"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Mảnh Mã Não Cháy",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Ngọn Lửa Vĩnh Hằng",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Tiểu Đăng Thảo",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112012,
         "id": "sharp_arrowhead",
         "name": "Mũi Tên Sắc Bén",
         "amount": 12,
@@ -526,28 +635,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [4, 5]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["6233", "6654"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["147", "157"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["396", "422"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Miếng Mã Não Cháy",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Ngọn Lửa Vĩnh Hằng",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Tiểu Đăng Thảo",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112012,
         "id": "sharp_arrowhead",
         "name": "Mũi Tên Sắc Bén",
         "amount": 18,
@@ -555,28 +689,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [5, 6]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["7309", "7730"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["172", "182"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["464", "491"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Miếng Mã Não Cháy",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Ngọn Lửa Vĩnh Hằng",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Tiểu Đăng Thảo",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112013,
         "id": "weathered_arrowhead",
         "name": "Mũi Tên Thiện Chiến",
         "amount": 12,
@@ -584,28 +743,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [6, 7]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["8385", "8806"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["198", "208"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["532", "559"]
+        },
+        {
+          "label": "Tấn Công",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104114,
         "id": "agnidus_agate_gemstone",
         "name": "Mã Não Cháy",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Ngọn Lửa Vĩnh Hằng",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100055,
         "id": "small_lamp_grass",
         "name": "Tiểu Đăng Thảo",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112013,
         "id": "weathered_arrowhead",
         "name": "Mũi Tên Thiện Chiến",
         "amount": 24,
@@ -619,12 +803,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104301,
           "id": "teachings_of_freedom",
           "name": "Bài Giảng Của \"Tự Do\"",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112011,
           "id": "firm_arrowhead",
           "name": "Mũi Tên Chắc Chắn",
           "amount": 6,
@@ -637,12 +823,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Hướng Dẫn Của \"Tự Do\"",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Mũi Tên Sắc Bén",
           "amount": 3,
@@ -655,12 +843,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Hướng Dẫn Của \"Tự Do\"",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Mũi Tên Sắc Bén",
           "amount": 4,
@@ -673,12 +863,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Hướng Dẫn Của \"Tự Do\"",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Mũi Tên Sắc Bén",
           "amount": 6,
@@ -691,12 +883,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Hướng Dẫn Của \"Tự Do\"",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Mũi Tên Sắc Bén",
           "amount": 9,
@@ -709,18 +903,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Triết Học Của \"Tự Do\"",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Mũi Tên Thiện Chiến",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Hơi Thở Đông Phong",
           "amount": 1,
@@ -733,18 +930,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Triết Học Của \"Tự Do\"",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Mũi Tên Thiện Chiến",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Hơi Thở Đông Phong",
           "amount": 1,
@@ -757,18 +957,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Triết Học Của \"Tự Do\"",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Mũi Tên Thiện Chiến",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Hơi Thở Đông Phong",
           "amount": 2,
@@ -781,24 +984,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Triết Học Của \"Tự Do\"",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Mũi Tên Thiện Chiến",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113005,
           "id": "dvalins_sigh",
           "name": "Hơi Thở Đông Phong",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Vương Miện Trí Thức",
           "amount": 1,

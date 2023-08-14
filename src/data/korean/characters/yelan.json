@@ -1,4 +1,5 @@
 {
+  "_id": 10000060,
   "id": "yelan",
   "name": "야란",
   "title": "유곡에 피어난 난초",
@@ -16,11 +17,12 @@
   "cv": {
     "english": "Laura Post",
     "chinese": "徐慧",
-    "japanese": "Aya Endo",
+    "japanese": "Endo Aya",
     "korean": "민아"
   },
   "skills": [
     {
+      "_id": 10606,
       "id": "normal_attack_stealthy_bowshot",
       "name": "일반 공격·빛을 감춘 활",
       "description": "<span>일반 공격</span><br/>활로 최대 4번 공격한다.<br/><br/><span>강공격</span><br/>더 강력하고 정확한 <span>조준 사격</span>을 한다.<br/>조준 시 흐르는 물이 화살 촉에 모이고, 격류가 가득 찬 화살은 <span>물 원소 피해</span>를 준다.<br/><br/><span>타파</span><br/>전투 이탈 후 5초 뒤 야란이 「타파」 상태를 획득해, 다음 풀차지 조준 사격에 필요한 차지 시간이 80% 감소한다. 또한 풀차지로 「타파의 화살」 발사 시, 야란의 HP 최대치에 따라 <span>물 원소 범위 피해</span>를 준다.<br/><br/><span>낙하 공격</span><br/>공중에서 화살비를 쏜 후 빠른 속도로 땅에 착지한다. 착지 시 범위 피해를 준다",
@@ -209,9 +211,10 @@
       ]
     },
     {
+      "_id": 10607,
       "id": "lingering_lifeline",
       "name": "뒤얽힌 생명줄",
-      "description": "「생명의 실」을 이끌고 질주해 경로에 있는 적을 옭아맨다.<br/>질주가 끝나면 「생명의 실」이 폭발하며 야란의 HP 최대치에 따라 표시된 적에게 <span>물 원소 피해</span>를 준다.<br/><br/><span>짧은 터치</span><br/>빠르게 전방으로 일정 거리를 질주한다.<br/><br/><span>홀드</span><br/>계속 질주한다, 해당 상태의 야란의 경직 저항력이 상승한다.<br/>발동하는 동안 야란은 대시 방향을 제어할 수 있으며 다시 스킬을 시전해 질주 상태를 조기 종료할 수 있다.<br/><br/>또한, 「생명의 실」 폭발 시, 표시된 적의 수량에 따라 야란이 일정 확률로 「타파」 상태를 획득한다: 표시된 적마다 획득 확률이 34% 증가한다.",
+      "description": "「생명의 실」을 이끌고 질주해 경로에 있는 적을 옭아맨다.<br/>질주가 끝나면 「생명의 실」이 폭발하며 야란의 HP 최대치에 따라 표시된 적에게 <span>물 원소 피해</span>를 준다.<br/><br/><span>짧은 터치</span><br/>빠르게 전방으로 일정 거리를 질주한다.<br/><br/><span>홀드</span><br/>계속 질주한다. 해당 상태에서 야란의 경직 저항력이 상승한다.<br/>발동하는 동안 야란은 대시 방향을 제어할 수 있으며 다시 스킬을 발동해 질주 상태를 조기 종료할 수 있다.<br/><br/>또한, 「생명의 실」 폭발 시, 표시된 적의 수량에 따라 야란이 일정 확률로 「타파」 상태를 획득한다: 표시된 적마다 획득 확률이 34% 증가한다.",
       "info": "그녀가 손가락으로 실을 잡아당기는 순간, 악당과 도적들, 음모를 꾸민 자들은 이미 도망갈 수 없음을 깨닫게 될 것이다",
       "attributes": [
         {
@@ -277,6 +280,7 @@
       ]
     },
     {
+      "_id": 10610,
       "id": "depthclarion_dice",
       "name": "심오하고 영롱한 주사위",
       "description": "<span>물 원소 범위 피해</span>를 주고 「던져진 영롱」을 생성해 함께 전투에 나선다.<br/><br/><span>던져진 영롱</span><br/>캐릭터를 따라다니며 다음 상황에서 협동 공격을 펼친다. 야란의 HP 최대치에 따라 <span>물 원소 피해</span>를 준다:<br/>·파티 내 자신의 현재 필드 위 캐릭터가 일반 공격을 가하면 1초마다 최대 1회 발동한다.<br/>·야란 자신의 「생명의 실」이 폭발해 적에게 명중하면 협동 공격을 1회 가한다.",
@@ -305,21 +309,21 @@
         {
           "label": "던져진 영롱 피해",
           "values": [
-            "HP 최대치x3의 4.87%",
-            "HP 최대치x3의 5.24%",
-            "HP 최대치x3의 5.6%",
-            "HP 최대치x3의 6.09%",
-            "HP 최대치x3의 6.46%",
-            "HP 최대치x3의 6.82%",
-            "HP 최대치x3의 7.31%",
-            "HP 최대치x3의 7.8%",
-            "HP 최대치x3의 8.28%",
-            "HP 최대치x3의 8.77%",
-            "HP 최대치x3의 9.26%",
-            "HP 최대치x3의 9.74%",
-            "HP 최대치x3의 10.35%",
-            "HP 최대치x3의 10.96%",
-            "HP 최대치x3의 11.57%"
+            "HP 최대치의 4.87%x3",
+            "HP 최대치의 5.24%x3",
+            "HP 최대치의 5.6%x3",
+            "HP 최대치의 6.09%x3",
+            "HP 최대치의 6.46%x3",
+            "HP 최대치의 6.82%x3",
+            "HP 최대치의 7.31%x3",
+            "HP 최대치의 7.8%x3",
+            "HP 최대치의 8.28%x3",
+            "HP 최대치의 8.77%x3",
+            "HP 최대치의 9.26%x3",
+            "HP 최대치의 9.74%x3",
+            "HP 최대치의 10.35%x3",
+            "HP 최대치의 10.96%x3",
+            "HP 최대치의 11.57%x3"
           ]
         },
         {
@@ -407,60 +411,115 @@
   ],
   "constellations": [
     {
+      "_id": 601,
       "id": "enter_the_plotters",
       "name": "승부에 뛰어든 공모자",
       "description": "<span>뒤얽힌 생명줄</span>의 사용 가능 횟수가 1회 증가한다",
       "level": 1
     },
     {
+      "_id": 602,
       "id": "taking_all_comers",
       "name": "올가미에 걸린 적",
       "description": "<span>「던져진 영롱」</span> 협동 공격 시 추가로 화살 한 발을 발사해 야란 HP 최대치의 14%에 해당하는 물 원소 피해를 준다.<br/>해당 효과는 1.8초마다 최대 1회 발동한다",
       "level": 2
     },
     {
+      "_id": 603,
       "id": "beware_the_tricksters_dice",
       "name": "노름꾼의 주사위",
       "description": "<span>심오하고 영롱한 주사위</span>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
       "level": 3
     },
     {
+      "_id": 604,
       "id": "baitandswitch",
       "name": "이화접목의 현혹술",
       "description": "<span>「생명의 실」</span>이 표시한 적의 수량에 따라, 표식이 폭발할 때마다 파티 내 모든 캐릭터의 HP 최대치가 10% 증가한다. 지속 시간: 25초. 해당 방식으로 HP 최대치가 최대 40%까지 증가한다",
       "level": 4
     },
     {
+      "_id": 605,
       "id": "dealers_sleight",
       "name": "눈보다 빠른 손",
       "description": "<span>뒤얽힌 생명줄</span>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
       "level": 5
     },
     {
+      "_id": 606,
       "id": "winner_takes_all",
       "name": "승자의 독식",
-      "description": "<span>심오하고 영롱한 주사위</span>를 시전하면 야란이 「전략 설계」상태에 진입한다:<br/>야란의 일반 공격이 특수한 「타파의 화살」을 발사로 전환된다. 이 화살은 「타파의 화살」과 비슷한 특성을 지니며 해당 피해는 강공격 피해로 간주, 타파의 화살의 156%에 해당하는 피해를 가한다.<br/><br/>「전략 설계」 상태는 최대 20초 동안 지속되며, 야란이 화살 5발을 발사한 후 사라진다",
+      "description": "<span>심오하고 영롱한 주사위</span>를 발동하면 야란이 「전략 설계」상태에 진입한다:<br/>야란의 일반 공격이 특수한 「타파의 화살」을 발사로 전환된다. 이 화살은 「타파의 화살」과 비슷한 특성을 지니며 해당 피해는 강공격 피해로 간주, 타파의 화살의 156%에 해당하는 피해를 가한다.<br/><br/>「전략 설계」 상태는 최대 20초 동안 지속되며, 야란이 화살 5발을 발사한 후 사라진다",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [0, 1]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["-", "1125"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["-", "19"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["-", "43"]
+        },
+        {
+          "label": "치명타 확률",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [1, 2]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["2918", "3883"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["49", "66"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["111", "147"]
+        },
+        {
+          "label": "치명타 확률",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104121,
         "id": "varunada_lazurite_sliver",
         "name": "순수한 청금석 가루",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "별소라",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112032,
         "id": "recruits_insignia",
         "name": "신병의 휘장",
         "amount": 3,
@@ -468,28 +527,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [2, 3]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["5810", "6495"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["98", "110"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["220", "246"]
+        },
+        {
+          "label": "치명타 확률",
+          "values": ["0.0%", "4.8%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "순수한 청금석 조각",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113035,
         "id": "runic_fang",
         "name": "룬 무늬 이빨",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "별소라",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112032,
         "id": "recruits_insignia",
         "name": "신병의 휘장",
         "amount": 15,
@@ -497,28 +581,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [3, 4]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["7472", "8386"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["126", "142"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["283", "318"]
+        },
+        {
+          "label": "치명타 확률",
+          "values": ["4.8%", "9.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "순수한 청금석 조각",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113035,
         "id": "runic_fang",
         "name": "룬 무늬 이빨",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "별소라",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112033,
         "id": "sergeants_insignia",
         "name": "사관의 휘장",
         "amount": 12,
@@ -526,28 +635,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [4, 5]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["9374", "10059"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["158", "170"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["355", "381"]
+        },
+        {
+          "label": "치명타 확률",
+          "values": ["9.6%", "9.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "순수한 청금석 덩이",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113035,
         "id": "runic_fang",
         "name": "룬 무늬 이빨",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "별소라",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112033,
         "id": "sergeants_insignia",
         "name": "사관의 휘장",
         "amount": 18,
@@ -555,28 +689,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [5, 6]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["11056", "11741"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["187", "198"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["419", "445"]
+        },
+        {
+          "label": "치명타 확률",
+          "values": ["9.6%", "14.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "순수한 청금석 덩이",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113035,
         "id": "runic_fang",
         "name": "룬 무늬 이빨",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "별소라",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112034,
         "id": "lieutenants_insignia",
         "name": "위관의 휘장",
         "amount": 12,
@@ -584,28 +743,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [6, 7]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["12749", "13434"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["215", "227"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["483", "509"]
+        },
+        {
+          "label": "치명타 확률",
+          "values": ["14.4%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104124,
         "id": "varunada_lazurite_gemstone",
         "name": "순수한 청금석",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113035,
         "id": "runic_fang",
         "name": "룬 무늬 이빨",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "별소라",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112034,
         "id": "lieutenants_insignia",
         "name": "위관의 휘장",
         "amount": 24,
@@ -619,12 +803,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104310,
           "id": "teachings_of_prosperity",
           "name": "「번영」의 가르침",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112032,
           "id": "recruits_insignia",
           "name": "신병의 휘장",
           "amount": 6,
@@ -637,12 +823,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "「번영」의 인도",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "사관의 휘장",
           "amount": 3,
@@ -655,12 +843,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "「번영」의 인도",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "사관의 휘장",
           "amount": 4,
@@ -673,12 +863,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "「번영」의 인도",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "사관의 휘장",
           "amount": 6,
@@ -691,12 +883,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "「번영」의 인도",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "사관의 휘장",
           "amount": 9,
@@ -709,18 +903,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "「번영」의 철학",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "위관의 휘장",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "순금의 비늘",
           "amount": 1,
@@ -733,18 +930,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "「번영」의 철학",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "위관의 휘장",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "순금의 비늘",
           "amount": 1,
@@ -757,18 +957,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "「번영」의 철학",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "위관의 휘장",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "순금의 비늘",
           "amount": 2,
@@ -781,24 +984,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "「번영」의 철학",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "위관의 휘장",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "순금의 비늘",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "지식의 왕관",
           "amount": 1,

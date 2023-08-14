@@ -1,0 +1,69 @@
+{
+  "_id": 100076,
+  "id": "onion",
+  "name": "Soğan",
+  "description": "Yuvarlak bir sebze. Doğranmanın intikamını alırcasına ruh halin ne olursa olsun seni ağlatır.",
+  "recipes": [
+    {
+      "_id": 2003,
+      "id": "northern_smoked_chicken",
+      "name": "Kuzey Usulü Füme Tavuk"
+    },
+    {
+      "_id": 2008,
+      "id": "fishermans_toast",
+      "name": "Balıkçı Tostu"
+    },
+    {
+      "_id": 2306,
+      "id": "curry_shrimp",
+      "name": "Köri Soslu Karides"
+    },
+    {
+      "_id": 2403,
+      "id": "tasses_ragout",
+      "name": "Tasses Yahnisi"
+    },
+    {
+      "_id": 2404,
+      "id": "fontainian_onion_soup",
+      "name": "Fontaine Usulü Soğan Çorbası"
+    },
+    {
+      "_id": 3009,
+      "id": "barbatos_ratatouille",
+      "name": "Barbatos Yahnisi"
+    },
+    {
+      "_id": 3210,
+      "id": "braised_meat",
+      "name": "Kavurma"
+    },
+    {
+      "_id": 3312,
+      "id": "sabz_meat_stew",
+      "name": "Sabz Et Yahnisi"
+    },
+    {
+      "_id": 3313,
+      "id": "scented_meat_balls",
+      "name": "İçli Köfte"
+    },
+    {
+      "_id": 3315,
+      "id": "gilded_tajine",
+      "name": "Yaldızlı Tajin"
+    },
+    {
+      "_id": 3406,
+      "id": "steak_tartare",
+      "name": "Biftek Tartar"
+    },
+    {
+      "_id": 4204,
+      "id": "bountiful_year",
+      "name": "Sürüsüne Bereket"
+    }
+  ],
+  "source": ["Gıda pazarlarında satılır."]
+}

@@ -1,9 +1,9 @@
 {
+  "_id": 368127,
   "id": "diona",
-  "originalId": 368127,
   "rarity": 1,
   "name": "Диона",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

@@ -1,9 +1,9 @@
 {
+  "_id": 368128,
   "id": "mona",
-  "originalId": 368128,
   "rarity": 1,
   "name": "Мона",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

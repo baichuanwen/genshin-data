@@ -1,4 +1,5 @@
 {
+  "_id": 10000062,
   "id": "aloy",
   "name": "Aloy",
   "title": "Savior From Another World",
@@ -20,9 +21,10 @@
   },
   "skills": [
     {
+      "_id": 10621,
       "id": "normal_attack_rapid_fire",
       "name": "Normal Attack: Rapid Fire",
-      "description": "<span>Normal Attack</span><br/>Perform up to 4 consecutive shots with a bow.<br/><br/><span>Charged Attack</span><br/>Perform a more precise <span>Aimed Shot</span> with increased DMG.<br/>While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <span>Cryo DMG</span>.<br/><br/><span>Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
+      "description": "<span>Normal Attack</span><br/>Performs up to 4 consecutive shots with a bow.<br/><br/><span>Charged Attack</span><br/>Performs a more precise <span>Aimed Shot</span> with increased DMG.<br/>While aiming, biting frost will accumulate on the arrowhead. A fully charged frost arrow will deal <span>Cryo DMG</span>.<br/><br/><span>Plunging Attack</span><br/>Fires off a shower of arrows in mid-air before falling and striking the ground, dealing AoE DMG upon impact.",
       "info": "",
       "attributes": [
         {
@@ -188,9 +190,10 @@
       ]
     },
     {
+      "_id": 10622,
       "id": "frozen_wilds",
       "name": "Frozen Wilds",
-      "description": "Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing <span>Cryo DMG</span>. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing <span>Cryo DMG</span>.<br/>When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.<br/>Aloy can gain up to 1 Coil stack every 0.1s.<br/><br/><span>Coil</span><br/>·Each stack increases Aloy's Normal Attack DMG.<br/>·When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to <span>Cryo DMG</span>.<br/><br/>While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.<br/>Coil effects will be cleared 30s after Aloy leaves the field.",
+      "description": "Aloy throws a Freeze Bomb in the targeted direction that explodes on impact, dealing <span>Cryo DMG</span>. After it explodes, the Freeze Bomb will split up into many Chillwater Bomblets that explode on contact with opponents or after a short delay, dealing <span>Cryo DMG</span>.<br/>When a Freeze Bomb or Chillwater Bomblet hits an opponent, the opponent's ATK is decreased and Aloy receives 1 Coil stack.<br/>Aloy can gain up to 1 Coil stack every 0.1s.<br/><br/><span>Coil</span><br/>·Each stack increases Aloy's Normal Attack DMG.<br/>·When Aloy has 4 Coil stacks, all stacks of Coil are cleared. She then enters the Rushing Ice state, which further increases the DMG dealt by her Normal Attacks and converts her Normal Attack DMG to <span>Cryo DMG</span>.<br/><br/>While in the Rushing Ice state, Aloy cannot obtain new Coil stacks.<br/>Coil effects will be cleared 30s after Aloy leaves combat.",
       "info": "You think that's cold? Guess you've never been to The Cut.",
       "attributes": [
         {
@@ -214,7 +217,7 @@
           ]
         },
         {
-          "label": "Chillwater Bomblets",
+          "label": "Chillwater Bomblet DMG",
           "values": [
             "40%",
             "43%",
@@ -356,6 +359,7 @@
       ]
     },
     {
+      "_id": 10625,
       "id": "prophecies_of_dawn",
       "name": "Prophecies of Dawn",
       "description": "Aloy throws a Power Cell filled with Cryo in the targeted direction, then detonates it with an arrow, dealing <span>AoE Cryo DMG</span>.",
@@ -446,36 +450,42 @@
   ],
   "constellations": [
     {
+      "_id": 621,
       "id": "star_of_another_world",
       "name": "Star of Another World",
       "description": "The time has not yet come for this person's corner of the night sky to light up.",
       "level": 1
     },
     {
+      "_id": 622,
       "id": "star_of_another_world",
       "name": "Star of Another World",
       "description": "The time has not yet come for this person's corner of the night sky to light up.",
       "level": 2
     },
     {
+      "_id": 623,
       "id": "star_of_another_world",
       "name": "Star of Another World",
       "description": "The time has not yet come for this person's corner of the night sky to light up.",
       "level": 3
     },
     {
+      "_id": 624,
       "id": "star_of_another_world",
       "name": "Star of Another World",
       "description": "The time has not yet come for this person's corner of the night sky to light up.",
       "level": 4
     },
     {
+      "_id": 625,
       "id": "star_of_another_world",
       "name": "Star of Another World",
       "description": "The time has not yet come for this person's corner of the night sky to light up.",
       "level": 5
     },
     {
+      "_id": 626,
       "id": "star_of_another_world",
       "name": "Star of Another World",
       "description": "The time has not yet come for this person's corner of the night sky to light up.",
@@ -484,22 +494,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [0, 1]
+        },
+        {
+          "label": "Base HP",
+          "values": ["-", "848"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["-", "18"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["-", "53"]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [1, 2]
+        },
+        {
+          "label": "Base HP",
+          "values": ["2201", "2928"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["47", "63"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["137", "182"]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104161,
         "id": "shivada_jade_sliver",
         "name": "Shivada Jade Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Crystal Marrow",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112053,
         "id": "spectral_husk",
         "name": "Spectral Husk",
         "amount": 3,
@@ -507,28 +566,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [2, 3]
+        },
+        {
+          "label": "Base HP",
+          "values": ["4382", "4899"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["94", "105"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["272", "304"]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": ["0.0%", "7.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113020,
         "id": "crystalline_bloom",
         "name": "Crystalline Bloom",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Crystal Marrow",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112053,
         "id": "spectral_husk",
         "name": "Spectral Husk",
         "amount": 15,
@@ -536,28 +620,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [3, 4]
+        },
+        {
+          "label": "Base HP",
+          "values": ["5636", "6325"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["121", "136"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["350", "393"]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": ["7.2%", "14.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113020,
         "id": "crystalline_bloom",
         "name": "Crystalline Bloom",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Crystal Marrow",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112054,
         "id": "spectral_heart",
         "name": "Spectral Heart",
         "amount": 12,
@@ -565,28 +674,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [4, 5]
+        },
+        {
+          "label": "Base HP",
+          "values": ["7070", "7587 "]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["152", "163"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["439", "471"]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": ["14.4%", "14.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113020,
         "id": "crystalline_bloom",
         "name": "Crystalline Bloom",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Crystal Marrow",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112054,
         "id": "spectral_heart",
         "name": "Spectral Heart",
         "amount": 18,
@@ -594,28 +728,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [5, 6]
+        },
+        {
+          "label": "Base HP",
+          "values": ["8339", "8856"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["179", "190"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["517", "550"]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": ["14.4%", "21.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113020,
         "id": "crystalline_bloom",
         "name": "Crystalline Bloom",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Crystal Marrow",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112055,
         "id": "spectral_nucleus",
         "name": "Spectral Nucleus",
         "amount": 12,
@@ -623,28 +782,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [6, 7]
+        },
+        {
+          "label": "Base HP",
+          "values": ["9616", "10133 "]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["206", "217"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["597", "629"]
+        },
+        {
+          "label": "Cryo DMG Bonus",
+          "values": ["21.6%", "28.8%"]
+        }
+      ],
       "mat1": {
+        "_id": 104164,
         "id": "shivada_jade_gemstone",
         "name": "Shivada Jade Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113020,
         "id": "crystalline_bloom",
         "name": "Crystalline Bloom",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101203,
         "id": "crystal_marrow",
         "name": "Crystal Marrow",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112055,
         "id": "spectral_nucleus",
         "name": "Spectral Nucleus",
         "amount": 24,
@@ -658,12 +842,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104301,
           "id": "teachings_of_freedom",
           "name": "Teachings of Freedom",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112053,
           "id": "spectral_husk",
           "name": "Spectral Husk",
           "amount": 6,
@@ -676,12 +862,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to Freedom",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112054,
           "id": "spectral_heart",
           "name": "Spectral Heart",
           "amount": 3,
@@ -694,12 +882,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to Freedom",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112054,
           "id": "spectral_heart",
           "name": "Spectral Heart",
           "amount": 4,
@@ -712,12 +902,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to Freedom",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112054,
           "id": "spectral_heart",
           "name": "Spectral Heart",
           "amount": 6,
@@ -730,12 +922,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to Freedom",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112054,
           "id": "spectral_heart",
           "name": "Spectral Heart",
           "amount": 9,
@@ -748,18 +942,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of Freedom",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112055,
           "id": "spectral_nucleus",
           "name": "Spectral Nucleus",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113025,
           "id": "molten_moment",
           "name": "Molten Moment",
           "amount": 1,
@@ -772,18 +969,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of Freedom",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112055,
           "id": "spectral_nucleus",
           "name": "Spectral Nucleus",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113025,
           "id": "molten_moment",
           "name": "Molten Moment",
           "amount": 1,
@@ -796,18 +996,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of Freedom",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112055,
           "id": "spectral_nucleus",
           "name": "Spectral Nucleus",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113025,
           "id": "molten_moment",
           "name": "Molten Moment",
           "amount": 2,
@@ -820,24 +1023,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of Freedom",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112055,
           "id": "spectral_nucleus",
           "name": "Spectral Nucleus",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113025,
           "id": "molten_moment",
           "name": "Molten Moment",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

@@ -1,4 +1,5 @@
 {
+  "_id": 13505,
   "id": "primordial_jade_wingedspear",
   "name": "Lança de Jade Primitiva",
   "description": "Uma lança pesada e afiada feita de jade. Usada para derrotar monstros marinhos poderosos e pré-históricos.",
@@ -6,7 +7,7 @@
   "type": "Lança",
   "domain": "Palácio Oculto da Fórmula Lianshan",
   "passive": "Lança da Justiça da Águia",
-  "bonus": "Ao acertar, aumenta o Dano em <span>3.2%/3.9%/4.6%/5.3%/6%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>12%/15%/18%/21%/24%</span>.",
+  "bonus": "Ao acertar, aumenta o ATQ em <span>3.2%/3.9%/4.6%/5.3%/6%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>12%/15%/18%/21%/24%</span>.",
   "stats": {
     "primary": "ATQ Básico",
     "secondary": "Taxa Crítica",
@@ -109,18 +110,21 @@
       "cost": 10000,
       "materials": [
         {
+          "_id": 114013,
           "id": "luminous_sands_from_guyun",
           "name": "Areia Brilhante de Guyun",
           "amount": 5,
           "rarity": 2
         },
         {
+          "_id": 112029,
           "id": "hunters_sacrificial_knife",
           "name": "Faca de Caça",
           "amount": 5,
           "rarity": 2
         },
         {
+          "_id": 112032,
           "id": "recruits_insignia",
           "name": "Insígnia de Recruta",
           "amount": 3,
@@ -134,18 +138,21 @@
       "cost": 20000,
       "materials": [
         {
+          "_id": 114014,
           "id": "lustrous_stone_from_guyun",
           "name": "Pedra Lustrosa de Guyun",
           "amount": 5,
           "rarity": 3
         },
         {
+          "_id": 112029,
           "id": "hunters_sacrificial_knife",
           "name": "Faca de Caça",
           "amount": 18,
           "rarity": 2
         },
         {
+          "_id": 112032,
           "id": "recruits_insignia",
           "name": "Insígnia de Recruta",
           "amount": 12,
@@ -159,18 +166,21 @@
       "cost": 30000,
       "materials": [
         {
+          "_id": 114014,
           "id": "lustrous_stone_from_guyun",
           "name": "Pedra Lustrosa de Guyun",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112030,
           "id": "agents_sacrificial_knife",
           "name": "Faca Especial",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insígnia de Sargento",
           "amount": 9,
@@ -184,18 +194,21 @@
       "cost": 45000,
       "materials": [
         {
+          "_id": 114015,
           "id": "relic_from_guyun",
           "name": "Relíquia de Guyun",
           "amount": 5,
           "rarity": 4
         },
         {
+          "_id": 112030,
           "id": "agents_sacrificial_knife",
           "name": "Faca Especial",
           "amount": 18,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insígnia de Sargento",
           "amount": 14,
@@ -209,18 +222,21 @@
       "cost": 55000,
       "materials": [
         {
+          "_id": 114015,
           "id": "relic_from_guyun",
           "name": "Relíquia de Guyun",
           "amount": 9,
           "rarity": 4
         },
         {
+          "_id": 112031,
           "id": "inspectors_sacrificial_knife",
           "name": "Faca Longa de Inspetor",
           "amount": 14,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insígnia de Oficial",
           "amount": 9,
@@ -234,18 +250,21 @@
       "cost": 65000,
       "materials": [
         {
+          "_id": 114016,
           "id": "divine_body_from_guyun",
           "name": "Corpo Divino de Guyun",
           "amount": 6,
           "rarity": 5
         },
         {
+          "_id": 112031,
           "id": "inspectors_sacrificial_knife",
           "name": "Faca Longa de Inspetor",
           "amount": 27,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insígnia de Oficial",
           "amount": 18,
@@ -254,26 +273,37 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "Lança da Justiça da Águia",
+    "template": "Ao acertar, aumenta o ATQ em <span style=\"color:#99FFFFFF\">{0}</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span style=\"color:#99FFFFFF\">{1}</span>.",
+    "params": [
+      ["3.2%", "12%"],
+      ["3.9%", "15%"],
+      ["4.6%", "18%"],
+      ["5.3%", "21%"],
+      ["6%", "24%"]
+    ]
+  },
   "refinements": [
     {
       "refinement": 1,
-      "desc": "Ao acertar, aumenta o Dano em <span>3.2%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>12%</span>."
+      "desc": "Ao acertar, aumenta o ATQ em <span>3.2%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>12%</span>."
     },
     {
       "refinement": 2,
-      "desc": "Ao acertar, aumenta o Dano em <span>3.9%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>15%</span>."
+      "desc": "Ao acertar, aumenta o ATQ em <span>3.9%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>15%</span>."
     },
     {
       "refinement": 3,
-      "desc": "Ao acertar, aumenta o Dano em <span>4.6%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>18%</span>."
+      "desc": "Ao acertar, aumenta o ATQ em <span>4.6%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>18%</span>."
     },
     {
       "refinement": 4,
-      "desc": "Ao acertar, aumenta o Dano em <span>5.3%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>21%</span>."
+      "desc": "Ao acertar, aumenta o ATQ em <span>5.3%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>21%</span>."
     },
     {
       "refinement": 5,
-      "desc": "Ao acertar, aumenta o Dano em <span>6%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>24%</span>."
+      "desc": "Ao acertar, aumenta o ATQ em <span>6%</span> por 6s. Pode acumular até 7 vezes. Pode ocorrer uma vez a cada 0.3s. O acúmulo máximo aumenta o Dano em <span>24%</span>."
     }
   ]
 }

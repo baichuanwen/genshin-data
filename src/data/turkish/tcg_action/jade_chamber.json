@@ -1,0 +1,21 @@
+{
+  "_id": 321003,
+  "id": "jade_chamber",
+  "name": "Yeşim Konak",
+  "title": "Bulutların Arasında Yıldız Gözlemleme",
+  "desc": "\"Binlerce göz kamaştırıcı mücevher içerdiği söylenir.\"",
+  "in_play_description": "",
+  "attributes": {
+    "cost": 0,
+    "card_type": "Destek Kartı",
+    "energy": [],
+    "source": "Açık dünyada Bu'yun'nun Macera Mücadelesini kabul etme ve ilgili tüm mücadele hedeflerine ulaşma ödülü.",
+    "tags": ["Konum"]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "<span style=\"color:#FFFFFFFF\">Zar Atma Aşaması:</span> Başlangıçta attığın Element Zarlarından 2 tanesi her zaman aktif karakterinin Element Türüyle aynı olur."
+    }
+  ]
+}

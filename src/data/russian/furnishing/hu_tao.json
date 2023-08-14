@@ -1,9 +1,9 @@
 {
+  "_id": 368133,
   "id": "hu_tao",
-  "originalId": 368133,
   "rarity": 1,
   "name": "Ху Тао",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

@@ -1,9 +1,9 @@
 {
+  "_id": 368136,
   "id": "sayu",
-  "originalId": 368136,
   "rarity": 1,
   "name": "Саю",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

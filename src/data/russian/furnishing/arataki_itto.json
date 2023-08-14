@@ -1,9 +1,9 @@
 {
+  "_id": 368144,
   "id": "arataki_itto",
-  "originalId": 368144,
   "rarity": 1,
   "name": "Итто",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

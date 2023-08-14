@@ -1,4 +1,5 @@
 {
+  "_id": 10000051,
   "id": "eula",
   "name": "Eula",
   "title": "Dance of the Shimmering Wave",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10511,
       "id": "normal_attack_favonius_bladework_edel",
       "name": "Normal Attack: Favonius Bladework - Edel",
-      "description": "<span>Normal Attack</span><br/>Perform up to 5 consecutive strikes.<br/><br/><span>Charged Attack</span><br/>Drains Stamina over time to perform continuous slashes.<br/>At the end of the sequence, perform a more powerful slash.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "<span>Normal Attack</span><br/>Performs up to 5 consecutive strikes.<br/><br/><span>Charged Attack</span><br/>Drains Stamina over time to perform continuous slashes.<br/>At the end of the sequence, performs a more powerful slash.<br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground, damaging opponents along the path and dealing AoE DMG upon impact.",
       "info": "",
       "attributes": [
         {
@@ -249,6 +251,7 @@
       ]
     },
     {
+      "_id": 10512,
       "id": "icetide_vortex",
       "name": "Icetide Vortex",
       "description": "Sharp frost, swift blade.<br/><br/><span>Press</span><br/>Slashes swiftly, dealing <span>Cryo DMG</span>.<br/>When it hits an opponent, Eula gains a stack of Grimheart that stacks up to 2 times. These stacks can only be gained once every 0.3s.<br/><br/><span>Grimheart</span><br/>Increases Eula's resistance to interruption and DEF.<br/><br/><span>Hold</span><br/>Wielding her sword, Eula consumes all the stacks of Grimheart and lashes forward, dealing <span>AoE Cryo DMG</span> to opponents in front of her.<br/>If Grimheart stacks are consumed, surrounding opponents will have their Physical RES and <span>Cryo RES</span> decreased.<br/>Each consumed stack of Grimheart will be converted into an Icewhirl Brand that deals <span>Cryo DMG</span> to nearby opponents.",
@@ -435,7 +438,7 @@
           ]
         },
         {
-          "label": "CD (hold)",
+          "label": "Hold CD",
           "values": [
             "10s",
             "10s",
@@ -457,6 +460,7 @@
       ]
     },
     {
+      "_id": 10515,
       "id": "glacial_illumination",
       "name": "Glacial Illumination",
       "description": "Brandishes her greatsword, dealing <span>Cryo DMG</span> to nearby opponents and creating a Lightfall Sword that follows her around for a duration of up to 7s.<br/>While present, the Lightfall Sword increases Eula's resistance to interruption. When Eula's own Normal Attack, Elemental Skill, and Elemental Burst deal DMG to opponents, they will charge the Lightfall Sword, which can gain an energy stack once every 0.1s.<br/>Once its duration ends, the Lightfall Sword will descend and explode violently, dealing Physical DMG to nearby opponents.<br/>This DMG scales on the number of energy stacks the Lightfall Sword has accumulated.<br/>If Eula leaves the field, the Lightfall Sword will explode immediately.",
@@ -607,36 +611,42 @@
   ],
   "constellations": [
     {
+      "_id": 511,
       "id": "tidal_illusion",
       "name": "Tidal Illusion",
       "description": "Every time <span>Icetide Vortex</span>'s Grimheart stacks are consumed, Eula's Physical DMG is increased by 30% for 6s.<br/>Each stack consumed will increase the duration of this effect by 6s up to a maximum of 18s.",
       "level": 1
     },
     {
+      "_id": 512,
       "id": "lady_of_seafoam",
       "name": "Lady of Seafoam",
       "description": "Decreases the CD of <span>Icetide Vortex</span>'s Holding Mode, rendering it identical to Press CD.",
       "level": 2
     },
     {
+      "_id": 513,
       "id": "lawrence_pedigree",
       "name": "Lawrence Pedigree",
       "description": "Increases the Level of <span>Glacial Illumination</span> by 3.<br/>Maximum upgrade level is 15.",
       "level": 3
     },
     {
+      "_id": 514,
       "id": "the_obstinacy_of_ones_inferiors",
       "name": "The Obstinacy of One's Inferiors",
       "description": "Lightfall Swords deal 25% increased DMG against opponents with less than 50% HP.",
       "level": 4
     },
     {
+      "_id": 515,
       "id": "chivalric_quality",
       "name": "Chivalric Quality",
       "description": "Increases the Level of <span>Icetide Vortex</span> by 3.<br/>Maximum upgrade level is 15.",
       "level": 5
     },
     {
+      "_id": 516,
       "id": "noble_obligation",
       "name": "Noble Obligation",
       "description": "Lightfall Swords created by <span>Glacial Illumination</span> start with 5 stacks of energy. Normal Attacks, Elemental Skills, and Elemental Bursts have a 50% chance to grant the Lightfall Sword an additional stack of energy.",
@@ -645,22 +655,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [0, 1]
+        },
+        {
+          "label": "Base HP",
+          "values": ["-", "1030"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["-", "27"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["-", "58"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [1, 2]
+        },
+        {
+          "label": "Base HP",
+          "values": ["2671", "3554"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["69", "92"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["152", "202"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104161,
         "id": "shivada_jade_sliver",
         "name": "Shivada Jade Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100057,
         "id": "dandelion_seed",
         "name": "Dandelion Seed",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "Damaged Mask",
         "amount": 3,
@@ -668,28 +727,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [2, 3]
+        },
+        {
+          "label": "Base HP",
+          "values": ["5317", "5944"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["138", "154"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["302", "337"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["0.0%", "9.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113020,
         "id": "crystalline_bloom",
         "name": "Crystalline Bloom",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100057,
         "id": "dandelion_seed",
         "name": "Dandelion Seed",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "Damaged Mask",
         "amount": 15,
@@ -697,28 +781,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [3, 4]
+        },
+        {
+          "label": "Base HP",
+          "values": ["6839", "7675"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["177", "198"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["388", "436"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["9.6%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Shivada Jade Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113020,
         "id": "crystalline_bloom",
         "name": "Crystalline Bloom",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100057,
         "id": "dandelion_seed",
         "name": "Dandelion Seed",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "Stained Mask",
         "amount": 12,
@@ -726,28 +835,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [4, 5]
+        },
+        {
+          "label": "Base HP",
+          "values": ["8579", "9207"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["222", "238"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["487", "523"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["19.2%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113020,
         "id": "crystalline_bloom",
         "name": "Crystalline Bloom",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100057,
         "id": "dandelion_seed",
         "name": "Dandelion Seed",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "Stained Mask",
         "amount": 18,
@@ -755,28 +889,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [5, 6]
+        },
+        {
+          "label": "Base HP",
+          "values": ["10119", "10746"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["262", "278"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["574", "610"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["19.2%", "28.8%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Shivada Jade Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113020,
         "id": "crystalline_bloom",
         "name": "Crystalline Bloom",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100057,
         "id": "dandelion_seed",
         "name": "Dandelion Seed",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "Ominous Mask",
         "amount": 12,
@@ -784,28 +943,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [6, 7]
+        },
+        {
+          "label": "Base HP",
+          "values": ["11669", "12296"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["302", "318"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["662", "698"]
+        },
+        {
+          "label": "CRIT DMG",
+          "values": ["28.8%", "38.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104164,
         "id": "shivada_jade_gemstone",
         "name": "Shivada Jade Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113020,
         "id": "crystalline_bloom",
         "name": "Crystalline Bloom",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100057,
         "id": "dandelion_seed",
         "name": "Dandelion Seed",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "Ominous Mask",
         "amount": 24,
@@ -819,12 +1003,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104304,
           "id": "teachings_of_resistance",
           "name": "Teachings of Resistance",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112005,
           "id": "damaged_mask",
           "name": "Damaged Mask",
           "amount": 6,
@@ -837,12 +1023,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "Guide to Resistance",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 3,
@@ -855,12 +1043,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "Guide to Resistance",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 4,
@@ -873,12 +1063,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "Guide to Resistance",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 6,
@@ -891,12 +1083,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104305,
           "id": "guide_to_resistance",
           "name": "Guide to Resistance",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 9,
@@ -909,18 +1103,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "Philosophies of Resistance",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113017,
           "id": "dragon_lords_crown",
           "name": "Dragon Lord's Crown",
           "amount": 1,
@@ -933,18 +1130,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "Philosophies of Resistance",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113017,
           "id": "dragon_lords_crown",
           "name": "Dragon Lord's Crown",
           "amount": 1,
@@ -957,18 +1157,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "Philosophies of Resistance",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113017,
           "id": "dragon_lords_crown",
           "name": "Dragon Lord's Crown",
           "amount": 2,
@@ -981,24 +1184,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104306,
           "id": "philosophies_of_resistance",
           "name": "Philosophies of Resistance",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113017,
           "id": "dragon_lords_crown",
           "name": "Dragon Lord's Crown",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

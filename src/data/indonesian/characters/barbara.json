@@ -1,4 +1,5 @@
 {
+  "_id": 10000014,
   "id": "barbara",
   "name": "Barbara",
   "title": "Shining Idol",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10070,
       "id": "normal_attack_whisper_of_water",
-      "name": "Whisper of Water",
-      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 4 serangan air yang mengakibatkan <span>Hydro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk mengakibatkan <span>Hydro DMG area</span> setelah jeda singkat.<br/><br/><span>Plunging Attack</span><br/>Mengumpulkan kekuatan Hydro dan menerjang tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan <span>Hydro DMG area</span> saat mendarat.",
+      "name": "Normal Attack: Whisper of Water",
+      "description": "<span>Normal Attack</span><br/>Melancarkan hingga 4 serangan air yang mengakibatkan <span>Hydro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina untuk mengakibatkan <span>Hydro DMG Area</span> setelah jeda singkat.<br/><br/><span>Plunging Attack</span><br/>Mengumpulkan kekuatan Hydro dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <span>Hydro DMG Area</span> saat mendarat.",
       "info": "",
       "attributes": [
         {
@@ -189,9 +191,10 @@
       ]
     },
     {
+      "_id": 10071,
       "id": "let_the_show_begin",
       "name": "Let the Show Begin♪",
-      "description": "Memanggil tetesan air yang menyerupai not balok yang membentuk sebuah Melody Loop, mengakibatkan <span>Hydro DMG</span> ke musuh di sekitar karakter dan memberikan efek <span>Wet</span>.<br/><br/><span>Melody Loop</span><br/>·Normal Attack Barbara dapat memulihkan HP seluruh anggota partymu dan karakter kawan di sekitar, jumlah HP yang dipulihkan berdasarkan pada Max HP Barbara;<br/>·Charged Attack Barbara memulihkan 4 kali lipat lebih banyak HP;<br/>·Memulihkan HP secara berkala untuk karakter sendiri yang sedang digunakan;<br/>·Memberikan efek <span>Wet</span> kepada karakter dan musuh yang menyentuhnya.",
+      "description": "Memanggil tetesan air yang menyerupai not balok yang membentuk sebuah Melody Loop, mengakibatkan <span>Hydro DMG</span> ke musuh di sekitar Karakter dan memberikan efek <span>Wet</span>.<br/><br/><span>Melody Loop</span><br/>·Normal Attack Barbara dapat memulihkan HP seluruh anggota partymu dan karakter kawan di sekitar, jumlah HP yang dipulihkan berdasarkan pada Max HP Barbara;<br/>·Charged Attack Barbara memulihkan 4 kali lipat lebih banyak HP;<br/>·Memulihkan HP secara berkala untuk karakter sendiri yang sedang digunakan;<br/>·Memberikan efek <span>Wet</span> kepada karakter dan musuh yang menyentuhnya.",
       "info": "Musik Barbara adalah sihir yang dapat menyembuhkan teman-temannya.",
       "attributes": [
         {
@@ -297,9 +300,10 @@
       ]
     },
     {
+      "_id": 10072,
       "id": "shining_miracle",
       "name": "Shining Miracle♪",
-      "description": "Memulihkan HP karakter teman dan seluruh anggota party dalam jumlah besar, jumlah HP yang dipulihkan berdasarkan pada Max HP Barbara.",
+      "description": "Memulihkan HP Karakter teman dan seluruh anggota party dalam jumlah besar, jumlah HP yang dipulihkan berdasarkan pada Max HP Barbara.",
       "info": "Keinginan Barbara untuk menyembuhkan adalah dorongan baginya untuk terus bertarung dan bernyanyi.",
       "attributes": [
         {
@@ -369,7 +373,7 @@
     {
       "id": "glorious_season",
       "name": "Glorious Season",
-      "description": "Mengurangi 12% konsumsi Stamina karakter yang berada dalam Melody Loop dari skill <span>Let the Show Begin♪</span>.",
+      "description": "Mengurangi 12% konsumsi Stamina Karakter yang berada dalam Melody Loop dari skill <span>Let the Show Begin♪</span>.",
       "level": 1
     },
     {
@@ -387,60 +391,115 @@
   ],
   "constellations": [
     {
+      "_id": 141,
       "id": "gleeful_songs",
       "name": "Gleeful Songs",
       "description": "Memulihkan 1 Energy Barbara setiap 10 detik.",
       "level": 1
     },
     {
+      "_id": 142,
       "id": "vitality_burst",
       "name": "Vitality Burst",
-      "description": "Mengurangi 15% CD <span>Let the Show Begin♪</span>.<br/>Selama durasi skill, karakter saat ini akan mendapatkan 15% <span>Hydro DMG Bonus</span>.",
+      "description": "Mengurangi 15% CD <span>Let the Show Begin♪</span>.<br/>Selama durasi skill, Karakter aktif akan mendapatkan 15% <span>Hydro DMG Bonus</span>.",
       "level": 2
     },
     {
+      "_id": 143,
       "id": "star_of_tomorrow",
       "name": "Star of Tomorrow",
       "description": "Meningkatkan 3 level <span>Shining Miracle♪</span>.<br/>Maksimum: Lv. 15.",
       "level": 3
     },
     {
+      "_id": 144,
       "id": "attentiveness_be_my_power",
-      "name": "Attentiveness be My Power",
-      "description": "Setiap kali Barbara menyerang musuh dengan Charged Attack akan memulihkan 1 Energy.<br/>Maksimum 5 energy dapat dipulihkan dengan cara ini menggunakan salah satu Charged Attack.",
+      "name": "Attentiveness Be My Power",
+      "description": "Setiap kali Barbara menyerang musuh dengan Charged Attack akan memulihkan 1 Energy.<br/>Paling banyak dapat memulihkan 5 Energy dengan cara ini setiap kalinya.",
       "level": 4
     },
     {
+      "_id": 145,
       "id": "the_purest_companionship",
       "name": "The Purest Companionship",
       "description": "Meningkatkan 3 level <span>Let the Show Begin♪</span>.<br/>Maksimum: Lv. 15.",
       "level": 5
     },
     {
+      "_id": 146,
       "id": "dedicating_everything_to_you",
       "name": "Dedicating Everything to You",
-      "description": "Ketika Barbara berada di dalam party namun sedang tidak bertempur, dan salah seorang anggota party gugur:<br/>Secara otomatis akan menghidupkan kembali Karakter gugur tersebut;<br/>·Dan memulihkan HP Karakter tersebut hingga 100%.<br/>Efek ini dapat terpicu setiap 15 menit.",
+      "description": "Ketika Barbara ada dalam party namun sedang tidak berada di medan pertempuran, dan salah seorang anggota party gugur:<br/>Secara otomatis akan menghidupkan kembali Karakter gugur tersebut;<br/>·Dan memulihkan HP Karakter tersebut hingga 100%.<br/>Efek ini dapat terpicu setiap 15 menit.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [0, 1]
+        },
+        {
+          "label": "Base HP",
+          "values": ["-", "821"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["-", "13"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["-", "56"]
+        },
+        {
+          "label": "HP",
+          "values": ["-", "0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [1, 2]
+        },
+        {
+          "label": "Base HP",
+          "values": ["2108", "2721"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["34", "44"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["144", "186"]
+        },
+        {
+          "label": "HP",
+          "values": ["0%", "0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104121,
         "id": "varunada_lazurite_sliver",
         "name": "Varunada Lazurite Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "Philanemo Mushroom",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112008,
         "id": "divining_scroll",
         "name": "Divining Scroll",
         "amount": 3,
@@ -448,28 +507,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [2, 3]
+        },
+        {
+          "label": "Base HP",
+          "values": ["4076", "4512"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["66", "73"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["279", "308"]
+        },
+        {
+          "label": "HP",
+          "values": ["0%", "6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "Varunada Lazurite Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "Cleansing Heart",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "Philanemo Mushroom",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112008,
         "id": "divining_scroll",
         "name": "Divining Scroll",
         "amount": 15,
@@ -477,28 +561,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [3, 4]
+        },
+        {
+          "label": "Base HP",
+          "values": ["5189", "5770"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["84", "94"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["355", "394"]
+        },
+        {
+          "label": "HP",
+          "values": ["6%", "12%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "Varunada Lazurite Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "Cleansing Heart",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "Philanemo Mushroom",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112009,
         "id": "sealed_scroll",
         "name": "Sealed Scroll",
         "amount": 12,
@@ -506,28 +615,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [4, 5]
+        },
+        {
+          "label": "Base HP",
+          "values": ["6448", "6884"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["105", "112"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["441", "470"]
+        },
+        {
+          "label": "HP",
+          "values": ["12%", "12%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "Varunada Lazurite Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "Cleansing Heart",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "Philanemo Mushroom",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112009,
         "id": "sealed_scroll",
         "name": "Sealed Scroll",
         "amount": 18,
@@ -535,28 +669,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [5, 6]
+        },
+        {
+          "label": "Base HP",
+          "values": ["7561", "7996"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["123", "130"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["517", "546"]
+        },
+        {
+          "label": "HP",
+          "values": ["12%", "18%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "Varunada Lazurite Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "Cleansing Heart",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "Philanemo Mushroom",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112010,
         "id": "forbidden_curse_scroll",
         "name": "Forbidden Curse Scroll",
         "amount": 12,
@@ -564,28 +723,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [6, 7]
+        },
+        {
+          "label": "Base HP",
+          "values": ["8674", "9110"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["141", "148"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["593", "623"]
+        },
+        {
+          "label": "HP",
+          "values": ["18%", "24%"]
+        }
+      ],
       "mat1": {
+        "_id": 104124,
         "id": "varunada_lazurite_gemstone",
         "name": "Varunada Lazurite Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "Cleansing Heart",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "Philanemo Mushroom",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112010,
         "id": "forbidden_curse_scroll",
         "name": "Forbidden Curse Scroll",
         "amount": 24,
@@ -599,12 +783,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104301,
           "id": "teachings_of_freedom",
           "name": "Teachings of \"Freedom\"",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112008,
           "id": "divining_scroll",
           "name": "Divining Scroll",
           "amount": 6,
@@ -617,12 +803,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to \"Freedom\"",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
           "amount": 3,
@@ -635,12 +823,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to \"Freedom\"",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
           "amount": 4,
@@ -653,12 +843,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to \"Freedom\"",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
           "amount": 6,
@@ -671,12 +863,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "Guide to \"Freedom\"",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "Sealed Scroll",
           "amount": 9,
@@ -689,18 +883,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of \"Freedom\"",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113007,
           "id": "ring_of_boreas",
           "name": "Ring of Boreas",
           "amount": 1,
@@ -713,18 +910,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of \"Freedom\"",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113007,
           "id": "ring_of_boreas",
           "name": "Ring of Boreas",
           "amount": 1,
@@ -737,18 +937,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of \"Freedom\"",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113007,
           "id": "ring_of_boreas",
           "name": "Ring of Boreas",
           "amount": 2,
@@ -761,24 +964,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "Philosophies of \"Freedom\"",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "Forbidden Curse Scroll",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113007,
           "id": "ring_of_boreas",
           "name": "Ring of Boreas",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

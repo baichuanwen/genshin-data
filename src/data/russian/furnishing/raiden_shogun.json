@@ -1,9 +1,9 @@
 {
+  "_id": 368138,
   "id": "raiden_shogun",
-  "originalId": 368138,
   "rarity": 1,
   "name": "Райдэн",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

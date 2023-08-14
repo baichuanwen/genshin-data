@@ -1,13 +1,13 @@
 {
+  "_id": 4,
   "id": "mondstadt_the_city_of_wind_and_song",
-  "originalId": 4,
   "name": "Mondstadt: Kota Angin dan Lagu",
-  "order": 7,
+  "order": 9,
   "achievements": [
     {
       "id": 80030,
       "name": "Penjelajah Benua: Mondstadt",
-      "desc": "Buka seluruh peta Mondstadt (tidak termasuk area Dragonspine).",
+      "desc": "Membuka semua peta wilayah Mondstadt (tidak termasuk area Dragonspine).",
       "reward": 5,
       "hidden": false,
       "order": 30
@@ -15,7 +15,7 @@
     {
       "id": 80031,
       "name": "Tiupan Seribu Angin",
-      "desc": "Buka seluruh Teleport Waypoint Mondstadt (tidak termasuk di area Dragonspine).",
+      "desc": "Membuka semua Teleport Waypoint di Mondstadt (tidak termasuk di area Dragonspine).",
       "reward": 5,
       "hidden": false,
       "order": 31

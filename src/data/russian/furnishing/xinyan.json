@@ -1,9 +1,9 @@
 {
+  "_id": 368131,
   "id": "xinyan",
-  "originalId": 368131,
   "rarity": 1,
   "name": "Синь Янь",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

@@ -1,4 +1,5 @@
 {
+  "_id": 10000052,
   "id": "raiden_shogun",
   "name": "Shogun Raiden",
   "title": "Plan euthymique",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10521,
       "id": "normal_attack_origin",
       "name": "Attaque normale : Prémisse",
-      "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 5 coups de lance.<br/><br/><span>Attaque chargée</span><br/>Consomme de l'endurance pour déclencher une attaque ascendante.<br/><br/><span>Attaque descendante</span><br/>Plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis sur la route et des DGT de zone à l'impact.",
+      "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 5 coups de lance.<br/><br/><span>Attaque chargée</span><br/>Consomme de l'endurance pour déclencher une attaque ascendante.<br/><br/><span>Attaque plongeante</span><br/>Plonge depuis les airs pour frapper le sol, infligeant des DGT aux ennemis sur la route et des DGT de zone à l'impact.",
       "info": "",
       "attributes": [
         {
@@ -209,6 +211,7 @@
       ]
     },
     {
+      "_id": 10522,
       "id": "transcendence_baleful_omen",
       "name": "Transcendance : Présage funeste",
       "description": "La Shogun Raiden dévoile un fragment de son euthymie, infligeant des <span>DGT Électro</span> aux ennemis proches, et accordant à tous les personnages de l'équipe à proximité un œil de jugement orageux.<br/><br/><span>Œil de jugement orageux</span><br/>· Lorsqu'un personnage bénéficiant de cet effet attaque et inflige des DGT à un ennemi, l'œil déclenche une attaque coordonnée, infligeant des <span>DGT Électro de zone</span> à l'emplacement de l'ennemi.<br/>· Les personnages qui obtiennent un œil de jugement orageux voient les DGT de leurs déchaînements élémentaires augmenter pendant la durée de l'œil, en fonction de l'énergie élémentaire consommée par le déchaînement.<br/><br/>L'œil peut déclencher une attaque coordonnée toutes les 0,9 s par équipe.<br/>Les attaques coordonnées générées par des personnages hors de votre équipe infligent 20 % des DGT normaux.",
@@ -317,13 +320,14 @@
       ]
     },
     {
+      "_id": 10525,
       "id": "secret_art_musou_shinsetsu",
       "name": "Art secret : Dogme d'idéal",
-      "description": "Rassemblant des vérités innombrables et des souhaits inquantifiables, la Shogun Raiden libère le Kendo d'idéal et inflige des <span>DGT Électro de zone</span>, avant d'utiliser l'Harmonie d'idéal au combat pendant un certain temps. Les DGT infligés par le Kendo d'idéal et ceux infligés par les attaques sous l'Harmonie d'idéal augmentent selon le nombre de charges de résolution de Chakra Desiderata consommées en utilisant l'aptitude.<br/><br/><span>Harmonie d'idéal</span><br/>Dans cet état, la Shogun Raiden utilisera son tachi au combat, tandis que ses attaques normales, chargées et plongeantes seront imprégnées de <span>DGT Électro</span> ne pouvant pas être enchantés. Lorsque de telles attaques touchent des ennemis, la Shogun restaure l'énergie élémentaire de tous les personnages de l'équipe à proximité. La restauration peut être déclenchée une fois toutes les secondes de cette façon, et un maximum de 5 fois pendant toute la durée de cette aptitude.<br/>Dans cet état, la RÉS à l'interruption de la Shogun Raiden augmente, et elle est immunisée contre les <span>Électrocutions</span>.<br/>Tant que l'Harmonie d'idéal est active, les DGT des attaques normales, chargées et plongeantes de la Shogun Raiden sont considérés comme étant des DGT de déchaînement élémentaire.<br/><br/>Les effets de l'Harmonie d'idéal seront annulés lorsque la Shogun Raiden quitte le champ de bataille.<br/><br/><span>Chakra Desiderata</span><br/>Lorsque les personnages de l'équipe à proximité utilisent un déchaînement élémentaire (hormis la Shogun Raiden), le Chakra Desiderata de la Shogun Raiden accumule de la résolution en fonction de l'énergie élémentaire consommée par le déchaînement.<br/>Il est possible de cumuler jusqu'à 60 charges de résolution.<br/><br/>La résolution obtenue par le Chakra Desiderata sera annulée après 300 s si la Shogun Raiden quitte le combat.",
+      "description": "Rassemblant des vérités innombrables et des souhaits inquantifiables, la Shogun Raiden libère le Kendo d'idéal et inflige des <span>DGT Électro de zone</span>, avant d'utiliser l'Harmonie d'idéal au combat pendant un certain temps. Les DGT infligés par le Kendo d'idéal et ceux infligés par les attaques sous l'Harmonie d'idéal augmentent selon le nombre de cumuls de résolution de Chakra Desiderata consommées en utilisant l'aptitude.<br/><br/><span>Harmonie d'idéal</span><br/>Dans cet état, la Shogun Raiden utilisera son tachi au combat, tandis que ses attaques normales, chargées et plongeantes seront imprégnées de <span>DGT Électro</span> ne pouvant pas être enchantés. Lorsque de telles attaques touchent des ennemis, la Shogun restaure l'énergie élémentaire de tous les personnages de l'équipe à proximité. La restauration peut être déclenchée une fois toutes les secondes de cette manière, et un maximum de 5 fois pendant toute la durée de cette aptitude.<br/>Dans cet état, la RÉS à l'interruption de la Shogun Raiden augmente, et elle est immunisée contre les <span>Électrocutions</span>.<br/>Tant que l'Harmonie d'idéal est active, les DGT des attaques normales, chargées et plongeantes de la Shogun Raiden sont considérés comme des DGT de déchaînement élémentaire.<br/><br/>Les effets de l'Harmonie d'idéal seront annulés lorsque la Shogun Raiden quitte le champ de bataille.<br/><br/><span>Chakra Desiderata</span><br/>Lorsque les personnages de l'équipe à proximité utilisent un déchaînement élémentaire (hormis la Shogun Raiden), le Chakra Desiderata de la Shogun Raiden accumule de la résolution en fonction de l'énergie élémentaire consommée par le déchaînement.<br/>Il est possible d'obtenir jusqu'à 60 cumuls de résolution.<br/><br/>La résolution obtenue par le Chakra Desiderata sera annulée après 300 s si la Shogun Raiden quitte le combat.",
       "info": "C'est la nouvelle technique secrète de la Shogun Raiden. Abandonnant son « insouciance » dénuée de substance, elle porte désormais sur ses épaules un nouvel « idéal » : les rêves et les ambitions de tous. Tout comme « dogme », la « vérité », signifie également le « renouveau », Inazuma est aussi entrée dans un nouveau chapitre.",
       "attributes": [
         {
-          "label": "DGT de base Kendo d'idéal",
+          "label": "DGT de base kendo d'idéal",
           "values": [
             "400.8%",
             "430.86%",
@@ -345,25 +349,25 @@
         {
           "label": "Bonus de résolution",
           "values": [
-            "3.89% initial / 0.73% ATQ par charge",
-            "4.18% initial / 0.78% ATQ par charge",
-            "4.47% initial / 0.84% ATQ par charge",
-            "4.86% initial / 0.91% ATQ par charge",
-            "5.15% initial / 0.96% ATQ par charge",
-            "5.44% initial / 1.02% ATQ par charge",
-            "5.83% initial / 1.09% ATQ par charge",
-            "6.22% initial / 1.16% ATQ par charge",
-            "6.61% initial / 1.23% ATQ par charge",
-            "7% initial / 1.31% ATQ par charge",
-            "7.39% initial / 1.38% ATQ par charge",
-            "7.78% initial / 1.45% ATQ par charge",
-            "8.26% initial / 1.54% ATQ par charge",
-            "8.75% initial / 1.63% ATQ par charge",
-            "9.23% initial / 1.72% ATQ par charge"
+            "3.89% initial / 0.73% ATQ par cumul",
+            "4.18% initial / 0.78% ATQ par cumul",
+            "4.47% initial / 0.84% ATQ par cumul",
+            "4.86% initial / 0.91% ATQ par cumul",
+            "5.15% initial / 0.96% ATQ par cumul",
+            "5.44% initial / 1.02% ATQ par cumul",
+            "5.83% initial / 1.09% ATQ par cumul",
+            "6.22% initial / 1.16% ATQ par cumul",
+            "6.61% initial / 1.23% ATQ par cumul",
+            "7% initial / 1.31% ATQ par cumul",
+            "7.39% initial / 1.38% ATQ par cumul",
+            "7.78% initial / 1.45% ATQ par cumul",
+            "8.26% initial / 1.54% ATQ par cumul",
+            "8.75% initial / 1.63% ATQ par cumul",
+            "9.23% initial / 1.72% ATQ par cumul"
           ]
         },
         {
-          "label": "Gain de charges de résolution",
+          "label": "Gain de cumuls de résolution",
           "values": [
             "15% / pts d'énergie consommés",
             "16% / pts d'énergie consommés",
@@ -649,7 +653,7 @@
     {
       "id": "wishes_unnumbered",
       "name": "Souhaits innombrables",
-      "description": "Lorsque les personnages de l'équipe à proximité obtiennent un orbe ou une particule élémentaire, le <span>Chakra Desiderata</span> accumule 2 charges de résolution.<br/>Cet effet peut être déclenché une fois toutes les 3 s.",
+      "description": "Lorsque les personnages de l'équipe à proximité obtiennent un orbe ou une particule élémentaire, le <span>Chakra Desiderata</span> obtient 2 cumuls de résolution.<br/>Cet effet peut être déclenché une fois toutes les 3 s.",
       "level": 1
     },
     {
@@ -657,12 +661,6 @@
       "name": "L'illuminée",
       "description": "Tous les 1 % de recharge d'énergie au-dessus de 100 %, la Shogun Raiden bénéficie des effets suivants :<br/>· La restauration d'énergie élémentaire accordée par l'<span>Harmonie d'idéal</span> augmente de 0,6 % ;<br/>· Le <span>bonus de DGT Électro</span> augmente de 0,4 %.",
       "level": 4
-    },
-    {
-      "id": "",
-      "name": "暂缺",
-      "description": "无法参与料理",
-      "level": 0
     },
     {
       "id": "allpreserver",
@@ -673,60 +671,115 @@
   ],
   "constellations": [
     {
+      "_id": 521,
       "id": "ominous_inscription",
       "name": "Inscription menaçante",
       "description": "<span>Chakra Desiderata</span> accumule de la résolution encore plus rapidement. Quand un personnage <span>Électro</span> utilise un déchaînement élémentaire, le gain de résolution augmente de 80 % ; quand un personnage d'un autre type élémentaire utilise un déchaînement élémentaire, le gain de résolution augmente de 20 %.",
       "level": 1
     },
     {
+      "_id": 522,
       "id": "steelbreaker",
       "name": "Brise-acier",
-      "description": "Lorsqu'elles bénéficient de l'état d'Harmonie d'idéal accordé par <span>Art secret : Dogme d'idéal</span>, les attaques de la Shogun Raiden ignorent 60 % de la DÉF des ennemis.",
+      "description": "Lorsqu'elles bénéficient de l'état Harmonie d'idéal accordé par <span>Art secret : Dogme d'idéal</span>, les attaques de la Shogun Raiden ignorent 60 % de la DÉF des ennemis.",
       "level": 2
     },
     {
+      "_id": 523,
       "id": "shinkage_bygones",
       "name": "Shinkage du passé",
       "description": "Niveau d'aptitude <span>Art secret : Dogme d'idéal</span> +3.<br/>Niveau max : 15",
       "level": 3
     },
     {
+      "_id": 524,
       "id": "pledge_of_propriety",
       "name": "Serment de droiture",
-      "description": "Lorsque l'état d'<span>Harmonie d'idéal</span> accordé par <span>Art secret : Dogme d'idéal</span> prend fin, l'ATQ de tous les membres de l'équipe à proximité (hormis la Shogun Raiden) augmente de 30 % pendant 10 s.",
+      "description": "Lorsque l'état <span>Harmonie d'idéal</span> accordé par <span>Art secret : Dogme d'idéal</span> prend fin, l'ATQ de tous les membres de l'équipe à proximité (hormis la Shogun Raiden) augmente de 30 % pendant 10 s.",
       "level": 4
     },
     {
+      "_id": 525,
       "id": "shoguns_descent",
       "name": "Apparition de la Shogun",
       "description": "Niveau d'aptitude <span>Transcendance : Présage funeste</span> +3.<br/>Niveau max : 15",
       "level": 5
     },
     {
+      "_id": 526,
       "id": "wishbearer",
       "name": "Porteur de souhaits",
-      "description": "Lorsqu'elles bénéficient de l'état d'<span>Harmonie d'idéal</span> accordé par <span>Art secret : Dogme d'idéal</span>, les attaques de la Shogun Raiden qui sont considérées comme faisant partie de son déchaînement élémentaire diminuent le TdR des déchaînements élémentaires de tous les membres de l'équipe à proximité (hormis la Shogun Raiden) de 1 s.<br/>Cet effet peut être déclenché une fois toutes les secondes, et un maximum de 5 fois pendant la durée de cet état.",
+      "description": "Lorsqu'elles bénéficient de l'état <span>Harmonie d'idéal</span> accordé par <span>Art secret : Dogme d'idéal</span>, les attaques de la Shogun Raiden qui sont considérées comme faisant partie de son déchaînement élémentaire diminuent le TdR des déchaînements élémentaires de tous les membres de l'équipe à proximité (hormis la Shogun Raiden) de 1 s.<br/>Cet effet peut être déclenché une fois toutes les secondes, et un maximum de 5 fois pendant la durée de cet état.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [0, 1]
+        },
+        {
+          "label": "PV de base",
+          "values": ["-", "1005"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["-", "26"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["-", "61"]
+        },
+        {
+          "label": "Recharge d'énergie",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [1, 2]
+        },
+        {
+          "label": "PV de base",
+          "values": ["2606", "3468"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["68", "91"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["159", "212"]
+        },
+        {
+          "label": "Recharge d'énergie",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104141,
         "id": "vajrada_amethyst_sliver",
         "name": "Éclat d'améthyste vajrada",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 101208,
         "id": "amakumo_fruit",
         "name": "Fruit d'Amakumo",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112044,
         "id": "old_handguard",
         "name": "Garde-main ancien",
         "amount": 3,
@@ -734,28 +787,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [2, 3]
+        },
+        {
+          "label": "PV de base",
+          "values": ["5189", "5801"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["136", "152"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["317", "355"]
+        },
+        {
+          "label": "Recharge d'énergie",
+          "values": ["0.0%", "8.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "Fragment d'améthyste vajrada",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113029,
         "id": "storm_beads",
         "name": "Perles tempestives",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101208,
         "id": "amakumo_fruit",
         "name": "Fruit d'Amakumo",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112044,
         "id": "old_handguard",
         "name": "Garde-main ancien",
         "amount": 15,
@@ -763,28 +841,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [3, 4]
+        },
+        {
+          "label": "PV de base",
+          "values": ["6675", "7491"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["174", "196"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["408", "458"]
+        },
+        {
+          "label": "Recharge d'énergie",
+          "values": ["8.0%", "16.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "Fragment d'améthyste vajrada",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113029,
         "id": "storm_beads",
         "name": "Perles tempestives",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101208,
         "id": "amakumo_fruit",
         "name": "Fruit d'Amakumo",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112045,
         "id": "kageuchi_handguard",
         "name": "Garde-main kageuchi",
         "amount": 12,
@@ -792,28 +895,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [4, 5]
+        },
+        {
+          "label": "PV de base",
+          "values": ["8373", "8985"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["219", "235"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["512", "549"]
+        },
+        {
+          "label": "Recharge d'énergie",
+          "values": ["16.0%", "16.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "Morceau d'améthyste vajrada",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113029,
         "id": "storm_beads",
         "name": "Perles tempestives",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101208,
         "id": "amakumo_fruit",
         "name": "Fruit d'Amakumo",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112045,
         "id": "kageuchi_handguard",
         "name": "Garde-main kageuchi",
         "amount": 18,
@@ -821,28 +949,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [5, 6]
+        },
+        {
+          "label": "PV de base",
+          "values": ["9875", "10487"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["258", "274"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["604", "641"]
+        },
+        {
+          "label": "Recharge d'énergie",
+          "values": ["16.0%", "24.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "Morceau d'améthyste vajrada",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113029,
         "id": "storm_beads",
         "name": "Perles tempestives",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101208,
         "id": "amakumo_fruit",
         "name": "Fruit d'Amakumo",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112046,
         "id": "famed_handguard",
         "name": "Garde-main célèbre",
         "amount": 12,
@@ -850,28 +1003,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [6, 7]
+        },
+        {
+          "label": "PV de base",
+          "values": ["11388", "12000"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["298", "314"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["696", "734"]
+        },
+        {
+          "label": "Recharge d'énergie",
+          "values": ["24.0%", "32.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104144,
         "id": "vajrada_amethyst_gemstone",
         "name": "Pierre d'améthyste vajrada",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113029,
         "id": "storm_beads",
         "name": "Perles tempestives",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101208,
         "id": "amakumo_fruit",
         "name": "Fruit d'Amakumo",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112046,
         "id": "famed_handguard",
         "name": "Garde-main célèbre",
         "amount": 24,
@@ -885,12 +1063,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104326,
           "id": "teachings_of_light",
-          "name": "Enseignement de la lumière",
+          "name": "Enseignement de la Lumière",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112044,
           "id": "old_handguard",
           "name": "Garde-main ancien",
           "amount": 6,
@@ -903,12 +1083,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide de la Lumière",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 3,
@@ -921,12 +1103,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide de la Lumière",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 4,
@@ -939,12 +1123,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide de la Lumière",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 6,
@@ -957,12 +1143,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide de la Lumière",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Garde-main kageuchi",
           "amount": 9,
@@ -975,18 +1163,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
-          "name": "Philosophie de la lumière",
+          "name": "Philosophie de la Lumière",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113025,
           "id": "molten_moment",
           "name": "Moment en fusion",
           "amount": 1,
@@ -999,18 +1190,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
-          "name": "Philosophie de la lumière",
+          "name": "Philosophie de la Lumière",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113025,
           "id": "molten_moment",
           "name": "Moment en fusion",
           "amount": 1,
@@ -1023,18 +1217,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
-          "name": "Philosophie de la lumière",
+          "name": "Philosophie de la Lumière",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113025,
           "id": "molten_moment",
           "name": "Moment en fusion",
           "amount": 2,
@@ -1047,24 +1244,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
-          "name": "Philosophie de la lumière",
+          "name": "Philosophie de la Lumière",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Garde-main célèbre",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113025,
           "id": "molten_moment",
           "name": "Moment en fusion",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Couronne de la sagesse",
           "amount": 1,

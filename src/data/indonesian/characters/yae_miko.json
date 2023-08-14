@@ -1,8 +1,9 @@
 {
+  "_id": 10000058,
   "id": "yae_miko",
   "name": "Yae Miko",
   "title": "Astute Amusement",
-  "description": "Lady Guuji dari Kuil Agung Narukami juga menjabat sebagai pemimpin redaksi Yae Publishing House. Kecerdasan dan kelicikan yang tidak dapat dibayangkan tersembunyi di balik penampilannya yang cantik.",
+  "description": "Lady Guuji dari Kuil Agung Narukami ini juga menjabat sebagai pemimpin redaksi Yae Publishing House. Kecerdasan dan kelicikan yang tidak dapat dibayangkan tersembunyi di balik penampilannya yang cantik.",
   "weapon_type": "Catalyst",
   "element": "Electro",
   "gender": "Perempuan",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10581,
       "id": "normal_attack_spiritfox_sineater",
       "name": "Normal Attack: Spiritfox Sin-Eater",
-      "description": "<span>Normal Attack</span><br/>Memanggil roh kitsune untuk melancarkan hingga 3 serangan yang mengakibatkan <span>Electro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina dan mengakibatkan <span>Electro DMG area</span> setelah jeda singkat.<br/><br/><span>Plunging Attack</span><br/>Mengumpulkan kekuatan gemuruh dan menerjang tanah, mengakibatkan DMG pada musuh di jalur terjangan dan mengakibatkan <span>Electro DMG area</span> saat mendarat.",
+      "description": "<span>Normal Attack</span><br/>Memanggil roh kitsune untuk melancarkan hingga 3 serangan yang mengakibatkan <span>Electro DMG</span>.<br/><br/><span>Charged Attack</span><br/>Mengonsumsi sejumlah Stamina dan mengakibatkan <span>Electro DMG Area</span> setelah jeda singkat.<br/><br/><span>Plunging Attack</span><br/>Mengumpulkan kekuatan petir dan menerjang tanah, menyerang musuh di jalur terjangan dan mengakibatkan <span>Electro DMG Area</span> saat mendarat.",
       "info": "",
       "attributes": [
         {
@@ -169,6 +171,7 @@
       ]
     },
     {
+      "_id": 10582,
       "id": "yakan_evocation_sesshou_sakura",
       "name": "Yakan Evocation: Sesshou Sakura",
       "description": "Bagi Yae, urusan yang tidak penting bisa diselesaikan dengan menggunakan roh kitsune, sehingga dia sendiri tidak perlu turun tangan.<br/>Bergerak cepat dan meninggalkan sebuah Sesshou Sakura.<br/><br/><span>Sesshou Sakura</span><br/>Memiliki karakteristik sebagai berikut:<br/>·Menyerang musuh yang ada di sekitar dengan sambaran petir secara berkala, mengakibatkan <span>Electro DMG</span>.<br/>·Ketika ada Sesshou Sakura lain yang berdekatan, levelnya akan meningkat dan DMG yang diakibatkan juga turut meningkat.<br/><br/>Memiliki jumlah penggunaan 3 kali.<br/>Maksimum dapat meninggalkan 3 Sesshou Sakura di waktu yang sama. Level awal dari setiap Sesshou Sakura adalah 1, dan levelnya dapat ditingkatkan hingga level 3. Jika ada dua Sesshou Sakura yang diciptakan terlalu berdekatan, maka Sesshou Sakura yang diciptakan lebih dulu akan hancur.",
@@ -297,10 +300,11 @@
       ]
     },
     {
+      "_id": 10585,
       "id": "great_secret_art_tenko_kenshin",
       "name": "Great Secret Art: Tenko Kenshin",
-      "description": "Salah satu cerita rakyat Inazuma disebut \"kitsunetsuki\", dan yang paling spesial di antaranya adalah kisah tentang Sky Kitsune yang turun menghanguskan musuh-musuh Kuil Agung Narukami dalam bentuk sambaran petir, mengakibatkan <span>Electro DMG area</span>.<br/>Saat melancarkan skill ini, Yae Miko akan membuka Sesshou Sakura yang ada di dekatnya, menghancurkan wujud luarnya, dan mengubahnya menjadi Tenko Thunderbolt yang turun dari langit, dan mengakibatkan <span>Electro DMG area</span>. Setiap Sesshou Sakura yang dihancurkan dengan cara ini akan membuat satu Tenko Thunderbolt.",
-      "info": "Yae hanya akan mengeluarkan \"wujud\" Sky Kitsune-nya di saat-saat tertentu seperti ini dan mengendalikan petir tersebut. Tidak ada seorang pun yang hidup setelah melihat ekor sang Nona Guuji ... Jadi ingat ya, Nona Yae tidak punya ekor.",
+      "description": "Salah satu cerita rakyat Inazuma disebut \"kitsunetsuki\", dan yang paling spesial di antaranya adalah kisah tentang Sky Kitsune yang turun menghanguskan musuh-musuh Kuil Agung Narukami. Memanggil sambaran petir dan mengakibatkan <span>Electro DMG Area</span>.<br/>Saat melancarkan skill ini, Yae Miko akan membuka Sesshou Sakura yang ada di dekatnya, menghancurkan wujud luarnya, dan mengubahnya menjadi Tenko Thunderbolt yang turun dari langit, dan mengakibatkan <span>Electro DMG Area</span>. Setiap Sesshou Sakura yang dihancurkan dengan cara ini akan menciptakan satu Tenko Thunderbolt.",
+      "info": "Yae hanya akan mengeluarkan \"wujud\" Sky Kitsune-nya di saat-saat tertentu seperti ini dan mengendalikan petir tersebut. Tidak ada seorang pun yang hidup setelah melihat ekor sang Nona Guuji ... Jadi ingat baik-baik ya, Nona Yae \"tidak\" punya ekor.",
       "attributes": [
         {
           "label": "DMG Skill",
@@ -407,36 +411,42 @@
   ],
   "constellations": [
     {
+      "_id": 581,
       "id": "yakan_offering",
       "name": "Yakan Offering",
       "description": "Setiap kali <span>Great Secret Art: Tenko Kenshin</span> mengaktifkan Tenko Thunderbolt, Yae Miko akan memulihkan 8 Energy untuk dirinya sendiri.",
       "level": 1
     },
     {
+      "_id": 582,
       "id": "foxs_mooncall",
       "name": "Fox's Mooncall",
       "description": "Level awal <span>Sesshou Sakura</span> yang tercipta meningkat menjadi level 2. Level tertinggi yang bisa dicapai menjadi level 4 dan jangkauan serangan meningkat 60%.",
       "level": 2
     },
     {
+      "_id": 583,
       "id": "the_seven_glamours",
       "name": "The Seven Glamours",
       "description": "Meningkatkan 3 level <span>Yakan Evocation: Sesshou Sakura</span>.<br/>Maksimum: Lv. 15.",
       "level": 3
     },
     {
+      "_id": 584,
       "id": "sakura_channeling",
       "name": "Sakura Channeling",
       "description": "Setelah sambaran petir <span>Sesshou Sakura</span> mengenai musuh, <span>Electro DMG Bonus</span> seluruh anggota party di sekitar meningkat 20% selama 5 detik.",
       "level": 4
     },
     {
+      "_id": 585,
       "id": "mischievous_teasing",
       "name": "Mischievous Teasing",
       "description": "Meningkatkan 3 level <span>Great Secret Art: Tenko Kenshin</span>.<br/>Maksimum: Lv. 15.",
       "level": 5
     },
     {
+      "_id": 586,
       "id": "forbidden_art_daisesshou",
       "name": "Forbidden Art: Daisesshou",
       "description": "Serangan <span>Sesshou Sakura</span> mengabaikan 60% DEF musuh.",
@@ -445,22 +455,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [0, 1]
+        },
+        {
+          "label": "Base HP",
+          "values": ["-", "807"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["-", "26"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["-", "44"]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [1, 2]
+        },
+        {
+          "label": "Base HP",
+          "values": ["2095", "2787"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["69", "91"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["115", "153"]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104141,
         "id": "vajrada_amethyst_sliver",
         "name": "Vajrada Amethyst Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 101206,
         "id": "sea_ganoderma",
         "name": "Sea Ganoderma",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112044,
         "id": "old_handguard",
         "name": "Old Handguard",
         "amount": 3,
@@ -468,28 +527,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [2, 3]
+        },
+        {
+          "label": "Base HP",
+          "values": ["4170", "4662"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["137", "153"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["229", "256"]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": ["0.0%", "4.8%"]
+        }
+      ],
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "Vajrada Amethyst Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113031,
         "id": "dragonheirs_false_fin",
         "name": "Dragonheir's False Fin",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101206,
         "id": "sea_ganoderma",
         "name": "Sea Ganoderma",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112044,
         "id": "old_handguard",
         "name": "Old Handguard",
         "amount": 15,
@@ -497,28 +581,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [3, 4]
+        },
+        {
+          "label": "Base HP",
+          "values": ["5364", "6020"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["176", "197"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["294", "330"]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": ["4.8%", "9.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104142,
         "id": "vajrada_amethyst_fragment",
         "name": "Vajrada Amethyst Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113031,
         "id": "dragonheirs_false_fin",
         "name": "Dragonheir's False Fin",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101206,
         "id": "sea_ganoderma",
         "name": "Sea Ganoderma",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112045,
         "id": "kageuchi_handguard",
         "name": "Kageuchi Handguard",
         "amount": 12,
@@ -526,28 +635,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [4, 5]
+        },
+        {
+          "label": "Base HP",
+          "values": ["6729", "7220"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["220", "236"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["369", "396"]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": ["9.6%", "9.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "Vajrada Amethyst Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113031,
         "id": "dragonheirs_false_fin",
         "name": "Dragonheir's False Fin",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101206,
         "id": "sea_ganoderma",
         "name": "Sea Ganoderma",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112045,
         "id": "kageuchi_handguard",
         "name": "Kageuchi Handguard",
         "amount": 18,
@@ -555,28 +689,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [5, 6]
+        },
+        {
+          "label": "Base HP",
+          "values": ["7936", "8428"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["260", "276"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["435", "462"]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": ["9.6%", "14.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104143,
         "id": "vajrada_amethyst_chunk",
         "name": "Vajrada Amethyst Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113031,
         "id": "dragonheirs_false_fin",
         "name": "Dragonheir's False Fin",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101206,
         "id": "sea_ganoderma",
         "name": "Sea Ganoderma",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112046,
         "id": "famed_handguard",
         "name": "Famed Handguard",
         "amount": 12,
@@ -584,28 +743,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [6, 7]
+        },
+        {
+          "label": "Base HP",
+          "values": ["9151", "9643"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["300", "316"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["502", "529"]
+        },
+        {
+          "label": "CRIT Rate",
+          "values": ["14.4%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104144,
         "id": "vajrada_amethyst_gemstone",
         "name": "Vajrada Amethyst Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113031,
         "id": "dragonheirs_false_fin",
         "name": "Dragonheir's False Fin",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101206,
         "id": "sea_ganoderma",
         "name": "Sea Ganoderma",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112046,
         "id": "famed_handguard",
         "name": "Famed Handguard",
         "amount": 24,
@@ -619,12 +803,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104326,
           "id": "teachings_of_light",
           "name": "Teachings of Light",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112044,
           "id": "old_handguard",
           "name": "Old Handguard",
           "amount": 6,
@@ -637,12 +823,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide to Light",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Kageuchi Handguard",
           "amount": 3,
@@ -655,12 +843,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide to Light",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Kageuchi Handguard",
           "amount": 4,
@@ -673,12 +863,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide to Light",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Kageuchi Handguard",
           "amount": 6,
@@ -691,12 +883,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104327,
           "id": "guide_to_light",
           "name": "Guide to Light",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Kageuchi Handguard",
           "amount": 9,
@@ -709,18 +903,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
           "name": "Philosophies of Light",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Famed Handguard",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113034,
           "id": "the_meaning_of_aeons",
           "name": "The Meaning of Aeons",
           "amount": 1,
@@ -733,18 +930,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
           "name": "Philosophies of Light",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Famed Handguard",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113034,
           "id": "the_meaning_of_aeons",
           "name": "The Meaning of Aeons",
           "amount": 1,
@@ -757,18 +957,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
           "name": "Philosophies of Light",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Famed Handguard",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113034,
           "id": "the_meaning_of_aeons",
           "name": "The Meaning of Aeons",
           "amount": 2,
@@ -781,24 +984,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104328,
           "id": "philosophies_of_light",
           "name": "Philosophies of Light",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Famed Handguard",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113034,
           "id": "the_meaning_of_aeons",
           "name": "The Meaning of Aeons",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

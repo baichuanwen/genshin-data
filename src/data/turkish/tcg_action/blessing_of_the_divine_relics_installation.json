@@ -1,0 +1,20 @@
+{
+  "_id": 332011,
+  "id": "blessing_of_the_divine_relics_installation",
+  "name": "İlahi Yadigar Lütfu",
+  "title": "İlahi Yadigar Tapınağı",
+  "desc": "\"Hehe... Sonunda ilgi çekici olmaya başladı, değil mi?\"",
+  "in_play_description": "",
+  "attributes": {
+    "cost": 0,
+    "card_type": "Etki Kartı",
+    "energy": [],
+    "source": "Başlangıç destesinden elde edilir."
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "Karakterlerinden birinin kuşandığı 1 Yadigar Ekipman Kartını diğer bir karakterine devreder."
+    }
+  ]
+}

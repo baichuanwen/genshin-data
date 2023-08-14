@@ -1,6 +1,6 @@
 {
+  "_id": 17,
   "id": "memories_of_the_heart",
-  "originalId": 17,
   "name": "Recuerdos del corazón",
   "order": 2,
   "achievements": [
@@ -143,7 +143,7 @@
     {
       "id": 84115,
       "name": "Su Miaujestad",
-      "desc": "Lleva a todos los gatos a la Taberna Cola de Gato.",
+      "desc": "Lleva a todos los gatos a la taberna Cola de Gato.",
       "reward": 5,
       "hidden": true,
       "order": 6511
@@ -315,6 +315,126 @@
       "reward": 5,
       "hidden": true,
       "order": 7211
+    },
+    {
+      "id": 84137,
+      "name": "¿Creías que esto era una novela policiaca?",
+      "desc": "Completa «Investigación tormentosa» y desbloquea todos los finales posibles.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7300
+    },
+    {
+      "id": 84138,
+      "name": "¡Soy un detective genial!",
+      "desc": "Averigua a la primera el móvil y los hechos del crimen.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7310
+    },
+    {
+      "id": 84139,
+      "name": "Las súplicas de Sangonomiya",
+      "desc": "Pregunta a Gorou si Kokomi sabe lo que ocurre en la Isla Watatsumi.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7311
+    },
+    {
+      "id": 84140,
+      "name": "La solución ideal",
+      "desc": "Completa «Un entramado inextricable» y desbloquea todos los finales posibles.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7400
+    },
+    {
+      "id": 84141,
+      "name": "Querida tú de dentro de cien años",
+      "desc": "Lee todas las cartas enviadas a Faruzán.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7410
+    },
+    {
+      "id": 84142,
+      "name": "Introducción a la mecánica",
+      "desc": "Acierta en el menor número de pasos que se necesita para completar una pagoda de siete peldaños.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7411
+    },
+    {
+      "id": 84143,
+      "name": "Y su nombre es... ¡Laila!",
+      "desc": "Completa «La estrella taciturna» y desbloquea todos los finales posibles.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7500
+    },
+    {
+      "id": 84144,
+      "name": "¡Ey, ya!",
+      "desc": "Ayuda a Laila a completar su tesis sin que se agobie más de lo que ya está.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7510
+    },
+    {
+      "id": 84145,
+      "name": "El secreto del Seelie y las estrellas",
+      "desc": "Obtén la verdadera respuesta del Seelie de la Sabiduría.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7511
+    },
+    {
+      "id": 84146,
+      "name": "El arte y la vida",
+      "desc": "Completa «El péndulo de la tristeza y la felicidad» y desbloquea todos los finales.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7600
+    },
+    {
+      "id": 84147,
+      "name": "Época de estudiante",
+      "desc": "Consulta los libros con anotaciones de la Casa de la Daena.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7610
+    },
+    {
+      "id": 84148,
+      "name": "Arquitectura romántica",
+      "desc": "Habla sobre el futuro con Kaveh en la tranquilidad del desierto.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7611
+    },
+    {
+      "id": 84149,
+      "name": "En busca de la felicidad",
+      "desc": "Completa «Engaños y licor dulce» y desbloquea todos los finales.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7700
+    },
+    {
+      "id": 84150,
+      "name": "Moneda de la suerte",
+      "desc": "Participa en la apuesta de Kaeya.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7710
+    },
+    {
+      "id": 84151,
+      "name": "Shhh, ¡escucha!",
+      "desc": "Escucha la voz procedente de la sala de confinamiento.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7711
     }
   ]
 }

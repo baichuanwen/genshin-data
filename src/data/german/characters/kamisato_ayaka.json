@@ -1,4 +1,5 @@
 {
+  "_id": 10000002,
   "id": "kamisato_ayaka",
   "name": "Kamisato Ayaka",
   "title": "Eisnebelreiher",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10024,
       "id": "normal_attack_kamisato_art_kabuki",
       "name": "Standardangriff: Kamisato-Stil – Naname",
       "description": "<span>Standardangriff</span><br/>Führt bis zu 5 Schwerthiebe hintereinander aus.<br/><br/><span>Heftiger Schlag</span><br/>Verbraucht eine gewisse Menge Ausdauer und erschafft beim Schwertziehen einen kräftigen Wind.<br/><br/><span>Angriff aus dem Fall</span><br/>Schlägt beim Fallen aus der Luft auf den Boden, greift alle Gegner in der Bahn an und verursacht beim Aufkommen Flächenschaden.",
@@ -209,6 +211,7 @@
       ]
     },
     {
+      "_id": 10013,
       "id": "kamisato_art_senho",
       "name": "Kamisato-Stil – Senho",
       "description": "<span>Ersetzt Rennen</span><br/>Eine Bewegung so schnell wie eine Strömung unter den Eisschollen, verbraucht aber Ausdauer.<br/><br/>Kamisato Ayaka kann sich während der Wirkungsdauer von Senho mit hoher Geschwindigkeit auf der Wasseroberfläche fortbewegen.<br/>Verursacht beim Erscheinen am Ende von Senho folgende Effekte:<br/>· Nutzt die Kraft der Kälte und fügt Gegnern in der Umgebung das <span>Kryo</span>-Attribut zu.<br/>· Konzentriert die Kälte auf dem Schwert, sodass Kamisato Ayaka kurzzeitig das <span>Kryo</span>-Attribut erhält.",
@@ -220,7 +223,7 @@
         },
         {
           "label": "Fortlaufender Ausdauerverbrauch",
-          "values": ["15 Punkte pro s"]
+          "values": ["15 Punkte pros"]
         },
         {
           "label": "Elementarumwandlungsdauer",
@@ -229,6 +232,7 @@
       ]
     },
     {
+      "_id": 10018,
       "id": "kamisato_art_hyouka",
       "name": "Kamisato-Stil – Hyouka",
       "description": "Beschwört eine aufgehende Eisblüte, die Gegner in der Nähe wegschleudert und <span>Kryo-Flächenschaden</span> verursacht.",
@@ -277,6 +281,7 @@
       ]
     },
     {
+      "_id": 10019,
       "id": "kamisato_art_soumetsu",
       "name": "Kamisato-Stil – Soumetsu",
       "description": "Konzentriert Frost mit eleganter Haltung und beschwört eine sich fortlaufend nach vorn bewegende Frostflocke Seki no To.<br/><br/><span>Frostflocke Seki no To</span><br/>· Schlitzt Gegner mit messerscharfem Frostwind auf und verursacht <span>Kryo-Schaden</span>.<br/>· Erschafft am Ende der Wirkungsdauer eine Blüte, die <span>Kryo-Flächenschaden</span> verursacht.",
@@ -407,36 +412,42 @@
   ],
   "constellations": [
     {
+      "_id": 21,
       "id": "snowswept_sakura",
       "name": "Verschneite Sakura",
       "description": "Verkürzt beim Verursachen von <span>Kryo-Schaden</span> gegenüber Gegnern mit Standardangriffen oder heftigen Schlägen mit einer Wahrscheinlichkeit von 50 % die Abklingzeit von <span>Kamisato-Stil – Hyouka</span> um 0,3 s. 0,1 s Abklingzeit.",
       "level": 1
     },
     {
+      "_id": 22,
       "id": "blizzard_blade_seki_no_to",
       "name": "Sturmklinge Seki no To",
       "description": "Erschafft bei Anwendung von <span>Kamisato-Stil – Soumetsu</span> zwei zusätzliche kleinere Frostflocken Seki no To, die jeweils 20 % des ursprünglichen Schadens verursachen.",
       "level": 2
     },
     {
+      "_id": 23,
       "id": "frostbloom_kamifubuki",
       "name": "Frostblüte Kamifubuki",
       "description": "Erhöht die Stufe der Fähigkeit <span>Kamisato-Stil – Soumetsu</span> um 3.<br/>Höchststufe 15.",
       "level": 3
     },
     {
+      "_id": 24,
       "id": "ebb_and_flow",
       "name": "Ebbe und Flut",
       "description": "Verringert, wenn Gegner durch die Frostflocken Seki no To von <span>Kamisato-Stil – Soumetsu</span> Schaden erleiden, die VTD 6 s lang um 30 %.",
       "level": 4
     },
     {
+      "_id": 25,
       "id": "blossom_cloud_irutsuki",
       "name": "Blütenwolke Irutsuki",
       "description": "Erhöht die Stufe der Fähigkeit <span>Kamisato-Stil – Hyouka</span> um 3.<br/>Höchststufe 15.",
       "level": 5
     },
     {
+      "_id": 26,
       "id": "dance_of_suigetsu",
       "name": "Suigetsu-Tanz",
       "description": "Kamisato Ayaka erhält alle 10 s „Usurahi Butou“, das den mit ihren heftigen Schlägen verursachten Schaden um 298 % erhöht. Dieser Effekt wird 0,5 s nach Treffern mit heftigen Schlägen entfernt und die Zeit zum Auslösen wird auch zurückgesetzt.",
@@ -445,22 +456,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [0, 1]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["-", "1001"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["-", "27"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["-", "61"]
+        },
+        {
+          "label": "KSCH",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [1, 2]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["2597", "3455"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["69", "92"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["158", "211"]
+        },
+        {
+          "label": "KSCH",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104161,
         "id": "shivada_jade_sliver",
         "name": "Shivada-Jade-Splitter",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Sakura-Blüte",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112044,
         "id": "old_handguard",
         "name": "Alter Handschutz",
         "amount": 3,
@@ -468,28 +528,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [2, 3]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["5170", "5779"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["138", "154"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["315", "352"]
+        },
+        {
+          "label": "KSCH",
+          "values": ["0.0%", "9.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Shivada-Jade-Bruchstück",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113023,
         "id": "perpetual_heart",
         "name": "Ewiges Herz",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Sakura-Blüte",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112044,
         "id": "old_handguard",
         "name": "Alter Handschutz",
         "amount": 15,
@@ -497,28 +582,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [3, 4]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["6649", "7462"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["177", "198"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["405", "455"]
+        },
+        {
+          "label": "KSCH",
+          "values": ["9.6%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Shivada-Jade-Bruchstück",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113023,
         "id": "perpetual_heart",
         "name": "Ewiges Herz",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Sakura-Blüte",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112045,
         "id": "kageuchi_handguard",
         "name": "Kageuchi-Handschutz",
         "amount": 12,
@@ -526,28 +636,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [4, 5]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["8341", "8951"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["222", "238"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["509", "546"]
+        },
+        {
+          "label": "KSCH",
+          "values": ["19.2%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Shivada-Jade-Brocken",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113023,
         "id": "perpetual_heart",
         "name": "Ewiges Herz",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Sakura-Blüte",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112045,
         "id": "kageuchi_handguard",
         "name": "Kageuchi-Handschutz",
         "amount": 18,
@@ -555,28 +690,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [5, 6]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["9838", "10448"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["262", "278"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["600", "637"]
+        },
+        {
+          "label": "KSCH",
+          "values": ["19.2%", "28.8%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Shivada-Jade-Brocken",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113023,
         "id": "perpetual_heart",
         "name": "Ewiges Herz",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Sakura-Blüte",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112046,
         "id": "famed_handguard",
         "name": "Berühmter Handschutz",
         "amount": 12,
@@ -584,28 +744,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Aufstieg",
+          "values": [6, 7]
+        },
+        {
+          "label": "Basis-LP",
+          "values": ["11345", "11954"]
+        },
+        {
+          "label": "Basis-ANG",
+          "values": ["302", "318"]
+        },
+        {
+          "label": "Basis-VTD",
+          "values": ["692", "729"]
+        },
+        {
+          "label": "KSCH",
+          "values": ["28.8%", "38.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104164,
         "id": "shivada_jade_gemstone",
         "name": "Shivada-Jade",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113023,
         "id": "perpetual_heart",
         "name": "Ewiges Herz",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101202,
         "id": "sakura_bloom",
         "name": "Sakura-Blüte",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112046,
         "id": "famed_handguard",
         "name": "Berühmter Handschutz",
         "amount": 24,
@@ -619,12 +804,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104323,
           "id": "teachings_of_elegance",
           "name": "Lehren der „Eleganz“",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112044,
           "id": "old_handguard",
           "name": "Alter Handschutz",
           "amount": 6,
@@ -637,12 +824,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Anleitung zur „Eleganz“",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Kageuchi-Handschutz",
           "amount": 3,
@@ -655,12 +844,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Anleitung zur „Eleganz“",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Kageuchi-Handschutz",
           "amount": 4,
@@ -673,12 +864,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Anleitung zur „Eleganz“",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Kageuchi-Handschutz",
           "amount": 6,
@@ -691,12 +884,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104324,
           "id": "guide_to_elegance",
           "name": "Anleitung zur „Eleganz“",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "Kageuchi-Handschutz",
           "amount": 9,
@@ -709,18 +904,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
           "name": "Philosophie der „Eleganz“",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Berühmter Handschutz",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113018,
           "id": "bloodjade_branch",
           "name": "Ast des Drachenbluts",
           "amount": 1,
@@ -733,18 +931,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
           "name": "Philosophie der „Eleganz“",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Berühmter Handschutz",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113018,
           "id": "bloodjade_branch",
           "name": "Ast des Drachenbluts",
           "amount": 1,
@@ -757,18 +958,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
           "name": "Philosophie der „Eleganz“",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Berühmter Handschutz",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113018,
           "id": "bloodjade_branch",
           "name": "Ast des Drachenbluts",
           "amount": 2,
@@ -781,24 +985,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104325,
           "id": "philosophies_of_elegance",
           "name": "Philosophie der „Eleganz“",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "Berühmter Handschutz",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113018,
           "id": "bloodjade_branch",
           "name": "Ast des Drachenbluts",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Krone der Weisheit",
           "amount": 1,

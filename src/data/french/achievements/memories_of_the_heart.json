@@ -1,6 +1,6 @@
 {
+  "_id": 17,
   "id": "memories_of_the_heart",
-  "originalId": 17,
   "name": "Souvenirs du cœur",
   "order": 2,
   "achievements": [
@@ -215,7 +215,7 @@
     {
       "id": 84127,
       "name": "Dire ou ne pas dire, telle est la question",
-      "desc": "Découvrez la véritable identité de mademoiselle Hina de la Chambre Yae.",
+      "desc": "Découvrez la véritable identité de Mlle Hina de la Chambre Yae.",
       "reward": 5,
       "hidden": true,
       "order": 6811
@@ -311,10 +311,130 @@
     {
       "id": 84136,
       "name": "« En haut »",
-      "desc": "Faites vous dissuader avant d'alerter Kujou Sara et Kuki Shinobu.",
+      "desc": "Faites-vous dissuader avant d'alerter Kujou Sara et Kuki Shinobu.",
       "reward": 5,
       "hidden": true,
       "order": 7211
+    },
+    {
+      "id": 84137,
+      "name": "Vous pensiez que c'était pour de vrai ?",
+      "desc": "Terminez « Dans l'œil de la tempête » et débloquez toutes les fins.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7300
+    },
+    {
+      "id": 84138,
+      "name": "Et c'est qui le meilleur détective du monde ?",
+      "desc": "Analysez correctement les motifs et la vérité derrière le crime au premier essai.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7310
+    },
+    {
+      "id": 84139,
+      "name": "Les supplications de Sangonomiya",
+      "desc": "Demandez à Gorou si Kokomi est au courant des événements survenus sur l'Île de Watatsumi.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7311
+    },
+    {
+      "id": 84140,
+      "name": "La solution optimale",
+      "desc": "Terminez « Inextricabilité » et débloquez toutes les fins.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7400
+    },
+    {
+      "id": 84141,
+      "name": "À toi, dans cent ans...",
+      "desc": "Lisez toutes les lettres envoyées à Faruzan.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7410
+    },
+    {
+      "id": 84142,
+      "name": "Mécanique, de l'initiation à...?",
+      "desc": "Devinez le plus petit nombre d'étapes qu'il faut pour résoudre une Pile-ramide à sept étages.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7411
+    },
+    {
+      "id": 84143,
+      "name": "Son nom est Layla",
+      "desc": "Terminez « L'étoile silencieuse » et débloquez toutes les fins.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7500
+    },
+    {
+      "id": 84144,
+      "name": "Tendue jusqu'à la limite",
+      "desc": "Aidez Layla à terminer sa thèse sans lui causer plus d'anxiété.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7510
+    },
+    {
+      "id": 84145,
+      "name": "Le secret de la Fée et du ciel étoilé",
+      "desc": "Obtenez la lettre authentique de la Fée de la sagesse.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7511
+    },
+    {
+      "id": 84146,
+      "name": "L'art et la vie",
+      "desc": "Terminez « Le pendule du bonheur et du malheur » et débloquez toutes les fins.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7600
+    },
+    {
+      "id": 84147,
+      "name": "Les années étudiantes",
+      "desc": "Trouvez les livres annotés dans le Foyer de Daena.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7610
+    },
+    {
+      "id": 84148,
+      "name": "Le romantisme d'un architecte",
+      "desc": "Discutez de l'avenir avec Kaveh dans le désert.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7611
+    },
+    {
+      "id": 84149,
+      "name": "La fête au village",
+      "desc": "Terminez « Magouilles et vin doux » et débloquez toutes les fins.",
+      "reward": 20,
+      "hidden": false,
+      "order": 7700
+    },
+    {
+      "id": 84150,
+      "name": "Les paris, c'est ma grande passion",
+      "desc": "Participez au pari mis en place par Kaeya.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7710
+    },
+    {
+      "id": 84151,
+      "name": "Chut... Écoute !",
+      "desc": "Écoutez la voix provenant de la cellule.",
+      "reward": 5,
+      "hidden": true,
+      "order": 7711
     }
   ]
 }

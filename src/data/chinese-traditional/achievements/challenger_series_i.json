@@ -1,12 +1,12 @@
 {
+  "_id": 8,
   "id": "challenger_series_i",
-  "originalId": 8,
   "name": "挑戰者·第一輯",
-  "order": 11,
+  "order": 14,
   "achievements": [
     {
       "id": 82004,
-      "name": "全什麼外殼來著？",
+      "name": "全什麼外殼？",
       "desc": "粉碎一個大型岩史萊姆的岩晶護罩。",
       "reward": 5,
       "hidden": false,

@@ -1,0 +1,29 @@
+{
+  "_id": 212021,
+  "id": "the_scent_remained",
+  "name": "Mùi Hương Vương Vấn",
+  "title": "Xingqiu - Mùi Hương Vương Vấn",
+  "desc": "Bút pháp luôn khiến người khác có ấn tượng sâu sắc.",
+  "in_play_description": "Xingqiu có trang bị thẻ bài này khi sinh ra <span style=\"color:#FFFFFFFF\">Vũ Liêm Kiếm</span>, <span style=\"color:#FFFFFFFF\">Số Lần Khả Dụng</span> ban đầu +1.",
+  "attributes": {
+    "cost": 4,
+    "cost_type": "Nguyên Tố Thủy",
+    "card_type": "Thẻ Trang Bị",
+    "energy": [
+      {
+        "_id": 1102,
+        "id": "hydro",
+        "type": "Nguyên Tố Thủy",
+        "count": 4
+      }
+    ],
+    "source": "Nhận được sau khi mời Xingqiu giao đấu trong Quán Rượu Đuôi Mèo, và hoàn thành mục tiêu khiêu chiến tương ứng",
+    "tags": ["Thiên Phú", "Hành Động Chiến Đấu"]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "<span style=\"color:#FFFFFFFF\">Hành Động Chiến Đấu</span>: Trang bị thẻ bài này khi nhân vật xuất chiến phe ta là <span style=\"color:#FFFFFFFF\">Xingqiu</span>.<br/>Xingqiu sau khi trang bị thẻ bài này, lập tức dùng 1 lần <span style=\"color:#FFD780FF\">Họa Vũ Lung Sơn</span>.<br/>Xingqiu có trang bị thẻ bài này khi sinh ra <span style=\"color:#FFFFFFFF\">Vũ Liêm Kiếm</span>, <span style=\"color:#FFFFFFFF\">Số Lần Khả Dụng</span> ban đầu +1.<br/>(Bộ bài có Xingqiu mới có thể thêm)"
+    }
+  ]
+}

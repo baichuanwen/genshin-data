@@ -1,4 +1,5 @@
 {
+  "_id": 10000014,
   "id": "barbara",
   "name": "바바라",
   "title": "빛나는 아이돌",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10070,
       "id": "normal_attack_whisper_of_water",
       "name": "일반 공격·물의 노래",
-      "description": "<span>일반 공격</span><br/>물보라로 최대 4번 공격해 <span>물 원소 피해</span>를 준다.<br/><br/><span>강공격</span><br/>일정 스태미나를 소모해, 짧은 영창 후 <span>물 원소 범위 피해</span>를 준다.<br/><br/><span>낙하 공격</span><br/>공중에서 물의 힘을 모은 후 지면을 강타해 경로상의 적을 공격하고 착지 시 <span>물 원소 범위 피해</span>를 준다",
+      "description": "<span>일반 공격</span><br/>물보라로 최대 4번 공격해 <span>물 원소 피해</span>를 준다.<br/><br/><span>강공격</span><br/>일정 스태미나를 소모해 짧은 영창 후 <span>물 원소 범위 피해</span>를 준다.<br/><br/><span>낙하 공격</span><br/>공중에서 물의 힘을 모은 후 지면을 강타해 경로상의 적을 공격하고 착지 시 <span>물 원소 범위 피해</span>를 준다",
       "info": "",
       "attributes": [
         {
@@ -189,9 +191,10 @@
       ]
     },
     {
+      "_id": 10071,
       "id": "let_the_show_begin",
       "name": "공연, 시작♪",
-      "description": "노랫소리처럼 통통 튀는 물방울을 소환해 노래의 고리를 생성해 주변의 적에게 <span>물 원소 피해</span>를 주고 <span>습기</span> 효과를 부여한다.<br/><br/><span>노래의 고리</span><br/>·바바라의 일반 공격 명중 시 자신의 파티 내 모든 캐릭터 및 근처 아군 캐릭터의 HP를 회복한다. 회복량은 바바라 HP 최대치의 영향을 받는다.<br/>·강공격 명중 시 회복량이 4배가 된다.<br/>·일정 시간이 지날 때마다 현재 필드 위 자신의 캐릭터의 HP를 회복한다.<br/>·캐릭터 및 닿은 적에게 <span>습기</span> 효과를 부여한다.",
+      "description": "노랫소리처럼 통통 튀는 물방울을 소환해 노래의 고리를 생성하고 주변의 적에게 <span>물 원소 피해</span>를 주고 <span>습기</span> 효과를 부여한다.<br/><br/><span>노래의 고리</span><br/>·바바라의 일반 공격 명중 시 자신의 파티 내 모든 캐릭터 및 근처 아군 캐릭터의 HP를 회복한다. 회복량은 바바라 HP 최대치의 영향을 받는다.<br/>·강공격 명중 시 회복량이 4배가 된다.<br/>·일정 시간이 지날 때마다 현재 필드 위 자신의 캐릭터의 HP를 회복한다.<br/>·캐릭터 및 닿은 적에게 <span>습기</span> 효과를 부여한다.",
       "info": "바바라의 음악은 모두를 치유하는 마법이다",
       "attributes": [
         {
@@ -297,6 +300,7 @@
       ]
     },
     {
+      "_id": 10072,
       "id": "shining_miracle",
       "name": "빛나는 기적♪",
       "description": "근처 아군 캐릭터와 자신의 파티 내 모든 캐릭터의 HP를 대량 회복한다. 회복량은 바바라 HP 최대치의 영향을 받는다.",
@@ -387,60 +391,115 @@
   ],
   "constellations": [
     {
+      "_id": 141,
       "id": "gleeful_songs",
       "name": "무지개의 노래",
       "description": "바바라는 10초마다 원소 에너지를 1pt 회복한다",
       "level": 1
     },
     {
+      "_id": 142,
       "id": "vitality_burst",
       "name": "원기 분출",
       "description": "<span>공연, 시작♪</span>의 재사용 대기시간이 15% 감소한다.<br/>스킬이 지속되는 동안 현재 필드 위에 있는 자신의 캐릭터는 <span>물 원소 피해 보너스</span>를 15% 획득한다",
       "level": 2
     },
     {
+      "_id": 143,
       "id": "star_of_tomorrow",
       "name": "내일의 스타",
       "description": "<span>빛나는 기적♪</span>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
       "level": 3
     },
     {
+      "_id": 144,
       "id": "attentiveness_be_my_power",
       "name": "노력이 곧 마법",
-      "description": "바바라가 강공격 사용 시 적을 1명 명중할 때마다 원소 에너지를 1pt 회복한다.<br/>이러한 방식을 통해 한번에 원소 에너지를 최대 5pt까지 회복할 수 있다",
+      "description": "바바라가 강공격 사용 시 적을 1명 명중할 때마다 원소 에너지를 1pt 회복한다.<br/>이러한 방식을 통해 한 번에 원소 에너지를 최대 5pt까지 회복할 수 있다",
       "level": 4
     },
     {
+      "_id": 145,
       "id": "the_purest_companionship",
       "name": "순수한 유대",
       "description": "<span>공연, 시작♪</span>의 스킬 레벨+3<br/>최대 Lv.15까지 상승",
       "level": 5
     },
     {
+      "_id": 146,
       "id": "dedicating_everything_to_you",
       "name": "이 세상의 아름다움을 당신에게",
-      "description": "바바라가 대기 상태일 때 파티 내 자신의 캐릭터가 전투불능이 되면 즉시:<br/>·해당 캐릭터를 부활시키고<br/>·해당 캐릭터의 HP를 100% 회복한다.<br/>해당 효과는 15분마다 1회만 발동한다",
+      "description": "바바라가 대기 상태일 때 파티 내 자신의 캐릭터가 전투 불능이 되면 즉시:<br/>·해당 캐릭터를 부활시킨다.<br/>·해당 캐릭터의 HP를 100% 회복시킨다.<br/>해당 효과는 15분마다 1회만 발동한다",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [0, 1]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["-", "821"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["-", "13"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["-", "56"]
+        },
+        {
+          "label": "HP",
+          "values": ["-", "0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [1, 2]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["2108", "2721"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["34", "44"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["144", "186"]
+        },
+        {
+          "label": "HP",
+          "values": ["0%", "0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104121,
         "id": "varunada_lazurite_sliver",
         "name": "순수한 청금석 가루",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "바람버섯",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112008,
         "id": "divining_scroll",
         "name": "이능 두루마리",
         "amount": 3,
@@ -448,28 +507,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [2, 3]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["4076", "4512"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["66", "73"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["279", "308"]
+        },
+        {
+          "label": "HP",
+          "values": ["0%", "6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "순수한 청금석 조각",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "물처럼 맑은 마음",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "바람버섯",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112008,
         "id": "divining_scroll",
         "name": "이능 두루마리",
         "amount": 15,
@@ -477,28 +561,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [3, 4]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["5189", "5770"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["84", "94"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["355", "394"]
+        },
+        {
+          "label": "HP",
+          "values": ["6%", "12%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "순수한 청금석 조각",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "물처럼 맑은 마음",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "바람버섯",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112009,
         "id": "sealed_scroll",
         "name": "봉마의 두루마리",
         "amount": 12,
@@ -506,28 +615,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [4, 5]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["6448", "6884"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["105", "112"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["441", "470"]
+        },
+        {
+          "label": "HP",
+          "values": ["12%", "12%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "순수한 청금석 덩이",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "물처럼 맑은 마음",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "바람버섯",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112009,
         "id": "sealed_scroll",
         "name": "봉마의 두루마리",
         "amount": 18,
@@ -535,28 +669,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [5, 6]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["7561", "7996"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["123", "130"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["517", "546"]
+        },
+        {
+          "label": "HP",
+          "values": ["12%", "18%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "순수한 청금석 덩이",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "물처럼 맑은 마음",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "바람버섯",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112010,
         "id": "forbidden_curse_scroll",
         "name": "금주의 두루마리",
         "amount": 12,
@@ -564,28 +723,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "돌파",
+          "values": [6, 7]
+        },
+        {
+          "label": "기초 HP",
+          "values": ["8674", "9110"]
+        },
+        {
+          "label": "기초 공격력",
+          "values": ["141", "148"]
+        },
+        {
+          "label": "기초 방어력",
+          "values": ["593", "623"]
+        },
+        {
+          "label": "HP",
+          "values": ["18%", "24%"]
+        }
+      ],
       "mat1": {
+        "_id": 104124,
         "id": "varunada_lazurite_gemstone",
         "name": "순수한 청금석",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "물처럼 맑은 마음",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100025,
         "id": "philanemo_mushroom",
         "name": "바람버섯",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112010,
         "id": "forbidden_curse_scroll",
         "name": "금주의 두루마리",
         "amount": 24,
@@ -599,12 +783,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104301,
           "id": "teachings_of_freedom",
           "name": "「자유」의 가르침",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112008,
           "id": "divining_scroll",
           "name": "이능 두루마리",
           "amount": 6,
@@ -617,12 +803,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "「자유」의 인도",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "봉마의 두루마리",
           "amount": 3,
@@ -635,12 +823,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "「자유」의 인도",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "봉마의 두루마리",
           "amount": 4,
@@ -653,12 +843,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "「자유」의 인도",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "봉마의 두루마리",
           "amount": 6,
@@ -671,12 +863,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104302,
           "id": "guide_to_freedom",
           "name": "「자유」의 인도",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "봉마의 두루마리",
           "amount": 9,
@@ -689,18 +883,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "「자유」의 철학",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "금주의 두루마리",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113007,
           "id": "ring_of_boreas",
           "name": "북풍의 고리",
           "amount": 1,
@@ -713,18 +910,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "「자유」의 철학",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "금주의 두루마리",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113007,
           "id": "ring_of_boreas",
           "name": "북풍의 고리",
           "amount": 1,
@@ -737,18 +937,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "「자유」의 철학",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "금주의 두루마리",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113007,
           "id": "ring_of_boreas",
           "name": "북풍의 고리",
           "amount": 2,
@@ -761,24 +964,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104303,
           "id": "philosophies_of_freedom",
           "name": "「자유」의 철학",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "금주의 두루마리",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113007,
           "id": "ring_of_boreas",
           "name": "북풍의 고리",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "지식의 왕관",
           "amount": 1,

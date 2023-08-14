@@ -1,4 +1,5 @@
 {
+  "_id": 10000023,
   "id": "xiangling",
   "name": "Xiangling",
   "title": "Mestre da Culinária",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10231,
       "id": "normal_attack_doughfu",
       "name": "Ataque Normal: Pastelaria Kung Fu",
       "description": "<span>Ataque Normal</span><br/>Realiza até 5 golpes com a lança.<br/><br/><span>Ataque Carregado</span><br/>Consome uma certa quantidade de Stamina para se lançar para frente, infligindo Dano em seu trajeto.<br/><br/><span>Ataque Imersivo</span><br/>Mergulha em pleno ar para golpear o chão, causando dano aos inimigos ao longo do caminho e infligindo Dano em uma AdE durante o impacto.",
@@ -209,6 +211,7 @@
       ]
     },
     {
+      "_id": 10232,
       "id": "guoba_attack",
       "name": "Ataque de Guoba",
       "description": "Invoca Guoba, o Panda. Guoba continua exalando fogo contra o inimigo, causando <span>Dano Pyro de AdE</span>.",
@@ -257,6 +260,7 @@
       ]
     },
     {
+      "_id": 10235,
       "id": "pyronado",
       "name": "Pyronado",
       "description": "Exibindo seu domínio sobre o fogo e as armas de fogo, Xiangling envia um Pyronado girando ao seu redor.<br/>O Pyronado se moverá com o seu personagem enquanto a habilidade persistir, causando <span>Dano Pyro</span> a todos os inimigos em seu caminho.",
@@ -427,36 +431,42 @@
   ],
   "constellations": [
     {
+      "_id": 231,
       "id": "crispy_outside_tender_inside",
       "name": "Crocante por Fora, Macio por Dentro",
       "description": "Inimigos atingidos pelos ataques de Guoba têm sua <span>RES Pyro</span> reduzida em 15% por 6s.",
       "level": 1
     },
     {
+      "_id": 232,
       "id": "oil_meets_fire",
       "name": "Esquentar o Óleo",
       "description": "O golpe final de um combo de Ataque Normal aplica o efeito Implosão nos inimigos por 2 segundos. Uma explosão irá ocorrer quando essa duração acabar, causando 75% do ATQ de Xiangling como <span>Dano Pyro em uma AdE</span>.",
       "level": 2
     },
     {
+      "_id": 233,
       "id": "deepfry",
       "name": "Bem Passado",
       "description": "Aumenta o nível do <span>Pyronado</span> em 3.<br/>O nível máximo de elevação é 15.",
       "level": 3
     },
     {
+      "_id": 234,
       "id": "slowbake",
       "name": "Assando Devagar",
       "description": "Aumenta a duração do <span>Pyronado</span> em 40%.",
       "level": 4
     },
     {
+      "_id": 235,
       "id": "guoba_mad",
       "name": "Guoba Furioso",
       "description": "Aumenta o nível do <span>Ataque de Guoba</span> em 3.<br/>O nível máximo de elevação é 15.",
       "level": 5
     },
     {
+      "_id": 236,
       "id": "condensed_pyronado",
       "name": "Pyronado Condensado",
       "description": "Durante a duração do <span>Pyronado</span>, todos os membros da equipe recebem 15% de <span>Bônus de Dano Pyro</span>.",
@@ -465,22 +475,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [0, 1]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["-", "912"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["-", "19"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["-", "56"]
+        },
+        {
+          "label": "Proficiência Elemental",
+          "values": ["-", "0"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [1, 2]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["2342", "3024"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["48", "63"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["144", "186"]
+        },
+        {
+          "label": "Proficiência Elemental",
+          "values": ["0", "0"]
+        }
+      ],
       "mat1": {
+        "_id": 104111,
         "id": "agnidus_agate_sliver",
         "name": "Lasca de Ágata Agnidus",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Pimenta de Jueyun",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112002,
         "id": "slime_condensate",
         "name": "Condensado de Slime",
         "amount": 3,
@@ -488,28 +547,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [2, 3]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["4529", "5013"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["94", "104"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["279", "308"]
+        },
+        {
+          "label": "Proficiência Elemental",
+          "values": ["0", "24"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Fragmento de Ágata Agnidus",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semente de Fogo Eterno",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Pimenta de Jueyun",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112002,
         "id": "slime_condensate",
         "name": "Condensado de Slime",
         "amount": 15,
@@ -517,28 +601,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [3, 4]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["5766", "6411"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["119", "133"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["355", "394"]
+        },
+        {
+          "label": "Proficiência Elemental",
+          "values": ["24", "48"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Fragmento de Ágata Agnidus",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semente de Fogo Eterno",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Pimenta de Jueyun",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112003,
         "id": "slime_secretions",
         "name": "Secreção de Slime",
         "amount": 12,
@@ -546,28 +655,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [4, 5]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["7164", "7648"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["148", "158"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["441", "470"]
+        },
+        {
+          "label": "Proficiência Elemental",
+          "values": ["48", "48"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Pedaço de Ágata Agnidus",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semente de Fogo Eterno",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Pimenta de Jueyun",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112003,
         "id": "slime_secretions",
         "name": "Secreção de Slime",
         "amount": 18,
@@ -575,28 +709,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [5, 6]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["8401", "8885"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["174", "184"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["517", "546"]
+        },
+        {
+          "label": "Proficiência Elemental",
+          "values": ["48", "72"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Pedaço de Ágata Agnidus",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semente de Fogo Eterno",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Pimenta de Jueyun",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112004,
         "id": "slime_concentrate",
         "name": "Essência de Slime",
         "amount": 12,
@@ -604,28 +763,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [6, 7]
+        },
+        {
+          "label": "Vida Básica",
+          "values": ["9638", "10122"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["200", "210"]
+        },
+        {
+          "label": "DEF Básica",
+          "values": ["593", "623"]
+        },
+        {
+          "label": "Proficiência Elemental",
+          "values": ["72", "96"]
+        }
+      ],
       "mat1": {
+        "_id": 104114,
         "id": "agnidus_agate_gemstone",
         "name": "Gema de Ágata Agnidus",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Semente de Fogo Eterno",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100027,
         "id": "jueyun_chili",
         "name": "Pimenta de Jueyun",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112004,
         "id": "slime_concentrate",
         "name": "Essência de Slime",
         "amount": 24,
@@ -639,12 +823,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104313,
           "id": "teachings_of_diligence",
           "name": "Ensinamentos de Esforço",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112002,
           "id": "slime_condensate",
           "name": "Condensado de Slime",
           "amount": 6,
@@ -657,12 +843,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guia de Esforço",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Secreção de Slime",
           "amount": 3,
@@ -675,12 +863,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guia de Esforço",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Secreção de Slime",
           "amount": 4,
@@ -693,12 +883,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guia de Esforço",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Secreção de Slime",
           "amount": 6,
@@ -711,12 +903,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guia de Esforço",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112003,
           "id": "slime_secretions",
           "name": "Secreção de Slime",
           "amount": 9,
@@ -729,18 +923,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Filosofia de Esforço",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Essência de Slime",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Garra do Vento Oriental",
           "amount": 1,
@@ -753,18 +950,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Filosofia de Esforço",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Essência de Slime",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Garra do Vento Oriental",
           "amount": 1,
@@ -777,18 +977,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Filosofia de Esforço",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Essência de Slime",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Garra do Vento Oriental",
           "amount": 2,
@@ -801,24 +1004,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Filosofia de Esforço",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112004,
           "id": "slime_concentrate",
           "name": "Essência de Slime",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113004,
           "id": "dvalins_claw",
           "name": "Garra do Vento Oriental",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Coroa da Sabedoria",
           "amount": 1,

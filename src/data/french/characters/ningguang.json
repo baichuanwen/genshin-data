@@ -1,4 +1,5 @@
 {
+  "_id": 10000027,
   "id": "ningguang",
   "name": "Ningguang",
   "title": "Megrez de l'éclipse",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10271,
       "id": "normal_attack_sparkling_scatter",
       "name": "Attaque normale : Géo-dispersion",
       "description": "<span>Attaque normale</span><br/>Tire des gemmes qui infligent des <span>DGT Géo</span>.<br/>Ningguang obtient un Jade d'étoile à chaque fois qu'une gemme touche un ennemi.<br/><br/><span>Attaque chargée</span><br/>Tire une gemme géante qui inflige des <span>DGT Géo</span>.<br/>Si Ningguang a obtenu des Jades d'étoile, l'attaque chargée les tire tous au même moment, infligeant des DGT supplémentaires.<br/><br/><span>Attaque plongeante</span><br/>Plonge depuis les airs en concentrant ses pouvoirs Géo, infligeant des DGT aux ennemis en chemin et des <span>DGT Géo de zone</span> à l'impact.",
@@ -149,6 +151,7 @@
       ]
     },
     {
+      "_id": 10272,
       "id": "jade_screen",
       "name": "Paravent d'astrolabe",
       "description": "Ningguang puise dans son opulence pour créer un paravent d'or et d'obsidienne infligeant des <span>DGT Géo de zone</span>.<br/><br/><span>Paravent d'astrolabe</span><br/>· Bloque les projectiles ennemis.<br/>· Les PV du paravent sont proportionnels aux PV max de Ningguang.<br/><br/>Le paravent d'astrolabe est une <span>construction Géo</span> qui peut bloquer certaines attaques mais ne peut pas être escaladée. Il ne peut exister qu'un seul paravent à la fois.",
@@ -217,6 +220,7 @@
       ]
     },
     {
+      "_id": 10274,
       "id": "starshatter",
       "name": "Éclatement des étoiles",
       "description": "Ningguang fait tournoyer plusieurs jades précieux à tête chercheuse autour d'elle, qu'elle relâche tous en même temps, infligeant ainsi d'importants <span>DGT Géo</span>.<br/>Si le paravent d'astrolabe est actif lorsque cette attaque est exécutée, il l'accompagne de tirs de jade supplémentaires.",
@@ -301,42 +305,48 @@
     {
       "id": "trove_of_marvelous_treasures",
       "name": "Corne d'abondance",
-      "description": "Affiche la localisation des <span>filons de minerai utilisables en forge</span> proches sur la carte.",
+      "description": "Affiche l'emplacement des <span>filons de minerai utilisables en forge</span> sur la mini-carte.",
       "level": 0
     }
   ],
   "constellations": [
     {
+      "_id": 271,
       "id": "piercing_fragments",
       "name": "Fragments perforants",
       "description": "Les attaques normales qui touchent infligent des DGT de zone.",
       "level": 1
     },
     {
+      "_id": 272,
       "id": "shock_effect",
       "name": "Effet de choc",
       "description": "Le TdR de <span>Paravent d'astrolabe</span> est annulé lorsque ce dernier est brisé.<br/>Cet effet peut être déclenché une fois toutes les 6 s.",
       "level": 2
     },
     {
+      "_id": 273,
       "id": "majesty_be_the_array_of_stars",
       "name": "Alignement des étoiles",
       "description": "Niveau d'aptitude <span>Éclatement des étoiles</span> +3.<br/>Niveau max : 15",
       "level": 3
     },
     {
+      "_id": 274,
       "id": "exquisite_be_the_jade_outshining_all_beneath",
       "name": "Exquis soit le Jade, éclatant de toutes parts",
       "description": "<span>Paravent d'astrolabe</span> augmente les RÉS élémentaires des personnages à proximité de 10 %.",
       "level": 4
     },
     {
+      "_id": 275,
       "id": "invincible_be_the_jade_screen",
       "name": "Invincible soit le Paravent d'astrolabe",
       "description": "Niveau d'aptitude <span>Paravent d'astrolabe</span> +3.<br/>Niveau max : 15",
       "level": 5
     },
     {
+      "_id": 276,
       "id": "grandeur_be_the_seven_stars",
       "name": "Grandeur soit les Sept Étoiles",
       "description": "L'activation d'<span>Éclatement des étoiles</span> confère 7 Jades d'étoile à Ningguang.",
@@ -345,22 +355,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [0, 1]
+        },
+        {
+          "label": "PV de base",
+          "values": ["-", "821"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["-", "18"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["-", "48"]
+        },
+        {
+          "label": "Bonus de DGT Géo",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [1, 2]
+        },
+        {
+          "label": "PV de base",
+          "values": ["2108", "2721"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["46", "59"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["123", "159"]
+        },
+        {
+          "label": "Bonus de DGT Géo",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104171,
         "id": "prithiva_topaz_sliver",
         "name": "Éclat de topaze prithiva",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100030,
         "id": "glaze_lily",
         "name": "Lys verni",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112032,
         "id": "recruits_insignia",
         "name": "Insigne de nouvelle recrue",
         "amount": 3,
@@ -368,28 +427,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [2, 3]
+        },
+        {
+          "label": "PV de base",
+          "values": ["4076", "4512"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["88", "98"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["239", "264"]
+        },
+        {
+          "label": "Bonus de DGT Géo",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104172,
         "id": "prithiva_topaz_fragment",
         "name": "Fragment de topaze prithiva",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "Pilier de basalte",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100030,
         "id": "glaze_lily",
         "name": "Lys verni",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112032,
         "id": "recruits_insignia",
         "name": "Insigne de nouvelle recrue",
         "amount": 15,
@@ -397,28 +481,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [3, 4]
+        },
+        {
+          "label": "PV de base",
+          "values": ["5189", "5770"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["113", "125"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["304", "338"]
+        },
+        {
+          "label": "Bonus de DGT Géo",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104172,
         "id": "prithiva_topaz_fragment",
         "name": "Fragment de topaze prithiva",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "Pilier de basalte",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100030,
         "id": "glaze_lily",
         "name": "Lys verni",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112033,
         "id": "sergeants_insignia",
         "name": "Insigne de sergent",
         "amount": 12,
@@ -426,28 +535,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [4, 5]
+        },
+        {
+          "label": "PV de base",
+          "values": ["6448", "6884"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["140", "149"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["378", "403"]
+        },
+        {
+          "label": "Bonus de DGT Géo",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104173,
         "id": "prithiva_topaz_chunk",
         "name": "Morceau de topaze prithiva",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "Pilier de basalte",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100030,
         "id": "glaze_lily",
         "name": "Lys verni",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112033,
         "id": "sergeants_insignia",
         "name": "Insigne de sergent",
         "amount": 18,
@@ -455,28 +589,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [5, 6]
+        },
+        {
+          "label": "PV de base",
+          "values": ["7561", "7996"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["164", "174"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["443", "468"]
+        },
+        {
+          "label": "Bonus de DGT Géo",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104173,
         "id": "prithiva_topaz_chunk",
         "name": "Morceau de topaze prithiva",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "Pilier de basalte",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100030,
         "id": "glaze_lily",
         "name": "Lys verni",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112034,
         "id": "lieutenants_insignia",
         "name": "Insigne d'officier",
         "amount": 12,
@@ -484,28 +643,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [6, 7]
+        },
+        {
+          "label": "PV de base",
+          "values": ["8674", "9110"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["188", "198"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["508", "534"]
+        },
+        {
+          "label": "Bonus de DGT Géo",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104174,
         "id": "prithiva_topaz_gemstone",
         "name": "Pierre de topaze prithiva",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113009,
         "id": "basalt_pillar",
         "name": "Pilier de basalte",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100030,
         "id": "glaze_lily",
         "name": "Lys verni",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112034,
         "id": "lieutenants_insignia",
         "name": "Insigne d'officier",
         "amount": 24,
@@ -519,12 +703,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104310,
           "id": "teachings_of_prosperity",
           "name": "Enseignement de la Prospérité",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112032,
           "id": "recruits_insignia",
           "name": "Insigne de nouvelle recrue",
           "amount": 6,
@@ -537,12 +723,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide de la Prospérité",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insigne de sergent",
           "amount": 3,
@@ -555,12 +743,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide de la Prospérité",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insigne de sergent",
           "amount": 4,
@@ -573,12 +763,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide de la Prospérité",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insigne de sergent",
           "amount": 6,
@@ -591,12 +783,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide de la Prospérité",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insigne de sergent",
           "amount": 9,
@@ -609,18 +803,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophie de la Prospérité",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insigne d'officier",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113008,
           "id": "spirit_locket_of_boreas",
           "name": "Esprit de Borée",
           "amount": 1,
@@ -633,18 +830,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophie de la Prospérité",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insigne d'officier",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113008,
           "id": "spirit_locket_of_boreas",
           "name": "Esprit de Borée",
           "amount": 1,
@@ -657,18 +857,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophie de la Prospérité",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insigne d'officier",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113008,
           "id": "spirit_locket_of_boreas",
           "name": "Esprit de Borée",
           "amount": 2,
@@ -681,24 +884,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophie de la Prospérité",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insigne d'officier",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113008,
           "id": "spirit_locket_of_boreas",
           "name": "Esprit de Borée",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Couronne de la sagesse",
           "amount": 1,

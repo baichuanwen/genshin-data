@@ -1,8 +1,8 @@
 {
+  "_id": 16,
   "id": "visitors_on_the_icy_mountain",
-  "originalId": 16,
   "name": "Khách Trên Tuyết Sơn",
-  "order": 22,
+  "order": 29,
   "achievements": [
     {
       "id": 80056,
@@ -100,7 +100,7 @@
     },
     {
       "id": 80067,
-      "name": "Móng Vuốt Giá Rét",
+      "name": "Đinh Thiên Hàn",
       "desc": "Nâng \"Cây cột lớn kỳ lạ\" lên.",
       "reward": 10,
       "hidden": false,

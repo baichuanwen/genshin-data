@@ -1,7 +1,7 @@
 {
+  "_id": 10000005,
   "id": "traveler_geo",
   "name": "Viajero (Geo)",
-  "title": "",
   "description": "Un viajero de otro mundo al que arrebataron su única familia, y que se vio obligado a embarcarse en un viaje en busca de Los Siete.",
   "weapon_type": "Espada ligera",
   "element": "Geo",
@@ -20,9 +20,10 @@
   },
   "skills": [
     {
+      "_id": 100545,
       "id": "normal_attack_foreign_rockblade",
       "name": "Ataque Normal: Espada de piedra extranjera",
-      "description": "<span>Ataque Normal</span><br/>Realiza hasta 5 ataques rápidos.<br/><br/><span>Ataque Cargado</span><br/>Consume una cierta cantidad de Aguante para lanzar un golpe de espada cruzado.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
+      "description": "<span>Ataque Normal</span><br/>Realiza hasta 5 ataques consecutivos con espada.<br/><br/><span>Ataque Cargado</span><br/>Consume cierta cantidad de Aguante para desatar un doble golpe de espada.<br/><br/><span>Ataque Descendente</span><br/>Se lanza desde el aire para golpear el suelo, dañando a los enemigos cercanos e infligiendo Daño en el AdE en el momento del impacto.",
       "info": "",
       "attributes": [
         {
@@ -208,6 +209,7 @@
       ]
     },
     {
+      "_id": 10077,
       "id": "starfell_sword",
       "name": "Espada estrellacaída",
       "description": "Invoca un meteorito de las profundidades de la tierra, infligiendo <span>Daño Geo en el AdE</span>.<br/>El meteorito es considerado una <span>creación Geo</span>, y puede escalarse o usarse para bloquear ataques.<br/><br/><span>Mantener pulsado</span><br/>Ajusta la posición sobre la que se coloca la habilidad",
@@ -276,9 +278,10 @@
       ]
     },
     {
+      "_id": 10078,
       "id": "wake_of_earth",
       "name": "Despertar de la Tierra",
-      "description": "Crea una onda expansiva Geo que nace de las profundidades de la tierra.<br/>Inflige <span>Daño Geo en el AdE</span> a todos los enemigos a los que alcanza.<br/>Tras ello, crea una columna de piedra que se levanta abruptamente en el límite de la onda.<br/>La columna de piedra se considera una <span>creación Geo</span>, y puede usarse para bloquear ataques.",
+      "description": "Crea una onda expansiva Geo que nace de las profundidades de la tierra.<br/>Inflige <span>Daño Geo en el AdE</span> a todos los enemigos a los que alcanza.<br/>Tras ello, crea crestas de piedra que se levantan abruptamente en el límite de la onda.<br/>Las crestas de piedra se consideran <span>creaciones Geo</span>, y pueden usarse para bloquear ataques.",
       "info": "Investigaste con Paimon la vibración de las montañas.",
       "attributes": [
         {
@@ -302,7 +305,7 @@
           ]
         },
         {
-          "label": "Duración del muro de piedra",
+          "label": "Duración de las crestas de piedra",
           "values": [
             "15 s",
             "15 s",
@@ -368,72 +371,127 @@
     {
       "id": "shattered_darkrock",
       "name": "Roca quebrada",
-      "description": "Disminuye el TdE de <span>Espada estrellacaída</span> -2 s.",
+      "description": "Disminuye el TdE de <span>Espada estrellacaída</span> en 2 s.",
       "level": 1
     },
     {
       "id": "frenzied_rockslide",
       "name": "Roca turbulenta",
-      "description": "El último golpe del Ataque Normal provoca una destrucción, infligiendo un 60% de <span>Daño Geo</span> a los enemigos dentro del AdE.",
+      "description": "El último golpe del Ataque Normal provoca una destrucción que inflige un 60% de <span>Daño Geo</span> a los enemigos dentro del AdE.",
       "level": 4
     }
   ],
   "constellations": [
     {
+      "_id": 91,
       "id": "invincible_stonewall",
       "name": "Muro inquebrantable",
       "description": "Aumenta en un 10% la Prob. CRIT de todos los miembros del equipo que estén en el radio de <span>Despertar de la Tierra</span>, y aumenta su RES a interrupción.",
       "level": 1
     },
     {
+      "_id": 92,
       "id": "rockcore_meltdown",
       "name": "Fusión de lava",
       "description": "El meteorito de <span>Espada estrellacaída</span> explota de nuevo cuando es destruido, causando <span>Daño Geo en el AdE</span> adicional equivalente al daño de Espada estrellacaída.",
       "level": 2
     },
     {
+      "_id": 93,
       "id": "will_of_the_rock",
       "name": "Voluntad pétrea",
       "description": "Aumenta el nivel de habilidad de <span>Despertar de la Tierra</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
       "level": 3
     },
     {
+      "_id": 94,
       "id": "reaction_force",
       "name": "Fuerza de reacción",
       "description": "Al golpear al enemigo con una onda expansiva de <span>Despertar de la Tierra</span>, recuperas 5 pts. de Energía Elemental.<br/>Puedes recuperar hasta 25 pts. de energía de esta forma.",
       "level": 4
     },
     {
+      "_id": 95,
       "id": "meteorite_impact",
       "name": "Impacto meteórico",
       "description": "Aumenta el nivel de habilidad de <span>Espada estrellacaída</span> +3.<br/>Puede ser aumentado hasta Niv. 15.",
       "level": 5
     },
     {
+      "_id": 96,
       "id": "everlasting_boulder",
       "name": "Bloque eterno",
-      "description": "Extiende la duración del muro de piedra de <span>Despertar de la Tierra</span> en 5 s.<br/>Extiende la duración del meteorito de <span>Espada estrellacaída</span> en 10 s.",
+      "description": "Extiende la duración de las crestas de piedra de <span>Despertar de la Tierra</span> en 5 s.<br/>Extiende la duración del meteorito de <span>Espada estrellacaída</span> en 10 s.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [0, 1]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["-", "912"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["-", "18"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["-", "57"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [1, 2]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["2342", "3024"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["46", "59"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["147", "190"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104101,
         "id": "brilliant_diamond_sliver",
         "name": "Pedacito de diamante brillante",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100024,
         "id": "windwheel_aster",
         "name": "Margarita voladora",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "Máscara dañada",
         "amount": 3,
@@ -441,22 +499,46 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [2, 3]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["4529", "5013"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["88", "98"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["284", "315"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104102,
         "id": "brilliant_diamond_fragment",
         "name": "Trozo de diamante brillante",
         "amount": 3,
         "rarity": 3
       },
       "mat3": {
+        "_id": 100024,
         "id": "windwheel_aster",
         "name": "Margarita voladora",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "Máscara dañada",
         "amount": 15,
@@ -464,22 +546,46 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [3, 4]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["5766", "6411"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["113", "125"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["362", "402"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104102,
         "id": "brilliant_diamond_fragment",
         "name": "Trozo de diamante brillante",
         "amount": 6,
         "rarity": 3
       },
       "mat3": {
+        "_id": 100024,
         "id": "windwheel_aster",
         "name": "Margarita voladora",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "Máscara sucia",
         "amount": 12,
@@ -487,22 +593,46 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [4, 5]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["7164", "7648"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["140", "149"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["450", "480"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104103,
         "id": "brilliant_diamond_chunk",
         "name": "Fragmento de diamante brillante",
         "amount": 3,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100024,
         "id": "windwheel_aster",
         "name": "Margarita voladora",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "Máscara sucia",
         "amount": 18,
@@ -510,22 +640,46 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [5, 6]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["8401", "8885"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["164", "174"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["527", "558"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104103,
         "id": "brilliant_diamond_chunk",
         "name": "Fragmento de diamante brillante",
         "amount": 6,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100024,
         "id": "windwheel_aster",
         "name": "Margarita voladora",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "Máscara amenazante",
         "amount": 12,
@@ -533,22 +687,46 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascender",
+          "values": [6, 7]
+        },
+        {
+          "label": "Vida Base",
+          "values": ["9638", "10122"]
+        },
+        {
+          "label": "ATQ Básico",
+          "values": ["188", "198"]
+        },
+        {
+          "label": "DEF Base",
+          "values": ["605", "635"]
+        },
+        {
+          "label": "ATQ",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104104,
         "id": "brilliant_diamond_gemstone",
         "name": "Diamante brillante",
         "amount": 6,
         "rarity": 5
       },
       "mat3": {
+        "_id": 100024,
         "id": "windwheel_aster",
         "name": "Margarita voladora",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "Máscara amenazante",
         "amount": 24,
@@ -562,12 +740,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104310,
           "id": "teachings_of_prosperity",
           "name": "Enseñanzas de la prosperidad",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112011,
           "id": "firm_arrowhead",
           "name": "Flecha robusta",
           "amount": 6,
@@ -580,12 +760,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guía del esfuerzo",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Flecha afilada",
           "amount": 3,
@@ -598,12 +780,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guía del oro",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Flecha afilada",
           "amount": 4,
@@ -616,12 +800,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guía de la prosperidad",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Flecha afilada",
           "amount": 6,
@@ -634,12 +820,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104314,
           "id": "guide_to_diligence",
           "name": "Guía del esfuerzo",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112012,
           "id": "sharp_arrowhead",
           "name": "Flecha afilada",
           "amount": 9,
@@ -652,18 +840,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Filosofía del oro",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Flecha veterana",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Cola de Boreas",
           "amount": 1,
@@ -676,18 +867,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Filosofía de la prosperidad",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Flecha veterana",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Cola de Boreas",
           "amount": 1,
@@ -700,18 +894,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104315,
           "id": "philosophies_of_diligence",
           "name": "Filosofía del esfuerzo",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Flecha veterana",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Cola de Boreas",
           "amount": 2,
@@ -724,24 +921,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Filosofía del oro",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112013,
           "id": "weathered_arrowhead",
           "name": "Flecha veterana",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Cola de Boreas",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Corona de la sabiduría",
           "amount": 1,

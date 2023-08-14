@@ -1,9 +1,9 @@
 {
+  "_id": 368109,
   "id": "razor",
-  "originalId": 368109,
   "rarity": 1,
   "name": "Рэйзор",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

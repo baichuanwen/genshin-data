@@ -1,4 +1,5 @@
 {
+  "_id": 13409,
   "id": "dragonspine_spear",
   "name": "Lanza de Espinadragón",
   "description": "Una lanza creada a partir del colmillo de un dragón. Sorprendentemente, es cálida al tacto.",
@@ -109,18 +110,21 @@
       "cost": 5000,
       "materials": [
         {
+          "_id": 114005,
           "id": "boreal_wolfs_milk_tooth",
           "name": "Diente de leche de lobo boreal",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112026,
           "id": "mist_grass_pollen",
-          "name": "Polen de neblina",
+          "name": "Polen neblinoso",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112032,
           "id": "recruits_insignia",
           "name": "Insignia del recluta",
           "amount": 2,
@@ -134,18 +138,21 @@
       "cost": 15000,
       "materials": [
         {
+          "_id": 114006,
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Diente roto de lobo boreal",
           "amount": 3,
           "rarity": 3
         },
         {
+          "_id": 112026,
           "id": "mist_grass_pollen",
-          "name": "Polen de neblina",
+          "name": "Polen neblinoso",
           "amount": 12,
           "rarity": 2
         },
         {
+          "_id": 112032,
           "id": "recruits_insignia",
           "name": "Insignia del recluta",
           "amount": 8,
@@ -159,18 +166,21 @@
       "cost": 20000,
       "materials": [
         {
+          "_id": 114006,
           "id": "boreal_wolfs_cracked_tooth",
           "name": "Diente roto de lobo boreal",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112027,
           "id": "mist_grass",
-          "name": "Hierba brumosa",
+          "name": "Hierba neblinosa",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insignia del sargento",
           "amount": 6,
@@ -184,18 +194,21 @@
       "cost": 30000,
       "materials": [
         {
+          "_id": 114007,
           "id": "boreal_wolfs_broken_fang",
           "name": "Colmillo roto de lobo boreal",
           "amount": 3,
           "rarity": 4
         },
         {
+          "_id": 112027,
           "id": "mist_grass",
-          "name": "Hierba brumosa",
+          "name": "Hierba neblinosa",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insignia del sargento",
           "amount": 9,
@@ -209,18 +222,21 @@
       "cost": 35000,
       "materials": [
         {
+          "_id": 114007,
           "id": "boreal_wolfs_broken_fang",
           "name": "Colmillo roto de lobo boreal",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112028,
           "id": "mist_grass_wick",
-          "name": "Estambre de hierba brumosa",
+          "name": "Lámpara de hierba neblinosa",
           "amount": 9,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insignia del oficial",
           "amount": 6,
@@ -234,18 +250,21 @@
       "cost": 45000,
       "materials": [
         {
+          "_id": 114008,
           "id": "boreal_wolfs_nostalgia",
           "name": "Nostalgia del lobo boreal",
           "amount": 4,
           "rarity": 5
         },
         {
+          "_id": 112028,
           "id": "mist_grass_wick",
-          "name": "Estambre de hierba brumosa",
+          "name": "Lámpara de hierba neblinosa",
           "amount": 18,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insignia del oficial",
           "amount": 12,
@@ -254,6 +273,17 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "Entierro helado",
+    "template": "Al golpear a los enemigos con Ataques Normales y Cargados, hay un <span style=\"color:#99FFFFFF\">{0}</span> de probabilidad de crear un carámbano sobre ellos. Al caer, el carámbano inflige un <span style=\"color:#99FFFFFF\">{1}</span> de daño de ATQ en el AdE. Si los enemigos están afectados por Cryo, el daño de ATQ infligido será del <span style=\"color:#99FFFFFF\">{2}</span>. Este efecto solo puede ocurrir una vez cada 10 s.",
+    "params": [
+      ["60%", "80%", "200%"],
+      ["70%", "95%", "240%"],
+      ["80%", "110%", "280%"],
+      ["90%", "125%", "320%"],
+      ["100%", "140%", "360%"]
+    ]
+  },
   "refinements": [
     {
       "refinement": 1,

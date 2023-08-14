@@ -1,4 +1,5 @@
 {
+  "_id": 10000054,
   "id": "sangonomiya_kokomi",
   "name": "Sangonomiya Kokomi",
   "title": "Trí Tuệ Trân Châu",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10541,
       "id": "normal_attack_the_shape_of_water",
       "name": "Tấn Công Thường: Hình Dạng Nước Trong",
       "description": "<span>Tấn Công Thường</span><br/>Dùng cá tạo thành bởi nước để thực hiện tối đa 3 lần tấn công, gây <span>Sát Thương Nguyên Tố Thủy</span>.<br/><br/><span>Trọng Kích</span><br/>Tiêu hao thể lực nhất định, sau khi tụ lực, gây <span>Sát Thương Phạm Vi Nguyên Tố Thủy</span>.<br/><br/><span>Tấn Công Khi Đáp</span><br/>Ngưng tụ sức mạnh nguyên tố Thủy, từ trên trời tấn công xuống mặt đất, tấn công kẻ địch trên đường đi, gây <span>sát thương phạm vi Nguyên Tố Thủy</span> khi chạm đất.",
@@ -169,9 +171,10 @@
       ]
     },
     {
+      "_id": 10542,
       "id": "kurages_oath",
-      "name": "Lời Thề Ánh Trăng Biển",
-      "description": "Triệu hồi \"Vầng Trăng Biển\" chữa trị cho đồng đội.<br/>Khi thi triển sẽ khiến Sangonomiya Kokomi vào trạng thái <span>Ẩm Ướt</span>.<br/><br/><span>Vầng Trăng Biển</span><br/>Cứ cách một khoảng thời gian sẽ gây <span>Sát Thương Nguyên Tố Thủy</span> cho kẻ địch xung quanh và hồi HP cho nhân vật đang trong trận ở xung quanh, lượng hồi phục dựa vào giới hạn HP của Sangonomiya Kokomi.",
+      "name": "Lời Thề Kurage",
+      "description": "Triệu hồi \"Bake-Kurage\" chữa trị cho đồng đội.<br/>Khi thi triển sẽ khiến Sangonomiya Kokomi vào trạng thái <span>Ẩm Ướt</span>.<br/><br/><span>Bake-Kurage</span><br/>Cứ cách một khoảng thời gian sẽ gây <span>Sát Thương Nguyên Tố Thủy</span> cho kẻ địch xung quanh và hồi HP cho nhân vật đang trong trận ở xung quanh, lượng hồi phục dựa vào giới hạn HP của Sangonomiya Kokomi.",
       "info": "Để đảm bảo trạng thái tốt nhất cho công việc, Kokomi cần bổ sung \"năng lượng\" kịp thời.",
       "attributes": [
         {
@@ -257,9 +260,10 @@
       ]
     },
     {
+      "_id": 10545,
       "id": "nereids_ascension",
       "name": "Nghi Lễ Nereid",
-      "description": "Triệu hồi sức mạnh của Watatsumi, gây <span>Sát Thương Nguyên Tố Thủy</span> cho kẻ địch xung quanh, đồng thời giúp Kokomi khoác lên \"Lễ Phục Nghi Thức\" được ngưng tụ từ nước của Sangonomiya.<br/><br/><span>Lễ Phục Nghi Thức</span><br/>·Giúp Sangonomiya Kokomi tăng sát thương tấn công thường, trọng kích và sát thương do kỹ năng nguyên tố \"Vầng Trăng Biển\" gây ra, mức gia tăng sẽ dựa vào giới hạn HP của Kokomi;<br/>·Khi tấn công thường và trọng kích trúng kẻ địch sẽ hồi HP cho tất cả nhân vật trong đội gần đó, lượng hồi phục sẽ dựa vào giới hạn HP của Kokomi;<br/>·Tăng khả năng kháng gián đoạn của Sangonomiya Kokomi, đồng thời khiến cô ấy có thể di chuyển trên mặt nước.<br/><br/>Hiệu quả sẽ mất khi Sangonomiya Kokomi rời trận.",
+      "description": "Triệu hồi sức mạnh của Watatsumi, gây <span>Sát Thương Nguyên Tố Thủy</span> cho kẻ địch xung quanh, đồng thời giúp Kokomi khoác lên \"Lễ Phục Nghi Thức\" được ngưng tụ từ nước của Sangonomiya.<br/><br/><span>Lễ Phục Nghi Thức</span><br/>·Giúp Sangonomiya Kokomi tăng sát thương tấn công thường, trọng kích và sát thương \"Bake-Kurage\" do kỹ năng nguyên tố gây ra, mức gia tăng sẽ dựa vào giới hạn HP của Kokomi;<br/>·Khi tấn công thường và trọng kích trúng kẻ địch sẽ hồi HP cho tất cả nhân vật trong đội gần đó, lượng hồi phục sẽ dựa vào giới hạn HP của Kokomi;<br/>·Tăng khả năng kháng gián đoạn của Sangonomiya Kokomi, đồng thời khiến cô ấy có thể di chuyển trên mặt nước.<br/><br/>Hiệu quả sẽ mất khi Sangonomiya Kokomi rời trận.",
       "info": "Ánh sáng xung quanh tạo thành lễ phục khoác lên người Sangonomiya Kokomi, tô điểm thêm vẻ đẹp tuyệt mỹ của đại nhân.",
       "attributes": [
         {
@@ -323,7 +327,7 @@
           ]
         },
         {
-          "label": "Tăng Sát Thương Vầng Trăng Biển",
+          "label": "Tăng Sát Thương Bake-Kurage",
           "values": [
             "7.1% Giới Hạn HP",
             "7.63% Giới Hạn HP",
@@ -427,9 +431,9 @@
   ],
   "passives": [
     {
-      "id": "tamanooyas_casket",
-      "name": "Rương Báu Tamanooya",
-      "description": "Khi thi triển <span>Nghi Lễ Nereid</span>, nếu trong trận có Vầng Trăng Biển của Sangonomiya Kokomi thì sẽ tái lập thời gian tồn tại của Vầng Trăng Biển.",
+      "id": "tamakushi_casket",
+      "name": "Rương Báu Tamakushi",
+      "description": "Khi thi triển <span>Nghi Lễ Nereid</span>, nếu trong trận có Bake-Kurage của Sangonomiya Kokomi thì sẽ tái lập thời gian tồn tại của Bake-Kurage.",
       "level": 1
     },
     {
@@ -453,36 +457,42 @@
   ],
   "constellations": [
     {
+      "_id": 541,
       "id": "at_waters_edge",
       "name": "Vệt Nước Sắc Bén",
       "description": "Khi trong trạng thái Lễ Phục Nghi Thức của <span>Nghi Lễ Nereid</span>, đòn tấn công thường cuối cùng của Sangonomiya Kokomi sẽ tạo ra một con cá, gây <span>Sát Thương Nguyên Tố Thủy</span> bằng 30% giới hạn HP của Sangonomiya Kokomi.<br/>Sát thương này không được tính là sát thương tấn công thường.",
       "level": 1
     },
     {
+      "_id": 542,
       "id": "the_clouds_like_waves_rippling",
       "name": "Sóng Cuộn Dâng Trào",
-      "description": "Dựa vào giới hạn HP của Sangonomiya Kokomi để tăng lượng trị liệu cho nhân vật có lượng HP bằng hoặc thấp hơn 50% như sau:<br/>·Vầng Trăng Biển của <span>Lời Thề Ánh Trăng Biển</span>: 4.5% giới hạn HP.<br/>·Tấn công thường và trọng kích của <span>Nghi Lễ Nereid</span>: 0.6% giới hạn HP.",
+      "description": "Dựa vào giới hạn HP của Sangonomiya Kokomi để tăng lượng trị liệu cho nhân vật có lượng HP bằng hoặc thấp hơn 50% như sau:<br/>·Bake-Kurage của <span>Lời Thề Kurage</span>: 4.5% giới hạn HP.<br/>·Tấn công thường và trọng kích của <span>Nghi Lễ Nereid</span>: 0.6% giới hạn HP.",
       "level": 2
     },
     {
+      "_id": 543,
       "id": "the_moon_a_ship_oer_the_seas",
       "name": "Con Thuyền Dưới Ánh Trăng",
       "description": "Cấp kỹ năng <span>Nghi Lễ Nereid</span> +3.<br/>Tăng tối đa đến cấp 15.",
       "level": 3
     },
     {
+      "_id": 544,
       "id": "the_moon_overlooks_the_waters",
       "name": "Vầng Trăng Ngắm Biển",
       "description": "Khi trong trạng thái Lễ Phục Nghi Thức của <span>Nghi Lễ Nereid</span>, tốc độ tấn công thường của Sangonomiya Kokomi tăng 10%, đồng thời khi tấn công thường trúng kẻ địch sẽ hồi phục 0.8 Năng Lượng Nguyên Tố.<br/>Hiệu quả này mỗi 0.2s tối đa kích hoạt một lần.",
       "level": 4
     },
     {
+      "_id": 545,
       "id": "all_streams_flow_to_the_sea",
       "name": "Nước Tụ Về Nguồn",
-      "description": "Cấp kỹ năng <span>Lời Thề Ánh Trăng Biển</span> +3.<br/>Tăng tối đa đến cấp 15.",
+      "description": "Cấp kỹ năng <span>Lời Thề Kurage</span> +3.<br/>Tăng tối đa đến cấp 15.",
       "level": 5
     },
     {
+      "_id": 546,
       "id": "sango_isshin",
       "name": "Trái Tim San Hô",
       "description": "Khi trong trạng thái Lễ Phục Nghi Thức của <span>Nghi Lễ Nereid</span>, lúc đòn tấn công thường và trọng kích của Sangonomiya Kokomi trị liệu cho nhân vật có HP từ 80% trở lên, sẽ nhận 40% <span>buff sát thương Nguyên Tố Thủy</span>, kéo dài 4s.",
@@ -491,22 +501,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [0, 1]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["-", "1049"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["-", "18"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["-", "51"]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Thủy",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [1, 2]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["2720", "3619"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["47", "63"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["133", "177"]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Thủy",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104121,
         "id": "varunada_lazurite_sliver",
         "name": "Vụn Thanh Kim Sạch",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 101207,
         "id": "sango_pearl",
         "name": "Trân Châu San Hô",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112053,
         "id": "spectral_husk",
         "name": "Hạt Bay Lượn Khô Héo",
         "amount": 3,
@@ -514,28 +573,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [2, 3]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["5416", "6055"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["94", "105"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["264", "295"]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Thủy",
+          "values": ["0.0%", "7.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "Mảnh Thanh Kim Sạch",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113028,
         "id": "dew_of_repudiation",
         "name": "Giọt Nước Bài Trừ",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101207,
         "id": "sango_pearl",
         "name": "Trân Châu San Hô",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112053,
         "id": "spectral_husk",
         "name": "Hạt Bay Lượn Khô Héo",
         "amount": 15,
@@ -543,28 +627,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [3, 4]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["6966", "7818"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["121", "136"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["340", "381"]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Thủy",
+          "values": ["7.2%", "14.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "Mảnh Thanh Kim Sạch",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113028,
         "id": "dew_of_repudiation",
         "name": "Giọt Nước Bài Trừ",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101207,
         "id": "sango_pearl",
         "name": "Trân Châu San Hô",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112054,
         "id": "spectral_heart",
         "name": "Hạt Bay Lượn U Ám",
         "amount": 12,
@@ -572,28 +681,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [4, 5]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["8738", "9377"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["152", "163"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["426", "457"]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Thủy",
+          "values": ["14.4%", "14.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "Miếng Thanh Kim Sạch",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113028,
         "id": "dew_of_repudiation",
         "name": "Giọt Nước Bài Trừ",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101207,
         "id": "sango_pearl",
         "name": "Trân Châu San Hô",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112054,
         "id": "spectral_heart",
         "name": "Hạt Bay Lượn U Ám",
         "amount": 18,
@@ -601,28 +735,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [5, 6]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["10306", "10945"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["179", "190"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["503", "534"]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Thủy",
+          "values": ["14.4%", "21.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "Miếng Thanh Kim Sạch",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113028,
         "id": "dew_of_repudiation",
         "name": "Giọt Nước Bài Trừ",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101207,
         "id": "sango_pearl",
         "name": "Trân Châu San Hô",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112055,
         "id": "spectral_nucleus",
         "name": "Hạt Bay Lượn Kết Tinh",
         "amount": 12,
@@ -630,28 +789,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [6, 7]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["11885", "12524"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["207", "218"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["580", "611"]
+        },
+        {
+          "label": "Tăng ST Nguyên Tố Thủy",
+          "values": ["21.6%", "28.8%"]
+        }
+      ],
       "mat1": {
+        "_id": 104124,
         "id": "varunada_lazurite_gemstone",
         "name": "Thanh Kim Sạch",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113028,
         "id": "dew_of_repudiation",
         "name": "Giọt Nước Bài Trừ",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 101207,
         "id": "sango_pearl",
         "name": "Trân Châu San Hô",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112055,
         "id": "spectral_nucleus",
         "name": "Hạt Bay Lượn Kết Tinh",
         "amount": 24,
@@ -665,12 +849,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104320,
           "id": "teachings_of_transience",
           "name": "Bài Giảng Của \"Phù Thế\"",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112053,
           "id": "spectral_husk",
           "name": "Hạt Bay Lượn Khô Héo",
           "amount": 6,
@@ -683,12 +869,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104321,
           "id": "guide_to_transience",
           "name": "Hướng Dẫn Của \"Phù Thế\"",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112054,
           "id": "spectral_heart",
           "name": "Hạt Bay Lượn U Ám",
           "amount": 3,
@@ -701,12 +889,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104321,
           "id": "guide_to_transience",
           "name": "Hướng Dẫn Của \"Phù Thế\"",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112054,
           "id": "spectral_heart",
           "name": "Hạt Bay Lượn U Ám",
           "amount": 4,
@@ -719,12 +909,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104321,
           "id": "guide_to_transience",
           "name": "Hướng Dẫn Của \"Phù Thế\"",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112054,
           "id": "spectral_heart",
           "name": "Hạt Bay Lượn U Ám",
           "amount": 6,
@@ -737,12 +929,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104321,
           "id": "guide_to_transience",
           "name": "Hướng Dẫn Của \"Phù Thế\"",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112054,
           "id": "spectral_heart",
           "name": "Hạt Bay Lượn U Ám",
           "amount": 9,
@@ -755,18 +949,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104322,
           "id": "philosophies_of_transience",
           "name": "Triết Học Của \"Phù Thế\"",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112055,
           "id": "spectral_nucleus",
           "name": "Hạt Bay Lượn Kết Tinh",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113026,
           "id": "hellfire_butterfly",
           "name": "Bướm Hỏa Ngục",
           "amount": 1,
@@ -779,18 +976,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104322,
           "id": "philosophies_of_transience",
           "name": "Triết Học Của \"Phù Thế\"",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112055,
           "id": "spectral_nucleus",
           "name": "Hạt Bay Lượn Kết Tinh",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113026,
           "id": "hellfire_butterfly",
           "name": "Bướm Hỏa Ngục",
           "amount": 1,
@@ -803,18 +1003,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104322,
           "id": "philosophies_of_transience",
           "name": "Triết Học Của \"Phù Thế\"",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112055,
           "id": "spectral_nucleus",
           "name": "Hạt Bay Lượn Kết Tinh",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113026,
           "id": "hellfire_butterfly",
           "name": "Bướm Hỏa Ngục",
           "amount": 2,
@@ -827,24 +1030,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104322,
           "id": "philosophies_of_transience",
           "name": "Triết Học Của \"Phù Thế\"",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112055,
           "id": "spectral_nucleus",
           "name": "Hạt Bay Lượn Kết Tinh",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113026,
           "id": "hellfire_butterfly",
           "name": "Bướm Hỏa Ngục",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Vương Miện Trí Thức",
           "amount": 1,

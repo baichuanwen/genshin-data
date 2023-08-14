@@ -1,12 +1,12 @@
 {
+  "_id": 5,
   "id": "liyue_the_harbor_of_stone_and_contracts",
-  "originalId": 5,
   "name": "Liyue: Der Hafen des Gesteins und der Verträge",
-  "order": 8,
+  "order": 10,
   "achievements": [
     {
       "id": 80043,
-      "name": "Erkundung des Landes: Liyue",
+      "name": "Erkundung des Landes – Liyue",
       "desc": "Schalte die folgenden Gebiete auf der Karte frei: Bishui-Ebene, Qiongji-Mündung, Minlin, Lisha und Wolkenmeer.",
       "reward": 5,
       "hidden": false,
@@ -90,7 +90,7 @@
     },
     {
       "id": 80053,
-      "name": "Auf Abenteuer den Felsen hinterer",
+      "name": "Auf Abenteuer den Felsen hinterher",
       "desc": "Schließ 10 Zeitherausforderungen mit Vorrichtungen im Gebiet von Liyue ab (abgesehen von denen in der Großen Kluft).",
       "reward": 5,
       "hidden": false,
@@ -98,7 +98,7 @@
     },
     {
       "id": 80054,
-      "name": "Auf Abenteuer den Felsen hinterer",
+      "name": "Auf Abenteuer den Felsen hinterher",
       "desc": "Schließ 20 Zeitherausforderungen mit Vorrichtungen im Gebiet von Liyue ab (abgesehen von denen in der Großen Kluft).",
       "reward": 10,
       "hidden": false,
@@ -107,7 +107,7 @@
     },
     {
       "id": 80055,
-      "name": "Auf Abenteuer den Felsen hinterer",
+      "name": "Auf Abenteuer den Felsen hinterher",
       "desc": "Schließ 40 Zeitherausforderungen mit Vorrichtungen im Gebiet von Liyue ab (abgesehen von denen in der Großen Kluft).",
       "reward": 20,
       "hidden": false,

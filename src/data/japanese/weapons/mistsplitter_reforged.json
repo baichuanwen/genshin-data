@@ -1,4 +1,5 @@
 {
+  "_id": 11509,
   "id": "mistsplitter_reforged",
   "name": "霧切の廻光",
   "description": "烈々たる紫の光に輝く太刀。「廻光」という名は、かつて砕かれた過去に由来している。",
@@ -109,18 +110,21 @@
       "cost": 10000,
       "materials": [
         {
+          "_id": 114025,
           "id": "coral_branch_of_a_distant_sea",
           "name": "遠海夷地の瑚枝",
           "amount": 5,
           "rarity": 2
         },
         {
+          "_id": 112047,
           "id": "chaos_gear",
           "name": "混沌の機関",
           "amount": 5,
           "rarity": 2
         },
         {
+          "_id": 112044,
           "id": "old_handguard",
           "name": "古びた鍔",
           "amount": 3,
@@ -134,18 +138,21 @@
       "cost": 20000,
       "materials": [
         {
+          "_id": 114026,
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "遠海夷地の石枝",
           "amount": 5,
           "rarity": 3
         },
         {
+          "_id": 112047,
           "id": "chaos_gear",
           "name": "混沌の機関",
           "amount": 18,
           "rarity": 2
         },
         {
+          "_id": 112044,
           "id": "old_handguard",
           "name": "古びた鍔",
           "amount": 12,
@@ -159,18 +166,21 @@
       "cost": 30000,
       "materials": [
         {
+          "_id": 114026,
           "id": "jeweled_branch_of_a_distant_sea",
           "name": "遠海夷地の石枝",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112048,
           "id": "chaos_axis",
           "name": "混沌の中枢",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "影打の鍔",
           "amount": 9,
@@ -184,18 +194,21 @@
       "cost": 45000,
       "materials": [
         {
+          "_id": 114027,
           "id": "jade_branch_of_a_distant_sea",
           "name": "遠海夷地の玉枝",
           "amount": 5,
           "rarity": 4
         },
         {
+          "_id": 112048,
           "id": "chaos_axis",
           "name": "混沌の中枢",
           "amount": 18,
           "rarity": 3
         },
         {
+          "_id": 112045,
           "id": "kageuchi_handguard",
           "name": "影打の鍔",
           "amount": 14,
@@ -209,18 +222,21 @@
       "cost": 55000,
       "materials": [
         {
+          "_id": 114027,
           "id": "jade_branch_of_a_distant_sea",
           "name": "遠海夷地の玉枝",
           "amount": 9,
           "rarity": 4
         },
         {
+          "_id": 112049,
           "id": "chaos_oculus",
           "name": "混沌の真眼",
           "amount": 14,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "名刀の鍔",
           "amount": 9,
@@ -234,18 +250,21 @@
       "cost": 65000,
       "materials": [
         {
+          "_id": 114028,
           "id": "golden_branch_of_a_distant_sea",
           "name": "遠海夷地の金枝",
           "amount": 6,
           "rarity": 5
         },
         {
+          "_id": 112049,
           "id": "chaos_oculus",
           "name": "混沌の真眼",
           "amount": 27,
           "rarity": 4
         },
         {
+          "_id": 112046,
           "id": "famed_handguard",
           "name": "名刀の鍔",
           "amount": 18,
@@ -254,6 +273,17 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "霧切の御腰物",
+    "template": "全元素ダメージ+<span style=\"color:#99FFFFFF\">{0}</span>、「霧切の巴紋」の効果を獲得できる。霧切の巴紋を1/2/3層有する時、自身元素タイプの元素ダメージ+<span style=\"color:#99FFFFFF\">{1}</span>。霧切の巴紋は次の各状況において獲得できる。通常攻撃で元素ダメージを与えた時、継続時間5秒の霧切の巴紋を1層獲得する。元素爆発を発動した時、継続時間10秒の霧切の巴紋を1層獲得する。また、キャラクターの元素エネルギーが100%未満の場合、霧切の巴紋を1層獲得する、この霧切の巴紋は元素エネルギーが満タンになると消失する。霧切の巴紋の継続時間は層ごとに独立している。",
+    "params": [
+      ["12%", "8/16/28%"],
+      ["15%", "10/20/35%"],
+      ["18%", "12/24/42%"],
+      ["21%", "14/28/49%"],
+      ["24%", "16/32/56%"]
+    ]
+  },
   "refinements": [
     {
       "refinement": 1,

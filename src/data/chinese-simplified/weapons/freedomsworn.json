@@ -1,4 +1,5 @@
 {
+  "_id": 11503,
   "id": "freedomsworn",
   "name": "苍古自由之誓",
   "description": "如同悠古的歌声一般苍蓝的直剑，如同风之国土自由的誓言一般锐利的武器。",
@@ -109,18 +110,21 @@
       "cost": 10000,
       "materials": [
         {
+          "_id": 114009,
           "id": "fetters_of_the_dandelion_gladiator",
           "name": "狮牙斗士的枷锁",
           "amount": 5,
           "rarity": 2
         },
         {
+          "_id": 112023,
           "id": "chaos_device",
           "name": "混沌装置",
           "amount": 5,
           "rarity": 2
         },
         {
+          "_id": 112008,
           "id": "divining_scroll",
           "name": "导能绘卷",
           "amount": 3,
@@ -134,18 +138,21 @@
       "cost": 20000,
       "materials": [
         {
+          "_id": 114010,
           "id": "chains_of_the_dandelion_gladiator",
           "name": "狮牙斗士的铁链",
           "amount": 5,
           "rarity": 3
         },
         {
+          "_id": 112023,
           "id": "chaos_device",
           "name": "混沌装置",
           "amount": 18,
           "rarity": 2
         },
         {
+          "_id": 112008,
           "id": "divining_scroll",
           "name": "导能绘卷",
           "amount": 12,
@@ -159,18 +166,21 @@
       "cost": 30000,
       "materials": [
         {
+          "_id": 114010,
           "id": "chains_of_the_dandelion_gladiator",
           "name": "狮牙斗士的铁链",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112024,
           "id": "chaos_circuit",
           "name": "混沌回路",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "封魔绘卷",
           "amount": 9,
@@ -184,18 +194,21 @@
       "cost": 45000,
       "materials": [
         {
+          "_id": 114011,
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "狮牙斗士的镣铐",
           "amount": 5,
           "rarity": 4
         },
         {
+          "_id": 112024,
           "id": "chaos_circuit",
           "name": "混沌回路",
           "amount": 18,
           "rarity": 3
         },
         {
+          "_id": 112009,
           "id": "sealed_scroll",
           "name": "封魔绘卷",
           "amount": 14,
@@ -209,18 +222,21 @@
       "cost": 55000,
       "materials": [
         {
+          "_id": 114011,
           "id": "shackles_of_the_dandelion_gladiator",
           "name": "狮牙斗士的镣铐",
           "amount": 9,
           "rarity": 4
         },
         {
+          "_id": 112025,
           "id": "chaos_core",
           "name": "混沌炉心",
           "amount": 14,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "禁咒绘卷",
           "amount": 9,
@@ -234,18 +250,21 @@
       "cost": 65000,
       "materials": [
         {
+          "_id": 114012,
           "id": "dream_of_the_dandelion_gladiator",
           "name": "狮牙斗士的理想",
           "amount": 6,
           "rarity": 5
         },
         {
+          "_id": 112025,
           "id": "chaos_core",
           "name": "混沌炉心",
           "amount": 27,
           "rarity": 4
         },
         {
+          "_id": 112010,
           "id": "forbidden_curse_scroll",
           "name": "禁咒绘卷",
           "amount": 18,
@@ -254,6 +273,17 @@
       ]
     }
   ],
+  "refinement_raw": {
+    "name": "抗争的践行之歌",
+    "template": "飘游风中的「千年的大乐章」的一部分。造成的伤害提高<span style=\"color:#99FFFFFF\">{0}</span>；触发元素反应时，角色获得一枚奋起之符，每0.5秒内至多触发一次，角色处于队伍后台也能触发。拥有2枚奋起之符时，将消耗所有奋起之符，使附近的队伍中所有角色获得持续12秒的「千年的大乐章·抗争之歌」效果：普通攻击、重击、下落攻击造成的伤害提高<span style=\"color:#99FFFFFF\">{1}</span>，攻击力提升<span style=\"color:#99FFFFFF\">{2}</span>。触发后20秒内，无法再次获得奋起之符。「千年的大乐章」触发的多种数值效果中，同类数值效果不可叠加。",
+    "params": [
+      ["10%", "16%", "20%"],
+      ["12.5%", "20%", "25%"],
+      ["15%", "24%", "30%"],
+      ["17.5%", "28%", "35%"],
+      ["20%", "32%", "40%"]
+    ]
+  },
   "refinements": [
     {
       "refinement": 1,

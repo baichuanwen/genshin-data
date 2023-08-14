@@ -1,0 +1,29 @@
+{
+  "_id": 214021,
+  "id": "awakening",
+  "name": "Risveglio",
+  "title": "Razor: Risveglio",
+  "desc": "La caccia sta per iniziare.",
+  "in_play_description": "Quando Razor, che è equipaggiato con questa carta, usa <span style=\"color:#FFFFFFFF\">Artiglio tonante</span>, 1 dei tuoi personaggi di Electro ottiene 1 punto Energia (priorità al personaggio attivo).",
+  "attributes": {
+    "cost": 4,
+    "cost_type": "Electro",
+    "card_type": "Carta equipaggiamento",
+    "energy": [
+      {
+        "_id": 1104,
+        "id": "electro",
+        "type": "Electro",
+        "count": 4
+      }
+    ],
+    "source": "Ricompensa ottenuta sfidando Razor a duello alla Coda di Gatto e completando tutti gli obiettivi della sfida corrispondente",
+    "tags": ["Talento", "Azione di combattimento"]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "<span style=\"color:#FFFFFFFF\">Azione di combattimento</span>: se il tuo personaggio attivo è <span style=\"color:#FFFFFFFF\">Razor</span>, equipaggia questa carta.<br/>Dopo che Razor viene equipaggiato con questa carta, utilizza immediatamente <span style=\"color:#FFD780FF\">Artiglio tonante</span> una volta.<br/>Quando Razor, che è equipaggiato con questa carta, usa <span style=\"color:#FFFFFFFF\">Artiglio tonante</span>, 1 dei tuoi personaggi di Electro ottiene 1 punto Energia (priorità al personaggio attivo).<br/>(Per aggiungere questa carta, il tuo mazzo deve contenere Razor.)"
+    }
+  ]
+}

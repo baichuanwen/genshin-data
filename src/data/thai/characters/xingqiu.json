@@ -1,8 +1,9 @@
 {
+  "_id": 10000025,
   "id": "xingqiu",
   "name": "Xingqiu",
   "title": "หนุ่มน้อยนักธุรกิจ",
-  "description": "เด็กหนุ่มผู้มักจะพบได้ที่ แผงขายหนังสือ ในมือถือดาบยาว และมีจิตวิญญาณแห่ง ความกล้าอยู่ในตัว",
+  "description": "เด็กหนุ่มผู้มักจะปรากฏตัวตามแผงขายหนังสือ ในมือถือดาบยาว ในใจมีจิตวิญญาณแห่งความกล้าสถิตอยู่",
   "weapon_type": "ดาบ",
   "element": "น้ำ",
   "gender": "ชาย",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10381,
       "id": "normal_attack_guhua_style",
       "name": "โจมตีปกติ: Guhua Style",
-      "description": "<span>โจมตีปกติ</span><br/>โจมตีด้วยดาบต่อเนื่องมากสุดห้าครั้ง<br/><br/><span>ชาร์จโจมตี</span><br/>ใช้พลังกายส่วนหนึ่งเพื่อปลดปล่อยดาบ ออกไปข้างหน้าสองเล่มในช่วงเวลาสั้น ๆ<br/><br/><span>โจมตีพุ่งลงจากอากาศ</span><br/>กระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
+      "description": "<span>โจมตีปกติ</span><br/>โจมตีด้วยดาบต่อเนื่องมากสุด 5 ครั้ง<br/><br/><span>ชาร์จโจมตี</span><br/>ใช้พลังกายส่วนหนึ่ง เพื่อปลดปล่อยดาบออกไปข้างหน้า 2 ครั้ง อย่างรวดเร็ว<br/><br/><span>โจมตีพุ่งลงจากอากาศ</span><br/>กระโจนจากกลางอากาศลงมายังพื้นดิน เพื่อโจมตีศัตรูที่อยู่ในเส้นทางการโจมตี โดยจะสร้างความเสียหายวงกว้างเมื่อลงถึงพื้น",
       "info": "",
       "attributes": [
         {
@@ -209,9 +211,10 @@
       ]
     },
     {
+      "_id": 10382,
       "id": "guhua_sword_fatal_rainscreen",
       "name": "Guhua Sword: Fatal Rainscreen",
-      "description": "โจมตีฟันต่อเนื่องสองครั้ง สร้าง<span>ความเสียหายน้ำ</span>แก่ศัตรูที่อยู่ตรงหน้า ขณะเดียวกันจะสร้าง Rain Sword จำนวนสูงสุดขึ้นมารอบ ๆ ตัวละครของตนเองที่เข้าต่อสู้ในขณะนั้น<br/>Rain Sword มีคุณสมบัติดังนี้:<br/>·จะแตกเมื่อตัวละครได้รับความเสียหาย โดยจะลดความเสียหายที่ได้รับลง;<br/>·เพิ่มความสามารถใน การต้านทานการหยุดชะงักของตัวละคร<br/>20% ของ<span>โบนัสความเสียหายน้ำ</span>ของ Xingqiu จะเปลี่ยนเป็นการลด ความเสียหายเพิ่มเติมของ Rain Swords<br/><br/>ลดความเสียหายเพิ่มเติมด้วยวิธีนี้ได้มากสุด 24%<br/>จำนวนมากสุดในตอนเริ่มของ Rain Sword คือ 3 เล่ม<br/>ทันทีที่ปล่อยออกมาจะทำให้ตัวละครติดสถานะ<span>เปียกชุ่ม</span>",
+      "description": "โจมตีฟันต่อเนื่อง 2 ครั้ง เพื่อสร้าง<span>ความเสียหายน้ำ</span>แก่ศัตรูที่อยู่ตรงหน้า และในขณะเดียวกัน จะสร้าง Rain Sword จำนวนสูงสุดขึ้นมารอบ ๆ ตัวละครของตนเองที่เข้าต่อสู้ในขณะนั้น<br/>Rain Sword มีคุณสมบัติดังนี้:<br/>·จะแตกเมื่อตัวละครได้รับความเสียหาย โดยจะลดความเสียหายที่ได้รับลง;<br/>·เพิ่มความสามารถในการต้านทานการหยุดชะงักของตัวละคร;<br/>20% ของ<span>โบนัสความเสียหายน้ำ</span>ของ Xingqiu จะเปลี่ยนเป็นการลดความเสียหายเพิ่มเติมของ Rain Sword<br/><br/>สามารถลดความเสียหายเพิ่มเติมด้วยวิธีนี้ได้มากสุด 24%<br/>จำนวนมากสุดในตอนเริ่มของ Rain Sword คือ 3 เล่ม<br/>ทันทีที่ปลดปล่อยสกิล จะทำให้ตัวละครติดสถานะ<span>เปียกชุ่ม</span>",
       "info": "\"มันง่ายกว่าที่จะฟันมังกรแทนที่จะผ่าสายฝน\"",
       "attributes": [
         {
@@ -235,7 +238,7 @@
           ]
         },
         {
-          "label": "ลดอัตราส่วนการบาดเจ็บ",
+          "label": "สัดส่วนการลดความเสียหาย",
           "values": [
             "20%",
             "21%",
@@ -275,32 +278,33 @@
           ]
         },
         {
-          "label": "เวลาคูลดาวน์",
+          "label": "คูลดาวน์",
           "values": [
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที",
-            "21 วินาที"
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ",
+            "21 วิ"
           ]
         }
       ]
     },
     {
+      "_id": 10385,
       "id": "guhua_sword_raincutter",
       "name": "Guhua Sword: Raincutter",
-      "description": "เปิดใช้ Rainbow Bladework ต่อสู้โดย ใช้ภาพมายาของฝนดาบและสร้าง Rain Sword จำนวนสูงสุดขึ้นมา<br/><br/><span>Rainbow Bladework</span><br/>·เมื่อตัวละครของตนเองที่เข้าต่อสู้ในขณะนั้นโจมตีปกติ จะทำการโจมตีด้วยฝนดาบอย่างต่อเนื่อง สร้าง<span>ความเสียหายน้ำ</span>;<br/>·จำนวนของ Rain Sword จะยังคงมีจำนวนสูงสุดตลอดระยะเวลาของสกิล",
-      "info": "Way of the Rain Cutter หนึ่งในเคล็ดวิชาลับที่ไม่ได้ถูกสอนต่อกันมาของ Guhua",
+      "description": "เปิดใช้ Rainbow Bladework ต่อสู้โดยใช้ภาพมายาของฝนดาบ และสร้าง Rain Sword จำนวนสูงสุดขึ้นมา<br/><br/><span>Rainbow Bladework</span><br/>·เมื่อตัวละครของตนเองที่เข้าต่อสู้ในขณะนั้น ใช้การโจมตีปกติ จะเกิดการโจมตีด้วยฝนดาบอย่างต่อเนื่อง เพื่อสร้าง<span>ความเสียหายน้ำ</span>;<br/>·จำนวนของ Rain Sword จะยังคงมีจำนวนสูงสุดตลอดระยะเวลาของสกิล",
+      "info": "\"สะบั้นพิรุณ\" หนึ่งในเคล็ดวิชาลับของ Guhua ซึ่งมีคนรู้เพียงแค่หยิบมือ",
       "attributes": [
         {
           "label": "ความเสียหายฝนดาบ",
@@ -389,13 +393,13 @@
     {
       "id": "hydropathic",
       "name": "Hydropathic",
-      "description": "เมื่อ Rain Sword ถูกทำลายหรือหมดเวลาตัวละครในขณะนั้นจะได้รับการฟื้นฟูพลังชีวิต โดยจะมีปริมาณเท่ากับ 6% ของพลังชีวิตสูงสุดของ Xingqiu",
+      "description": "เมื่อ Rain Sword ถูกทำลาย หรือสิ้นสุดช่วงเวลาต่อเนื่อง จะฟื้นฟูพลังชีวิตของตัวละครในขณะนั้น โดยจะมีปริมาณเท่ากับ 6% ของพลังชีวิตสูงสุดของ Xingqiu",
       "level": 1
     },
     {
       "id": "blades_amidst_raindrops",
       "name": "Blades Amidst Raindrops",
-      "description": "Xingqiu ได้รับ<span>โบนัสความเสียหายน้ำ</span>เพิ่ม 20%",
+      "description": "Xingqiu ได้รับ<span>โบนัสความเสียหายน้ำ</span> 20%",
       "level": 4
     },
     {
@@ -407,36 +411,42 @@
   ],
   "constellations": [
     {
+      "_id": 251,
       "id": "the_scent_remained",
       "name": "The Scent Remained",
       "description": "จำนวนมากสุดของ Rain Sword เพิ่มขึ้น 1 เล่ม",
       "level": 1
     },
     {
+      "_id": 252,
       "id": "rainbow_upon_the_azure_sky",
       "name": "Rainbow Upon the Azure Sky",
       "description": "ระยะเวลาคงอยู่ของ <span>Guhua Sword: Raincutter</span> นานขึ้น 3 วินาที;<br/>นอกจากนี้ ศัตรูที่ถูกฝนดาบโจมตี จะถูกลด<span>ความต้านทานน้ำ</span>ลง 15% เป็นเวลา 4 วินาที",
       "level": 2
     },
     {
+      "_id": 253,
       "id": "weaver_of_verses",
       "name": "Weaver of Verses",
       "description": "เพิ่มเลเวลสกิลของ <span>Guhua Sword: Raincutter</span> ขึ้น 3 ระดับ<br/>เพิ่มได้สูงสุดถึงระดับ 15",
       "level": 3
     },
     {
+      "_id": 254,
       "id": "evilsoother",
       "name": "Evilsoother",
-      "description": "ในระยะเวลาคงอยู่ของ <span>Guhua Sword: Raincutter</span> ความเสียหายที่สร้างขึ้นจาก <span>Guhua Sword: Fatal Rainscreen</span> เพิ่มขึ้น 50%",
+      "description": "ในระหว่างช่วงเวลาเอฟเฟกต์ของ <span>Guhua Sword: Raincutter</span> ความเสียหายที่ <span>Guhua Sword: Fatal Rainscreen</span> สร้างจะเพิ่มขึ้น 50%",
       "level": 4
     },
     {
+      "_id": 255,
       "id": "embrace_of_rain",
       "name": "Embrace of Rain",
       "description": "เพิ่มเลเวลสกิลของ <span>Guhua Sword: Fatal Rainscreen</span> ขึ้น 3 ระดับ<br/>เพิ่มได้สูงสุดถึงระดับ 15",
       "level": 5
     },
     {
+      "_id": 256,
       "id": "hence_call_them_my_own_verses",
       "name": "Hence, Call Them My Own Verses",
       "description": "ทุกการปล่อยการโจมตีด้วยฝนดาบ 2 ครั้ง <span>Guhua Sword: Raincutter</span> จะเพิ่มความเสียหายของฝนดาบครั้งต่อไปขึ้นในปริมาณมาก และฟื้นฟูพลังงานธาตุของ Xingqiu ขึ้น 3 หน่วย ในตอนที่โจมตีโดนศัตรู",
@@ -445,22 +455,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [0, 1]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["-", "857"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["-", "17"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["-", "64"]
+        },
+        {
+          "label": "พลังโจมตี",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [1, 2]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["2202", "2842"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["43", "56"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["163", "211"]
+        },
+        {
+          "label": "พลังโจมตี",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104121,
         "id": "varunada_lazurite_sliver",
         "name": "Varunada Lazurite Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "Damaged Mask",
         "amount": 3,
@@ -468,28 +527,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [2, 3]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["4257", "4712"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["84", "93"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["316", "349"]
+        },
+        {
+          "label": "พลังโจมตี",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "Varunada Lazurite Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "Cleansing Heart",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112005,
         "id": "damaged_mask",
         "name": "Damaged Mask",
         "amount": 15,
@@ -497,28 +581,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [3, 4]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["5420", "6027"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["107", "119"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["402", "447"]
+        },
+        {
+          "label": "พลังโจมตี",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "Varunada Lazurite Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "Cleansing Heart",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "Stained Mask",
         "amount": 12,
@@ -526,28 +635,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [4, 5]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["6735", "7190"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["133", "142"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["499", "533"]
+        },
+        {
+          "label": "พลังโจมตี",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "Varunada Lazurite Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "Cleansing Heart",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112006,
         "id": "stained_mask",
         "name": "Stained Mask",
         "amount": 18,
@@ -555,28 +689,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [5, 6]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["7897", "8352"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["156", "165"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["585", "619"]
+        },
+        {
+          "label": "พลังโจมตี",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "Varunada Lazurite Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "Cleansing Heart",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "Ominous Mask",
         "amount": 12,
@@ -584,28 +743,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "เลื่อนขั้น",
+          "values": [6, 7]
+        },
+        {
+          "label": "พลังชีวิตพื้นฐาน",
+          "values": ["9060", "9514"]
+        },
+        {
+          "label": "พลังโจมตีพื้นฐาน",
+          "values": ["179", "188"]
+        },
+        {
+          "label": "ป้องกันพื้นฐาน",
+          "values": ["671", "705"]
+        },
+        {
+          "label": "พลังโจมตี",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104124,
         "id": "varunada_lazurite_gemstone",
         "name": "Varunada Lazurite Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113012,
         "id": "cleansing_heart",
         "name": "Cleansing Heart",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100029,
         "id": "silk_flower",
         "name": "Silk Flower",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112007,
         "id": "ominous_mask",
         "name": "Ominous Mask",
         "amount": 24,
@@ -619,12 +803,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104316,
           "id": "teachings_of_gold",
           "name": "Teachings of Gold",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112005,
           "id": "damaged_mask",
           "name": "Damaged Mask",
           "amount": 6,
@@ -637,12 +823,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 3,
@@ -655,12 +843,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 4,
@@ -673,12 +863,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 6,
@@ -691,12 +883,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112006,
           "id": "stained_mask",
           "name": "Stained Mask",
           "amount": 9,
@@ -709,18 +903,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Tail of Boreas",
           "amount": 1,
@@ -733,18 +930,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Tail of Boreas",
           "amount": 1,
@@ -757,18 +957,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Tail of Boreas",
           "amount": 2,
@@ -781,24 +984,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112007,
           "id": "ominous_mask",
           "name": "Ominous Mask",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113006,
           "id": "tail_of_boreas",
           "name": "Tail of Boreas",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

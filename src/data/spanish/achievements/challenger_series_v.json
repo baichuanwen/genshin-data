@@ -1,13 +1,13 @@
 {
+  "_id": 29,
   "id": "challenger_series_v",
-  "originalId": 29,
-  "name": "Retador - Parte 5",
-  "order": 15,
+  "name": "Retador: Parte 5",
+  "order": 18,
   "achievements": [
     {
       "id": 82115,
       "name": "Al enemigo, ni agua",
-      "desc": "Consigue al menos tres orbes curativos lanzados por las masas de agua del Hipostasis Hydro en un mismo combate.",
+      "desc": "Consigue al menos tres orbes curativos lanzados por las masas de agua del Hipóstasis Hydro en un mismo combate.",
       "reward": 5,
       "hidden": false,
       "order": 2115
@@ -15,7 +15,7 @@
     {
       "id": 82116,
       "name": "Camino de obstáculos",
-      "desc": "Utiliza obstáculos, ataques que lancen por los aires u otros medios para impedir que el Hipostasis Hydro reviva sin haber destruido ninguna masa de agua.",
+      "desc": "Utiliza obstáculos, ataques que lancen por los aires u otros medios para impedir que el Hipóstasis Hydro reviva sin haber destruido ninguna masa de agua.",
       "reward": 5,
       "hidden": false,
       "order": 2116
@@ -47,7 +47,7 @@
     {
       "id": 82120,
       "name": "Prohibido bañarse",
-      "desc": "Derrota a la manada de Dragartos de las Profundidades sin que lleguen a entrar en el agua.",
+      "desc": "Derrota a la Manada de Dragartos de las Profundidades sin que lleguen a entrar en el agua.",
       "reward": 5,
       "hidden": false,
       "order": 2120

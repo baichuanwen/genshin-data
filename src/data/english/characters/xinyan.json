@@ -1,4 +1,5 @@
 {
+  "_id": 10000044,
   "id": "xinyan",
   "name": "Xinyan",
   "title": "Blazing Riff",
@@ -21,9 +22,10 @@
   },
   "skills": [
     {
+      "_id": 10441,
       "id": "normal_attack_dance_on_fire",
       "name": "Normal Attack: Dance on Fire",
-      "description": "<span>Normal Attack</span><br/>Perform up to 4 consecutive strikes.<br/><br/><span>Charged Attack</span><br/>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br/>At the end of the sequence, perform a more powerful slash. <br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
+      "description": "<span>Normal Attack</span><br/>Performs up to 4 consecutive strikes.<br/><br/><span>Charged Attack</span><br/>Drains Stamina over time to perform continuous spinning attacks against all nearby opponents.<br/>At the end of the sequence, performs a more powerful slash. <br/><br/><span>Plunging Attack</span><br/>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
       "info": "",
       "attributes": [
         {
@@ -107,7 +109,7 @@
           ]
         },
         {
-          "label": "Charged Attack Spinning DMG",
+          "label": "Charged Attack Cyclic DMG",
           "values": [
             "62.55%",
             "67.64%",
@@ -229,6 +231,7 @@
       ]
     },
     {
+      "_id": 10442,
       "id": "sweeping_fervor",
       "name": "Sweeping Fervor",
       "description": "Xinyan brandishes her instrument, dealing <span>Pyro DMG</span> on nearby opponents, forming a shield made out of her audience's passion.<br/>The shield's DMG Absorption scales based on Xinyan's DEF and on the number of opponents hit.<br/>·Hitting 0–1 opponents grants Shield Level 1: Ad Lib.<br/>·Hitting 2 opponents grants Shield Level 2: Lead-In.<br/>·Hitting 3 or more opponents grants Shield Level 3: Rave, which will also deal intermittent <span>Pyro DMG</span> to nearby opponents.<br/><br/>The shield has the following special properties:<br/>·When unleashed, it infuses Xinyan with <span>Pyro</span>.<br/>·It has 250% DMG Absorption effectiveness against <span>Pyro DMG</span>.",
@@ -377,6 +380,7 @@
       ]
     },
     {
+      "_id": 10443,
       "id": "riff_revolution",
       "name": "Riff Revolution",
       "description": "Strumming rapidly, Xinyan launches nearby opponents and deals Physical DMG to them, hyping up the crowd.<br/>The sheer intensity of the atmosphere will cause explosions that deal <span>Pyro DMG</span> to nearby opponents.",
@@ -507,36 +511,42 @@
   ],
   "constellations": [
     {
+      "_id": 441,
       "id": "fatal_acceleration",
       "name": "Fatal Acceleration",
       "description": "Upon scoring a CRIT Hit, increases ATK SPD of Xinyan's Normal and Charged Attacks by 12% for 5s.<br/>Can only occur once every 5s.",
       "level": 1
     },
     {
+      "_id": 442,
       "id": "impromptu_opening",
       "name": "Impromptu Opening",
       "description": "<span>Riff Revolution</span>'s Physical DMG has its CRIT Rate increased by 100%, and will form a shield at Shield Level 3: Rave when cast.",
       "level": 2
     },
     {
+      "_id": 443,
       "id": "doublestop",
       "name": "Double-Stop",
       "description": "Increases the Level of <span>Sweeping Fervor</span> by 3.<br/>Maximum upgrade level is 15.",
       "level": 3
     },
     {
+      "_id": 444,
       "id": "wildfire_rhythm",
       "name": "Wildfire Rhythm",
       "description": "<span>Sweeping Fervor</span>'s swing DMG decreases opponent's Physical RES by 15% for 12s.",
       "level": 4
     },
     {
+      "_id": 445,
       "id": "screamin_for_an_encore",
       "name": "Screamin' for an Encore",
       "description": "Increases the Level of <span>Riff Revolution</span> by 3.<br/>Maximum upgrade level is 15.",
       "level": 5
     },
     {
+      "_id": 446,
       "id": "rockin_in_a_flaming_world",
       "name": "Rockin' in a Flaming World",
       "description": "Decreases the Stamina Consumption of Xinyan's Charged Attacks by 30%. Additionally, Xinyan's Charged Attacks gain an ATK Bonus equal to 50% of her DEF.",
@@ -545,22 +555,71 @@
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [0, 1]
+        },
+        {
+          "label": "Base HP",
+          "values": ["-", "939"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["-", "21"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["-", "67"]
+        },
+        {
+          "label": "ATK",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [1, 2]
+        },
+        {
+          "label": "Base HP",
+          "values": ["2413", "3114"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["54", "69"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["172", "222"]
+        },
+        {
+          "label": "ATK",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104111,
         "id": "agnidus_agate_sliver",
         "name": "Agnidus Agate Sliver",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112035,
         "id": "treasure_hoarder_insignia",
         "name": "Treasure Hoarder Insignia",
         "amount": 3,
@@ -568,28 +627,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [2, 3]
+        },
+        {
+          "label": "Base HP",
+          "values": ["4665", "5163"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["103", "115"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["333", "368"]
+        },
+        {
+          "label": "ATK",
+          "values": ["0.0%", "6.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Everflame Seed",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112035,
         "id": "treasure_hoarder_insignia",
         "name": "Treasure Hoarder Insignia",
         "amount": 15,
@@ -597,28 +681,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [3, 4]
+        },
+        {
+          "label": "Base HP",
+          "values": ["5939", "6604"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["132", "147"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["423", "471"]
+        },
+        {
+          "label": "ATK",
+          "values": ["6.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104112,
         "id": "agnidus_agate_fragment",
         "name": "Agnidus Agate Fragment",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Everflame Seed",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112036,
         "id": "silver_raven_insignia",
         "name": "Silver Raven Insignia",
         "amount": 12,
@@ -626,28 +735,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [4, 5]
+        },
+        {
+          "label": "Base HP",
+          "values": ["7379", "7878"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["164", "175"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["526", "562"]
+        },
+        {
+          "label": "ATK",
+          "values": ["12.0%", "12.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Agnidus Agate Chunk",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Everflame Seed",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112036,
         "id": "silver_raven_insignia",
         "name": "Silver Raven Insignia",
         "amount": 18,
@@ -655,28 +789,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [5, 6]
+        },
+        {
+          "label": "Base HP",
+          "values": ["8653", "9151"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["192", "203"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["617", "652"]
+        },
+        {
+          "label": "ATK",
+          "values": ["12.0%", "18.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104113,
         "id": "agnidus_agate_chunk",
         "name": "Agnidus Agate Chunk",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Everflame Seed",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112037,
         "id": "golden_raven_insignia",
         "name": "Golden Raven Insignia",
         "amount": 12,
@@ -684,28 +843,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Ascend",
+          "values": [6, 7]
+        },
+        {
+          "label": "Base HP",
+          "values": ["9927", "10425"]
+        },
+        {
+          "label": "Base ATK",
+          "values": ["220", "231"]
+        },
+        {
+          "label": "Base DEF",
+          "values": ["708", "743"]
+        },
+        {
+          "label": "ATK",
+          "values": ["18.0%", "24.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104114,
         "id": "agnidus_agate_gemstone",
         "name": "Agnidus Agate Gemstone",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113011,
         "id": "everflame_seed",
         "name": "Everflame Seed",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100034,
         "id": "violetgrass",
         "name": "Violetgrass",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112037,
         "id": "golden_raven_insignia",
         "name": "Golden Raven Insignia",
         "amount": 24,
@@ -719,12 +903,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104316,
           "id": "teachings_of_gold",
           "name": "Teachings of Gold",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112035,
           "id": "treasure_hoarder_insignia",
           "name": "Treasure Hoarder Insignia",
           "amount": 6,
@@ -737,12 +923,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Silver Raven Insignia",
           "amount": 3,
@@ -755,12 +943,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Silver Raven Insignia",
           "amount": 4,
@@ -773,12 +963,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Silver Raven Insignia",
           "amount": 6,
@@ -791,12 +983,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104317,
           "id": "guide_to_gold",
           "name": "Guide to Gold",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Silver Raven Insignia",
           "amount": 9,
@@ -809,18 +1003,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Golden Raven Insignia",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Tusk of Monoceros Caeli",
           "amount": 1,
@@ -833,18 +1030,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Golden Raven Insignia",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Tusk of Monoceros Caeli",
           "amount": 1,
@@ -857,18 +1057,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Golden Raven Insignia",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Tusk of Monoceros Caeli",
           "amount": 2,
@@ -881,24 +1084,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104318,
           "id": "philosophies_of_gold",
           "name": "Philosophies of Gold",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Golden Raven Insignia",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113013,
           "id": "tusk_of_monoceros_caeli",
           "name": "Tusk of Monoceros Caeli",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Crown of Insight",
           "amount": 1,

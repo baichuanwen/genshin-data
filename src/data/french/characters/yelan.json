@@ -1,4 +1,5 @@
 {
+  "_id": 10000060,
   "id": "yelan",
   "name": "Yelan",
   "title": "Orchidée de la vallée",
@@ -16,14 +17,15 @@
   "cv": {
     "english": "Laura Post",
     "chinese": "徐慧",
-    "japanese": "远藤绫",
+    "japanese": "遠藤綾",
     "korean": "Min Ah"
   },
   "skills": [
     {
+      "_id": 10606,
       "id": "normal_attack_stealthy_bowshot",
       "name": "Attaque normale : Sagette furtive",
-      "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 4 tirs consécutifs.<br/><br/><span>Attaque chargée</span><br/>Effectue un <span>tir visé</span> plus précis infligeant davantage de DGT.<br/>Lors de la visée, la flèche se charge de flux d'eau, infligeant des <span>DGT Hydro</span> quand elle est complètement chargée.<br/><br/><span>Percée</span><br/>Si l'équipe est hors combat pendant 5 s, Yelan entre dans un état de Percée permettant de diminuer le temps de charge de son prochain tir visé de 80 %, et une fois le tir complètement chargé, elle peut tirer une flèche perçante qui inflige des <span>DGT Hydro de zone</span> selon ses PV max.<br/><br/><span>Attaque plongeante</span><br/>Tire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
+      "description": "<span>Attaque normale</span><br/>Enchaîne jusqu'à 4 tirs consécutifs.<br/><br/><span>Attaque chargée</span><br/>Effectue un <span>tir visé</span> plus précis infligeant davantage de DGT.<br/>Lors de la visée, la flèche se charge de flux d'eau, infligeant des <span>DGT Hydro</span> quand elle est complètement chargée.<br/><br/><span>Percée</span><br/>Si l'équipe est hors combat pendant 5 s, Yelan entre dans l'état Percée permettant de diminuer le temps de charge de son prochain tir visé de 80 %, et une fois le tir complètement chargé, elle peut tirer une flèche perçante qui inflige des <span>DGT Hydro de zone</span> selon ses PV max.<br/><br/><span>Attaque plongeante</span><br/>Tire une pluie de flèches depuis les airs et plonge au sol, infligeant des DGT de zone à l'impact.",
       "info": "",
       "attributes": [
         {
@@ -209,9 +211,10 @@
       ]
     },
     {
+      "_id": 10607,
       "id": "lingering_lifeline",
       "name": "Ligne vitale persistante",
-      "description": "Tire une ligne vitale et court à grande vitesse, enchevêtrant et marquant les ennemis sur son chemin.<br/>À la fin du déplacement, la ligne vitale explose, infligeant des <span>DGT Hydro</span> aux ennemis marqués selon les PV max de Yelan.<br/><br/><span>Appui simple</span><br/>Avance rapidement sur une certaine distance.<br/><br/><span>Appui long</span><br/>Avance rapidement de façon continue, tout en augmentant la RÉS à l'interruption de Yelan pendant son mouvement.<br/>Pendant ce déplacement, Yelan peut contrôler la direction de sa course et peut s'arrêter en utilisant à nouveau la compétence.<br/><br/>De plus, chaque ennemi marqué par la ligne vitale lorsqu'elle explose accorde à Yelan 34 % de chances d'obtenir un état de Percée.",
+      "description": "Tire une ligne vitale et court à grande vitesse, enchevêtrant et marquant les ennemis sur son chemin.<br/>À la fin du déplacement, la ligne vitale explose, infligeant des <span>DGT Hydro</span> aux ennemis marqués selon les PV max de Yelan.<br/><br/><span>Appui simple</span><br/>Avance rapidement sur une certaine distance.<br/><br/><span>Appui long</span><br/>Avance rapidement de façon continue, tout en augmentant la RÉS à l'interruption de Yelan pendant son mouvement.<br/>Pendant ce déplacement, Yelan peut contrôler la direction de sa course et peut s'arrêter en utilisant à nouveau la compétence.<br/><br/>De plus, chaque ennemi marqué par la ligne vitale lorsqu'elle explose accorde à Yelan 34 % de chances d'obtenir l'état Percée.",
       "info": "Ce n'est que lorsqu'elle commence à tirer sur la corde que les malfaiteurs, les escrocs et les tricheurs se rendent compte qu'il n'y a pas d'échappatoire...",
       "attributes": [
         {
@@ -277,9 +280,10 @@
       ]
     },
     {
+      "_id": 10610,
       "id": "depthclarion_dice",
       "name": "Dé exquis des profondeurs",
-      "description": "Inflige des <span>DGT Hydro de zone</span> et crée un dé exquis pour aider en combat.<br/><br/><span>Dé exquis</span><br/>Suit le personnage et déclenche une attaque coordonnée dans les circonstances suivantes, infligeant des <span>DGT Hydro</span> selon les PV max de Yelan :<br/>· Chaque fois qu'un personnage déployé utilise une attaque normale, cet effet pouvant être déclenché une fois toutes les secondes.<br/>· Chaque fois que la ligne vitale de Yelan explose et touche des ennemis.",
+      "description": "Inflige des <span>DGT Hydro de zone</span> et crée un dé exquis pour aider en combat.<br/><br/><span>Dé exquis</span><br/>Suit le personnage et déclenche une attaque coordonnée dans les circonstances suivantes, infligeant des <span>DGT Hydro</span> selon les PV max de Yelan :<br/>· Chaque fois que votre personnage déployé utilise une attaque normale, cet effet pouvant être déclenché une fois toutes les secondes.<br/>· Chaque fois que la ligne vitale de Yelan explose et touche des ennemis.",
       "info": "« Devenir accro au jeu ne vous fera aucun bien... Je veux dire, je suis la croupière, alors faites le calcul : selon vous, quelles sont vos chances de me battre, alors que j'ai sept dés et que vous n'en avez qu'un seul ? »",
       "attributes": [
         {
@@ -395,7 +399,7 @@
     {
       "id": "adapt_with_ease",
       "name": "Adaptation aisée",
-      "description": "Tant qu'un <span>dé exquis</span> est en combat, les DGT infligés par le personnage déployé augmentent de 1 %, puis de 3,5 % supplémentaires toutes les secondes. Les DGT peuvent être augmentés jusqu'à 50 % maximum de cette manière.<br/>Utiliser à nouveau Dé exquis des profondeurs pendant la durée de l'effet décrit ci-dessus dissipera ce dernier.",
+      "description": "Tant qu'un <span>dé exquis</span> est en combat, les DGT infligés par votre personnage déployé augmentent de 1 %, puis de 3,5 % supplémentaires toutes les secondes. Les DGT peuvent être augmentés d'un maximum de 50 % de cette manière.<br/>Utiliser à nouveau Dé exquis des profondeurs pendant la durée de l'effet décrit ci-dessus dissipera ce dernier.",
       "level": 4
     },
     {
@@ -407,60 +411,115 @@
   ],
   "constellations": [
     {
+      "_id": 601,
       "id": "enter_the_plotters",
       "name": "Tricheur en jeu",
-      "description": "Confère une charge supplémentaire pour <span>Ligne vitale persistante</span>.",
+      "description": "Confère une utilisation supplémentaire de <span>Ligne vitale persistante</span>.",
       "level": 1
     },
     {
+      "_id": 602,
       "id": "taking_all_comers",
       "name": "Offert par la maison",
       "description": "Lorsqu'un <span>dé exquis</span> déclenche une attaque coordonnée, une flèche d'eau supplémentaire est envoyée pour infliger des DGT Hydro équivalant à 14 % des PV max de Yelan.<br/>Cet effet peut être déclenché une fois toutes les 1,8 s.",
       "level": 2
     },
     {
+      "_id": 603,
       "id": "beware_the_tricksters_dice",
       "name": "Dé pipé",
       "description": "Niveau d'aptitude <span>Dé exquis des profondeurs</span> +3.<br/>Niveau max : 15",
       "level": 3
     },
     {
+      "_id": 604,
       "id": "baitandswitch",
       "name": "Tour de passe-passe",
       "description": "Augmente les PV max de tous les personnages de l'équipe de 10 % pendant 25 s pour chaque ennemi marqué par la <span>ligne vitale</span> lorsqu'elle explose. Les PV max peuvent être augmentés jusqu'à 40 % de cette manière.",
       "level": 4
     },
     {
+      "_id": 605,
       "id": "dealers_sleight",
       "name": "Dextérité de la croupière",
       "description": "Niveau d'aptitude <span>Ligne vitale persistante</span> +3.<br/>Niveau max : 15",
       "level": 5
     },
     {
+      "_id": 606,
       "id": "winner_takes_all",
       "name": "Tout pour le vainqueur",
-      "description": "Après avoir utilisé <span>Dé exquis des profondeurs</span>, Yelan entre dans un état de Stratège.<br/>Ses attaques normales deviennent alors des flèches perçantes spéciales. Ces flèches possèdent les mêmes capacités que les flèches perçantes normales, et les DGT qu'elles infligent sont considérés comme des DGT d'attaque chargée infligeant 156 % des DGT des flèches perçantes normales.<br/><br/>L'état de Stratège dure 20 s maximum ou est annulé après avoir tiré 5 flèches.",
+      "description": "Après avoir utilisé <span>Dé exquis des profondeurs</span>, Yelan entre dans l'état Stratège.<br/>Ses attaques normales deviennent alors des flèches perçantes spéciales. Ces flèches possèdent les mêmes capacités que les flèches perçantes normales, et les DGT qu'elles infligent sont considérés comme des DGT d'attaque chargée infligeant 156 % des DGT des flèches perçantes normales.<br/><br/>L'état Stratège dure 20 s maximum ou est annulé après avoir tiré 5 flèches.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [0, 1]
+        },
+        {
+          "label": "PV de base",
+          "values": ["-", "1125"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["-", "19"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["-", "43"]
+        },
+        {
+          "label": "Taux CRIT",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [1, 2]
+        },
+        {
+          "label": "PV de base",
+          "values": ["2918", "3883"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["49", "66"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["111", "147"]
+        },
+        {
+          "label": "Taux CRIT",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104121,
         "id": "varunada_lazurite_sliver",
         "name": "Éclat de lazurite varunada",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "Conque d'étoile",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112032,
         "id": "recruits_insignia",
         "name": "Insigne de nouvelle recrue",
         "amount": 3,
@@ -468,28 +527,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [2, 3]
+        },
+        {
+          "label": "PV de base",
+          "values": ["5810", "6495"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["98", "110"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["220", "246"]
+        },
+        {
+          "label": "Taux CRIT",
+          "values": ["0.0%", "4.8%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "Fragment de lazurite varunada",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113035,
         "id": "runic_fang",
         "name": "Croc runique",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "Conque d'étoile",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112032,
         "id": "recruits_insignia",
         "name": "Insigne de nouvelle recrue",
         "amount": 15,
@@ -497,28 +581,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [3, 4]
+        },
+        {
+          "label": "PV de base",
+          "values": ["7472", "8386"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["126", "142"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["283", "318"]
+        },
+        {
+          "label": "Taux CRIT",
+          "values": ["4.8%", "9.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104122,
         "id": "varunada_lazurite_fragment",
         "name": "Fragment de lazurite varunada",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113035,
         "id": "runic_fang",
         "name": "Croc runique",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "Conque d'étoile",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112033,
         "id": "sergeants_insignia",
         "name": "Insigne de sergent",
         "amount": 12,
@@ -526,28 +635,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [4, 5]
+        },
+        {
+          "label": "PV de base",
+          "values": ["9374", "10059"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["158", "170"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["355", "381"]
+        },
+        {
+          "label": "Taux CRIT",
+          "values": ["9.6%", "9.6%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "Morceau de lazurite varunada",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113035,
         "id": "runic_fang",
         "name": "Croc runique",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "Conque d'étoile",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112033,
         "id": "sergeants_insignia",
         "name": "Insigne de sergent",
         "amount": 18,
@@ -555,28 +689,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [5, 6]
+        },
+        {
+          "label": "PV de base",
+          "values": ["11056", "11741"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["187", "198"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["419", "445"]
+        },
+        {
+          "label": "Taux CRIT",
+          "values": ["9.6%", "14.4%"]
+        }
+      ],
       "mat1": {
+        "_id": 104123,
         "id": "varunada_lazurite_chunk",
         "name": "Morceau de lazurite varunada",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113035,
         "id": "runic_fang",
         "name": "Croc runique",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "Conque d'étoile",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112034,
         "id": "lieutenants_insignia",
         "name": "Insigne d'officier",
         "amount": 12,
@@ -584,28 +743,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Élever",
+          "values": [6, 7]
+        },
+        {
+          "label": "PV de base",
+          "values": ["12749", "13434"]
+        },
+        {
+          "label": "ATQ de base",
+          "values": ["215", "227"]
+        },
+        {
+          "label": "DÉF de base",
+          "values": ["483", "509"]
+        },
+        {
+          "label": "Taux CRIT",
+          "values": ["14.4%", "19.2%"]
+        }
+      ],
       "mat1": {
+        "_id": 104124,
         "id": "varunada_lazurite_gemstone",
         "name": "Pierre de lazurite varunada",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113035,
         "id": "runic_fang",
         "name": "Croc runique",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100033,
         "id": "starconch",
         "name": "Conque d'étoile",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112034,
         "id": "lieutenants_insignia",
         "name": "Insigne d'officier",
         "amount": 24,
@@ -619,12 +803,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104310,
           "id": "teachings_of_prosperity",
           "name": "Enseignement de la Prospérité",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112032,
           "id": "recruits_insignia",
           "name": "Insigne de nouvelle recrue",
           "amount": 6,
@@ -637,12 +823,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide de la Prospérité",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insigne de sergent",
           "amount": 3,
@@ -655,12 +843,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide de la Prospérité",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insigne de sergent",
           "amount": 4,
@@ -673,12 +863,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide de la Prospérité",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insigne de sergent",
           "amount": 6,
@@ -691,12 +883,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104311,
           "id": "guide_to_prosperity",
           "name": "Guide de la Prospérité",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112033,
           "id": "sergeants_insignia",
           "name": "Insigne de sergent",
           "amount": 9,
@@ -709,18 +903,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophie de la Prospérité",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insigne d'officier",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "Écaille dorée",
           "amount": 1,
@@ -733,18 +930,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophie de la Prospérité",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insigne d'officier",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "Écaille dorée",
           "amount": 1,
@@ -757,18 +957,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophie de la Prospérité",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insigne d'officier",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "Écaille dorée",
           "amount": 2,
@@ -781,24 +984,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104312,
           "id": "philosophies_of_prosperity",
           "name": "Philosophie de la Prospérité",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112034,
           "id": "lieutenants_insignia",
           "name": "Insigne d'officier",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113019,
           "id": "gilded_scale",
           "name": "Écaille dorée",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Couronne de la sagesse",
           "amount": 1,

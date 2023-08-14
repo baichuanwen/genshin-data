@@ -1,0 +1,20 @@
+{
+  "_id": 322009,
+  "id": "chang_the_ninth",
+  "name": "Chang the Ninth",
+  "title": "Chang the Ninth, Listless Literati",
+  "desc": "\"Dia yang tidak kenal terhadap kemiskinan masih belum menjadi seorang manusia sejati. Setidaknya ada buku yang bisa menemaniku!\"",
+  "in_play_description": "",
+  "attributes": {
+    "cost": 0,
+    "card_type": "Kartu Pendukung",
+    "energy": [],
+    "tags": ["Teman"]
+  },
+  "skills": [
+    {
+      "name": "",
+      "desc": "<span style=\"color:#FFFFFFFF\">Setelah Karakter salah satu pemain menggunakan Skill:</span> jika mengakibatkan <span style=\"color:#FFFFFFFF\">Physical DMG</span>, <span style=\"color:#FFFFFFFF\">Piercing DMG</span>, atau memicu <span style=\"color:#FFFFFFFF\">Reaksi Elemental</span>, kartu ini memperoleh <span style=\"color:#FFFFFFFF\">1 \"Inspiration\"</span><br/>Saat kartu ini memperoleh <span style=\"color:#FFFFFFFF\">3 \"Inspiration\"</span>, buang kartu ini, lalu ambil 2 kartu."
+    }
+  ]
+}

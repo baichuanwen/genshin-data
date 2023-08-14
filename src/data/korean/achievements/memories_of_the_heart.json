@@ -1,6 +1,6 @@
 {
+  "_id": 17,
   "id": "memories_of_the_heart",
-  "originalId": 17,
   "name": "가슴 뛰는 기억",
   "order": 2,
   "achievements": [
@@ -315,6 +315,126 @@
       "reward": 5,
       "hidden": true,
       "order": 7211
+    },
+    {
+      "id": 84137,
+      "name": "본격인 줄 알았겠지?",
+      "desc": "「폭풍의 체포장」 클리어 및 모든 결말 해금하기",
+      "reward": 20,
+      "hidden": false,
+      "order": 7300
+    },
+    {
+      "id": 84138,
+      "name": "이 몸이야말로 트루 디텍티브!",
+      "desc": "범행 동기와 범죄 사실 한 번에 분석 성공하기",
+      "reward": 5,
+      "hidden": true,
+      "order": 7310
+    },
+    {
+      "id": 84139,
+      "name": "산고노미야의 기도",
+      "desc": "코코미가 와타츠미섬의 일에 대해 알고 있는지 고로에게 물어보기",
+      "reward": 5,
+      "hidden": true,
+      "order": 7311
+    },
+    {
+      "id": 84140,
+      "name": "최선책",
+      "desc": "「풀기 어려운 매듭」 클리어 및 모든 결말 해금하기",
+      "reward": 20,
+      "hidden": false,
+      "order": 7400
+    },
+    {
+      "id": 84141,
+      "name": "백 년 후의 너에게",
+      "desc": "파루잔에게 온 편지 모두 읽기",
+      "reward": 5,
+      "hidden": true,
+      "order": 7410
+    },
+    {
+      "id": 84142,
+      "name": "장치학: 입문부터…?",
+      "desc": "7층짜리 「탑」을 옮기기 위한 최소 움직임 수 찾기",
+      "reward": 5,
+      "hidden": true,
+      "order": 7411
+    },
+    {
+      "id": 84143,
+      "name": "그녀의 이름은 「레일라」",
+      "desc": "「침묵하는 별」 클리어 및 모든 결말 해금하기",
+      "reward": 20,
+      "hidden": false,
+      "order": 7500
+    },
+    {
+      "id": 84144,
+      "name": "스트레스 과다",
+      "desc": "레일라의 논문 작성을 돕는 과정에서 더 초조하게 만들지 않기",
+      "reward": 5,
+      "hidden": true,
+      "order": 7510
+    },
+    {
+      "id": 84145,
+      "name": "선령과 별하늘의 비밀",
+      "desc": "「지혜의 선령」으로부터 진정한 대답 듣기",
+      "reward": 5,
+      "hidden": true,
+      "order": 7511
+    },
+    {
+      "id": 84146,
+      "name": "예술과 삶",
+      "desc": "「불행과 행복의 시계추」 클리어 및 모든 결말 해금하기",
+      "reward": 20,
+      "hidden": false,
+      "order": 7600
+    },
+    {
+      "id": 84147,
+      "name": "학창 시절",
+      "desc": "지혜궁에서 메모를 남긴 책을 읽기",
+      "reward": 5,
+      "hidden": true,
+      "order": 7610
+    },
+    {
+      "id": 84148,
+      "name": "건축 디자이너의 낭만",
+      "desc": "사막 정토에서 카베와 미래에 대해 이야기하기",
+      "reward": 5,
+      "hidden": true,
+      "order": 7611
+    },
+    {
+      "id": 84149,
+      "name": "즐거움을 찾아서",
+      "desc": "「달콤한 술과 농담」 클리어 및 모든 결말 해금하기",
+      "reward": 20,
+      "hidden": false,
+      "order": 7700
+    },
+    {
+      "id": 84150,
+      "name": "행운의 동전",
+      "desc": "케이아가 준비한 도박에 참여하기",
+      "reward": 5,
+      "hidden": true,
+      "order": 7710
+    },
+    {
+      "id": 84151,
+      "name": "쉿… 들어봐!",
+      "desc": "감금실에서 들려오는 소리 듣기",
+      "reward": 5,
+      "hidden": true,
+      "order": 7711
     }
   ]
 }

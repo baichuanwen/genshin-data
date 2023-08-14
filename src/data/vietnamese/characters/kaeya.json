@@ -1,4 +1,5 @@
 {
+  "_id": 10000015,
   "id": "kaeya",
   "name": "Kaeya",
   "title": "Hàn Phong Kiếm Sĩ",
@@ -11,7 +12,7 @@
   "region": "Mondstadt",
   "rarity": 4,
   "birthday": [30, 11],
-  "constellation": "Khổng Tước Vũ",
+  "constellation": "Cung Khổng Tước Vũ",
   "domain": "Vách Núi Quên",
   "cv": {
     "english": "Josey Montana McCoy",
@@ -21,6 +22,7 @@
   },
   "skills": [
     {
+      "_id": 10073,
       "id": "normal_attack_ceremonial_bladework",
       "name": "Tấn Công Thường: Nghi Lễ Kiếm Thuật",
       "description": "<span>Tấn Công Thường</span><br/>Thực hiện tối đa 5 lần đánh kiếm liên tiếp.<br/><br/><span>Trọng Kích</span><br/>Tiêu hao thể lực nhất định, đánh ra hai kiếm về phía trước trong chớp mắt.<br/><br/><span>Tấn Công Khi Đáp</span><br/>Đáp xuống đất từ trên không, tấn công kẻ địch trên đường và gây sát thương phạm vi khi chạm đất.",
@@ -209,8 +211,9 @@
       ]
     },
     {
+      "_id": 10074,
       "id": "frostgnaw",
-      "name": "Tuyết Tập Kích",
+      "name": "Đột Kích Băng Giá",
       "description": "Nhanh chóng tỏa ra khí lạnh, gây cho địch phía trước <span>Sát Thương Nguyên Tố Băng</span>.",
       "info": "Người có vẻ ngoài thân thiện như Kaeya lại là khối băng kiên cố không ai có thể làm tan chảy.",
       "attributes": [
@@ -257,8 +260,9 @@
       ]
     },
     {
+      "_id": 10075,
       "id": "glacial_waltz",
-      "name": "Vũ Điệu Băng Giá",
+      "name": "Vũ Điệu Giá Rét",
       "description": "Ngưng tự sương lạnh trong không khí, triệu hồi 3 nhũ băng lạnh giá xoay quanh người.<br/>Trong thời gian tồn tại, nhũ băng lạnh giá sẽ chuyển động theo nhân vật, gây cho địch trên đường <span>Sát Thương Nguyên Tố Băng</span>.",
       "info": "Ẩn giấu dưới nụ cười thân thiện, lời nói hòa nhã, lại là sự băng giá vô tình, tất cả đều là vũ khí của Kaeya.",
       "attributes": [
@@ -349,13 +353,13 @@
     {
       "id": "coldblooded_strike",
       "name": "Lãnh Huyết Kiếm",
-      "description": "<span>Tuyết Tập Kích</span> mỗi khi đánh trúng 1 đơn vị, sẽ hồi phục HP cho Kaeya tương đương 15% lực tấn công.",
+      "description": "<span>Đột Kích Băng Giá</span> mỗi khi đánh trúng 1 đơn vị, sẽ hồi phục HP cho Kaeya tương đương 15% lực tấn công.",
       "level": 1
     },
     {
       "id": "glacial_heart",
       "name": "Trái Tim Vực Băng",
-      "description": "Khi <span>Tuyết Tập Kích</span> khiến địch bị <span>đóng băng</span>, thì địch sẽ rơi ra Nguyên Tố Hạt Nhân.<br/>Một lần Tuyết Tập Kích tối đa sinh ra 2 Nguyên Tố Hạt Nhân.",
+      "description": "Khi <span>Đột Kích Băng Giá</span> khiến địch bị <span>đóng băng</span>, thì địch sẽ rơi ra Nguyên Tố Hạt Nhân.<br/>Một lần Đột Kích Băng Giá tối đa sinh ra 2 Nguyên Tố Hạt Nhân.",
       "level": 4
     },
     {
@@ -367,60 +371,115 @@
   ],
   "constellations": [
     {
+      "_id": 151,
       "id": "excellent_blood",
       "name": "Huyết Mạch Ưu Việt",
       "description": "Đối với địch bị ảnh hưởng bởi <span>Nguyên Tố Băng</span>, tấn công thường và tỷ lệ trọng kích bạo kích của Kaeya tăng 15%.",
       "level": 1
     },
     {
+      "_id": 152,
       "id": "neverending_performance",
       "name": "Vũ Điệu Trắng Vô Tận",
-      "description": "Trong thời gian có <span>Vũ Điệu Băng Giá</span>, nếu đánh bại địch sẽ cộng thêm 2,5s, tối đa 15s.",
+      "description": "Trong thời gian có <span>Vũ Điệu Giá Rét</span>, nếu đánh bại địch sẽ cộng thêm 2,5s, tối đa 15s.",
       "level": 2
     },
     {
+      "_id": 153,
       "id": "dance_of_frost",
       "name": "Vở Kịch Băng Giá",
-      "description": "Cấp kỹ năng <span>Tuyết Tập Kích</span> +3.<br/>Tăng tối đa đến cấp 15.",
+      "description": "Cấp kỹ năng <span>Đột Kích Băng Giá</span> +3.<br/>Tăng tối đa đến cấp 15.",
       "level": 3
     },
     {
+      "_id": 154,
       "id": "frozen_kiss",
       "name": "Nụ Hôn Giá Lạnh",
       "description": "Tự động kích hoạt khi HP của Kaeya dưới 20%.<br/>Tạo thành khiên hấp thụ sát thương bằng 30% giới hạn HP, kéo dài 20s.<br/>Khiên có hiệu quả hấp thu 250% <span>sát thương Nguyên Tố Băng</span>.<br/>Hiệu quả này mỗi 60s chỉ thi triển 1 lần.",
       "level": 4
     },
     {
+      "_id": 155,
       "id": "frostbiting_embrace",
       "name": "Cái Ôm Lạnh Giá",
-      "description": "Cấp kỹ năng <span>Vũ Điệu Băng Giá</span> +3.<br/>Tăng tối đa đến cấp 15.",
+      "description": "Cấp kỹ năng <span>Vũ Điệu Giá Rét</span> +3.<br/>Tăng tối đa đến cấp 15.",
       "level": 5
     },
     {
+      "_id": 156,
       "id": "glacial_whirlwind",
       "name": "Vòng Tròn Băng Giá",
-      "description": "<span>Vũ Điệu Băng Giá</span> sẽ tạo ra thêm 1 nhũ băng lạnh giá, đồng thời hồi 15 điểm Năng Lượng Nguyên Tố khi thi triển.",
+      "description": "<span>Vũ Điệu Giá Rét</span> sẽ tạo ra thêm 1 nhũ băng lạnh giá, đồng thời hồi 15 điểm Năng Lượng Nguyên Tố khi thi triển.",
       "level": 6
     }
   ],
   "ascension": [
     {
-      "ascension": 1,
+      "level": [1, 20],
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [0, 1]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["-", "976"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["-", "19"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["-", "66"]
+        },
+        {
+          "label": "Hiệu Quả Nạp Nguyên Tố",
+          "values": ["-", "0.0%"]
+        }
+      ]
+    },
+    {
       "level": [20, 40],
       "cost": 20000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [1, 2]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["2506", "3235"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["48", "62"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["171", "220"]
+        },
+        {
+          "label": "Hiệu Quả Nạp Nguyên Tố",
+          "values": ["0.0%", "0.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104161,
         "id": "shivada_jade_sliver",
         "name": "Mảnh Ngọc Băng Vụn",
         "amount": 1,
         "rarity": 2
       },
       "mat3": {
+        "_id": 100056,
         "id": "calla_lily",
         "name": "Hoa Calla Lily",
         "amount": 3,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112035,
         "id": "treasure_hoarder_insignia",
         "name": "Ấn Quạ Tầm Bảo",
         "amount": 3,
@@ -428,28 +487,53 @@
       }
     },
     {
-      "ascension": 2,
       "level": [40, 50],
       "cost": 40000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [2, 3]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["4846", "5364"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["93", "103"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["330", "365"]
+        },
+        {
+          "label": "Hiệu Quả Nạp Nguyên Tố",
+          "values": ["0.0%", "6.7%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Mảnh Ngọc Băng Vỡ",
         "amount": 3,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hạt Nhân Cực Hàn",
         "amount": 2,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100056,
         "id": "calla_lily",
         "name": "Hoa Calla Lily",
         "amount": 10,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112035,
         "id": "treasure_hoarder_insignia",
         "name": "Ấn Quạ Tầm Bảo",
         "amount": 15,
@@ -457,28 +541,53 @@
       }
     },
     {
-      "ascension": 3,
       "level": [50, 60],
       "cost": 60000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [3, 4]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["6170", "6860"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["118", "131"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["420", "467"]
+        },
+        {
+          "label": "Hiệu Quả Nạp Nguyên Tố",
+          "values": ["6.7%", "13.3%"]
+        }
+      ],
       "mat1": {
+        "_id": 104162,
         "id": "shivada_jade_fragment",
         "name": "Mảnh Ngọc Băng Vỡ",
         "amount": 6,
         "rarity": 3
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hạt Nhân Cực Hàn",
         "amount": 4,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100056,
         "id": "calla_lily",
         "name": "Hoa Calla Lily",
         "amount": 20,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112036,
         "id": "silver_raven_insignia",
         "name": "Ấn Quạ Bạc Ẩn",
         "amount": 12,
@@ -486,28 +595,53 @@
       }
     },
     {
-      "ascension": 4,
       "level": [60, 70],
       "cost": 80000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [4, 5]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["7666", "8184 "]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["147", "157"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["522", "557"]
+        },
+        {
+          "label": "Hiệu Quả Nạp Nguyên Tố",
+          "values": ["13.3%", "13.3%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Miếng Ngọc Băng",
         "amount": 3,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hạt Nhân Cực Hàn",
         "amount": 8,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100056,
         "id": "calla_lily",
         "name": "Hoa Calla Lily",
         "amount": 30,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112036,
         "id": "silver_raven_insignia",
         "name": "Ấn Quạ Bạc Ẩn",
         "amount": 18,
@@ -515,28 +649,53 @@
       }
     },
     {
-      "ascension": 5,
       "level": [70, 80],
       "cost": 100000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [5, 6]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["8989", "9507"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["172", "182"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["612", "647"]
+        },
+        {
+          "label": "Hiệu Quả Nạp Nguyên Tố",
+          "values": ["13.3%", "20.0%"]
+        }
+      ],
       "mat1": {
+        "_id": 104163,
         "id": "shivada_jade_chunk",
         "name": "Miếng Ngọc Băng",
         "amount": 6,
         "rarity": 4
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hạt Nhân Cực Hàn",
         "amount": 12,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100056,
         "id": "calla_lily",
         "name": "Hoa Calla Lily",
         "amount": 45,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112037,
         "id": "golden_raven_insignia",
         "name": "Ấn Quạ Trộm Vàng",
         "amount": 12,
@@ -544,28 +703,53 @@
       }
     },
     {
-      "ascension": 6,
       "level": [80, 90],
       "cost": 120000,
+      "stats": [
+        {
+          "label": "Đột Phá",
+          "values": [6, 7]
+        },
+        {
+          "label": "HP Căn Bản",
+          "values": ["10312", "10830"]
+        },
+        {
+          "label": "Tấn Công Căn Bản",
+          "values": ["198", "208"]
+        },
+        {
+          "label": "P.Ngự Căn Bản",
+          "values": ["702", "737"]
+        },
+        {
+          "label": "Hiệu Quả Nạp Nguyên Tố",
+          "values": ["20.0%", "26.7%"]
+        }
+      ],
       "mat1": {
+        "_id": 104164,
         "id": "shivada_jade_gemstone",
         "name": "Ngọc Băng",
         "amount": 6,
         "rarity": 5
       },
       "mat2": {
+        "_id": 113010,
         "id": "hoarfrost_core",
         "name": "Hạt Nhân Cực Hàn",
         "amount": 20,
         "rarity": 4
       },
       "mat3": {
+        "_id": 100056,
         "id": "calla_lily",
         "name": "Hoa Calla Lily",
         "amount": 60,
         "rarity": 1
       },
       "mat4": {
+        "_id": 112037,
         "id": "golden_raven_insignia",
         "name": "Ấn Quạ Trộm Vàng",
         "amount": 24,
@@ -579,12 +763,14 @@
       "cost": 12500,
       "items": [
         {
+          "_id": 104307,
           "id": "teachings_of_ballad",
           "name": "Bài Giảng Của \"Thơ Văn\"",
           "amount": 3,
           "rarity": 2
         },
         {
+          "_id": 112035,
           "id": "treasure_hoarder_insignia",
           "name": "Ấn Quạ Tầm Bảo",
           "amount": 6,
@@ -597,12 +783,14 @@
       "cost": 17500,
       "items": [
         {
+          "_id": 104308,
           "id": "guide_to_ballad",
           "name": "Hướng Dẫn Của \"Thơ Văn\"",
           "amount": 2,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Ấn Quạ Bạc Ẩn",
           "amount": 3,
@@ -615,12 +803,14 @@
       "cost": 25000,
       "items": [
         {
+          "_id": 104308,
           "id": "guide_to_ballad",
           "name": "Hướng Dẫn Của \"Thơ Văn\"",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Ấn Quạ Bạc Ẩn",
           "amount": 4,
@@ -633,12 +823,14 @@
       "cost": 30000,
       "items": [
         {
+          "_id": 104308,
           "id": "guide_to_ballad",
           "name": "Hướng Dẫn Của \"Thơ Văn\"",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Ấn Quạ Bạc Ẩn",
           "amount": 6,
@@ -651,12 +843,14 @@
       "cost": 37500,
       "items": [
         {
+          "_id": 104308,
           "id": "guide_to_ballad",
           "name": "Hướng Dẫn Của \"Thơ Văn\"",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 112036,
           "id": "silver_raven_insignia",
           "name": "Ấn Quạ Bạc Ẩn",
           "amount": 9,
@@ -669,18 +863,21 @@
       "cost": 120000,
       "items": [
         {
+          "_id": 104309,
           "id": "philosophies_of_ballad",
           "name": "Triết Học Của \"Thơ Văn\"",
           "amount": 4,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Ấn Quạ Trộm Vàng",
           "amount": 4,
           "rarity": 3
         },
         {
+          "_id": 113008,
           "id": "spirit_locket_of_boreas",
           "name": "Linh Hồn Bắc Phong",
           "amount": 1,
@@ -693,18 +890,21 @@
       "cost": 260000,
       "items": [
         {
+          "_id": 104309,
           "id": "philosophies_of_ballad",
           "name": "Triết Học Của \"Thơ Văn\"",
           "amount": 6,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Ấn Quạ Trộm Vàng",
           "amount": 6,
           "rarity": 3
         },
         {
+          "_id": 113008,
           "id": "spirit_locket_of_boreas",
           "name": "Linh Hồn Bắc Phong",
           "amount": 1,
@@ -717,18 +917,21 @@
       "cost": 450000,
       "items": [
         {
+          "_id": 104309,
           "id": "philosophies_of_ballad",
           "name": "Triết Học Của \"Thơ Văn\"",
           "amount": 12,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Ấn Quạ Trộm Vàng",
           "amount": 9,
           "rarity": 3
         },
         {
+          "_id": 113008,
           "id": "spirit_locket_of_boreas",
           "name": "Linh Hồn Bắc Phong",
           "amount": 2,
@@ -741,24 +944,28 @@
       "cost": 700000,
       "items": [
         {
+          "_id": 104309,
           "id": "philosophies_of_ballad",
           "name": "Triết Học Của \"Thơ Văn\"",
           "amount": 16,
           "rarity": 4
         },
         {
+          "_id": 112037,
           "id": "golden_raven_insignia",
           "name": "Ấn Quạ Trộm Vàng",
           "amount": 12,
           "rarity": 3
         },
         {
+          "_id": 113008,
           "id": "spirit_locket_of_boreas",
           "name": "Linh Hồn Bắc Phong",
           "amount": 2,
           "rarity": 5
         },
         {
+          "_id": 104319,
           "id": "crown_of_insight",
           "name": "Vương Miện Trí Thức",
           "amount": 1,

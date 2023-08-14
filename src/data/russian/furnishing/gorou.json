@@ -1,9 +1,9 @@
 {
+  "_id": 368143,
   "id": "gorou",
-  "originalId": 368143,
   "rarity": 1,
   "name": "Горо",
-  "description": "Поселить персонажа в доме.",
+  "description": "Персонаж в обители",
   "load": 1200,
   "energy": 300,
   "category": [

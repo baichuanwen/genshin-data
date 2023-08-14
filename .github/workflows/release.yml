@@ -9,15 +9,40 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         env:
-          NODE_OPTIONS: --max_old_space_size=4096
+          NODE_OPTIONS: --max_old_space_size=8192
         with:
-          node-version: "16.x"
+          node-version: "18.x"
           registry-url: "https://registry.npmjs.org"
       - run: npm install
         env:
-          NODE_OPTIONS: --max_old_space_size=4096
-      # Publish to npm
-      - run: npm publish
+          NODE_OPTIONS: --max_old_space_size=8192
+      - uses: pnpm/action-setup@v2
+        name: Install pnpm
+        id: pnpm-install
         env:
-          NODE_OPTIONS: --max_old_space_size=4096
+          NODE_OPTIONS: --max_old_space_size=8192
+        with:
+          version: 7
+          run_install: false
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
+        env:
+          NODE_OPTIONS: --max_old_space_size=8192
+        with:
+          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Publish Package
+        run: pnpm publish --no-git-checks
+        env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_OPTIONS: --max_old_space_size=8192
